@@ -13,7 +13,7 @@ This repository hosts the **approved internal page design** on GitHub Pages (sta
 ## What's on the page
 
 - Summary strip: critical alerts, unanswered > 2 hours, pitches awaiting follow-up, commitments due today
-- Sticky filter bar on top (team member, role, date, TAT status, waiting time, severity, status, number, search) that drives the alerts, pending tasks and counts together
+- Filter bar on top (team member, role, date, TAT status, waiting time, severity, status, number, search) that drives the alerts, pending tasks and counts together
 - Alerts feed with live-ticking waiting timers and TAT pills (On time / Due soon / Overdue)
 - Pending tasks list, per-number health, and the follow-up rules in plain English
 

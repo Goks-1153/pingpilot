@@ -29,7 +29,7 @@
   .stat span{color:var(--muted);font-size:13px}
   .stat.critical b{color:var(--red)} .stat.amber b{color:var(--amber)} .stat.green b{color:var(--green)}
   /* Filter bar */
-  .filterbar{position:sticky;top:10px;z-index:30;background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:14px 16px;box-shadow:var(--shadow);margin:0 0 16px}
+  .filterbar{position:static;background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:14px 16px;box-shadow:var(--shadow);margin:0 0 16px}
   .filterbar h2{margin:0 0 2px;font-size:16px}
   .filterbar .sub{margin:0 0 10px}
   .filters{display:flex;flex-wrap:wrap;gap:10px;align-items:end}
@@ -79,7 +79,7 @@
   footer{color:var(--muted);font-size:13px;background:var(--card);border:1px dashed var(--line);border-radius:var(--radius);padding:16px 18px}
   .empty{color:var(--muted);padding:14px;border:1px dashed var(--line);border-radius:12px;text-align:center}
   @media (max-width:900px){.layout{grid-template-columns:1fr}.summary{grid-template-columns:repeat(2,1fr)}}
-  @media (max-width:480px){.summary{grid-template-columns:1fr 1fr}.stat b{font-size:26px}.wordmark{font-size:24px}.filterbar{top:6px}}
+  @media (max-width:480px){.summary{grid-template-columns:1fr 1fr}.stat b{font-size:26px}.wordmark{font-size:24px}}
 </style>
 </head>
 <body>
