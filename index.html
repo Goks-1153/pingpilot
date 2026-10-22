@@ -1,75 +1,125 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>PingPilot · Growth POC live status</title>
 <style>
-*{box-sizing:border-box}body{margin:0;font-family:system-ui,Segoe UI,Arial,sans-serif;background:#f4f6fb;color:#1d2433;overflow-x:hidden}
-header{background:#111;color:#fff;padding:14px 16px;position:relative}
-header h1{margin:0 0 6px;font-size:20px;padding-right:70px}.live{position:absolute;top:14px;right:16px;color:#ff3b3b;font-weight:700;display:flex;align-items:center;gap:6px}
-.dot{width:10px;height:10px;border-radius:50%;background:#ff3b3b;animation:b 1s infinite}@keyframes b{50%{opacity:.15}}
-.hrow{display:flex;flex-wrap:wrap;gap:10px;align-items:center;font-size:13px;color:#ccc}
-#refresh{background:#2d7ff9;color:#fff;border:0;border-radius:6px;padding:7px 14px;font-weight:600;cursor:pointer}
-#prog{display:none;flex:1;min-width:140px;background:#333;border-radius:6px;height:18px;position:relative;overflow:hidden}#bar{height:100%;width:0;background:#2ecc71;transition:width .15s}#pct{position:absolute;inset:0;text-align:center;font-size:12px;line-height:18px;color:#fff}
-main{max-width:1100px;margin:auto;padding:12px}
-.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px}.card{border-radius:10px;padding:12px;color:#fff}.card b{font-size:26px;display:block}
-h2{font-size:17px;margin:20px 0 8px}
-.tabs{display:flex;gap:6px;flex-wrap:wrap}.tab{flex:1;min-width:70px;border:0;border-radius:8px;padding:10px;font-weight:700;color:#fff;cursor:pointer;opacity:.75}.tab.on{opacity:1;box-shadow:0 0 0 3px #1113}
-.panel{background:#fff;border-radius:10px;padding:12px;margin-top:8px}.chips{display:flex;flex-wrap:wrap;gap:6px}.chip{background:#eef2ff;border-radius:14px;padding:4px 10px;font-size:13px}
+:root{--flutch-1:#301188;--flutch-2:#9339EB;--flutch-3:#550E9B;--flutch-4:#F3A78F;--flutch-dark:#121212;
+--flutch-grad:linear-gradient(90deg,var(--flutch-1) 0%,var(--flutch-2) 100%);--flutch-grad-2:linear-gradient(136deg,var(--flutch-3) 0%,var(--flutch-4) 100%);
+--ink:#1d1640;--bg:#f6f3fc;--line:#e7e0f5;--live:#ff3b3b}
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,Segoe UI,Arial,sans-serif;background:var(--bg);color:var(--ink);overflow-x:hidden}
+header{background:radial-gradient(circle at 85% -20%,rgba(243,167,143,.35),transparent 45%),radial-gradient(circle at 10% 120%,rgba(147,57,235,.55),transparent 50%),linear-gradient(135deg,#0d0626 0%,var(--flutch-1) 55%,var(--flutch-3) 100%);color:#fff;padding:18px 18px 14px;position:relative;overflow:hidden}
+header::before{content:"";position:absolute;inset:0;background-image:radial-gradient(rgba(255,255,255,.08) 1px,transparent 1px);background-size:16px 16px;pointer-events:none}
+.hwrap{max-width:1100px;margin:auto;position:relative}
+.brand{display:flex;align-items:center;gap:12px;padding-right:96px}
+.logo{width:44px;height:44px;border-radius:12px;background:var(--flutch-grad-2);display:grid;place-items:center;font-size:22px;box-shadow:0 6px 18px rgba(243,167,143,.35);flex:none}
+.brand h1{margin:0;font-size:24px;letter-spacing:.3px;background:linear-gradient(90deg,#fff,#f8d3c6);-webkit-background-clip:text;background-clip:text;color:transparent}
+.brand p{margin:2px 0 0;font-size:12.5px;color:#d9ccf5}
+.live{position:absolute;top:2px;right:0;display:flex;align-items:center;gap:7px;background:rgba(255,59,59,.14);border:1px solid rgba(255,90,90,.6);color:#ff6b6b;font-weight:800;font-size:12px;letter-spacing:1.5px;padding:5px 11px;border-radius:999px}
+.dot{width:9px;height:9px;border-radius:50%;background:var(--live);box-shadow:0 0 0 0 rgba(255,59,59,.7);animation:b 1.2s infinite}
+@keyframes b{0%{box-shadow:0 0 0 0 rgba(255,59,59,.7);opacity:1}50%{opacity:.25}100%{box-shadow:0 0 0 8px rgba(255,59,59,0);opacity:1}}
+.hrow{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:14px}
+#refresh{display:flex;align-items:center;gap:8px;background:var(--flutch-grad-2);color:#fff;border:0;border-radius:999px;padding:9px 18px 9px 10px;font-weight:700;font-size:14px;cursor:pointer;box-shadow:0 4px 14px rgba(243,167,143,.35);text-shadow:0 1px 2px rgba(0,0,0,.25)}
+#refresh:disabled{cursor:progress}
+.ring{width:26px;height:26px;position:relative;flex:none}.ring svg{transform:rotate(-90deg)}.ring .ic{position:absolute;inset:0;display:grid;place-items:center;font-size:15px}
+#prog{display:none;flex:1;min-width:150px;max-width:340px;background:rgba(255,255,255,.15);border-radius:999px;height:20px;position:relative;overflow:hidden}
+#bar{height:100%;width:0;background:var(--flutch-grad-2);transition:width .15s}#pct{position:absolute;inset:0;text-align:center;font-size:12px;line-height:20px;font-weight:700}
+.chipd{display:flex;align-items:center;gap:6px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.2);border-radius:999px;padding:6px 12px;font-size:12.5px}
+.chipd b{color:#f8d3c6}
+.kpis{display:grid;grid-template-columns:repeat(5,1fr);gap:8px;margin-top:14px}
+.k{background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.16);border-radius:12px;padding:8px 10px}.k b{display:block;font-size:20px}.k span{font-size:11.5px;color:#e3d8fb}
+main{max-width:1100px;margin:auto;padding:14px}
+h2{font-size:17px;margin:22px 0 10px;display:flex;align-items:center;gap:8px}h2::before{content:"";width:6px;height:20px;border-radius:3px;background:var(--flutch-grad)}
+.tabs{display:flex;gap:8px;flex-wrap:wrap}.tab{flex:1;min-width:72px;border:0;border-radius:12px;padding:11px;font-weight:700;color:#fff;cursor:pointer;opacity:.7;transition:.15s}.tab.on{opacity:1;transform:translateY(-2px);box-shadow:0 6px 16px rgba(48,17,136,.3)}
+.panel{background:#fff;border-radius:14px;padding:14px;margin-top:10px;box-shadow:0 2px 10px rgba(48,17,136,.06)}
+.panel h3{font-size:15px;margin:12px 0 4px}
+.chips{display:flex;flex-wrap:wrap;gap:6px}.chip{background:#efe8fc;color:var(--flutch-1);border-radius:14px;padding:4px 10px;font-size:13px;font-weight:600}
 ul{margin:6px 0;padding-left:18px}li{margin:3px 0;font-size:14px}
-.filters{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:8px}select{padding:6px;border-radius:6px;border:1px solid #ccd}
-table{width:100%;border-collapse:collapse;background:#fff;border-radius:10px;overflow:hidden;font-size:14px}th,td{padding:8px;text-align:left;border-bottom:1px solid #eef;vertical-align:top}th{background:#e8ecf7}
-.pill{display:inline-block;border-radius:10px;padding:2px 9px;font-size:12px;font-weight:700;color:#fff}.High{background:#e53935}.Med{background:#fb8c00}.Low{background:#43a047}.Open{background:#1e88e5}.Closed{background:#757575}
-.fb button{font-size:12px;margin:2px;padding:3px 7px;border-radius:5px;border:1px solid #bbc;background:#fff;cursor:pointer}.fbbox{display:none;margin-top:4px}.fbbox textarea{width:100%;min-height:50px}.ctx{font-size:12px;color:#555;margin-top:3px}
+.filters{display:flex;gap:8px;flex-wrap:wrap;align-items:flex-end;background:#fff;border-radius:14px;padding:12px;box-shadow:0 2px 10px rgba(48,17,136,.06);margin-bottom:10px}
+.filters label{display:flex;flex-direction:column;font-size:11.5px;font-weight:700;color:#5a4d85;gap:3px;flex:1 1 140px;min-width:0}
+.filters label.search{flex:2 1 220px}
+select,input[type=search]{width:100%;padding:8px;border-radius:9px;border:1px solid #d5c9f0;font-size:14px;background:#fff;color:var(--ink)}
+select:focus,input:focus{outline:2px solid var(--flutch-2)}
+.factions{display:flex;gap:8px;align-items:center;flex-wrap:wrap;width:100%}
+.btn{border:0;border-radius:999px;padding:7px 14px;font-weight:700;cursor:pointer;font-size:13px}
+.btn.p{background:var(--flutch-grad);color:#fff}.btn.g{background:#efe8fc;color:var(--flutch-1)}
+.showing{font-size:13px;color:#5a4d85;font-weight:600;margin-left:auto}
+.tblw{border-radius:14px;overflow:hidden;box-shadow:0 2px 10px rgba(48,17,136,.06)}
+table{width:100%;border-collapse:collapse;background:#fff;font-size:14px}th,td{padding:9px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}th{background:var(--flutch-grad);color:#fff;font-size:13px}
+.cat{font-size:11px;color:#6d5ca3;font-weight:700}
+.pill{display:inline-block;border-radius:10px;padding:2px 9px;font-size:12px;font-weight:700;color:#fff}.High{background:#d32f2f}.Med{background:#c75b00}.Low{background:#2e7d32}.Open{background:var(--flutch-1)}.Closed{background:#757575}
+.flag{display:inline-block;margin-top:3px;font-size:11px;font-weight:700;color:#b3261e}
+.fb button{font-size:12px;margin:2px;padding:4px 8px;border-radius:999px;border:1px solid #d5c9f0;background:#fff;color:var(--flutch-1);cursor:pointer}.fbbox{display:none;margin-top:4px}.fbbox textarea{width:100%;min-height:50px}.ctx{font-size:12px;color:#555;margin-top:3px}
 .note{font-size:12px;color:#666}footer{font-size:12px;color:#666;text-align:center;padding:16px}
-@media(max-width:640px){thead{display:none}tr{display:block;background:#fff;margin-bottom:8px;border-radius:8px;padding:6px}td{display:block;border:0;padding:3px 6px}td::before{content:attr(data-l)": ";font-weight:600;color:#667}}
+.themes li::marker{color:var(--flutch-2)}
+@media(max-width:700px){.kpis{grid-template-columns:repeat(3,1fr)}.brand h1{font-size:20px}.brand{padding-right:80px}.showing{margin-left:0;width:100%}
+thead{display:none}tr{display:block;background:#fff;margin-bottom:8px;border-radius:10px;padding:6px;border-left:4px solid var(--flutch-2)}td{display:block;border:0;padding:3px 6px}td::before{content:attr(data-l)": ";font-weight:600;color:#667}.tblw{box-shadow:none;background:transparent}}
 </style></head><body>
-<header><div class="live"><span class="dot"></span>Live</div><h1>PingPilot · Growth POC status</h1>
-<div class="hrow"><button id="refresh" title="Loads the latest scraped data">⟳ Refresh</button><div id="prog"><div id="bar"></div><div id="pct">0%</div></div><span id="upd">Last updated: —</span></div></header>
+<header><div class="hwrap">
+<div class="live"><span class="dot"></span>LIVE</div>
+<div class="brand"><div class="logo">✈️</div><div><h1>PingPilot</h1><p>WhatsApp follow-up supervisor · Flutch Talent Management</p></div></div>
+<div class="hrow"><button id="refresh" title="Loads the latest scraped data"><span class="ring"><svg width="26" height="26"><circle cx="13" cy="13" r="11" stroke="rgba(255,255,255,.3)" stroke-width="3" fill="none"/><circle id="arc" cx="13" cy="13" r="11" stroke="#fff" stroke-width="3" fill="none" stroke-dasharray="69.1" stroke-dashoffset="69.1" stroke-linecap="round"/></svg><span class="ic" id="ric">⟳</span></span><span id="rlbl">Refresh</span></button>
+<div id="prog"><div id="bar"></div><div id="pct">0%</div></div>
+<span class="chipd">🕒 Last updated <b id="rel">—</b> · <span id="upd">—</span></span></div>
+<div class="kpis" id="cards"></div></div></header>
 <main>
-<div class="cards" id="cards"></div>
 <h2>POCs</h2><div class="tabs" id="tabs"></div><div id="panel"></div>
-<h2>Open asks & pending items</h2>
-<div class="filters"><select id="fp"><option value="">All POCs</option></select><select id="fr"><option value="">All priorities</option><option>High</option><option>Med</option><option>Low</option></select><select id="fs"><option value="">All status</option><option>Open</option><option>Closed</option></select>
-<button id="exp">Export feedback</button></div>
+<h2>Open asks &amp; pending items</h2>
+<div class="filters">
+<label class="search">Search creator or brand<input type="search" id="f-q" placeholder="e.g. Yogitha, L'Oréal…" autocomplete="off"></label>
+<label>Severity<select id="f-sev"><option value="">All</option><option>High</option><option>Med</option><option>Low</option></select></label>
+<label>Status<select id="f-st"><option value="">All</option><option>Open</option><option>Closed</option><option>At risk</option><option>Not found</option></select></label>
+<label>Category<select id="f-cat"><option value="">All categories</option></select></label>
+<label>POC<select id="f-poc"><option value="">All POCs</option></select></label>
+<div class="factions"><button class="btn g" id="f-clear">✕ Clear all filters</button><button class="btn p" id="exp">⬇ Export feedback</button><span class="showing" id="f-count" aria-live="polite"></span></div></div>
 <p class="note">Feedback is saved on this device; export to share.</p>
-<table><thead><tr><th>Creator</th><th>POC</th><th>Item</th><th>Risk</th><th>Status</th><th>Feedback</th></tr></thead><tbody id="tb"></tbody></table>
-<h2>Common themes</h2><ul id="themes"></ul>
-</main><footer>Updates & usage: <span id="usage">—</span> · Read-only, each creator credited to CRM Growth POC only.</footer>
+<div class="tblw"><table><thead><tr><th>Creator</th><th>POC</th><th>Item</th><th>Risk</th><th>Status</th><th>Feedback</th></tr></thead><tbody id="tb"></tbody></table></div>
+<h2>Common themes</h2><ul class="themes" id="themes"></ul>
+</main><footer>Updates &amp; usage: <span id="usage">—</span> · Read-only, each creator credited to CRM Growth POC only.</footer>
 <script>
-const COL={Sid:'#7e57c2',Natasha:'#ec407a',Divya:'#26a69a',Kishore:'#ff7043'};let D=null,open=null,FB={};
+const COL={Sid:'#301188',Natasha:'#9339EB',Divya:'#550E9B',Kishore:'#B4532F'};let D=null,open=null,FB={};
+const $=i=>document.getElementById(i);
 const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 function loadFB(){try{FB=JSON.parse(localStorage.getItem('ppfb')||'{}')}catch(e){FB={}}}
 function saveFB(){localStorage.setItem('ppfb',JSON.stringify(FB))}
 function st(r){const f=FB[r.id]||FB['m:'+r.poc+':'+r.creator];return f&&f.fixed?'Closed':r.status}
-function render(){const R=D.rows;
-document.getElementById('upd').textContent='Last updated: '+new Date(D.lastUpdated).toLocaleString('en-IN',{timeZone:'Asia/Kolkata',day:'numeric',month:'short',year:'numeric',hour:'numeric',minute:'2-digit'})+' IST';
-const o=R.filter(r=>st(r)=='Open'),c=(f)=>o.filter(f).length;
-const cards=[['Creators at risk',c(r=>r.flag=='At risk'),'#e53935'],['Open items',o.length,'#1e88e5'],['Payments open',c(r=>r.cat=='Payment'),'#8e24aa'],['Scripts / approvals',c(r=>r.cat=='Script'||r.cat=='Approval'),'#fb8c00'],['Not found',c(r=>r.flag=='Not found'),'#546e7a']];
-document.getElementById('cards').innerHTML=cards.map(x=>`<div class="card" style="background:${x[2]}"><b>${x[1]}</b>${x[0]}</div>`).join('');
-const P=Object.keys(D.kpis);document.getElementById('tabs').innerHTML=P.map(p=>`<button class="tab ${open==p?'on':''}" style="background:${COL[p]}" onclick="tog('${p}')">${p}</button>`).join('');
-const fp=document.getElementById('fp');if(fp.options.length<2)P.forEach(p=>fp.add(new Option(p)));
+function rel(t){const m=Math.round((Date.now()-new Date(t))/60000);return m<1?'just now':m<60?m+' min ago':m<1440?Math.round(m/60)+' h ago':Math.round(m/1440)+' d ago'}
+function header(){$('upd').textContent=new Date(D.lastUpdated).toLocaleString('en-IN',{timeZone:'Asia/Kolkata',day:'numeric',month:'short',hour:'numeric',minute:'2-digit'})+' IST';$('rel').textContent=rel(D.lastUpdated)}
+function render(){const R=D.rows;header();
+const o=R.filter(r=>st(r)=='Open'),c=f=>o.filter(f).length;
+const cards=[['⚠️ At risk',c(r=>r.flag=='At risk')],['📌 Open items',o.length],['₹ Payments open',c(r=>r.cat=='Payment')],['📝 Scripts / approvals',c(r=>r.cat=='Script'||r.cat=='Approval')],['❓ Not found',c(r=>r.flag=='Not found')]];
+$('cards').innerHTML=cards.map(x=>`<div class="k"><b>${x[1]}</b><span>${x[0]}</span></div>`).join('');
+const P=Object.keys(D.kpis);$('tabs').innerHTML=P.map(p=>`<button class="tab ${open==p?'on':''}" style="background:${COL[p]||'#301188'}" onclick="tog('${p}')">${p}</button>`).join('');
+const fp=$('f-poc');if(fp.options.length<2)P.forEach(p=>fp.add(new Option(p)));fp.value=open||'';
+const fc=$('f-cat');if(fc.options.length<2)[...new Set(R.map(r=>r.cat))].sort().forEach(x=>fc.add(new Option(x)));
 let pn='';if(open){const k=D.kpis[open],rr=R.filter(r=>r.poc==open),cr=[...new Set(rr.map(r=>r.creator))];
-const li=(f)=>rr.filter(f).map(r=>`<li><b>${esc(r.creator)}</b>: ${esc(r.item)}</li>`).join('')||'<li>None</li>';
+const li=f=>rr.filter(f).map(r=>`<li><b>${esc(r.creator)}</b>: ${esc(r.item)}</li>`).join('')||'<li>None</li>';
 pn=`<div class="panel" style="border-top:5px solid ${COL[open]}"><div class="chips"><span class="chip">Owned ${k.owned}</span><span class="chip">Active ${k.active}</span><span class="chip">Not found ${k.notFound}</span><span class="chip">CRM deals ${k.deals} (${k.dealValue})</span><span class="chip">Open asks ${k.openAsks}</span><span class="chip">At risk ${k.atRisk}</span></div>${k.note?`<p class="note">${esc(k.note)}</p>`:''}
-<h3>⚠ At risk</h3><ul>${li(r=>r.flag=='At risk')}</ul><h3>₹ Payments</h3><ul>${li(r=>r.cat=='Payment')}</ul><h3>❓ Not found</h3><ul>${li(r=>r.flag=='Not found')}</ul><h3>👥 Creators (${cr.length})</h3><div class="chips">${cr.map(x=>`<span class="chip">${esc(x)}</span>`).join('')}</div></div>`}
-document.getElementById('panel').innerHTML=pn;
-const v=[fp.value,document.getElementById('fr').value,document.getElementById('fs').value];
-document.getElementById('tb').innerHTML=R.filter(r=>(!v[0]||r.poc==v[0])&&(!v[1]||r.priority==v[1])&&(!v[2]||st(r)==v[2])).map(r=>{const f=FB[r.id]||{},s=st(r);
-return `<tr><td data-l="Creator">${esc(r.creator)}</td><td data-l="POC">${r.poc}</td><td data-l="Item">${esc(r.item)}</td><td data-l="Risk"><span class="pill ${r.priority}">${r.priority}</span></td><td data-l="Status"><span class="pill ${s}">${s}</span></td>
-<td data-l="Feedback" class="fb"><button onclick="fix('${r.id}')">${s=='Closed'?'Reopen':'Mark fixed'}</button><button onclick="this.parentNode.querySelector('.fbbox').style.display='block'">Add context</button>
+<h3>⚠️ At risk</h3><ul>${li(r=>r.flag=='At risk')}</ul><h3>₹ Payments</h3><ul>${li(r=>r.cat=='Payment')}</ul><h3>❓ Not found</h3><ul>${li(r=>r.flag=='Not found')}</ul><h3>👥 Creators (${cr.length})</h3><div class="chips">${cr.map(x=>`<span class="chip">${esc(x)}</span>`).join('')}</div></div>`}
+$('panel').innerHTML=pn;
+const q=$('f-q').value.trim().toLowerCase(),sv=$('f-sev').value,ss=$('f-st').value,ca=fc.value,po=fp.value;
+const F=R.filter(r=>(!po||r.poc==po)&&(!sv||r.priority==sv)&&(!ca||r.cat==ca)&&(!ss||(ss=='At risk'||ss=='Not found'?r.flag==ss:st(r)==ss))&&(!q||(r.creator+' '+r.item).toLowerCase().includes(q)));
+$('f-count').textContent=`Showing ${F.length} of ${R.length}`;
+$('tb').innerHTML=F.map(r=>{const f=FB[r.id]||{},s=st(r);
+return `<tr><td data-l="Creator"><b>${esc(r.creator)}</b><div class="cat">${esc(r.cat)}</div></td><td data-l="POC"><span class="pill" style="background:${COL[r.poc]}">${r.poc}</span></td><td data-l="Item">${esc(r.item)}${r.flag?`<div class="flag">● ${esc(r.flag)}</div>`:''}</td><td data-l="Risk"><span class="pill ${r.priority}">${r.priority}</span></td><td data-l="Status"><span class="pill ${s}">${s}</span></td>
+<td data-l="Feedback" class="fb"><button onclick="fix('${r.id}')">${s=='Closed'?'↺ Reopen':'✓ Mark fixed'}</button><button onclick="this.parentNode.querySelector('.fbbox').style.display='block'">＋ Add context</button>
 <div class="fbbox"><textarea placeholder="e.g. discussed in internal group">${esc(f.context||'')}</textarea><label><input type="radio" name="s${r.id}" value="item" ${f.scope!='month'?'checked':''}> this item only</label> <label><input type="radio" name="s${r.id}" value="month" ${f.scope=='month'?'checked':''}> whole month for this creator</label><br><button onclick="ctx('${r.id}',this)">Save</button></div>${f.context?`<div class="ctx">📝 ${esc(f.context)} (${f.scope=='month'?'whole month':'this item'})</div>`:''}</td></tr>`}).join('');
-document.getElementById('themes').innerHTML=D.themes.slice(0,6).map(t=>`<li>${esc(t)}</li>`).join('');}
+$('themes').innerHTML=D.themes.slice(0,6).map(t=>`<li>${esc(t)}</li>`).join('');}
 function tog(p){open=open==p?null:p;render()}
 function rowOf(id){return D.rows.find(r=>r.id==id)}
 function fix(id){const f=FB[id]=FB[id]||{};f.fixed=!f.fixed;f.at=new Date().toISOString();if(f.scope=='month'){const r=rowOf(id);FB['m:'+r.poc+':'+r.creator]={fixed:f.fixed}}saveFB();render()}
 function ctx(id,b){const box=b.parentNode,f=FB[id]=FB[id]||{};f.context=box.querySelector('textarea').value;f.scope=box.querySelector('input:checked').value;f.at=new Date().toISOString();saveFB();render()}
-document.getElementById('exp').onclick=()=>{const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([JSON.stringify(FB,null,1)],{type:'application/json'}));a.download='feedback.json';a.click()};
-['fp','fr','fs'].forEach(i=>document.getElementById(i).onchange=render);
+$('exp').onclick=()=>{const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([JSON.stringify(FB,null,1)],{type:'application/json'}));a.download='feedback.json';a.click()};
+['f-sev','f-st','f-cat'].forEach(i=>$(i).onchange=render);$('f-q').oninput=render;
+$('f-poc').onchange=()=>{open=$('f-poc').value||null;render()};
+$('f-clear').onclick=()=>{['f-q','f-sev','f-st','f-cat','f-poc'].forEach(i=>$(i).value='');open=null;render()};
 async function fetchProg(url,on){const r=await fetch(url,{cache:'no-store'});const tot=+r.headers.get('content-length')||0;if(!r.body||!tot){on(60);return r.json()}
 const rd=r.body.getReader();let got=0,ch=[];for(;;){const{done,value}=await rd.read();if(done)break;ch.push(value);got+=value.length;on(Math.min(95,got/tot*95))}
 return JSON.parse(new TextDecoder().decode(await new Blob(ch).arrayBuffer()))}
-async function load(prog){const nd=await fetchProg('data.json?t='+Date.now(),prog);D=nd}
-document.getElementById('refresh').onclick=async()=>{const pg=document.getElementById('prog'),bar=document.getElementById('bar'),pc=document.getElementById('pct');pg.style.display='block';
-const set=p=>{bar.style.width=p+'%';pc.textContent=Math.round(p)+'%'};set(0);try{await load(set);for(let p=parseFloat(bar.style.width)||0;p<100;p+=5){set(p);await new Promise(r=>setTimeout(r,40))}set(100);render()}catch(e){pc.textContent='Failed'}setTimeout(()=>pg.style.display='none',800)};
+async function load(prog){D=await fetchProg('data.json?t='+Date.now(),prog)}
+$('refresh').onclick=async()=>{const b=$('refresh'),pg=$('prog');b.disabled=true;pg.style.display='block';$('ric').textContent='';
+const set=p=>{$('bar').style.width=p+'%';$('pct').textContent=Math.round(p)+'%';$('rlbl').textContent=Math.round(p)+'%';$('arc').style.strokeDashoffset=69.1*(1-p/100);b.dataset.p=Math.round(p)};set(0);
+try{let cur=0;await load(p=>{cur=p;set(p)});for(let p=Math.max(cur,0);p<100;p+=4){set(p);await new Promise(r=>setTimeout(r,40))}set(100);render();$('rlbl').textContent='Updated'}catch(e){$('rlbl').textContent='Failed'}
+setTimeout(()=>{pg.style.display='none';b.disabled=false;$('rlbl').textContent='Refresh';$('ric').textContent='⟳';$('arc').style.strokeDashoffset=69.1},1200)};
+setInterval(()=>D&&header(),60000);
 (async()=>{loadFB();try{const ext=await (await fetch('feedback.json',{cache:'no-store'})).json();for(const k in ext)if(!FB[k])FB[k]=ext[k]}catch(e){}
 await load(()=>{});render();
-try{const u=await (await fetch('usage.json?t='+Date.now())).json();if(u.runs&&u.runs.length){const l=u.runs[u.runs.length-1];document.getElementById('usage').textContent=`${u.runs.length} runs · last ${l.at||'—'} · tokens ${l.tokens??'—'}`}}catch(e){}})();
+try{const u=await (await fetch('usage.json?t='+Date.now())).json();if(u.runs&&u.runs.length){const l=u.runs[u.runs.length-1];$('usage').textContent=`${u.runs.length} runs · last ${l.at||'—'} · tokens ${l.tokens??'—'}`}else $('usage').textContent='no automated runs yet'}catch(e){}})();
 </script></body></html>
