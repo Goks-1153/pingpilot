@@ -129,6 +129,6 @@ try{let cur=0;await load(p=>{cur=p;set(p)});for(let p=Math.max(cur,0);p<100;p+=4
 setTimeout(()=>{pg.style.display='none';b.disabled=false;$('rlbl').textContent='Refresh';$('ric').textContent='⟳';$('arc').style.strokeDashoffset=69.1},1200)};
 setInterval(()=>D&&header(),60000);
 (async()=>{loadFB();try{const ext=await (await fetch('feedback.json',{cache:'no-store'})).json();for(const k in ext)if(!FB[k])FB[k]=ext[k]}catch(e){}
-await load(()=>{});render();
+for(let i=0;i<4;i++){try{await load(()=>{});if(!D||!Array.isArray(D.rows))throw new Error('bad data');render();break}catch(e){console.error('PingPilot load failed',e);$('upd').textContent=i<3?'Loading… retrying':'Data failed to load — tap Refresh';await new Promise(r=>setTimeout(r,1500*(i+1)))}}
 try{const u=await (await fetch('usage.json?t='+Date.now())).json();if(u.runs&&u.runs.length){const l=u.runs[u.runs.length-1];$('usage').textContent=`${u.runs.length} runs · last ${l.at||'—'} · tokens ${l.tokens??'—'}`}else $('usage').textContent='no automated runs yet'}catch(e){}})();
 </script></body></html>
