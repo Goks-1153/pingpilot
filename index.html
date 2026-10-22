@@ -80,6 +80,19 @@
   .empty{color:var(--muted);padding:14px;border:1px dashed var(--line);border-radius:12px;text-align:center}
   @media (max-width:900px){.layout{grid-template-columns:1fr}.summary{grid-template-columns:repeat(2,1fr)}}
   @media (max-width:480px){.summary{grid-template-columns:1fr 1fr}.stat b{font-size:26px}.wordmark{font-size:24px}}
+  /* Growth POC study */
+  .study .study-summary{grid-template-columns:repeat(6,1fr)}
+  .study-h3{font-size:17px;margin:18px 0 8px}
+  .att-grid{display:grid;grid-template-columns:2fr 1fr;gap:16px}
+  .att-grid h4{margin:0 0 4px;font-size:14px;color:var(--muted)}
+  .study-filters{position:static;margin:16px 0 6px}
+  .creator-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:12px}
+  .creator{border:1px solid var(--line);border-left:6px solid var(--muted);border-radius:12px;padding:14px;background:#fff}
+  .creator.risk{border-left-color:var(--red);background:#fffafa} .creator.open{border-left-color:#d99a00} .creator.healthy{border-left-color:var(--green)} .creator.notfound{border-left-color:#9aa59d;background:var(--grey-soft)}
+  .creator h3{margin:0;font-size:16px}
+  .creator .ct{font-size:12px;font-weight:800;color:var(--muted);text-transform:uppercase;letter-spacing:.04em;margin:10px 0 2px}
+  .creator ul.clean{font-size:14px;margin:2px 0} .creator ul.clean li{margin:3px 0}
+  @media (max-width:900px){.study .study-summary{grid-template-columns:repeat(3,1fr)}.att-grid{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
@@ -201,6 +214,180 @@
       </section>
     </aside>
   </div>
+
+
+<section class="card study" id="growth-poc-study" aria-labelledby="study-h">
+  <h2 id="study-h">Growth POC study: Sid (October 2026)</h2>
+  <p class="sub">Read-only review of Sid's October WhatsApp activity (Periskope), credited <strong>only for the 22 creators Sid owns in the CRM (Growth POC field)</strong>. Covers each creator's shared group and any 1:1 chat with Sid's number. Snapshot 22 Oct 2026, ~3:10–3:45 PM IST. Summaries only: no phone numbers, emails, payment details or message quotes.</p>
+  <div class="summary study-summary">
+<div class="stat "><b>22</b><span>Creators owned in CRM</span></div>
+<div class="stat green"><b>19</b><span>With October activity</span></div>
+<div class="stat amber"><b>3</b><span>Not found</span></div>
+<div class="stat "><b>29</b><span>CRM deals owned</span></div>
+<div class="stat amber"><b>35</b><span>Open asks across creators</span></div><div class="stat critical"><b>4</b><span>Creators at risk (2 high-risk)</span></div></div>
+<p class="sub"><strong>CRM deals by stage (Sid, 29 deals, ₹8.21L total; ₹7.01L excluding backed out):</strong> Not Started 6 (₹1.59L) · Script 7 (₹2.11L) · Shoot 3 (₹61k) · Approval 1 (₹25k) · Live 11 (₹2.46L) · Backed out 1 (₹1.20L). Periskope context: Sid's phone had 493 chats active in October (275 groups, 218 1:1), but only chats for his owned creators count as his work here.</p>
+<h3 class="study-h3">Needs attention now</h3><div class="att-grid"><div><h4>Open asks (oldest first where known)</h4><ul class="clean">
+<li><span class="pill critical">~15 days</span> <strong>KurlOn (Kalyani)</strong>: Payment date asked 7 Oct, no answer</li>
+<li><span class="pill critical">~16 days</span> <strong>Pooja Singh</strong>: Payment promised 6 Oct, never confirmed settled</li>
+<li><span class="pill normal">~5 days</span> <strong>Vrushab</strong>: Pitch update asked 17 Oct, unanswered</li>
+<li><span class="pill critical">today / ~2.5h</span> <strong>Hiba &amp; Nida</strong>: L&#x27;Oréal payment (~₹11k) due today + Fine Wine approval question unanswered</li>
+<li><span class="pill normal">~2h</span> <strong>WishCare (Naja Febin)</strong>: Brand wants revised script; creator hasn&#x27;t replied</li>
+<li><span class="pill normal">~45 min</span> <strong>Divya Singh</strong>: Auto-DM link for Dr Sheths post outstanding</li>
+<li><span class="pill normal">~3 days</span> <strong>Priyanshu Verma</strong>: Prowl script approval pending with brand</li>
+<li><span class="pill normal">~8 days / ~3.5h</span> <strong>Kalyani</strong>: Simple audit insights not shared; Ghar Soaps brand reply pending</li>
+<li><span class="pill normal">1 day / ~6 days</span> <strong>Hrithika S</strong>: Underneat draft overdue; RAS Beauty scope reply pending</li>
+<li><span class="pill normal">open</span> <strong>Pavithra Nagarajan</strong>: Pilgrim invoices + partial reimbursements pending</li>
+</ul></div><div><h4>High-risk creators</h4><ul class="clean">
+<li><span class="pill critical">High risk</span> <strong>Yadhu</strong>: Said he wants to quit (12 Oct, again 20 Oct); call proposed 21 Oct</li>
+<li><span class="pill critical">High risk</span> <strong>Nisha Oswal</strong>: No collab in a month, complaints about unanswered mails and CRM visibility</li>
+</ul></div></div>
+<div class="filters study-filters"><label>Creator status<select id="study-status"><option value="">All creators</option><option value="risk">At risk (4)</option><option value="open">Open asks (12)</option><option value="healthy">Healthy (3)</option><option value="notfound">Not found (3)</option></select></label><label class="search">Search creator or brand<input type="search" id="study-search" placeholder="e.g. Prowl, Kalyani…" autocomplete="off"></label></div><p class="showing" id="study-count"></p><div class="creator-grid" id="study-cards">
+<article class="creator open" data-status="open"><div class="alert-head"><h3>Naja Febin</h3><span class="badge normal">Open asks</span></div><p class="meta">Kochi · Group + 1:1</p>
+<p class="ct">Deals &amp; stage (chat)</p><ul class="clean"><li>WishCare (lip combo): confirmed at ₹48k after creator called first offers too low; script sent 18 Oct, brand asked for a more organic revised script on 22 Oct</li><li>Hyphen: ₹40k offer refused as too low; no close seen</li></ul><p class="ct">Open asks</p><ul class="clean"><li>Revised WishCare script requested 22 Oct ~1 pm, no reply yet (~2h at read time)</li><li>Organic content ideas shared 8 Oct, no creator response</li><li>Audience insights asked 15 Oct, unclear if provided</li></ul>
+<p class="ct">Response time</p><p class="meta">Team replies within minutes; creator usually same day, script in ~10 min</p>
+<p class="ct">Last message</p><p class="meta">Team (Khaleel), 22 Oct 1:02 pm</p><p class="ct">Red flags</p><ul class="clean"><li>Repeated rate pushback</li><li>Script rework risk</li></ul>
+<p class="action">CRM shows WishCare at ₹55k vs ₹48k agreed in chat: check</p>
+<p class="ct">Matching CRM deals</p><ul class="clean"><li>Wishcare · Script · ₹55k (15 Oct 26)</li></ul>
+</article>
+<article class="creator open" data-status="open"><div class="alert-head"><h3>Pooja</h3><span class="badge normal">Open asks</span></div><p class="meta">Delhi · Group (1:1 under her name is likely staff)</p>
+<p class="ct">Deals &amp; stage (chat)</p><ul class="clean"><li>Mirabelle Korea scalp kit: posted 8 Oct after repeated chasing</li><li>Uppeel: reel live around 30 Sep / 1 Oct</li><li>Dove via Barcode: ₹15k, 1 reel, creator-side confirmed (payment cycle 45 days)</li></ul><p class="ct">Open asks</p><ul class="clean"><li>Payment promised &#x27;by Wednesday&#x27; on 6 Oct, never confirmed as settled (16 days)</li><li>Quick-call request 9 Oct, no chat reply (call may have happened)</li><li>Content ideas 19 Oct, no reply</li></ul>
+<p class="ct">Response time</p><p class="meta">Sid replies to drafts in 20 min–1h; creator replies 1–3h; drafts slipped 1–8 Oct</p>
+<p class="ct">Last message</p><p class="meta">Team (Tarun), 19 Oct; creator last wrote 17 Oct</p><p class="ct">Red flags</p><ul class="clean"><li>Payment delay with no closure</li><li>Late drafts early Oct</li></ul>
+<p class="ct">Matching CRM deals</p><p class="meta">None owned by Sid in CRM</p>
+</article>
+<article class="creator open" data-status="open"><div class="alert-head"><h3>Kalyani</h3><span class="badge normal">Open asks</span></div><p class="meta">Kochi · Group + 1:1 + 5 brand groups</p>
+<p class="ct">Deals &amp; stage (chat)</p><ul class="clean"><li>Pears body wash: ₹16.5k, posted 20 Oct, link fixes done 21 Oct</li><li>Ghar Soaps: script arrived 21 Oct after ~2 weeks of brand delay; approval pending</li><li>Venusia (Influencer.in): ₹18k, script awaiting agency approval since 19 Oct</li><li>Simple (Barcode/HUL): live 30 Sep; payment only after audit</li><li>Uppeel: ₹15k offered 22 Oct, creator deciding (category conflict)</li></ul><p class="ct">Open asks</p><ul class="clean"><li>KurlOn: Sid asked the brand for a payment date on 7 Oct, no answer (~15 days)</li><li>Simple: audit insights asked 14 Oct, still not shared (~8 days)</li><li>Ghar Soaps: team asked the brand at 11:25 am on 22 Oct, no answer; creator waiting</li><li>Kushals / Be Bodywise payment date not set</li></ul>
+<p class="ct">Response time</p><p class="meta">Team answers creator in 1–4h; brand/agency side 1–20h; one creator query waited ~13h</p>
+<p class="ct">Last message</p><p class="meta">Sid (1:1), 22 Oct 2:54 pm</p><p class="ct">Red flags</p><ul class="clean"><li>Payment dates unclear (KurlOn, Kushals, Be Bodywise)</li><li>Several brand-side stalls</li></ul>
+<p class="ct">Matching CRM deals</p><ul class="clean"><li>Venussia · Script · ₹18k (15 Oct 26)</li><li>Pears · Live · ₹16.5k (12 Oct 26)</li></ul>
+</article>
+<article class="creator healthy" data-status="healthy"><div class="alert-head"><h3>Shivani Menon</h3><span class="badge record">Healthy</span></div><p class="meta">— · Group + 1:1 + brand group</p>
+<p class="ct">Deals &amp; stage (chat)</p><ul class="clean"><li>Mamaearth sunscreen via Blubox: posted 19 Oct after script and feedback rounds</li></ul><p class="ct">Open asks</p><ul class="clean"><li>None outstanding</li></ul>
+<p class="ct">Response time</p><p class="meta">Creator 5 min–few hours; brand pinged every 1–4h with urgent tone</p>
+<p class="ct">Last message</p><p class="meta">Team (Khaleel), 21 Oct</p><p class="ct">Red flags</p><ul class="clean"><li>Go-live slipped 16 → 19 Oct</li><li>Payment status not discussed in chat</li></ul>
+<p class="ct">Matching CRM deals</p><ul class="clean"><li>Mamaearth · Live · ₹40k (12 Oct 26)</li></ul>
+</article>
+<article class="creator notfound" data-status="notfound"><div class="alert-head"><h3>Mridhula</h3><span class="badge ">Not found</span></div><p class="meta">— · —</p>
+<p class="action">Not found: activity could not be located (only a July chat; nothing in October)</p>
+<p class="ct">Matching CRM deals</p><p class="meta">None owned by Sid in CRM</p>
+</article>
+<article class="creator open" data-status="open"><div class="alert-head"><h3>Sija</h3><span class="badge normal">Open asks</span></div><p class="meta">Chennai · Group + 1:1</p>
+<p class="ct">Deals &amp; stage (chat)</p><ul class="clean"><li>No active brand deal in October (dormant)</li></ul><p class="ct">Open asks</p><ul class="clean"><li>Monthly insights asked 9 Oct, not sent (~13 days)</li><li>Profile form asked 14 Oct, no reply</li><li>Content ideas 21 Oct, no reply</li></ul>
+<p class="ct">Response time</p><p class="meta">Creator said on 14 Oct she had been unresponsive for personal reasons</p>
+<p class="ct">Last message</p><p class="meta">Team (Tarun), 21 Oct</p><p class="ct">Red flags</p><ul class="clean"><li>Unresponsive creator</li><li>No October revenue</li></ul>
+<p class="ct">Matching CRM deals</p><p class="meta">None owned by Sid in CRM</p>
+</article>
+<article class="creator notfound" data-status="notfound"><div class="alert-head"><h3>Mr &amp; Mrs Salman</h3><span class="badge ">Not found</span></div><p class="meta">— · —</p>
+<p class="action">Not found: activity could not be located (no chat matches the name)</p>
+<p class="ct">Matching CRM deals</p><p class="meta">None owned by Sid in CRM</p>
+</article>
+<article class="creator risk" data-status="risk"><div class="alert-head"><h3>Hiba &amp; Nida</h3><span class="badge critical">At risk</span></div><p class="meta">Kochi · Group + 1:1</p>
+<p class="ct">Deals &amp; stage (chat)</p><ul class="clean"><li>L&#x27;Oréal: ~₹11k payment promised for Thu 22 Oct after a bank issue</li><li>Fine Wine: content done, awaiting brand go-live approval</li></ul><p class="ct">Open asks</p><ul class="clean"><li>Nida&#x27;s Fine Wine status question at 12:46 pm on 22 Oct, unanswered (~2.5h)</li><li>L&#x27;Oréal payment due today, not confirmed</li></ul>
+<p class="ct">Response time</p><p class="meta">Earlier asks answered in ~20 min</p>
+<p class="ct">Last message</p><p class="meta">Creator (Nida), 22 Oct 12:46 pm</p><p class="ct">Red flags</p><ul class="clean"><li>Creator unhappy with delays (19 Oct)</li><li>Payment slipped twice</li></ul>
+<p class="ct">Matching CRM deals</p><p class="meta">None owned by Sid in CRM</p>
+</article>
+<article class="creator healthy" data-status="healthy"><div class="alert-head"><h3>Gowri</h3><span class="badge record">Healthy</span></div><p class="meta">Thiruvananthapuram · 1:1 only (no group)</p>
+<p class="ct">Deals &amp; stage (chat)</p><ul class="clean"><li>Jio: script 19 Oct, reel + shorts posted 20 Oct; chat says ₹20k incl. shorts</li></ul><p class="ct">Open asks</p><ul class="clean"><li>None</li></ul>
+<p class="ct">Response time</p><p class="meta">Both sides reply within minutes</p>
+<p class="ct">Last message</p><p class="meta">Sid, 21 Oct</p><p class="ct">Red flags</p><ul class="clean"><li>Late-night script push for next-day noon</li><li>Payment not discussed yet</li></ul>
+<p class="action">CRM lists Jio twice (₹25k and ₹30k, both Live) vs ₹20k in chat: possible duplicate</p>
+<p class="ct">Matching CRM deals</p><ul class="clean"><li>JIO · Live · ₹25k (21 Oct 26)</li><li>JIO · Live · ₹30k (19 Oct 26)</li></ul>
+</article>
+<article class="creator healthy" data-status="healthy"><div class="alert-head"><h3>Nikhil Jeet</h3><span class="badge record">Healthy</span></div><p class="meta">Mumbai · Group only (identity unconfirmed)</p>
+<p class="ct">Deals &amp; stage (chat)</p><ul class="clean"><li>No deal in October; last brand work (Prowl) in June</li></ul><p class="ct">Open asks</p><ul class="clean"><li>None</li></ul>
+<p class="ct">Response time</p><p class="meta">Creator filled profile form 20 min after ask</p>
+<p class="ct">Last message</p><p class="meta">Creator, 20 Oct</p><p class="ct">Red flags</p><ul class="clean"><li>~2+ months with no enquiries (commercial gap)</li><li>Identity not confirmed: group creator not verified as Nikhil Jeet</li></ul>
+<p class="ct">Matching CRM deals</p><p class="meta">None owned by Sid in CRM</p>
+</article>
+<article class="creator open" data-status="open"><div class="alert-head"><h3>Vrushab</h3><span class="badge normal">Open asks</span></div><p class="meta">Mumbai · Group + 1:1</p>
+<p class="ct">Deals &amp; stage (chat)</p><ul class="clean"><li>No brand deal in October; pitching stage</li></ul><p class="ct">Open asks</p><ul class="clean"><li>Asked for pitch updates 5, 12 and 17 Oct; the 17 Oct progress question has no answer (~5 days)</li><li>Monthly insights agreed 9 Oct</li></ul>
+<p class="ct">Response time</p><p class="meta">Sid answered 5 Oct in ~4 min and 12 Oct in ~4.5h (&#x27;no solid response&#x27;)</p>
+<p class="ct">Last message</p><p class="meta">Creator, 20 Oct; voice call 19 Oct</p><p class="ct">Red flags</p><ul class="clean"><li>Creator chased 3× in 2 weeks</li><li>Slow deal flow</li></ul>
+<p class="ct">Matching CRM deals</p><p class="meta">None owned by Sid in CRM</p>
+</article>
+<article class="creator open" data-status="open"><div class="alert-head"><h3>Priyanshu Verma</h3><span class="badge normal">Open asks</span></div><p class="meta">Mumbai · Group + 1:1</p>
+<p class="ct">Deals &amp; stage (chat)</p><ul class="clean"><li>Prowl (discovery/perfume set): script sent 19 Oct, brand approval pending (day 3)</li><li>HK Vitals glutathione: creator said yes 21 Oct</li></ul><p class="ct">Open asks</p><ul class="clean"><li>Prowl script approval: creator asked 21 and 22 Oct, still &#x27;not yet&#x27;</li></ul>
+<p class="ct">Response time</p><p class="meta">Team answers instantly now, but promised items slipped: CRM access ~4 days late, confirmation mail ~2 days</p>
+<p class="ct">Last message</p><p class="meta">Team (Khaleel), 22 Oct 1:27 pm</p><p class="ct">Red flags</p><ul class="clean"><li>Creator chasing repeatedly</li><li>Promises not kept on time</li></ul>
+<p class="action">CRM: Prowl ₹45k, Script stage</p>
+<p class="ct">Matching CRM deals</p><ul class="clean"><li>Prowl · Script · ₹45k (14 Oct 26)</li></ul>
+</article>
+<article class="creator risk" data-status="risk"><div class="alert-head"><h3>Yadhu</h3><span class="badge critical">At risk</span></div><p class="meta">— · Group + 1:1</p>
+<p class="ct">Deals &amp; stage (chat)</p><ul class="clean"><li>MINI Cooper PR event invite (15 Oct)</li><li>Invoice raised to a brand; amount mentioned in chat unverified, payment status unknown</li></ul><p class="ct">Open asks</p><ul class="clean"><li>Retention: creator said he is quitting on 12 Oct and again on 20 Oct; Sid proposed a call 21 Oct</li></ul>
+<p class="ct">Response time</p><p class="meta">Sid replied in ~3h (12 Oct) and next morning (~12h, 20 Oct)</p>
+<p class="ct">Last message</p><p class="meta">Creator, 21 Oct</p><p class="ct">Red flags</p><ul class="clean"><li>HIGH: creator says he wants to quit</li><li>Deals stuck &#x27;in review&#x27;</li></ul>
+<p class="ct">Matching CRM deals</p><p class="meta">None owned by Sid in CRM</p>
+</article>
+<article class="creator open" data-status="open"><div class="alert-head"><h3>_majidxx</h3><span class="badge normal">Open asks</span></div><p class="meta">Bangalore · Group + 1:1</p>
+<p class="ct">Deals &amp; stage (chat)</p><ul class="clean"><li>No deal in October; pitching ClayCo, Souled Store, Flo Mattress, Dermalist, Man Company</li></ul><p class="ct">Open asks</p><ul class="clean"><li>Monthly insights asked 9 Oct (13 days, no reply)</li><li>Profile form asked 17 Oct (5 days, no reply)</li></ul>
+<p class="ct">Response time</p><p class="meta">Creator not replying to Sid&#x27;s data asks</p>
+<p class="ct">Last message</p><p class="meta">Sid, 20 Oct (greeting, no reply)</p><p class="ct">Red flags</p><ul class="clean"><li>Unresponsive creator</li><li>No October revenue</li></ul>
+<p class="ct">Matching CRM deals</p><p class="meta">None owned by Sid in CRM</p>
+</article>
+<article class="creator open" data-status="open"><div class="alert-head"><h3>Pavithra Nagarajan</h3><span class="badge normal">Open asks</span></div><p class="meta">Chennai · 1:1 + 7 brand groups</p>
+<p class="ct">Deals &amp; stage (chat)</p><ul class="clean"><li>Head &amp; Shoulders: live 19 Oct; invoice needed before payment</li><li>Aravi Organics: script 3 approved 19 Oct; shoot when product arrives (creator away 23–25 Oct)</li><li>AcneStar: caption approved 22 Oct, go live</li><li>LIVA (Denaro Media): live 17 Oct; invoice format received</li><li>Bontress Scalp Serum (Cloutflow): agreed, go-live first week of Nov</li><li>Protouch: ₹12k offered 22 Oct, product chosen</li></ul><p class="ct">Open asks</p><ul class="clean"><li>Pilgrim (Broz Media) chasing invoices 22 Oct, team cited a glitch</li><li>Ghar Soaps stalled on brand side (open ~3 days)</li><li>Partial reimbursements still pending after a bank change</li></ul>
+<p class="ct">Response time</p><p class="meta">Creator shares data in minutes; brand approvals slow</p>
+<p class="ct">Last message</p><p class="meta">Team (Khaleel), 22 Oct 3:32 pm</p><p class="ct">Red flags</p><ul class="clean"><li>Payments partly pending</li><li>Several invoices owed</li><li>Heavy parallel load</li></ul>
+<p class="action">CRM lists Aravi Organics 6 times (₹14k each, mixed stages): duplicate rows</p>
+<p class="ct">Matching CRM deals</p><ul class="clean"><li>Protouch · Not Started · ₹12k (21 Oct 26)</li><li>Aravi Organics · Script · ₹14k (13 Oct 26)</li><li>Aravi Organics · Script · ₹14k (13 Oct 26)</li><li>Aravi Organics · Shoot · ₹14k (13 Oct 26)</li><li>Aravi Organics · Not Started · ₹14k (13 Oct 26)</li><li>Aravi Organics · Not Started · ₹14k (13 Oct 26)</li><li>Aravi Organics · Not Started · ₹14k (13 Oct 26)</li><li>Head and Shoulders · Live · ₹18k (07 Oct 26)</li></ul>
+</article>
+<article class="creator risk" data-status="risk"><div class="alert-head"><h3>Hrithika S</h3><span class="badge critical">At risk</span></div><p class="meta">Chennai · 1:1 + 9 brand groups</p>
+<p class="ct">Deals &amp; stage (chat)</p><ul class="clean"><li>Underneat: first draft overdue, now promised for 23 Oct</li><li>Bioderma (Chtrbox): script approved 22 Oct, shoot 23 Oct, deliver 24 Oct</li><li>Ruby&#x27;s Organics: kickoff, waiting on the brief</li><li>Forever52: payment cleared 19 Oct (~12 weeks after live)</li><li>RAS Beauty: agency asked for an extra out-of-scope story; Sid pushed back</li><li>PAC Cosmetics: posted 5 Oct</li></ul><p class="ct">Open asks</p><ul class="clean"><li>Underneat video ETA chased by brand</li><li>Bioderma agency asked for an ETA (22 Oct)</li><li>RAS Beauty scope reply pending since 16 Oct</li><li>Health &amp; Glow invoice yet to be raised / corrected</li></ul>
+<p class="ct">Response time</p><p class="meta">Team answers brand in ~1 min; Sid pushback took ~1h44</p>
+<p class="ct">Last message</p><p class="meta">Team (Khaleel), 22 Oct 1:15 pm</p><p class="ct">Red flags</p><ul class="clean"><li>Missed draft deadline (Bioderma)</li><li>Payment delays</li><li>Creator frustrated with brief</li><li>4 live briefs this week</li></ul>
+<p class="ct">Matching CRM deals</p><ul class="clean"><li>Underneat · Shoot · ₹15k (16 Oct 26)</li><li>Fine Wine · Live · ₹7k (12 Oct 26)</li><li>Bioderma · Shoot · ₹32k (12 Oct 26)</li><li>SVAM · Live · ₹25k (12 Oct 26)</li><li>Ruby&#x27;s Organics · Not Started · ₹30k (09 Oct 26)</li><li>Pali Beauty · Live · ₹4k (05 Oct 26)</li></ul>
+</article>
+<article class="creator notfound" data-status="notfound"><div class="alert-head"><h3>Meenakshi Anoop</h3><span class="badge ">Not found</span></div><p class="meta">Thiruvananthapuram · —</p>
+<p class="action">Not found: activity could not be located (only a June brand contact; no October chat)</p>
+<p class="ct">Matching CRM deals</p><ul class="clean"><li>SINCERE AYURVEDIC PHARMA · Not Started · ₹75k (21 Oct 26)</li></ul>
+</article>
+<article class="creator open" data-status="open"><div class="alert-head"><h3>Adrija</h3><span class="badge normal">Open asks</span></div><p class="meta">Bangalore · Group + 1:1</p>
+<p class="ct">Deals &amp; stage (chat)</p><ul class="clean"><li>FirstClub: posted 17 Oct; invoice raised</li><li>Swish (UGC): ₹13k locked after a cut from an earlier ₹23k; revised script awaiting brand approval</li></ul><p class="ct">Open asks</p><ul class="clean"><li>Swish approval pending; product order and video follow approval</li></ul>
+<p class="ct">Response time</p><p class="meta">Creator replies in minutes; Swish rate confirmation took Sid ~2 days</p>
+<p class="ct">Last message</p><p class="meta">Team (Khaleel), 22 Oct 1:01 pm</p><p class="ct">Red flags</p><ul class="clean"><li>Rate cut on Swish</li><li>Sid unavailable several days (unwell/travel)</li><li>Creator worried about audience shift</li></ul>
+<p class="ct">Matching CRM deals</p><ul class="clean"><li>Swish · Script · ₹15k (15 Oct 26)</li><li>First Club · Live · ₹20k (15 Oct 26)</li></ul>
+</article>
+<article class="creator open" data-status="open"><div class="alert-head"><h3>Smriti Mohanty</h3><span class="badge normal">Open asks</span></div><p class="meta">Bangalore · Groups + 1:1 (identity unconfirmed)</p>
+<p class="ct">Deals &amp; stage (chat)</p><ul class="clean"><li>Dove (Barcode): posted 8 Oct</li><li>AcneStar: revised video pending after brand feedback</li><li>LUX: ₹18k locked 21 Oct, first draft due 24 Oct</li><li>Unicorn Stores draft sent 10 Oct</li></ul><p class="ct">Open asks</p><ul class="clean"><li>AcneStar revised video (creator side)</li><li>Payment delay flagged on 7 Oct, completion not seen</li></ul>
+<p class="ct">Response time</p><p class="meta">Sid 14 min–3h; one ask waited ~18h; one 16 Oct ping unanswered</p>
+<p class="ct">Last message</p><p class="meta">Creator, 22 Oct</p><p class="ct">Red flags</p><ul class="clean"><li>Payment delay</li><li>Repeated revisions</li></ul>
+<p class="action">Identity caveat: two Smriti groups use different creator numbers; verify in CRM before combining</p>
+<p class="ct">Matching CRM deals</p><p class="meta">None owned by Sid in CRM</p>
+</article>
+<article class="creator open" data-status="open"><div class="alert-head"><h3>Divya Singh</h3><span class="badge normal">Open asks</span></div><p class="meta">Mumbai · Group only</p>
+<p class="ct">Deals &amp; stage (chat)</p><ul class="clean"><li>Dr Sheths: ₹25k; brand approval only came 22 Oct (~9 days after submission)</li><li>AcneStar: posted 13 Oct</li><li>Nykaa: script/hook changes, brand slow</li></ul><p class="ct">Open asks</p><ul class="clean"><li>Auto-DM link for Dr Sheths asked twice on 22 Oct, team said &#x27;just a sec&#x27; (open ~45 min)</li></ul>
+<p class="ct">Response time</p><p class="meta">Team 1–60 min; delays are brand-side</p>
+<p class="ct">Last message</p><p class="meta">Team (Khaleel), 22 Oct 3:04 pm</p><p class="ct">Red flags</p><ul class="clean"><li>Slow brand approvals</li><li>Creator chasing for clarity</li></ul>
+<p class="ct">Matching CRM deals</p><ul class="clean"><li>Dot &amp; Key · Live · ₹35k (19 Oct 26)</li><li>Acne Star · Live · ₹25k (15 Oct 26)</li><li>Dr Sheths · Approval · ₹25k (07 Oct 26)</li></ul>
+</article>
+<article class="creator open" data-status="open"><div class="alert-head"><h3>Shitij Verma</h3><span class="badge normal">Open asks</span></div><p class="meta">Mumbai · Group + 1:1</p>
+<p class="ct">Deals &amp; stage (chat)</p><ul class="clean"><li>Prowl (October): 1 reel at ₹45k; revised script sent 22 Oct, awaiting brand approval</li><li>Innvoist pitch: brand deferred to next month&#x27;s budget</li><li>HK Vitals: creator said yes 21 Oct</li></ul><p class="ct">Open asks</p><ul class="clean"><li>Prowl approval pending</li></ul>
+<p class="ct">Response time</p><p class="meta">Team 1 min–2h; confirmation mail took ~5 days</p>
+<p class="ct">Last message</p><p class="meta">Creator, 22 Oct 2:38 pm</p><p class="ct">Red flags</p><ul class="clean"><li>Creator chasing (Innvoist ×4)</li><li>No rate raise</li></ul>
+<p class="action">CRM shows Prowl at ₹50k vs ₹45k in chat: check</p>
+<p class="ct">Matching CRM deals</p><ul class="clean"><li>Prowl · Script · ₹50k (16 Oct 26)</li></ul>
+</article>
+<article class="creator risk" data-status="risk"><div class="alert-head"><h3>Nisha</h3><span class="badge critical">At risk</span></div><p class="meta">Bangalore · Groups + 1:1</p>
+<p class="ct">Deals &amp; stage (chat)</p><ul class="clean"><li>No signed deal in October; Damrooh concert collab put on hold (CRM: backed out, ₹1.2L)</li><li>Pitching Bosch, Samsung, Jio, Boomlet, Illuminati Media</li></ul><p class="ct">Open asks</p><ul class="clean"><li>Asked for a call on 22 Oct; Sid said 3:30 pm</li><li>Repeated &#x27;any update?&#x27; (16, 19 Oct)</li></ul>
+<p class="ct">Response time</p><p class="meta">Sid usually 2–13 min, but 3 collab emails went unanswered 8–13 Oct (~8h reply when raised) and a call was missed</p>
+<p class="ct">Last message</p><p class="meta">Sid (1:1), 22 Oct</p><p class="ct">Red flags</p><ul class="clean"><li>HIGH: 1 month in, zero collaborations</li><li>Complaints about unanswered mails and CRM visibility</li></ul>
+<p class="ct">Matching CRM deals</p><ul class="clean"><li>Damrooh · Backed out · ₹1.20L (12 Oct 26)</li></ul>
+</article>
+</div>
+  <h3 class="study-h3">Method &amp; caveats</h3>
+  <ul class="clean">
+    <li>Read-only: chats were opened and read in Periskope; nothing was sent, edited or marked.</li>
+    <li>Scope: for each owned creator, the shared WhatsApp group(s) plus any 1:1 chat with Sid's number, including brand/agency groups named after the creator.</li>
+    <li>Attribution rule: a creator counts only for their CRM Growth POC. Groups Sid can see but doesn't own are visibility, not his work.</li>
+    <li>Not found (Mridhula, Mr &amp; Mrs Salman, Meenakshi Anoop): matched by chat name only, so there may be chats saved under other names. Not guessed. Meenakshi Anoop does have a CRM deal (Sincere Ayurvedic, Not Started).</li>
+    <li>Unconfirmed identities: Nikhil Jeet (group creator not verified) and Smriti Mohanty (two groups with different creator numbers). Check in the CRM before combining.</li>
+    <li>Coverage is thinner for 1–12 Oct in long brand groups (Pavithra, Hrithika); the last 10 days were prioritised. Ages are as of the 22 Oct afternoon read.</li>
+    <li>CRM caveats: some deals appear more than once (e.g. Aravi Organics ×6, Jio ×2), and a few CRM values differ from amounts agreed in chat.</li>
+  </ul>
+</section>
+<section class="card" aria-labelledby="study-natasha-h"><h2 id="study-natasha-h">Growth POC study: Natasha (October 2026)</h2><p class="empty">Coming next: 26 CRM-owned creators.</p></section>
+<section class="card" aria-labelledby="study-divya-h"><h2 id="study-divya-h">Growth POC study: Divya (October 2026)</h2><p class="empty">Coming next: 23 CRM-owned creators.</p></section>
 
   <footer>
     <strong>Phase-2 note:</strong> WhatsApp alerting to Gokul’s number or an internal team group is Phase 2. It will be sent only from a separate internal number, and only after Gokul approves accuracy on this page. <strong>This page never sends messages</strong> — every button here only changes what you see locally. &nbsp;·&nbsp; PingPilot Internal MVP · Sample data only · Built separately from the structured PingPilot pod build, which continues in parallel.
@@ -478,6 +665,15 @@ function tick(){
   renderHealth();
   applyFilters();
   setInterval(tick, 1000);
+})();
+</script>
+<script>
+(function(){
+  var sel=document.getElementById("study-status"), q=document.getElementById("study-search"), out=document.getElementById("study-count");
+  function apply(){var s=sel.value,t=q.value.trim().toLowerCase(),n=0,cards=document.querySelectorAll("#study-cards .creator");
+    for(var i=0;i<cards.length;i++){var c=cards[i],ok=(!s||c.getAttribute("data-status")===s)&&(!t||c.textContent.toLowerCase().indexOf(t)>-1);c.style.display=ok?"":"none";if(ok)n++;}
+    out.textContent="Showing "+n+" of "+cards.length+" creators";}
+  sel.addEventListener("change",apply); q.addEventListener("input",apply); apply();
 })();
 </script>
 </body>
