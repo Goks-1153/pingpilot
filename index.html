@@ -77,8 +77,8 @@ thead{display:none}tr{display:block;background:var(--surface);margin-bottom:8px;
 <label>Status<select id="f-st"><option value="">All</option><option>Open</option><option>Closed</option><option>At risk</option><option>Not found</option></select></label>
 <label>Category<select id="f-cat"><option value="">All categories</option></select></label>
 <label>POC<select id="f-poc"><option value="">All POCs</option></select></label>
-<div class="factions"><button class="btn g" id="f-clear">✕ Clear all filters</button><button class="btn p" id="exp">⬇ Export feedback</button><span class="showing" id="f-count" aria-live="polite"></span></div></div>
-<p class="note">Feedback is saved on this device; export to share.</p>
+<div class="factions"><button class="btn g" id="f-clear">✕ Clear all filters</button><button class="btn p" id="exp">⬇ Export feedback (.txt)</button><span class="showing" id="f-count" aria-live="polite"></span></div></div>
+<p class="note">Feedback is saved on this device. Export gives a readable .txt you can share on WhatsApp.</p>
 <div class="tblw"><table><thead><tr><th>Creator</th><th>POC</th><th>Item</th><th>Risk</th><th>Status</th><th>Feedback</th></tr></thead><tbody id="tb"></tbody></table></div>
 <h2>Common themes</h2><ul class="themes" id="themes"></ul>
 </main><footer>Updates &amp; usage: <span id="usage">—</span> · Read-only, each creator credited to CRM Growth POC only.</footer>
@@ -115,7 +115,7 @@ function tog(p){open=open==p?null:p;render()}
 function rowOf(id){return D.rows.find(r=>r.id==id)}
 function fix(id){const f=FB[id]=FB[id]||{};f.fixed=!f.fixed;f.at=new Date().toISOString();if(f.scope=='month'){const r=rowOf(id);FB['m:'+r.poc+':'+r.creator]={fixed:f.fixed}}saveFB();render()}
 function ctx(id,b){const box=b.parentNode,f=FB[id]=FB[id]||{};f.context=box.querySelector('textarea').value;f.scope=box.querySelector('input:checked').value;f.at=new Date().toISOString();saveFB();render()}
-$('exp').onclick=()=>{const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([JSON.stringify(FB,null,1)],{type:'application/json'}));a.download='feedback.json';a.click()};
+$('exp').onclick=()=>{const ids=Object.keys(FB).filter(k=>!k.startsWith('m:')&&(FB[k].fixed||FB[k].context));const now=new Date().toLocaleString('en-IN',{timeZone:'Asia/Kolkata',dateStyle:'medium',timeStyle:'short'});let t='PingPilot feedback\nExported: '+now+' IST\nItems: '+ids.length+'\n';const by={};ids.forEach(k=>{const r=rowOf(k);if(!r)return;(by[r.poc]=by[r.poc]||[]).push([r,FB[k]])});if(!ids.length)t+='\nNo feedback entered yet on this device.\n';Object.keys(by).forEach(p=>{t+='\n== '+p+' ==\n';by[p].forEach(([r,f],i)=>{t+='\n'+(i+1)+'. '+r.creator+' ('+(r.category||'')+')\n   Item: '+r.item+'\n   Status: '+(f.fixed?'Marked fixed':'Open')+'\n';if(f.context)t+='   Context: '+f.context+'\n   Applies to: '+(f.scope=='month'?'whole month for this creator':'this item only')+'\n';if(f.at)t+='   Updated: '+new Date(f.at).toLocaleString('en-IN',{timeZone:'Asia/Kolkata',dateStyle:'medium',timeStyle:'short'})+' IST\n'})});const d=new Date().toISOString().slice(0,10);const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([t],{type:'text/plain;charset=utf-8'}));a.download='PingPilot-feedback-'+d+'.txt';a.click()};
 ['f-sev','f-st','f-cat'].forEach(i=>$(i).onchange=render);$('f-q').oninput=render;
 $('f-poc').onchange=()=>{open=$('f-poc').value||null;render()};
 $('f-clear').onclick=()=>{['f-q','f-sev','f-st','f-cat','f-poc'].forEach(i=>$(i).value='');open=null;render()};
