@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>PingPilot — Internal (Sample Data)</title>
+<title>PingPilot — October 2026 Growth POC study</title>
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%230ea5a4'/%3E%3Cstop offset='1' stop-color='%232563eb'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect x='2' y='2' width='44' height='44' rx='12' fill='url(%23g)'/%3E%3Ccircle cx='24' cy='24' r='13' fill='none' stroke='white' stroke-width='2'/%3E%3Ccircle cx='24' cy='24' r='7' fill='none' stroke='white' stroke-opacity='.7' stroke-width='1.6'/%3E%3Ccircle cx='24' cy='24' r='2.4' fill='white'/%3E%3Ccircle cx='31' cy='17' r='3.2' fill='%23ffd84d' stroke='white'/%3E%3C/svg%3E">
 <style>
   :root{
@@ -21,8 +21,6 @@
   .wordmark{font-size:28px;font-weight:800;letter-spacing:-.02em;line-height:1}
   .tagline{color:#c9d4cc;font-size:13px;margin-top:3px}
   header.top p.desc{margin:12px 0 0;color:#c9d4cc;max-width:760px}
-  .sample-banner{margin-top:14px;display:inline-block;background:#ffd84d;color:#3a2f00;font-weight:800;padding:7px 12px;border-radius:999px;font-size:13px;letter-spacing:.04em;text-transform:uppercase}
-  .sample-banner small{display:block;font-weight:600;text-transform:none;letter-spacing:0}
   .summary{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:16px 0}
   .stat{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:16px;box-shadow:var(--shadow)}
   .stat b{font-size:32px;display:block;line-height:1}
@@ -95,6 +93,16 @@
   .creator .ct{font-size:12px;font-weight:800;color:var(--muted);text-transform:uppercase;letter-spacing:.04em;margin:10px 0 2px}
   .creator ul.clean{font-size:14px;margin:2px 0} .creator ul.clean li{margin:3px 0}
   @media (max-width:900px){.study .study-summary{grid-template-columns:repeat(3,1fr)}.att-grid{grid-template-columns:1fr}}
+  .real-banner{margin-top:14px;display:inline-block;background:#e6f3ec;color:#0f4d3a;font-weight:700;padding:8px 12px;border-radius:12px;font-size:13px}
+  .summary{grid-template-columns:repeat(5,1fr)}
+  .trow{border-top:1px solid var(--line);padding:11px 0;display:flex;flex-direction:column;gap:4px}
+  .trow:first-child{border-top:none}
+  .trow .th{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+  .trow .sum{font-size:14px;overflow-wrap:anywhere}
+  .pill.high{background:var(--red-soft);color:var(--red)} .pill.medium{background:var(--amber-soft);color:var(--amber)}
+  table.ov{min-width:0} 
+  @media (max-width:640px){table.ov thead{display:none}table.ov tr{display:block;border-bottom:1px solid var(--line);padding:6px 0}table.ov td{display:flex;justify-content:space-between;gap:8px;border:none;padding:3px 4px}table.ov td::before{content:attr(data-l);color:var(--muted);font-size:12px;font-weight:700}}
+  @media (max-width:900px){.summary{grid-template-columns:repeat(2,1fr)}}
 </style>
 </head>
 <body>
@@ -117,114 +125,43 @@
         <div class="tagline">Internal &middot; WhatsApp follow-up supervisor</div>
       </div>
     </div>
-    <p class="desc">A private supervisor view for Flutch Talent Management: pending tasks, unanswered questions, missed follow-ups and deal moves across team WhatsApp — in one page, before anything is ever sent to anyone.</p>
-    <div class="sample-banner">⚠ Sample data — not live<small>All names, clients, numbers, chats and times below are invented for review. No Periskope connection, no real WhatsApp data, nothing is sent from this page.</small></div>
+    <p class="desc">Supervisor view for Flutch Talent Management: open asks, at-risk creators and pending payments from the Growth POCs' October WhatsApp activity, matched to CRM ownership.</p>
+<div class="real-banner">Real data — October 2026 study from Periskope (read-only) + Flutch CRM, snapshot 22-Oct-2026. Not live.</div>
   </header>
-
   <div class="summary" aria-label="Summary">
-    <div class="stat critical"><b id="count-critical">–</b><span>Critical alerts needing action</span></div>
-    <div class="stat amber"><b id="count-unanswered">–</b><span>Unanswered for more than 2 hours</span></div>
-    <div class="stat"><b id="count-pitches">–</b><span>Pitches awaiting follow-up</span></div>
-    <div class="stat green"><b id="count-due-today">–</b><span>Commitments due today</span></div>
+    <div class="stat critical"><b id="k-risk">20</b><span>Creators at risk</span></div>
+    <div class="stat amber"><b id="k-asks">125</b><span>Open asks</span></div>
+    <div class="stat critical"><b id="k-pay">38</b><span>Payment items open</span></div>
+    <div class="stat"><b id="k-scr">24</b><span>Scripts / approvals awaited</span></div>
+    <div class="stat"><b id="k-nf">17</b><span>Creators not found</span></div>
   </div>
-
-  <!-- Single filter bar: drives alerts, tasks and summary together -->
   <section class="filterbar" aria-labelledby="filters-h">
-    <h2 id="filters-h">Filters</h2>
-    <p class="sub">One filter set for the whole page — alerts, pending tasks and the counts above update together.</p>
+    <h2 id="filters-h">Filter the task list</h2>
+    <p class="sub">KPI cards and the list below update together. POC = CRM Growth POC only.</p>
     <div class="filters">
-      <label>Team member
-        <select id="filter-member"><option value="">All team members</option></select>
-      </label>
-      <label>Role
-        <select id="filter-role"><option value="">All roles</option><option>Growth</option><option>Execution</option><option>Partnerships</option></select>
-      </label>
-      <label>Date
-        <select id="filter-date"><option value="all">All dates</option><option value="today">Today</option><option value="yesterday">Yesterday</option><option value="last2">Last 2 days</option><option value="last7">Last 7 days</option></select>
-      </label>
-      <label>TAT status
-        <select id="filter-tat"><option value="">All TAT</option><option value="ontime">Within TAT (On time)</option><option value="duesoon">Nearing TAT (Due soon)</option><option value="overdue">Breached TAT (Overdue)</option></select>
-      </label>
-      <label>Waiting time
-        <select id="filter-waiting"><option value="">All waiting times</option><option value="lt1">&lt; 1h waiting</option><option value="1to2">1–2h waiting</option><option value="2to4">2–4h waiting</option><option value="gt4">&gt; 4h waiting</option></select>
-      </label>
-      <label>Severity
-        <select id="filter-severity"><option value="">All severities</option><option>Critical</option><option>Normal</option><option>Record</option></select>
-      </label>
-      <label>Status
-        <select id="filter-status"><option value="">All statuses</option><option>Open</option><option>Reviewed</option><option>Snoozed</option><option>Due today</option><option>Overdue</option><option>Waiting on client</option></select>
-      </label>
-      <label>Number
-        <select id="filter-number"><option value="">All numbers</option></select>
-      </label>
-      <label class="search">Search chat / group
-        <input type="search" id="filter-search" placeholder="Search group or brand…" autocomplete="off">
-      </label>
+      <label>POC<select id="f-poc"><option value="">All (Sid, Natasha, Divya, Kishore)</option><option>Sid</option><option>Natasha</option><option>Divya</option><option>Kishore</option></select></label>
+      <label>Category<select id="f-cat"><option value="">All categories</option><option>Approval</option><option>Deliverable</option><option>Follow-up</option><option>Not found</option><option>Other</option><option>Payment</option><option>Retention risk</option><option>Script</option></select></label>
+      <label>Severity<select id="f-sev"><option value="">All</option><option>High</option><option>Medium</option><option>Info</option></select></label>
+      <label>Status<select id="f-st"><option value="">All</option><option>Open</option><option>At risk</option><option>Not found</option></select></label>
+      <label class="search">Search creator or brand<input type="search" id="f-q" placeholder="e.g. Yogitha, L'Oréal…" autocomplete="off"></label>
     </div>
-    <div class="filter-actions">
-      <button type="button" id="filter-clear">Clear all filters</button>
-      <span class="showing" id="showing-count" aria-live="polite"></span>
-    </div>
-    <p class="sub" style="margin:10px 0 0">TAT rules: payment 30 min &middot; reply 2h &middot; pitch follow-up 3h, then 3 days if still silent. <strong>On time</strong> = under 75% of TAT used &middot; <strong>Due soon</strong> = over 75%, not yet breached &middot; <strong>Overdue</strong> = past TAT.</p>
+    <div class="filter-actions"><button type="button" id="f-clear">Clear all filters</button><span class="showing" id="f-count" aria-live="polite"></span></div>
+  </section>
+  <section class="card" aria-labelledby="tasks-h">
+    <h2 id="tasks-h">Open asks, risks and pending items</h2>
+    <p class="sub">One row per item from the October study. Date = date mentioned in the finding ("—" if none). Full context is in each POC section below: <a href="#team-overview">Team overview</a> · <a href="#growth-poc-study">Sid</a> · <a href="#growth-poc-study-natasha">Natasha</a> · <a href="#growth-poc-study-divya">Divya</a> · <a href="#growth-poc-study-kishore">Kishore</a>.</p>
+    <div id="tasks"></div>
   </section>
 
-  <div class="layout">
-    <main>
-      <section class="card" aria-labelledby="alerts-h">
-        <h2 id="alerts-h">Alerts feed</h2>
-        <p class="sub">Newest risk first. Timers and TAT pills tick live. “Mark reviewed” / “Snooze” only change this page on your device — they send nothing, and they set the alert Status so the Status filter above can find them.</p>
-        <div id="alerts"></div>
-      </section>
-
-      <section class="card" aria-labelledby="tasks-h">
-        <h2 id="tasks-h">Pending tasks</h2>
-        <p class="sub">Everything PingPilot thinks is still open. Use the filter bar at the top of the page to scan it the way you would in the morning.</p>
-        <div id="tasks"></div>
-        <p class="sub" id="task-count" style="margin-top:10px"></p>
-      </section>
-    </main>
-
-    <aside>
-      <section class="card" aria-labelledby="health-h">
-        <h2 id="health-h">Team numbers — health</h2>
-        <p class="sub">Sample status for the 10 supervised numbers. In live use this comes from the connection feed, not from reading chats by hand.</p>
-        <div id="health"></div>
-      </section>
-
-      <section class="card" aria-labelledby="rules-h">
-        <h2 id="rules-h">Rules, in plain English</h2>
-        <p class="sub">Rules run first and cost nothing. AI is only used, if at all, on chats a rule has already flagged.</p>
-        <ul class="clean">
-          <li><strong>No reply in 2 hours:</strong> someone asked something that needs a reply and no team reply has gone out → alert.</li>
-          <li><strong>Pitch follow-up:</strong> a pitch was sent and not followed up within <strong>3 hours</strong>, and again if still silent after <strong>3 days</strong>.</li>
-          <li><strong>Payment words:</strong> payment, invoice, PO, UTR or “paid” left unanswered for 30 minutes → Critical.</li>
-          <li><strong>Commitment missed:</strong> a promised deadline passed and the deliverable has not been sent.</li>
-          <li><strong>Quiet hours:</strong> no alerts from <strong>20:00 to 09:30 IST</strong>, except a critical payment or a deadline due today.</li>
-          <li><strong>Sunday off:</strong> no routine alerts on Sundays; critical items roll into the Monday morning digest.</li>
-          <li><strong>Escalation:</strong> 2 hours → task owner, 4 hours → team lead, next working morning → your digest.</li>
-        </ul>
-      </section>
-
-      <section class="card" aria-labelledby="reach-h">
-        <h2 id="reach-h">How alerts will reach you</h2>
-        <ol class="steps">
-          <li><strong>Now — this page.</strong> You review sample (later, live) alerts here and mark them reviewed. Nothing leaves this page.</li>
-          <li><strong>Next — a daily digest.</strong> A short morning / end-of-day summary generated from this same list, for your eyes first.</li>
-          <li><strong>Phase 2 — WhatsApp, only if you approve.</strong> Alerts to your number or an internal team group, sent only from a <em>separate internal number</em> — never from a client-facing supervised number.</li>
-        </ol>
-        <p class="sub">Open decision: whether Phase-2 WhatsApp alerts are ever auto-sent for Critical items only, or always human-approved first. <strong>Default: OFF / always human-approved</strong> until you decide otherwise.</p>
-      </section>
-    </aside>
-  </div>
 
 
 <section class="card" id="team-overview" aria-labelledby="ov-h"><h2 id="ov-h">Team overview: Growth POCs (October 2026)</h2>
 <p class="sub">Each creator counts only for their CRM Growth POC. Read-only snapshot, 22 Oct 2026 (IST). Divya rechecked after her phone was reconnected (22 Oct, ~6:45 PM IST). CRM deal values are totals including backed-out deals.</p>
 <div style="overflow-x:auto"><table class="ov"><thead><tr><th>POC</th><th>Owned creators</th><th>Active in Oct</th><th>Not found</th><th>CRM deals (value)</th><th>Open asks</th><th>At risk</th></tr></thead><tbody>
-<tr><td><a href="#growth-poc-study">Sid</a></td><td>22</td><td>19</td><td>3</td><td>29 (₹8.22L)</td><td>35</td><td>4</td></tr>
-<tr><td><a href="#growth-poc-study-natasha">Natasha</a></td><td>26</td><td>18 (+3 identity unresolved)</td><td>5</td><td>37 (₹18.22L)</td><td>36</td><td>5</td></tr>
-<tr><td><a href="#growth-poc-study-divya">Divya</a></td><td>23</td><td>13 (+1 identity unresolved)</td><td>9 (5 not found, 4 no Oct activity)</td><td>15 (₹4.50L)</td><td>26</td><td>4</td></tr>
-<tr><td><a href="#growth-poc-study-kishore">Kishore</a></td><td>14</td><td>14</td><td>0</td><td>27 (₹5.04L)</td><td>26</td><td>7</td></tr>
+<tr><td data-l="POC"><a href="#growth-poc-study">Sid</a></td><td data-l="Owned creators">22</td><td data-l="Active in Oct">19</td><td data-l="Not found">3</td><td data-l="CRM deals (value)">29 (₹8.22L)</td><td data-l="Open asks">35</td><td data-l="At risk">4</td></tr>
+<tr><td data-l="POC"><a href="#growth-poc-study-natasha">Natasha</a></td><td data-l="Owned creators">26</td><td data-l="Active in Oct">18 (+3 identity unresolved)</td><td data-l="Not found">5</td><td data-l="CRM deals (value)">37 (₹18.22L)</td><td data-l="Open asks">36</td><td data-l="At risk">5</td></tr>
+<tr><td data-l="POC"><a href="#growth-poc-study-divya">Divya</a></td><td data-l="Owned creators">23</td><td data-l="Active in Oct">13 (+1 identity unresolved)</td><td data-l="Not found">9 (5 not found, 4 no Oct activity)</td><td data-l="CRM deals (value)">15 (₹4.50L)</td><td data-l="Open asks">26</td><td data-l="At risk">4</td></tr>
+<tr><td data-l="POC"><a href="#growth-poc-study-kishore">Kishore</a></td><td data-l="Owned creators">14</td><td data-l="Active in Oct">14</td><td data-l="Not found">0</td><td data-l="CRM deals (value)">27 (₹5.04L)</td><td data-l="Open asks">26</td><td data-l="At risk">7</td></tr>
 </tbody></table></div>
 <h3 class="study-h3">Common themes</h3><ul class="clean">
 <li><strong>Payment delays:</strong> overdue brand payments and slow creator payouts on all four phones (e.g. Yogitha X L'Oréal &gt;60 days, Mansi X Dove ~40 days, Apoorva X Instamart since Sep, KurlOn ~15 days), GST short-payments by brands (Vidhi X WBN, Apoorva X OZiva), creator payouts delayed by a server issue in early Oct (Divya A, Dishyata, Vidhi, Athira), plus invoices owed to agencies (Pilgrim).</li>
@@ -904,281 +841,33 @@
 </section>
 
   <footer>
-    <strong>Phase-2 note:</strong> WhatsApp alerting to Gokul’s number or an internal team group is Phase 2. It will be sent only from a separate internal number, and only after Gokul approves accuracy on this page. <strong>This page never sends messages</strong> — every button here only changes what you see locally. &nbsp;·&nbsp; PingPilot Internal MVP · Sample data only · Built separately from the structured PingPilot pod build, which continues in parallel.
+    <strong>Phase-2 note:</strong> WhatsApp alerting to Gokul’s number or an internal team group is Phase 2. It will be sent only from a separate internal number, and only after Gokul approves accuracy on this page. <strong>This page never sends messages</strong> — every button here only changes what you see locally. &nbsp;·&nbsp; PingPilot Internal MVP · Real data, 22-Oct-2026 snapshot · Built separately from the structured PingPilot pod build, which continues in parallel.
   </footer>
 </div>
 
 <script>
 "use strict";
-/* SAMPLE DATA ONLY — invented names, clients, numbers and chats. No network calls.
-   Every alert/task carries: id, teamMember, role, number, group, severity, status,
-   waitingSince, date (same instant as waitingSince, used by the Date filter),
-   tatMinutes (allowed turnaround), type, dueToday. */
-var now = Date.now();
-function hoursAgo(h){ return now - h * 3600 * 1000; }
-
-var ALERTS = [
-  { id:"A1", type:"Payment unanswered", title:"Invoice / payment question not answered",
-    teamMember:"Team Member A", role:"Growth", number:"Sample Number 01",
-    group:"Sample Brand Alpha — Campaign Group", severity:"Critical", status:"Open",
-    waitingSince:hoursAgo(3.4), date:hoursAgo(3.4), tatMinutes:30, dueToday:false,
-    pending:"Client asked for the revised invoice and UTR confirmation. No team reply yet.",
-    action:"Reply with the revised invoice, or confirm when finance will share the UTR." },
-  { id:"A2", type:"Deliverable due today", title:"Reel deliverable promised for this evening",
-    teamMember:"Team Member B", role:"Execution", number:"Sample Number 04",
-    group:"Sample Creator × Brand Beta — Launch Group", severity:"Critical", status:"Open",
-    waitingSince:hoursAgo(5.1), date:hoursAgo(5.1), tatMinutes:120, dueToday:true,
-    pending:"Brand is chasing the reel cover and final cut promised for 6 pm today.",
-    action:"Confirm the file is on track, or tell the brand a revised time before 6 pm." },
-  { id:"A3", type:"Unanswered question", title:"Shoot dates question waiting over 2 hours",
-    teamMember:"Team Member C", role:"Growth", number:"Sample Number 02",
-    group:"Sample Agency North — Creator Shortlist", severity:"Normal", status:"Open",
-    waitingSince:hoursAgo(2.6), date:hoursAgo(2.6), tatMinutes:120, dueToday:false,
-    pending:"Agency asked whether the creator is available on two sample shoot dates.",
-    action:"Reply with availability, or say you are checking and give a time." },
-  { id:"A4", type:"Pitch follow-up due", title:"Pitch sent, no follow-up in 3 hours",
-    teamMember:"Team Member A", role:"Growth", number:"Sample Number 01",
-    group:"Sample Brand Gamma — New Brief", severity:"Normal", status:"Open",
-    waitingSince:hoursAgo(3.2), date:hoursAgo(3.2), tatMinutes:180, dueToday:false,
-    pending:"Creator pitch and rate card were sent; no follow-up message since.",
-    action:"Send a short follow-up nudging for feedback on the shortlist." },
-  { id:"A5", type:"Pitch gone quiet (3 days)", title:"Pitch silent for 3 days",
-    teamMember:"Team Member D", role:"Partnerships", number:"Sample Number 07",
-    group:"Sample Brand Delta — Festive Campaign", severity:"Normal", status:"Open",
-    waitingSince:hoursAgo(74), date:hoursAgo(74), tatMinutes:4320, dueToday:false,
-    pending:"Pitch sent three days ago; brand has not responded and no follow-up was sent.",
-    action:"Send a polite break-up / last-check follow-up, or close the loop internally." },
-  { id:"A6", type:"Commitment due today", title:"Rate confirmation committed for today",
-    teamMember:"Team Member E", role:"Execution", number:"Sample Number 05",
-    group:"Sample Agency East — Rate Discussion", severity:"Normal", status:"Open",
-    waitingSince:hoursAgo(7.8), date:hoursAgo(7.8), tatMinutes:120, dueToday:true,
-    pending:"Team promised to confirm revised rates by today; client is waiting.",
-    action:"Send the confirmed rates, or update the client with a new time today." },
-  { id:"A7", type:"Deal move — for the record", title:"Brand moved the deal to contract stage",
-    teamMember:"Team Member D", role:"Partnerships", number:"Sample Number 07",
-    group:"Sample Brand Epsilon — Contract Thread", severity:"Record", status:"Open",
-    waitingSince:hoursAgo(1.2), date:hoursAgo(1.2), tatMinutes:1440, dueToday:false,
-    pending:"No action pending — PingPilot recorded a positive deal-stage move so it is not lost.",
-    action:"No reply needed. Check the contract task in the pending list below." },
-  { id:"A8", type:"Follow-up done — for the record", title:"Follow-up sent after pitch, awaiting client",
-    teamMember:"Team Member C", role:"Growth", number:"Sample Number 02",
-    group:"Sample Brand Zeta — Sampling Group", severity:"Record", status:"Open",
-    waitingSince:hoursAgo(26), date:hoursAgo(26), tatMinutes:4320, dueToday:false,
-    pending:"Team already followed up; the ball is with the client. Recorded so it is not chased twice.",
-    action:"No action today. PingPilot will re-flag only if it stays silent past the 3-day rule." }
-];
-
-var TASKS = [
-  { id:"T1", title:"Send revised invoice + confirm UTR", teamMember:"Team Member A", role:"Growth", number:"Sample Number 01", group:"Sample Brand Alpha — Campaign Group", due:"Today", status:"Overdue", severity:"Critical", type:"Payment unanswered", waitingSince:hoursAgo(3.4), date:hoursAgo(3.4), tatMinutes:30, dueToday:true },
-  { id:"T2", title:"Deliver reel cover + final cut (promised 6 pm)", teamMember:"Team Member B", role:"Execution", number:"Sample Number 04", group:"Sample Creator × Brand Beta — Launch Group", due:"Today, 6 pm", status:"Due today", severity:"Critical", type:"Deliverable due today", waitingSince:hoursAgo(5.1), date:hoursAgo(5.1), tatMinutes:120, dueToday:true },
-  { id:"T3", title:"Reply on creator availability for shoot dates", teamMember:"Team Member C", role:"Growth", number:"Sample Number 02", group:"Sample Agency North — Creator Shortlist", due:"Today", status:"Open", severity:"Normal", type:"Unanswered question", waitingSince:hoursAgo(2.6), date:hoursAgo(2.6), tatMinutes:120, dueToday:true },
-  { id:"T4", title:"Follow up on creator pitch + rate card", teamMember:"Team Member A", role:"Growth", number:"Sample Number 01", group:"Sample Brand Gamma — New Brief", due:"Today", status:"Open", severity:"Normal", type:"Pitch follow-up due", waitingSince:hoursAgo(3.2), date:hoursAgo(3.2), tatMinutes:180, dueToday:true },
-  { id:"T5", title:"Last-check follow-up on 3-day silent pitch", teamMember:"Team Member D", role:"Partnerships", number:"Sample Number 07", group:"Sample Brand Delta — Festive Campaign", due:"Tomorrow", status:"Open", severity:"Normal", type:"Pitch gone quiet (3 days)", waitingSince:hoursAgo(74), date:hoursAgo(74), tatMinutes:4320, dueToday:false },
-  { id:"T6", title:"Send confirmed revised rates", teamMember:"Team Member E", role:"Execution", number:"Sample Number 05", group:"Sample Agency East — Rate Discussion", due:"Today", status:"Due today", severity:"Normal", type:"Commitment due today", waitingSince:hoursAgo(7.8), date:hoursAgo(7.8), tatMinutes:120, dueToday:true },
-  { id:"T7", title:"Share draft contract / commercials summary", teamMember:"Team Member D", role:"Partnerships", number:"Sample Number 07", group:"Sample Brand Epsilon — Contract Thread", due:"Tomorrow", status:"Open", severity:"Record", type:"Deal move — for the record", waitingSince:hoursAgo(1.2), date:hoursAgo(1.2), tatMinutes:1440, dueToday:false },
-  { id:"T8", title:"Wait for client feedback on sampling pitch", teamMember:"Team Member C", role:"Growth", number:"Sample Number 02", group:"Sample Brand Zeta — Sampling Group", due:"In 2 days", status:"Waiting on client", severity:"Record", type:"Follow-up done — for the record", waitingSince:hoursAgo(26), date:hoursAgo(26), tatMinutes:4320, dueToday:false }
-];
-
-var NUMBERS = [
-  { n:"Sample Number 01", team:"Growth", state:"Connected", seen:"2 min ago", warn:false },
-  { n:"Sample Number 02", team:"Growth", state:"Connected", seen:"5 min ago", warn:false },
-  { n:"Sample Number 03", team:"Execution", state:"Connected", seen:"11 min ago", warn:false },
-  { n:"Sample Number 04", team:"Execution", state:"Connected", seen:"4 min ago", warn:false },
-  { n:"Sample Number 05", team:"Execution", state:"Connected", seen:"18 min ago", warn:false },
-  { n:"Sample Number 06", team:"Partnerships", state:"Connected", seen:"9 min ago", warn:false },
-  { n:"Sample Number 07", team:"Partnerships", state:"Connected", seen:"1 min ago", warn:false },
-  { n:"Sample Number 08", team:"Growth", state:"Quiet hours noted", seen:"42 min ago", warn:true },
-  { n:"Sample Number 09", team:"Execution", state:"Needs QR re-scan", seen:"3 hrs ago", warn:true },
-  { n:"Sample Number 10", team:"Internal / spare", state:"Not in pilot", seen:"—", warn:true }
-];
-
-function fmtDuration(ms){
-  var s = Math.max(0, Math.floor(ms/1000));
-  var d = Math.floor(s/86400); s -= d*86400;
-  var h = Math.floor(s/3600); s -= h*3600;
-  var m = Math.floor(s/60); var sec = s - m*60;
-  if (d>0) return d+"d "+h+"h waiting";
-  if (h>0) return h+"h "+String(m).padStart(2,"0")+"m waiting";
-  return m+"m "+String(sec).padStart(2,"0")+"s waiting";
-}
-function fmtShort(ms){
-  var s = Math.max(0, Math.floor(Math.abs(ms)/1000));
-  var d = Math.floor(s/86400); s -= d*86400;
-  var h = Math.floor(s/3600); s -= h*3600;
-  var m = Math.floor(s/60);
-  if (d>0) return d+"d "+h+"h";
-  if (h>0) return h+"h "+String(m).padStart(2,"0")+"m";
-  return m+"m";
-}
-function esc(t){ return String(t).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;"); }
-
-/* TAT state: returns key, css class, label and live detail */
-function tatState(item, at){
-  if (item.severity === "Record") return { key:"ontime", cls:"record", label:"Record — no TAT" };
-  var elapsed = at - item.waitingSince;
-  var allowed = item.tatMinutes * 60 * 1000;
-  var left = allowed - elapsed;
-  if (left < 0) return { key:"overdue", cls:"overdue", label:"Overdue · by "+fmtShort(left) };
-  if (elapsed / allowed >= 0.75) return { key:"duesoon", cls:"duesoon", label:"Due soon · "+fmtShort(left)+" left" };
-  return { key:"ontime", cls:"ontime", label:"On time · "+fmtShort(left)+" left" };
-}
-function waitingBucket(item, at){
-  var h = (at - item.waitingSince) / 3600000;
-  if (h < 1) return "lt1"; if (h < 2) return "1to2"; if (h < 4) return "2to4"; return "gt4";
-}
-function dateMatches(item, mode, at){
-  if (!mode || mode === "all") return true;
-  var d = new Date(item.date), n = new Date(at);
-  var startToday = new Date(n.getFullYear(), n.getMonth(), n.getDate()).getTime();
-  if (mode === "today") return d.getTime() >= startToday;
-  if (mode === "yesterday") return d.getTime() >= startToday - 86400000 && d.getTime() < startToday;
-  if (mode === "last2") return d.getTime() >= startToday - 86400000;
-  if (mode === "last7") return d.getTime() >= startToday - 6 * 86400000;
-  return true;
-}
-function fmtDate(ts){
-  return new Date(ts).toLocaleDateString("en-IN", { day:"numeric", month:"short" }) + ", " +
-         new Date(ts).toLocaleTimeString("en-IN", { hour:"numeric", minute:"2-digit" });
-}
-
-/* Single filter path for the whole page */
-function currentFilters(){
-  return {
-    member: document.getElementById("filter-member").value,
-    role: document.getElementById("filter-role").value,
-    date: document.getElementById("filter-date").value,
-    tat: document.getElementById("filter-tat").value,
-    waiting: document.getElementById("filter-waiting").value,
-    severity: document.getElementById("filter-severity").value,
-    status: document.getElementById("filter-status").value,
-    number: document.getElementById("filter-number").value,
-    search: document.getElementById("filter-search").value.trim().toLowerCase()
-  };
-}
-function matches(item, f, at){
-  if (f.member && item.teamMember !== f.member) return false;
-  if (f.role && item.role !== f.role) return false;
-  if (!dateMatches(item, f.date, at)) return false;
-  if (f.tat && tatState(item, at).key !== f.tat) return false;
-  if (f.waiting && waitingBucket(item, at) !== f.waiting) return false;
-  if (f.severity && item.severity !== f.severity) return false;
-  if (f.status && item.status !== f.status) return false;
-  if (f.number && item.number !== f.number) return false;
-  if (f.search && item.group.toLowerCase().indexOf(f.search) === -1) return false;
-  return true;
-}
-function getFiltered(at){
-  var f = currentFilters();
-  return {
-    alerts: ALERTS.filter(function(a){ return matches(a, f, at); }),
-    tasks: TASKS.filter(function(t){ return matches(t, f, at); })
-  };
-}
-
-function renderSummary(filtered, at){
-  document.getElementById("count-critical").textContent = filtered.alerts.filter(function(a){ return a.severity==="Critical" && a.status==="Open"; }).length;
-  document.getElementById("count-unanswered").textContent = filtered.alerts.filter(function(a){ return (at-a.waitingSince) > 2*3600*1000 && a.severity!=="Record"; }).length;
-  document.getElementById("count-pitches").textContent = filtered.tasks.filter(function(t){ return /pitch|follow up/i.test(t.title) && t.status!=="Waiting on client"; }).length;
-  document.getElementById("count-due-today").textContent = filtered.tasks.filter(function(t){ return t.dueToday; }).length;
-}
-
-function renderAlerts(list, at){
-  var box = document.getElementById("alerts");
-  if (!list.length){ box.innerHTML = '<div class="empty">No alerts match these filters</div>'; return; }
-  box.innerHTML = list.map(function(a){
-    var sev = a.severity.toLowerCase();
-    var tat = tatState(a, at);
-    return '<article class="alert '+sev+' '+a.status.toLowerCase()+'" data-alert="'+a.id+'">'
-      + '<div class="alert-head"><span class="badge '+sev+'">'+esc(a.severity)+' · '+esc(a.type)+'</span>'
-      + '<span><span class="tat '+tat.cls+'" data-tat="'+a.id+'">'+esc(tat.label)+'</span> '
-      + '<span class="timer" data-since="'+a.waitingSince+'">…</span></span></div>'
-      + '<h3>'+esc(a.title)+'</h3>'
-      + '<div class="meta">'+esc(a.teamMember)+' · '+esc(a.role)+' · '+esc(a.number)+' · '+esc(a.group)+' · '+esc(fmtDate(a.date))+' · Status: '+esc(a.status)+'</div>'
-      + '<p class="pending"><strong>What is pending:</strong> '+esc(a.pending)+'</p>'
-      + '<div class="action"><strong>Suggested next action:</strong> '+esc(a.action)+'</div>'
-      + '<button type="button" data-review="'+a.id+'">'+(a.status==="Reviewed"?"✓ Reviewed — undo":"Mark reviewed")+'</button> '
-      + '<button type="button" data-snooze="'+a.id+'">'+(a.status==="Snoozed"?"Snoozed — undo":"Snooze (page only)")+'</button>'
-      + '</article>';
-  }).join("");
-  box.querySelectorAll("[data-review]").forEach(function(b){ b.addEventListener("click", function(){
-    var a = ALERTS.filter(function(x){ return x.id===b.getAttribute("data-review"); })[0];
-    a.status = (a.status==="Reviewed") ? "Open" : "Reviewed"; applyFilters();
-  });});
-  box.querySelectorAll("[data-snooze]").forEach(function(b){ b.addEventListener("click", function(){
-    var a = ALERTS.filter(function(x){ return x.id===b.getAttribute("data-snooze"); })[0];
-    a.status = (a.status==="Snoozed") ? "Open" : "Snoozed"; applyFilters();
-  });});
-}
-
-function renderTasks(list, at){
-  var box = document.getElementById("tasks");
-  box.innerHTML = list.length ? list.map(function(t){
-    var tat = tatState(t, at);
-    return '<div class="task"><div class="task-title">'+esc(t.title)+'<span class="pill '+t.severity.toLowerCase()+'">'+esc(t.severity)+'</span><span class="pill">'+esc(t.status)+'</span><span class="tat '+tat.cls+'" data-tat-task="'+t.id+'">'+esc(tat.label)+'</span></div>'
-      + '<div class="meta">Owner: '+esc(t.teamMember)+' · '+esc(t.role)+' · '+esc(t.number)+' · Source chat: '+esc(t.group)+' · '+esc(fmtDate(t.date))+' · Due: '+esc(t.due)+' · <span data-since="'+t.waitingSince+'">…</span></div></div>';
-  }).join("") : '<div class="empty">No pending tasks match these filters</div>';
-  document.getElementById("task-count").textContent = "Showing "+list.length+" of "+TASKS.length+" sample tasks.";
-}
-
-function renderHealth(){
-  document.getElementById("health").innerHTML = NUMBERS.map(function(x){
-    return '<div class="health"><span><span class="dot'+(x.warn?" warn":"")+'"></span><strong>'+esc(x.n)+'</strong><br><span class="meta">'+esc(x.team)+'</span></span><span style="text-align:right">'+esc(x.state)+'<br><span class="meta">Last seen: '+esc(x.seen)+'</span></span></div>';
-  }).join("");
-}
-
-function applyFilters(){
-  var at = Date.now();
-  var filtered = getFiltered(at);
-  renderSummary(filtered, at);
-  renderAlerts(filtered.alerts, at);
-  renderTasks(filtered.tasks, at);
-  document.getElementById("showing-count").textContent =
-    "Showing "+filtered.alerts.length+" of "+ALERTS.length+" alerts · "+filtered.tasks.length+" of "+TASKS.length+" tasks";
-  tick();
-}
-
-function tick(){
-  var t = Date.now();
-  document.querySelectorAll("[data-since]").forEach(function(el){
-    var since = Number(el.getAttribute("data-since"));
-    el.textContent = fmtDuration(t-since);
-    if (el.classList.contains("timer")) {
-      if ((t-since) > 2*3600*1000) el.classList.add("overdue"); else el.classList.remove("overdue");
-    }
-  });
-  document.querySelectorAll("[data-tat]").forEach(function(el){
-    var a = ALERTS.filter(function(x){ return x.id===el.getAttribute("data-tat"); })[0];
-    if (a){ var s = tatState(a, t); el.textContent = s.label; el.className = "tat "+s.cls; el.setAttribute("data-tat", a.id); }
-  });
-  document.querySelectorAll("[data-tat-task]").forEach(function(el){
-    var a = TASKS.filter(function(x){ return x.id===el.getAttribute("data-tat-task"); })[0];
-    if (a){ var s = tatState(a, t); el.textContent = s.label; el.className = "tat "+s.cls; el.setAttribute("data-tat-task", a.id); }
-  });
-}
-
-(function init(){
-  var memberSel = document.getElementById("filter-member");
-  var numberSel = document.getElementById("filter-number");
-  var members = [], numbers = [];
-  ALERTS.concat(TASKS).forEach(function(x){
-    if (members.indexOf(x.teamMember)===-1) members.push(x.teamMember);
-    if (numbers.indexOf(x.number)===-1) numbers.push(x.number);
-  });
-  members.forEach(function(o){ var op=document.createElement("option"); op.textContent=o; op.value=o; memberSel.appendChild(op); });
-  numbers.forEach(function(o){ var op=document.createElement("option"); op.textContent=o; op.value=o; numberSel.appendChild(op); });
-  ["filter-member","filter-role","filter-date","filter-tat","filter-waiting","filter-severity","filter-status","filter-number"].forEach(function(id){
-    document.getElementById(id).addEventListener("change", applyFilters);
-  });
-  document.getElementById("filter-search").addEventListener("input", applyFilters);
-  document.getElementById("filter-clear").addEventListener("click", function(){
-    ["filter-member","filter-role","filter-tat","filter-waiting","filter-severity","filter-status","filter-number"].forEach(function(id){ document.getElementById(id).value=""; });
-    document.getElementById("filter-date").value="all";
-    document.getElementById("filter-search").value="";
-    applyFilters();
-  });
-  renderHealth();
-  applyFilters();
-  setInterval(tick, 1000);
+var ROWS=[{"poc": "Sid", "creator": "Naja Febin", "cat": "Script", "sev": "Medium", "summary": "Revised WishCare script requested 22 Oct ~1 pm, no reply yet (~2h at read time)", "date": "22 Oct", "status": "Open"}, {"poc": "Sid", "creator": "Naja Febin", "cat": "Deliverable", "sev": "Medium", "summary": "Organic content ideas shared 8 Oct, no creator response", "date": "8 Oct", "status": "Open"}, {"poc": "Sid", "creator": "Naja Febin", "cat": "Follow-up", "sev": "Medium", "summary": "Audience insights asked 15 Oct, unclear if provided", "date": "15 Oct", "status": "Open"}, {"poc": "Sid", "creator": "Pooja", "cat": "Payment", "sev": "High", "summary": "Payment promised 'by Wednesday' on 6 Oct, never confirmed as settled (16 days)", "date": "6 Oct", "status": "Open"}, {"poc": "Sid", "creator": "Pooja", "cat": "Follow-up", "sev": "Medium", "summary": "Quick-call request 9 Oct, no chat reply (call may have happened)", "date": "9 Oct", "status": "Open"}, {"poc": "Sid", "creator": "Pooja", "cat": "Deliverable", "sev": "Medium", "summary": "Content ideas 19 Oct, no reply", "date": "19 Oct", "status": "Open"}, {"poc": "Sid", "creator": "Kalyani", "cat": "Payment", "sev": "High", "summary": "KurlOn: Sid asked the brand for a payment date on 7 Oct, no answer (~15 days)", "date": "7 Oct", "status": "Open"}, {"poc": "Sid", "creator": "Kalyani", "cat": "Follow-up", "sev": "Medium", "summary": "Simple: audit insights asked 14 Oct, still not shared (~8 days)", "date": "14 Oct", "status": "Open"}, {"poc": "Sid", "creator": "Kalyani", "cat": "Other", "sev": "Medium", "summary": "Ghar Soaps: team asked the brand at 11:25 am on 22 Oct, no answer; creator waiting", "date": "22 Oct", "status": "Open"}, {"poc": "Sid", "creator": "Kalyani", "cat": "Payment", "sev": "Medium", "summary": "Kushals / Be Bodywise payment date not set", "date": "—", "status": "Open"}, {"poc": "Sid", "creator": "Mridhula", "cat": "Not found", "sev": "Info", "summary": "Not found: activity could not be located", "date": "—", "status": "Not found"}, {"poc": "Sid", "creator": "Sija", "cat": "Follow-up", "sev": "Medium", "summary": "Monthly insights asked 9 Oct, not sent (~13 days)", "date": "9 Oct", "status": "Open"}, {"poc": "Sid", "creator": "Sija", "cat": "Follow-up", "sev": "Medium", "summary": "Profile form asked 14 Oct, no reply", "date": "14 Oct", "status": "Open"}, {"poc": "Sid", "creator": "Sija", "cat": "Deliverable", "sev": "Medium", "summary": "Content ideas 21 Oct, no reply", "date": "21 Oct", "status": "Open"}, {"poc": "Sid", "creator": "Mr & Mrs Salman", "cat": "Not found", "sev": "Info", "summary": "Not found: activity could not be located", "date": "—", "status": "Not found"}, {"poc": "Sid", "creator": "Hiba & Nida", "cat": "Retention risk", "sev": "High", "summary": "Creator unhappy with delays (19 Oct); Payment slipped twice", "date": "19 Oct", "status": "At risk"}, {"poc": "Sid", "creator": "Hiba & Nida", "cat": "Other", "sev": "High", "summary": "Nida's Fine Wine status question at 12:46 pm on 22 Oct, unanswered (~2.5h)", "date": "22 Oct", "status": "Open"}, {"poc": "Sid", "creator": "Hiba & Nida", "cat": "Payment", "sev": "High", "summary": "L'Oréal payment due today, not confirmed", "date": "—", "status": "Open"}, {"poc": "Sid", "creator": "Vrushab", "cat": "Follow-up", "sev": "Medium", "summary": "Asked for pitch updates 5, 12 and 17 Oct; the 17 Oct progress question has no answer (~5 days)", "date": "17 Oct", "status": "Open"}, {"poc": "Sid", "creator": "Vrushab", "cat": "Follow-up", "sev": "Medium", "summary": "Monthly insights agreed 9 Oct", "date": "9 Oct", "status": "Open"}, {"poc": "Sid", "creator": "Priyanshu Verma", "cat": "Script", "sev": "Medium", "summary": "Prowl script approval: creator asked 21 and 22 Oct, still 'not yet'", "date": "22 Oct", "status": "Open"}, {"poc": "Sid", "creator": "Yadhu", "cat": "Retention risk", "sev": "High", "summary": "HIGH: creator says he wants to quit; Deals stuck 'in review'", "date": "—", "status": "At risk"}, {"poc": "Sid", "creator": "Yadhu", "cat": "Follow-up", "sev": "High", "summary": "Retention: creator said he is quitting on 12 Oct and again on 20 Oct; Sid proposed a call 21 Oct", "date": "12 Oct", "status": "Open"}, {"poc": "Sid", "creator": "_majidxx", "cat": "Follow-up", "sev": "Medium", "summary": "Monthly insights asked 9 Oct (13 days, no reply)", "date": "9 Oct", "status": "Open"}, {"poc": "Sid", "creator": "_majidxx", "cat": "Follow-up", "sev": "Medium", "summary": "Profile form asked 17 Oct (5 days, no reply)", "date": "17 Oct", "status": "Open"}, {"poc": "Sid", "creator": "Pavithra Nagarajan", "cat": "Payment", "sev": "Medium", "summary": "Pilgrim (Broz Media) chasing invoices 22 Oct, team cited a glitch", "date": "22 Oct", "status": "Open"}, {"poc": "Sid", "creator": "Pavithra Nagarajan", "cat": "Other", "sev": "Medium", "summary": "Ghar Soaps stalled on brand side (open ~3 days)", "date": "—", "status": "Open"}, {"poc": "Sid", "creator": "Pavithra Nagarajan", "cat": "Payment", "sev": "High", "summary": "Partial reimbursements still pending after a bank change", "date": "—", "status": "Open"}, {"poc": "Sid", "creator": "Hrithika S", "cat": "Retention risk", "sev": "High", "summary": "Missed draft deadline (Bioderma); Payment delays", "date": "—", "status": "At risk"}, {"poc": "Sid", "creator": "Hrithika S", "cat": "Other", "sev": "High", "summary": "Underneat video ETA chased by brand", "date": "—", "status": "Open"}, {"poc": "Sid", "creator": "Hrithika S", "cat": "Other", "sev": "High", "summary": "Bioderma agency asked for an ETA (22 Oct)", "date": "22 Oct", "status": "Open"}, {"poc": "Sid", "creator": "Hrithika S", "cat": "Follow-up", "sev": "High", "summary": "RAS Beauty scope reply pending since 16 Oct", "date": "16 Oct", "status": "Open"}, {"poc": "Sid", "creator": "Hrithika S", "cat": "Payment", "sev": "High", "summary": "Health & Glow invoice yet to be raised / corrected", "date": "—", "status": "Open"}, {"poc": "Sid", "creator": "Meenakshi Anoop", "cat": "Not found", "sev": "Info", "summary": "Not found: activity could not be located", "date": "—", "status": "Not found"}, {"poc": "Sid", "creator": "Adrija", "cat": "Approval", "sev": "Medium", "summary": "Swish approval pending; product order and video follow approval", "date": "—", "status": "Open"}, {"poc": "Sid", "creator": "Smriti Mohanty", "cat": "Other", "sev": "Medium", "summary": "AcneStar revised video (creator side)", "date": "—", "status": "Open"}, {"poc": "Sid", "creator": "Smriti Mohanty", "cat": "Payment", "sev": "High", "summary": "Payment delay flagged on 7 Oct, completion not seen", "date": "7 Oct", "status": "Open"}, {"poc": "Sid", "creator": "Divya Singh", "cat": "Deliverable", "sev": "Medium", "summary": "Auto-DM link for Dr Sheths asked twice on 22 Oct, team said 'just a sec' (open ~45 min)", "date": "22 Oct", "status": "Open"}, {"poc": "Sid", "creator": "Shitij Verma", "cat": "Approval", "sev": "Medium", "summary": "Prowl approval pending", "date": "—", "status": "Open"}, {"poc": "Sid", "creator": "Nisha", "cat": "Retention risk", "sev": "High", "summary": "HIGH: 1 month in, zero collaborations; Complaints about unanswered mails and CRM visibility", "date": "—", "status": "At risk"}, {"poc": "Sid", "creator": "Nisha", "cat": "Follow-up", "sev": "High", "summary": "Asked for a call on 22 Oct; Sid said 3:30 pm", "date": "22 Oct", "status": "Open"}, {"poc": "Sid", "creator": "Nisha", "cat": "Follow-up", "sev": "High", "summary": "Repeated 'any update?' (16, 19 Oct)", "date": "19 Oct", "status": "Open"}, {"poc": "Natasha", "creator": "Shraddha", "cat": "Payment", "sev": "Medium", "summary": "Pilgrim invoices: agency chasing 21–22 Oct; team cited a glitch", "date": "21–22 Oct", "status": "Open"}, {"poc": "Natasha", "creator": "Shraddha", "cat": "Follow-up", "sev": "Medium", "summary": "Be Bodywise: call-back request to brand 22 Oct unanswered", "date": "22 Oct", "status": "Open"}, {"poc": "Natasha", "creator": "Shraddha", "cat": "Other", "sev": "Medium", "summary": "Creator query 19 Oct: Natasha to check with brand (open ~3 days)", "date": "19 Oct", "status": "Open"}, {"poc": "Natasha", "creator": "Ishika", "cat": "Retention risk", "sev": "High", "summary": "Creator frustrated ('very long now'); Overdue brand payment", "date": "—", "status": "At risk"}, {"poc": "Natasha", "creator": "Ishika", "cat": "Payment", "sev": "High", "summary": "Vaseline payment: team chasing since 17 Oct (~5 days), finance contact requested", "date": "17 Oct", "status": "Open"}, {"poc": "Natasha", "creator": "Ishika", "cat": "Follow-up", "sev": "High", "summary": "Bajaj insights: no creator reply (~7 days)", "date": "—", "status": "Open"}, {"poc": "Natasha", "creator": "Florence Chand", "cat": "Script", "sev": "Medium", "summary": "Product order + script (asked 17 Oct, chased 18 Oct)", "date": "17 Oct", "status": "Open"}, {"poc": "Natasha", "creator": "Florence Chand", "cat": "Payment", "sev": "Medium", "summary": "Gonuts payment status", "date": "—", "status": "Open"}, {"poc": "Natasha", "creator": "Laveena", "cat": "Retention risk", "sev": "High", "summary": "HIGH: asked for an exit plan; Low pitch counters from brands", "date": "—", "status": "At risk"}, {"poc": "Natasha", "creator": "Laveena", "cat": "Other", "sev": "High", "summary": "Exit plan in writing requested 21 Oct (~1 day)", "date": "21 Oct", "status": "Open"}, {"poc": "Natasha", "creator": "Laveena", "cat": "Other", "sev": "High", "summary": "Media kit pending since at least 15 Oct (~7 days)", "date": "15 Oct", "status": "Open"}, {"poc": "Natasha", "creator": "Ved", "cat": "Other", "sev": "Medium", "summary": "Prowl file without subtitles: asked 17 and 22 Oct (~5 days)", "date": "22 Oct", "status": "Open"}, {"poc": "Natasha", "creator": "Ved", "cat": "Follow-up", "sev": "Medium", "summary": "Novology insights: asked 5 Oct (~17 days, no reply)", "date": "5 Oct", "status": "Open"}, {"poc": "Natasha", "creator": "Reva", "cat": "Not found", "sev": "Info", "summary": "Not found: activity could not be located", "date": "—", "status": "Not found"}, {"poc": "Natasha", "creator": "shweta_sakode", "cat": "Not found", "sev": "Info", "summary": "Not found: activity could not be located", "date": "—", "status": "Not found"}, {"poc": "Natasha", "creator": "Muskaan", "cat": "Retention risk", "sev": "High", "summary": "Payment delay / expectation breach", "date": "—", "status": "At risk"}, {"poc": "Natasha", "creator": "Muskaan", "cat": "Payment", "sev": "High", "summary": "Payment promised 'cleared today' on 9 Oct; receipt never confirmed (~13 days)", "date": "9 Oct", "status": "Open"}, {"poc": "Natasha", "creator": "Chhavi", "cat": "Payment", "sev": "High", "summary": "Ghar Soaps GST amount (~₹10.8k) pending since 9 Sep, chased 5 Oct", "date": "9 Sep", "status": "Open"}, {"poc": "Natasha", "creator": "Chhavi", "cat": "Follow-up", "sev": "Medium", "summary": "Brillare dues (PO from July), call-back requested 22 Oct", "date": "22 Oct", "status": "Open"}, {"poc": "Natasha", "creator": "Chhavi", "cat": "Other", "sev": "Medium", "summary": "UrbanYog repeat-date question to creator (~6 days)", "date": "—", "status": "Open"}, {"poc": "Natasha", "creator": "Chhavi", "cat": "Approval", "sev": "Medium", "summary": "Renee lock confirmation (~6 days)", "date": "—", "status": "Open"}, {"poc": "Natasha", "creator": "Surabhi", "cat": "Other", "sev": "Medium", "summary": "Lux brief/product from agency (two groups for the same campaign)", "date": "—", "status": "Open"}, {"poc": "Natasha", "creator": "Surabhi", "cat": "Payment", "sev": "Medium", "summary": "Reimbursement mix-up: said cleared 22 Oct, invoices swapped between deals, CRM not updated", "date": "22 Oct", "status": "Open"}, {"poc": "Natasha", "creator": "Somya", "cat": "Other", "sev": "Medium", "summary": "See Somya Bisla", "date": "—", "status": "Open"}, {"poc": "Natasha", "creator": "riya.dey_", "cat": "Script", "sev": "Medium", "summary": "Script asked 8 Oct, creator needed time (~14 days, no later reply)", "date": "8 Oct", "status": "Open"}, {"poc": "Natasha", "creator": "Shika Bharti", "cat": "Not found", "sev": "Info", "summary": "Not found: activity could not be located", "date": "—", "status": "Not found"}, {"poc": "Natasha", "creator": "Preet", "cat": "Not found", "sev": "Info", "summary": "Not found: activity could not be located", "date": "—", "status": "Not found"}, {"poc": "Natasha", "creator": "Nausheen", "cat": "Payment", "sev": "High", "summary": "Plum overdue payment chased 22 Oct, no brand reply", "date": "22 Oct", "status": "Open"}, {"poc": "Natasha", "creator": "Nausheen", "cat": "Payment", "sev": "Medium", "summary": "Phitku confirmation/payment (creator unhappy)", "date": "—", "status": "Open"}, {"poc": "Natasha", "creator": "Nausheen", "cat": "Script", "sev": "Medium", "summary": "Revised Lacto video + Renee script", "date": "—", "status": "Open"}, {"poc": "Natasha", "creator": "Qaiz Khan", "cat": "Other", "sev": "Medium", "summary": "Prowl video (asked 21 Oct, ~1 day)", "date": "21 Oct", "status": "Open"}, {"poc": "Natasha", "creator": "Qaiz Khan", "cat": "Follow-up", "sev": "Medium", "summary": "G-squar brand reply (~6 days)", "date": "—", "status": "Open"}, {"poc": "Natasha", "creator": "Arshiya", "cat": "Not found", "sev": "Info", "summary": "Not found: activity could not be located", "date": "—", "status": "Not found"}, {"poc": "Natasha", "creator": "Uma", "cat": "Payment", "sev": "High", "summary": "Lux and Protouch proof of payment requested 14 Oct, still not received (~8 days)", "date": "14 Oct", "status": "Open"}, {"poc": "Natasha", "creator": "Uma", "cat": "Approval", "sev": "Medium", "summary": "NykaaLand collabs unconfirmed (asked 14–22 Oct)", "date": "14–22 Oct", "status": "Open"}, {"poc": "Natasha", "creator": "Uma", "cat": "Follow-up", "sev": "Medium", "summary": "Hilary formalities ('checking')", "date": "—", "status": "Open"}, {"poc": "Natasha", "creator": "Nishant", "cat": "Follow-up", "sev": "Medium", "summary": "September insights asked 1 Oct (~21 days, not seen)", "date": "1 Oct", "status": "Open"}, {"poc": "Natasha", "creator": "Khyati Kunwar", "cat": "Approval", "sev": "Medium", "summary": "Golite confirmation email requested 16 Oct (~6 days)", "date": "16 Oct", "status": "Open"}, {"poc": "Natasha", "creator": "Gayathri Thanabal", "cat": "Approval", "sev": "Medium", "summary": "Feedback on revised content calendar (~16 days)", "date": "—", "status": "Open"}, {"poc": "Natasha", "creator": "Somya Bisla", "cat": "Payment", "sev": "High", "summary": "Pilgrim invoices asked since 23 Sep (~29 days), again 21 Oct", "date": "23 Sep", "status": "Open"}, {"poc": "Natasha", "creator": "Somya Bisla", "cat": "Other", "sev": "Medium", "summary": "Sacred Groove tracking asked 17 and 20 Oct", "date": "20 Oct", "status": "Open"}, {"poc": "Natasha", "creator": "Mansi", "cat": "Retention risk", "sev": "High", "summary": "Oldest overdue payment on this phone", "date": "—", "status": "At risk"}, {"poc": "Natasha", "creator": "Mansi", "cat": "Payment", "sev": "High", "summary": "Dove payment: chased 9, 17, 22 Oct; brand only says 'checking'", "date": "22 Oct", "status": "Open"}, {"poc": "Natasha", "creator": "Mansi", "cat": "Other", "sev": "High", "summary": "Miracles of Turmeric: brand question pending (~6 days)", "date": "—", "status": "Open"}, {"poc": "Natasha", "creator": "Shweta Malhan", "cat": "Follow-up", "sev": "Medium", "summary": "NykaaLand updates (asked 19 and 21 Oct; answered but unresolved)", "date": "21 Oct", "status": "Open"}, {"poc": "Natasha", "creator": "Anjela", "cat": "Retention risk", "sev": "High", "summary": "HIGH: asked for an exit plan", "date": "—", "status": "At risk"}, {"poc": "Natasha", "creator": "Anjela", "cat": "Follow-up", "sev": "High", "summary": "Exit plan requested 16 Oct; call offered, creator said 'later' (~6 days, no follow-up)", "date": "16 Oct", "status": "Open"}, {"poc": "Divya", "creator": "venessa.pinto", "cat": "Retention risk", "sev": "High", "summary": "HIGH: repeated frustration ('need updates'); Brand approvals stuck 1–2+ weeks", "date": "—", "status": "At risk"}, {"poc": "Divya", "creator": "venessa.pinto", "cat": "Follow-up", "sev": "High", "summary": "Updates on Dermavive/Neutrogena asked 14, 19 and 21 Oct (oldest ~8 days)", "date": "21 Oct", "status": "Open"}, {"poc": "Divya", "creator": "venessa.pinto", "cat": "Payment", "sev": "High", "summary": "Health & Glow payment follow-up 19 Oct, no reply (~3 days)", "date": "19 Oct", "status": "Open"}, {"poc": "Divya", "creator": "venessa.pinto", "cat": "Payment", "sev": "High", "summary": "Chicnutrix payment overdue (chased 6 Oct)", "date": "6 Oct", "status": "Open"}, {"poc": "Divya", "creator": "Diksha", "cat": "Payment", "sev": "Medium", "summary": "Pilgrim invoices chased by agency since ~6 Oct (>2 weeks)", "date": "6 Oct", "status": "Open"}, {"poc": "Divya", "creator": "Aruna", "cat": "Approval", "sev": "Medium", "summary": "Typsy re-approval pending (~1 day)", "date": "—", "status": "Open"}, {"poc": "Divya", "creator": "Fashion Verge", "cat": "Other", "sev": "Medium", "summary": "Divya's follow-ups for details (12, 13, 19 Oct): creator slow", "date": "19 Oct", "status": "Open"}, {"poc": "Divya", "creator": "Fashion Verge", "cat": "Script", "sev": "Medium", "summary": "AU Bank / Maruti scripts awaited from creator; Divya asked for script ETA and shoot address / car arrangement (22 Oct)", "date": "22 Oct", "status": "Open"}, {"poc": "Divya", "creator": "Neha Evecravers", "cat": "Approval", "sev": "Medium", "summary": "Not credited until identity confirmed", "date": "—", "status": "Open"}, {"poc": "Divya", "creator": "Divya A", "cat": "Follow-up", "sev": "Medium", "summary": "Call request 13 Oct, no visible reply (~9 days)", "date": "13 Oct", "status": "Open"}, {"poc": "Divya", "creator": "Divya A", "cat": "Payment", "sev": "High", "summary": "Payment pending: delay notice 6 Oct ('technical issue'), promised 'by Thursday'", "date": "6 Oct", "status": "Open"}, {"poc": "Divya", "creator": "Manohar", "cat": "Script", "sev": "Medium", "summary": "No creator reply to scripts since 9 Oct (~13 days)", "date": "9 Oct", "status": "Open"}, {"poc": "Divya", "creator": "Dishyata", "cat": "Payment", "sev": "High", "summary": "Payment pending: delay notice 6 Oct, promised 'by Thursday'", "date": "6 Oct", "status": "Open"}, {"poc": "Divya", "creator": "Dishyata", "cat": "Other", "sev": "Medium", "summary": "Dot & Key: 1-month ad rights (₹8k) offer and ad code", "date": "—", "status": "Open"}, {"poc": "Divya", "creator": "Yogitha", "cat": "Retention risk", "sev": "High", "summary": "L'Oréal: creator reportedly backing out of an already-shot video while brand payment is >60 days overdue (Kishore chasing 5/7 Oct); Oldest overdue payment on this phone", "date": "7 Oct", "status": "At risk"}, {"poc": "Divya", "creator": "Yogitha", "cat": "Payment", "sev": "High", "summary": "L'Oréal payment overdue >60 days (chased 5 and 7 Oct, no reply)", "date": "7 Oct", "status": "Open"}, {"poc": "Divya", "creator": "Yogitha", "cat": "Payment", "sev": "High", "summary": "Insights Cosmetics payment overdue (brand 'this week' on 6 Oct)", "date": "6 Oct", "status": "Open"}, {"poc": "Divya", "creator": "Yogitha", "cat": "Deliverable", "sev": "High", "summary": "Forever52 live date; Simply Nam timeline; Lovetc outfit", "date": "—", "status": "Open"}, {"poc": "Divya", "creator": "Yuvasri", "cat": "Retention risk", "sev": "High", "summary": "Very late brand payment; Audio copyright issue", "date": "—", "status": "At risk"}, {"poc": "Divya", "creator": "Yuvasri", "cat": "Payment", "sev": "High", "summary": "Ghar Soap payment 56 days overdue as of 18 Sep (~3 months now); ads-permission request pending", "date": "18 Sep", "status": "Open"}, {"poc": "Divya", "creator": "Yuvasri", "cat": "Payment", "sev": "High", "summary": "Pilgrim invoices owed (shared group)", "date": "—", "status": "Open"}, {"poc": "Divya", "creator": "Yuvasri", "cat": "Script", "sev": "High", "summary": "mCaffeine script awaited (brief 22 Oct)", "date": "22 Oct", "status": "Open"}, {"poc": "Divya", "creator": "Ragavi", "cat": "Script", "sev": "Medium", "summary": "Milkshake revised draft (~3 days)", "date": "—", "status": "Open"}, {"poc": "Divya", "creator": "Ragavi", "cat": "Approval", "sev": "Medium", "summary": "Parachute brand feedback", "date": "—", "status": "Open"}, {"poc": "Divya", "creator": "Ragavi", "cat": "Payment", "sev": "Medium", "summary": "Ghar Soaps payment confirmation", "date": "—", "status": "Open"}, {"poc": "Divya", "creator": "Gurishq Kaur", "cat": "Retention risk", "sev": "High", "summary": "HIGH: formal escalation 21 Oct (emails not attended, 0 of 15–20 inbound queries locked, no CRM visibility); Gokul called 22 Oct with a fix plan", "date": "21 Oct", "status": "At risk"}, {"poc": "Divya", "creator": "Gurishq Kaur", "cat": "Deliverable", "sev": "High", "summary": "Reel live-date cross-check (brief: on/after 20 Oct; overdue as of 22 Oct)", "date": "20 Oct", "status": "Open"}, {"poc": "Divya", "creator": "Gurishq Kaur", "cat": "Script", "sev": "High", "summary": "Revised script (asked 22 Oct)", "date": "22 Oct", "status": "Open"}, {"poc": "Divya", "creator": "Gurishq Kaur", "cat": "Other", "sev": "High", "summary": "CRM/inbound transparency promised 'next week'", "date": "—", "status": "Open"}, {"poc": "Divya", "creator": "Lekshmi Krishnan", "cat": "Script", "sev": "Medium", "summary": "Kojic acid brief shared 22 Oct: script awaited, must be live by 24 Oct", "date": "22 Oct", "status": "Open"}, {"poc": "Divya", "creator": "Lekshmi Krishnan", "cat": "Payment", "sev": "High", "summary": "Chicnutrix payment overdue (chased 6 Oct, no reply)", "date": "6 Oct", "status": "Open"}, {"poc": "Divya", "creator": "shewrongadvisor", "cat": "Not found", "sev": "Info", "summary": "Not found: activity could not be located", "date": "—", "status": "Not found"}, {"poc": "Divya", "creator": "Sree lakshmi", "cat": "Not found", "sev": "Info", "summary": "Not found: activity could not be located", "date": "—", "status": "Not found"}, {"poc": "Divya", "creator": "Karishma", "cat": "Not found", "sev": "Info", "summary": "Not found: activity could not be located", "date": "—", "status": "Not found"}, {"poc": "Divya", "creator": "kanvidholakia_", "cat": "Not found", "sev": "Info", "summary": "Not found: activity could not be located", "date": "—", "status": "Not found"}, {"poc": "Divya", "creator": "ashwin_vasanth", "cat": "Not found", "sev": "Info", "summary": "Not found: activity could not be located", "date": "—", "status": "Not found"}, {"poc": "Divya", "creator": "Eshita Banerjee", "cat": "Not found", "sev": "Info", "summary": "Not found: activity could not be located", "date": "—", "status": "Not found"}, {"poc": "Divya", "creator": "Nalini Negi", "cat": "Not found", "sev": "Info", "summary": "Not found: activity could not be located", "date": "—", "status": "Not found"}, {"poc": "Divya", "creator": "Hamsa", "cat": "Not found", "sev": "Info", "summary": "Not found: activity could not be located", "date": "—", "status": "Not found"}, {"poc": "Divya", "creator": "Hridhiya", "cat": "Not found", "sev": "Info", "summary": "Not found: activity could not be located", "date": "—", "status": "Not found"}, {"poc": "Kishore", "creator": "Monisha", "cat": "Retention risk", "sev": "High", "summary": "HIGH: decided to leave; Rejects off-niche briefs", "date": "—", "status": "At risk"}, {"poc": "Kishore", "creator": "Monisha", "cat": "Other", "sev": "High", "summary": "Exit notice: creator decided to leave Flutch on 16 Oct (no collaborations for 2 months) and asked where to send an official notice", "date": "16 Oct", "status": "Open"}, {"poc": "Kishore", "creator": "Monisha", "cat": "Other", "sev": "High", "summary": "Needs relevant briefs if retention is attempted", "date": "—", "status": "Open"}, {"poc": "Kishore", "creator": "Harish", "cat": "Retention risk", "sev": "High", "summary": "HIGH: unhappy that earnings dropped since joining; asked for a call 8 Oct; Repeated payment chasing", "date": "8 Oct", "status": "At risk"}, {"poc": "Kishore", "creator": "Harish", "cat": "Payment", "sev": "High", "summary": "Payment reference still to be shared (payment done 15 Oct)", "date": "15 Oct", "status": "Open"}, {"poc": "Kishore", "creator": "Harish", "cat": "Payment", "sev": "High", "summary": "Deconstruct product invoice for reimbursement (Kishore to share, 19 Oct)", "date": "19 Oct", "status": "Open"}, {"poc": "Kishore", "creator": "Harish", "cat": "Other", "sev": "High", "summary": "Second-video pricing", "date": "—", "status": "Open"}, {"poc": "Kishore", "creator": "Vidhi", "cat": "Retention risk", "sev": "High", "summary": "HIGH: frustrated by payment delays; asked if she must collect from the brand directly; Server-issue delay cited 5 Oct", "date": "5 Oct", "status": "At risk"}, {"poc": "Kishore", "creator": "Vidhi", "cat": "Payment", "sev": "High", "summary": "Anveshan payment (confirm landed)", "date": "—", "status": "Open"}, {"poc": "Kishore", "creator": "Vidhi", "cat": "Payment", "sev": "High", "summary": "WBN GST balance (~₹4k short), brand promised 'today or end of week' on 19 Oct", "date": "19 Oct", "status": "Open"}, {"poc": "Kishore", "creator": "Vidhi", "cat": "Other", "sev": "High", "summary": "Pending deals not yet added in CRM", "date": "—", "status": "Open"}, {"poc": "Kishore", "creator": "Athira Vinod", "cat": "Retention risk", "sev": "High", "summary": "HIGH: late payment; creator said she may not need management; Execution POC (Krutika) on sick leave from ~21 Oct", "date": "21 Oct", "status": "At risk"}, {"poc": "Kishore", "creator": "Athira Vinod", "cat": "Script", "sev": "High", "summary": "Plix draft", "date": "—", "status": "Open"}, {"poc": "Kishore", "creator": "Athira Vinod", "cat": "Other", "sev": "High", "summary": "Organix ETA", "date": "—", "status": "Open"}, {"poc": "Kishore", "creator": "Athira Vinod", "cat": "Deliverable", "sev": "High", "summary": "Aqualogica reel", "date": "—", "status": "Open"}, {"poc": "Kishore", "creator": "Athira Vinod", "cat": "Deliverable", "sev": "High", "summary": "Dot & Key: add #AD on reel", "date": "—", "status": "Open"}, {"poc": "Kishore", "creator": "Athira Vinod", "cat": "Other", "sev": "High", "summary": "Clarify regional-language brief", "date": "—", "status": "Open"}, {"poc": "Kishore", "creator": "Shivani Raj", "cat": "Retention risk", "sev": "High", "summary": "Repeated deadline slips", "date": "—", "status": "At risk"}, {"poc": "Kishore", "creator": "Shivani Raj", "cat": "Other", "sev": "High", "summary": "Bank document (cancelled cheque/passbook) still outstanding since 14 Oct", "date": "14 Oct", "status": "Open"}, {"poc": "Kishore", "creator": "Apoorva", "cat": "Retention risk", "sev": "High", "summary": "GST / short-payment dispute (OZiva); Overdue brand payment (Instamart)", "date": "—", "status": "At risk"}, {"poc": "Kishore", "creator": "Apoorva", "cat": "Follow-up", "sev": "High", "summary": "Cars24 brief call", "date": "—", "status": "Open"}, {"poc": "Kishore", "creator": "Apoorva", "cat": "Payment", "sev": "High", "summary": "OZiva GST dispute", "date": "—", "status": "Open"}, {"poc": "Kishore", "creator": "Apoorva", "cat": "Payment", "sev": "High", "summary": "Confirm Instamart payment landed", "date": "—", "status": "Open"}, {"poc": "Kishore", "creator": "Amna", "cat": "Retention risk", "sev": "High", "summary": "Creator unwell; Execution POC (Krutika) on sick leave from ~21 Oct", "date": "21 Oct", "status": "At risk"}, {"poc": "Kishore", "creator": "Amna", "cat": "Script", "sev": "High", "summary": "Swiss Beauty Awaken draft update", "date": "—", "status": "Open"}, {"poc": "Kishore", "creator": "Amna", "cat": "Other", "sev": "High", "summary": "Aqualogica execution", "date": "—", "status": "Open"}, {"poc": "Kishore", "creator": "Amna", "cat": "Other", "sev": "High", "summary": "Swiss Beauty products not received", "date": "—", "status": "Open"}, {"poc": "Kishore", "creator": "Pragati Bharti", "cat": "Approval", "sev": "Medium", "summary": "Mamaearth / Skin Inspired / Chemist at Play approvals (creator chasing, 12 Oct)", "date": "12 Oct", "status": "Open"}, {"poc": "Kishore", "creator": "Pragati Bharti", "cat": "Payment", "sev": "High", "summary": "Bare Anatomy: payment overdue; payment form upload failing (chased 13 Oct)", "date": "13 Oct", "status": "Open"}, {"poc": "Kishore", "creator": "Sathyapriya", "cat": "Script", "sev": "Medium", "summary": "SUGAR revised-script feedback", "date": "—", "status": "Open"}, {"poc": "Kishore", "creator": "Sandeep", "cat": "Deliverable", "sev": "Medium", "summary": "Prowl deliverables after 8 Oct lock: no creator reply seen", "date": "8 Oct", "status": "Open"}, {"poc": "Kishore", "creator": "Rajamanickam", "cat": "Payment", "sev": "Medium", "summary": "Brief / draft / payment not started in chat", "date": "—", "status": "Open"}, {"poc": "Kishore", "creator": "Daljeet Kaur", "cat": "Other", "sev": "Medium", "summary": "Mumbai event details (asked 22 Oct)", "date": "22 Oct", "status": "Open"}];
+(function(){
+ var $=function(i){return document.getElementById(i)};
+ function esc(s){return String(s).replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
+ function apply(){
+  var p=$("f-poc").value,c=$("f-cat").value,s=$("f-sev").value,st=$("f-st").value,q=$("f-q").value.trim().toLowerCase();
+  var L=ROWS.filter(function(r){return(!p||r.poc===p)&&(!c||r.cat===c)&&(!s||r.sev===s)&&(!st||r.status===st)&&(!q||(r.creator+" "+r.summary).toLowerCase().indexOf(q)>-1)});
+  var P=ROWS.filter(function(r){return !p||r.poc===p});
+  var o=P.filter(function(r){return r.status==="Open"});
+  $("k-risk").textContent=P.filter(function(r){return r.cat==="Retention risk"}).length;
+  $("k-asks").textContent=o.length;
+  $("k-pay").textContent=o.filter(function(r){return r.cat==="Payment"}).length;
+  $("k-scr").textContent=o.filter(function(r){return r.cat==="Script"||r.cat==="Approval"}).length;
+  $("k-nf").textContent=P.filter(function(r){return r.cat==="Not found"}).length;
+  $("tasks").innerHTML=L.length?L.map(function(r){return '<div class="trow"><div class="th"><strong>'+esc(r.creator)+'</strong><span class="pill">'+esc(r.poc)+'</span><span class="pill">'+esc(r.cat)+'</span><span class="pill '+r.sev.toLowerCase()+'">'+esc(r.sev)+'</span><span class="pill">'+esc(r.status)+'</span><span class="meta">Date: '+esc(r.date)+'</span></div><div class="sum">'+esc(r.summary)+'</div></div>'}).join(""):'<p class="empty">No items match these filters.</p>';
+  $("f-count").textContent="Showing "+L.length+" of "+ROWS.length+" items";
+ }
+ ["f-poc","f-cat","f-sev","f-st"].forEach(function(i){$(i).addEventListener("change",apply)});
+ $("f-q").addEventListener("input",apply);
+ $("f-clear").addEventListener("click",function(){["f-poc","f-cat","f-sev","f-st","f-q"].forEach(function(i){$(i).value=""});apply()});
+ apply();
 })();
 </script>
 <script>
