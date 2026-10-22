@@ -60,7 +60,7 @@ a{color:#a78bfa}
 .themes li::marker{color:var(--accent)}
 @media(max-width:700px){.kpis{grid-template-columns:repeat(3,1fr)}.brand{padding-right:80px}.showing{margin-left:0;width:100%}.filters{position:static}
 thead{display:none}tr{display:block;background:var(--surface);margin-bottom:8px;border-radius:12px;padding:6px;border:1px solid var(--line);border-left:4px solid var(--accent)}td{display:block;border:0;padding:3px 6px}td::before{content:attr(data-l)": ";font-weight:600;color:var(--ink-3)}.tblw{border:0;overflow:visible}table{background:transparent}}
-</style><style>
+#tb td[data-l=POC]{padding-left:10px;padding-right:10px;min-width:130px}#tb td[data-l=POC]>*{display:flex;width:fit-content;align-items:center;margin:0 0 8px 0!important}#tb td[data-l=POC]>.pill{display:block}#tb td[data-l=POC]>*:last-child{margin-bottom:0!important}.panel h3 .wa{margin-left:10px}.grp{margin-bottom:12px}</style><style>
 .grp{display:flex;flex-wrap:wrap;gap:8px;margin:6px 0 10px}.grp button{background:#100c11;color:#f4f2f6;border:1px solid #2a2030;border-radius:999px;padding:8px 18px;font-weight:700;cursor:pointer}.grp button.on{background:#7c3aed;border-color:#7c3aed}
 .wa{display:inline-flex;align-items:center;gap:4px;vertical-align:middle;margin-left:6px;padding:1px 7px;border:1px solid rgba(37,211,102,.35);border-radius:999px;background:transparent;color:#cfeedd;font-size:11px;font-weight:600;line-height:16px;text-decoration:none;white-space:nowrap}.wa:hover{border-color:#25D366;color:#fff}.wa.na{border-color:#2a2030;color:#7d7486;cursor:not-allowed}
 .dfil{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:8px 0}.dfil button{background:#100c11;color:#f4f2f6;border:1px solid #2a2030;border-radius:999px;padding:5px 12px;cursor:pointer}.dfil button.on{background:#7c3aed}.dfil input{background:#080708;color:#f4f2f6;border:1px solid #2a2030;border-radius:8px;padding:4px}
@@ -81,7 +81,7 @@ thead{display:none}tr{display:block;background:var(--surface);margin-bottom:8px;
 <label>Status<select id="f-st"><option value="">All</option><option>Open</option><option>Closed</option><option>At risk</option><option>Not found</option></select></label>
 <label>Category<select id="f-cat"><option value="">All categories</option></select></label>
 <label>POC<select id="f-poc"><option value="">All POCs</option></select></label>
-<div class="dfil" id="dfil">Date: <button data-d="all" class="on">All</button><button data-d="today">Today</button><button data-d="week">This week</button><button data-d="month">This month</button><button data-d="custom">Custom range</button><span id="dcus" style="display:none">from <input type="date" id="d-from"> to <input type="date" id="d-to"></span><span id="dnote" class="showing"></span></div><div class="factions"><button class="btn g" id="f-clear">✕ Clear all filters</button><button class="btn p" id="exp">⬇ Export feedback (.txt)</button><span class="showing" id="f-count" aria-live="polite"></span></div></div>
+<div class="dfil" id="dfil">Date: <button data-d="all" class="on">All</button><button data-d="today">Today</button><button data-d="yesterday">Yesterday</button><button data-d="week">This week</button><button data-d="month">This month</button><button data-d="custom">Custom range</button><span id="dcus" style="display:none">from <input type="date" id="d-from"> to <input type="date" id="d-to"></span><span id="dnote" class="showing"></span></div><div class="factions"><button class="btn g" id="f-clear">✕ Clear all filters</button><button class="btn p" id="exp">⬇ Export feedback (.txt)</button><span class="showing" id="f-count" aria-live="polite"></span></div></div>
 <h2>POCs</h2><div class="grp" id="grp"><button data-g="Growth" class="on">Growth</button><button data-g="Execution">Execution</button></div><div class="tabs" id="tabs"></div><div id="panel"></div>
 <h2>Open asks &amp; pending items</h2>
 <p class="note">Feedback is saved on this device. Export gives a readable .txt you can share on WhatsApp.</p>
@@ -107,7 +107,7 @@ setInterval(tatCells,60000);
 function rd(r){const m=String(r.date||'').match(/(\d{1,2})\s+([A-Z][a-z]{2})\s*$/);if(!m||!(m[2] in MON))return null;return new Date(Date.UTC(2026,MON[m[2]],+m[1]))}
 function istToday(){const t=new Date(Date.now()+19800000);return new Date(Date.UTC(t.getUTCFullYear(),t.getUTCMonth(),t.getUTCDate()))}
 function dOk(r){if(dmode=='all')return true;const d=rd(r);if(!d)return false;const t=istToday();
-if(dmode=='today')return +d==+t;if(dmode=='week'){const s=new Date(t-((t.getUTCDay()+6)%7)*864e5);return d>=s&&d<=t}
+if(dmode=='today')return +d==+t;if(dmode=='yesterday')return +d==+t-864e5;if(dmode=='week'){const s=new Date(t-((t.getUTCDay()+6)%7)*864e5);return d>=s&&d<=t}
 if(dmode=='month')return d.getUTCMonth()==t.getUTCMonth()&&d.getUTCFullYear()==t.getUTCFullYear();
 const f=$('d-from').value,to=$('d-to').value;return (!f||d>=new Date(f))&&(!to||d<=new Date(to))}
 function tick(){const t=new Date(Date.now()+19800000),s=3600-(t.getUTCMinutes()*60+t.getUTCSeconds());$('cd').textContent=String(Math.floor(s/60)).padStart(2,'0')+':'+String(s%60).padStart(2,'0')}
