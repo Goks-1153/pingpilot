@@ -65,7 +65,8 @@ thead{display:none}tr{display:block;background:var(--surface);margin-bottom:8px;
 .wa{display:inline-block;margin-top:6px;padding:4px 10px;border-radius:999px;background:#1f8f55;color:#fff;font-size:12px;font-weight:700;text-decoration:none}.wa.na{background:#2a2030;color:#a79fb0;cursor:not-allowed}
 .dfil{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:8px 0}.dfil button{background:#100c11;color:#f4f2f6;border:1px solid #2a2030;border-radius:999px;padding:5px 12px;cursor:pointer}.dfil button.on{background:#7c3aed}.dfil input{background:#080708;color:#f4f2f6;border:1px solid #2a2030;border-radius:8px;padding:4px}
 .cd{font-variant-numeric:tabular-nums}.empty{padding:14px;color:#a79fb0}.foot2{opacity:.75;font-size:12px;margin-top:6px}
-</style></head><body>
+</style><style>.cl{cursor:pointer}.cl:hover{text-decoration:underline;text-underline-offset:2px}@keyframes ppb{0%,40%,80%{box-shadow:inset 0 0 0 2px #7c3aed,0 0 18px rgba(124,58,237,.7);background:rgba(124,58,237,.25)}20%,60%{box-shadow:none;background:transparent}100%{box-shadow:none;background:transparent}}tr.ppblink>td{animation:ppb 2s ease-out}.pptoast{position:fixed;bottom:20px;left:50%;transform:translateX(-50%);background:#100c11;color:#f4f2f6;border:1px solid #7c3aed;padding:8px 14px;border-radius:10px;z-index:999;font-size:14px}</style>
+</head><body>
 <header><div class="hwrap">
 <div class="live"><span class="dot"></span>LIVE</div>
 <div class="brand"><div class="logo">✈️</div><div><h1>PingPilot</h1><p>WhatsApp follow-up supervisor · Flutch Talent Management</p></div></div>
@@ -74,8 +75,6 @@ thead{display:none}tr{display:block;background:var(--surface);margin-bottom:8px;
 <span class="chipd">⏱ Next pull in <b class="cd" id="cd">--:--</b></span><span class="chipd">🕒 Last updated <b id="rel">—</b> · <span id="upd">—</span></span></div>
 <div class="kpis" id="cards"></div></div></header>
 <main>
-<h2>POCs</h2><div class="grp" id="grp"><button data-g="Growth" class="on">Growth</button><button data-g="Execution">Execution</button></div><div class="tabs" id="tabs"></div><div id="panel"></div>
-<h2>Open asks &amp; pending items</h2>
 <div class="filters">
 <label class="search">Search creator or brand<input type="search" id="f-q" placeholder="e.g. Yogitha, L'Oréal…" autocomplete="off"></label>
 <label>Severity<select id="f-sev"><option value="">All</option><option>High</option><option>Med</option><option>Low</option></select></label>
@@ -83,6 +82,8 @@ thead{display:none}tr{display:block;background:var(--surface);margin-bottom:8px;
 <label>Category<select id="f-cat"><option value="">All categories</option></select></label>
 <label>POC<select id="f-poc"><option value="">All POCs</option></select></label>
 <div class="dfil" id="dfil">Date: <button data-d="all" class="on">All</button><button data-d="today">Today</button><button data-d="week">This week</button><button data-d="month">This month</button><button data-d="custom">Custom range</button><span id="dcus" style="display:none">from <input type="date" id="d-from"> to <input type="date" id="d-to"></span><span id="dnote" class="showing"></span></div><div class="factions"><button class="btn g" id="f-clear">✕ Clear all filters</button><button class="btn p" id="exp">⬇ Export feedback (.txt)</button><span class="showing" id="f-count" aria-live="polite"></span></div></div>
+<h2>POCs</h2><div class="grp" id="grp"><button data-g="Growth" class="on">Growth</button><button data-g="Execution">Execution</button></div><div class="tabs" id="tabs"></div><div id="panel"></div>
+<h2>Open asks &amp; pending items</h2>
 <p class="note">Feedback is saved on this device. Export gives a readable .txt you can share on WhatsApp.</p>
 <div class="tblw"><table><thead><tr><th>Creator</th><th>POC / Chat</th><th>Item</th><th>Risk</th><th>Status</th><th>Feedback</th></tr></thead><tbody id="tb"></tbody></table></div>
 <h2>Common themes</h2><ul class="themes" id="themes"></ul>
@@ -115,22 +116,23 @@ function st(r){const f=FB[r.id]||FB['m:'+r.poc+':'+r.creator];return f&&f.fixed?
 function rel(t){const m=Math.round((Date.now()-new Date(t))/60000);return m<1?'just now':m<60?m+' min ago':m<1440?Math.round(m/60)+' h ago':Math.round(m/1440)+' d ago'}
 function header(){$('upd').textContent=new Date(D.lastUpdated).toLocaleString('en-IN',{timeZone:'Asia/Kolkata',day:'numeric',month:'short',hour:'numeric',minute:'2-digit'})+' IST';$('rel').textContent=rel(D.lastUpdated)}
 function render(){const R=D.rows;header();
-const o=R.filter(r=>st(r)=='Open'),c=f=>o.filter(f).length;
+const fc=$('f-cat'),fp=$('f-poc');const q=$('f-q').value.trim().toLowerCase(),sv=$('f-sev').value,ss=$('f-st').value,ca=fc.value,po=open||'';
+const F=R.filter(r=>dOk(r)&&(!po||pk(r)==po)&&(!sv||r.priority==sv)&&(!ca||r.cat==ca)&&(!ss||(ss=='At risk'||ss=='Not found'?r.flag==ss:st(r)==ss))&&(!q||(r.creator+' '+r.item).toLowerCase().includes(q)));
+
+const o=F.filter(r=>st(r)=='Open'),c=f=>o.filter(f).length;
 const cards=[['⚠️ At risk',c(r=>r.flag=='At risk')],['📌 Open items',o.length],['₹ Payments open',c(r=>r.cat=='Payment')],['📝 Scripts / approvals',c(r=>r.cat=='Script'||r.cat=='Approval')],['❓ Not found',c(r=>r.flag=='Not found')]];
 $('cards').innerHTML=cards.map(x=>`<div class="k"><b>${x[1]}</b><span>${x[0]}</span></div>`).join('');
 const P=GR[grp];$('snap').textContent=$('upd').textContent;$('tabs').innerHTML=P.map(p=>`<button class="tab ${open==p?'on':''}" style="--c:${COL[p]||'#7c3aed'}" onclick="tog('${p}')">${p}</button>`).join('');
-const fp=$('f-poc');if(fp.dataset.g!=grp){fp.length=1;P.forEach(p=>fp.add(new Option(p)));fp.dataset.g=grp}fp.value=open||'';
-const fc=$('f-cat');if(fc.options.length<2)[...new Set(R.map(r=>r.cat))].sort().forEach(x=>fc.add(new Option(x)));
-let pn='';if(open){const k=D.kpis[open]||null,rr=R.filter(r=>pk(r)==open&&dOk(r)),cr=[...new Set(rr.map(r=>r.creator))];
-const li=f=>rr.filter(f).map(r=>`<li><b>${esc(r.creator)}</b>: ${esc(r.item)}</li>`).join('')||'<li>None</li>';
+if(fp.dataset.g!=grp){fp.length=1;P.forEach(p=>fp.add(new Option(p)));fp.dataset.g=grp}fp.value=open||'';
+if(fc.options.length<2)[...new Set(R.map(r=>r.cat))].sort().forEach(x=>fc.add(new Option(x)));
+let pn='';if(open){const k=D.kpis[open]||null,rr=F.filter(r=>pk(r)==open),cr=[...new Set(rr.map(r=>r.creator))];
+const li=f=>rr.filter(f).map(r=>`<li><b class="cl" data-c="${esc(r.creator)}">${esc(r.creator)}</b>: ${esc(r.item)}</li>`).join('')||'<li>None</li>';
 pn=`<div class="panel" style="border-top:5px solid ${COL[open]}"><h3>${open} ${waB(open)}</h3>${!rr.length?'<p class="empty">No items yet</p>':''}${k?`<div class="chips"><span class="chip">Owned ${k.owned}</span><span class="chip">Active ${k.active}</span><span class="chip">Not found ${k.notFound}</span><span class="chip">CRM deals ${k.deals} (${k.dealValue})</span><span class="chip">Open asks ${k.openAsks}</span><span class="chip">At risk ${k.atRisk}</span></div>`:''}${k&&k.note?`<p class="note">${esc(k.note)}</p>`:''}
-<h3>⚠️ At risk</h3><ul>${li(r=>r.flag=='At risk')}</ul><h3>₹ Payments</h3><ul>${li(r=>r.cat=='Payment')}</ul><h3>❓ Not found</h3><ul>${li(r=>r.flag=='Not found')}</ul><h3>👥 Creators (${cr.length})</h3><div class="chips">${cr.map(x=>`<span class="chip">${esc(x)}</span>`).join('')}</div></div>`}
+<h3>⚠️ At risk</h3><ul>${li(r=>r.flag=='At risk')}</ul><h3>₹ Payments</h3><ul>${li(r=>r.cat=='Payment')}</ul><h3>❓ Not found</h3><ul>${li(r=>r.flag=='Not found')}</ul><h3>👥 Creators (${cr.length})</h3><div class="chips">${cr.map(x=>`<span class="chip cl" data-c="${esc(x)}">${esc(x)}</span>`).join('')}</div></div>`}
 $('panel').innerHTML=pn;
-const q=$('f-q').value.trim().toLowerCase(),sv=$('f-sev').value,ss=$('f-st').value,ca=fc.value,po=fp.value;
-const F=R.filter(r=>dOk(r)&&(!po||pk(r)==po)&&(!sv||r.priority==sv)&&(!ca||r.cat==ca)&&(!ss||(ss=='At risk'||ss=='Not found'?r.flag==ss:st(r)==ss))&&(!q||(r.creator+' '+r.item).toLowerCase().includes(q)));
 $('f-count').textContent=`Showing ${F.length} of ${R.length}`;const un=R.filter(r=>!rd(r)).length;$('dnote').textContent=dmode=='all'?`(${un} undated items shown under All only)`:`${un} undated items hidden`;
 $('tb').innerHTML=(F.length?'':'<tr><td colspan=6 class="empty">No items yet</td></tr>')+F.map(r=>{const f=FB[r.id]||{},s=st(r);
-return `<tr><td data-l="Creator"><b>${esc(r.creator)}</b><div class="cat">${esc(r.cat)}</div></td><td data-l="POC"><span class="pill" style="background:${COL[pk(r)]||'#2a2030'}">${pk(r)||'Unmapped'}</span>${grp=='Growth'&&ex(r)?`<div class="cat">Exec: ${ex(r)}</div>`:''}<br>${pk(r)?waB(pk(r)):''}</td><td data-l="Item">${esc(r.item)}${r.flag?`<div class="flag">● ${esc(r.flag)}</div>`:''}</td><td data-l="Risk"><span class="pill ${r.priority}">${r.priority}</span></td><td data-l="Status"><span class="pill ${s}">${s}</span></td>
+return `<tr data-c="${esc(r.creator)}"><td data-l="Creator"><b>${esc(r.creator)}</b><div class="cat">${esc(r.cat)}</div></td><td data-l="POC"><span class="pill" style="background:${COL[pk(r)]||'#2a2030'}">${pk(r)||'Unmapped'}</span>${grp=='Growth'&&ex(r)?`<div class="cat">Exec: ${ex(r)}</div>`:''}<br>${pk(r)?waB(pk(r)):''}</td><td data-l="Item">${esc(r.item)}${r.flag?`<div class="flag">● ${esc(r.flag)}</div>`:''}</td><td data-l="Risk"><span class="pill ${r.priority}">${r.priority}</span></td><td data-l="Status"><span class="pill ${s}">${s}</span></td>
 <td data-l="Feedback" class="fb"><button onclick="fix('${r.id}')">${s=='Closed'?'↺ Reopen':'✓ Mark fixed'}</button><button onclick="this.parentNode.querySelector('.fbbox').style.display='block'">＋ Add context</button>
 <div class="fbbox"><textarea placeholder="e.g. discussed in internal group">${esc(f.context||'')}</textarea><label><input type="radio" name="s${r.id}" value="item" ${f.scope!='month'?'checked':''}> this item only</label> <label><input type="radio" name="s${r.id}" value="month" ${f.scope=='month'?'checked':''}> whole month for this creator</label><br><button onclick="ctx('${r.id}',this)">Save</button></div>${f.context?`<div class="ctx">📝 ${esc(f.context)} (${f.scope=='month'?'whole month':'this item'})</div>`:''}</td></tr>`}).join('');
 $('themes').innerHTML=D.themes.slice(0,6).map(t=>`<li>${esc(t)}</li>`).join('');}
@@ -154,4 +156,11 @@ setInterval(()=>D&&header(),60000);
 (async()=>{loadFB();try{const ext=await (await fetch('feedback.json',{cache:'no-store'})).json();for(const k in ext)if(!FB[k])FB[k]=ext[k]}catch(e){}
 for(let i=0;i<4;i++){try{await load(()=>{});if(!D||!Array.isArray(D.rows))throw new Error('bad data');render();break}catch(e){console.error('PingPilot load failed',e);$('upd').textContent=i<3?'Loading… retrying':'Data failed to load — tap Refresh';await new Promise(r=>setTimeout(r,1500*(i+1)))}}
 try{const u=await (await fetch('usage.json?t='+Date.now())).json();if(u.runs&&u.runs.length){const l=u.runs[u.runs.length-1];$('usage').textContent=`${u.runs.length} runs · last ${l.at||'—'} · tokens ${l.tokens??'—'}`}else $('usage').textContent='no automated runs yet'}catch(e){}})();
-</script></body></html>
+</script><script>
+(function(){function toast(m){const t=document.createElement('div');t.className='pptoast';t.textContent=m;document.body.appendChild(t);setTimeout(()=>t.remove(),2200)}
+function find(c){return [...document.querySelectorAll('#tb tr[data-c]')].find(r=>r.dataset.c===c)}
+function go(c){let r=find(c);if(!r){const q=document.getElementById('f-q');if(q&&q.value){q.value='';q.dispatchEvent(new Event('input',{bubbles:true}));r=find(c)}}
+if(!r){toast('Hidden by filters');return}r.scrollIntoView({behavior:'smooth',block:'center'});r.classList.remove('ppblink');void r.offsetWidth;r.classList.add('ppblink');setTimeout(()=>r.classList.remove('ppblink'),2100)}
+document.addEventListener('click',e=>{const el=e.target.closest('.cl[data-c]');if(!el)return;e.preventDefault();e.stopPropagation();go(el.dataset.c)},true);window.ppGo=go})();
+</script>
+</body></html>
