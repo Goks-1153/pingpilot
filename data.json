@@ -1,5 +1,5 @@
 {
- "lastUpdated": "2026-10-23T16:30:00+05:30",
+ "lastUpdated": "2026-10-23T17:30:00+05:30",
  "kpis": {
   "Sid": {
    "owned": 22,
@@ -441,11 +441,11 @@
    "creator": "Smriti Mohanty",
    "poc": "Sid",
    "cat": "Other",
-   "item": "AcneStar revised video (creator side)",
+   "item": "AcneStar video submitted, awaiting brand review",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "—"
+   "date": "23 Oct"
   },
   {
    "id": "r36",
@@ -2069,10 +2069,21 @@
    "creator": "Nausheen",
    "poc": "Natasha",
    "cat": "Script",
-   "item": "Bioderma script due 24 Oct (asked help with script); Karanjot asked for concept",
+   "item": "Bioderma: asked for guidelines 16:39; Flutch to send guidelines/concept; script due 24 Oct",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
+   "date": "23 Oct"
+  },
+  {
+   "id": "r184",
+   "creator": "Pavithra Nagarajan",
+   "poc": "Sid",
+   "cat": "Deliverable",
+   "item": "AcneStar caption approved 15:25; reel live, link posted 17:17 (resolved)",
+   "priority": "Med",
+   "status": "Closed",
+   "flag": "Closed",
    "date": "23 Oct"
   }
  ]
