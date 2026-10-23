@@ -1,5 +1,5 @@
 {
- "lastUpdated": "2026-10-23T14:20:00+05:30",
+ "lastUpdated": "2026-10-23T15:45:00+05:30",
  "kpis": {
   "Sid": {
    "owned": 22,
@@ -26,7 +26,7 @@
    "notFound": 9,
    "deals": 15,
    "dealValue": "₹4.50L",
-   "openAsks": 27,
+   "openAsks": 29,
    "atRisk": 4,
    "note": "+1 identity unresolved; 9 = 5 not found + 4 no recent activity"
   },
@@ -36,7 +36,7 @@
    "notFound": 0,
    "deals": 27,
    "dealValue": "₹5.04L",
-   "openAsks": 27,
+   "openAsks": 30,
    "atRisk": 7,
    "note": "CRM deals include Shraddha × Pilgrim (₹45k), not his creator"
   }
@@ -56,10 +56,10 @@
    "creator": "Naja Febin",
    "poc": "Sid",
    "cat": "Script",
-   "item": "Revised WishCare script asked 22 Oct; call + re-ask 23 Oct 13:31, no creator reply",
+   "item": "Revised WishCare script written by Amisha and sent to brand (Aryan noted 15:05, 23 Oct)",
    "priority": "Med",
-   "status": "Open",
-   "flag": "Open",
+   "status": "Closed",
+   "flag": "Closed",
    "date": "23 Oct"
   },
   {
@@ -848,10 +848,10 @@
    "creator": "Qaiz Khan",
    "poc": "Natasha",
    "cat": "Other",
-   "item": "Prowl face wash video sent 22 Oct; re-share asked 23 Oct (upload lagging)",
+   "item": "Prowl face wash video re-shared 23 Oct; edits sent back 14:22",
    "priority": "Med",
-   "status": "Open",
-   "flag": "Open",
+   "status": "Closed",
+   "flag": "Closed",
    "date": "23 Oct"
   },
   {
@@ -1695,7 +1695,7 @@
    "creator": "Apoorva",
    "poc": "Kishore",
    "cat": "Script",
-   "item": "Cars24 script pending 3 days; brand needs it within 1 hour (23 Oct 13:24)",
+   "item": "Cars24 script 3 days late; brand wanted it within 1 hr (13:23); still not confirmed at 15:33, 23 Oct",
    "priority": "High",
    "status": "Open",
    "flag": "Open",
@@ -1983,6 +1983,83 @@
    "cat": "Payment",
    "item": "Society Tea: brand sent NEFT details (₹21,240, 19 Oct) 23 Oct; verify receipt",
    "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "23 Oct"
+  },
+  {
+   "id": "r176",
+   "creator": "Naja Febin",
+   "poc": "Sid",
+   "cat": "Approval",
+   "item": "WishCare revised script with brand for approval (sent 23 Oct 15:04)",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "23 Oct"
+  },
+  {
+   "id": "r177",
+   "creator": "Qaiz Khan",
+   "poc": "Natasha",
+   "cat": "Approval",
+   "item": "Prowl video edits shared 23 Oct 14:22; Qaiz to review",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "23 Oct"
+  },
+  {
+   "id": "r178",
+   "creator": "Pragati Bharti",
+   "poc": "Kishore",
+   "cat": "Deliverable",
+   "item": "Mamaearth feedback shared 14:48 (more blackheads, transformation); revised video pending",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "23 Oct"
+  },
+  {
+   "id": "r179",
+   "creator": "Chhavi",
+   "poc": "Kishore",
+   "cat": "Approval",
+   "item": "UrbanYog Kojic soap live 28 Oct; concept asked of brand 15:27, awaiting reply",
+   "priority": "Low",
+   "status": "Open",
+   "flag": "Open",
+   "date": "23 Oct"
+  },
+  {
+   "id": "r180",
+   "creator": "IPLIX",
+   "poc": "Kishore",
+   "cat": "Script",
+   "item": "Sugar: product received, shoot after 24 Oct; script update asked 14:21",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "23 Oct"
+  },
+  {
+   "id": "r181",
+   "creator": "Fashion Verge",
+   "poc": "Divya",
+   "cat": "Script",
+   "item": "Scripts and shoot location re-asked 23 Oct 14:18 (also 22 Oct); pending creators",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "23 Oct"
+  },
+  {
+   "id": "r182",
+   "creator": "Dharshne",
+   "poc": "Divya",
+   "cat": "Deliverable",
+   "item": "Samsung S26 Ultra festive reel: concept shared, shooting tomorrow (24 Oct)",
+   "priority": "Low",
    "status": "Open",
    "flag": "Open",
    "date": "23 Oct"
