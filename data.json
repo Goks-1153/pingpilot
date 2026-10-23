@@ -1,5 +1,5 @@
 {
- "lastUpdated": "2026-10-23T17:30:00+05:30",
+ "lastUpdated": "2026-10-23T18:20:00+05:30",
  "kpis": {
   "Sid": {
    "owned": 22,
@@ -7,8 +7,8 @@
    "notFound": 3,
    "deals": 29,
    "dealValue": "₹8.22L",
-   "openAsks": 37,
-   "atRisk": 4
+   "openAsks": 45,
+   "atRisk": 18
   },
   "Natasha": {
    "owned": 26,
@@ -16,8 +16,8 @@
    "notFound": 5,
    "deals": 37,
    "dealValue": "₹18.22L",
-   "openAsks": 45,
-   "atRisk": 5,
+   "openAsks": 56,
+   "atRisk": 18,
    "note": "+3 identity unresolved"
   },
   "Divya": {
@@ -26,8 +26,8 @@
    "notFound": 9,
    "deals": 15,
    "dealValue": "₹4.50L",
-   "openAsks": 30,
-   "atRisk": 4,
+   "openAsks": 43,
+   "atRisk": 18,
    "note": "+1 identity unresolved; 9 = 5 not found + 4 no recent activity"
   },
   "Kishore": {
@@ -36,8 +36,8 @@
    "notFound": 0,
    "deals": 27,
    "dealValue": "₹5.04L",
-   "openAsks": 29,
-   "atRisk": 7,
+   "openAsks": 37,
+   "atRisk": 28,
    "note": "CRM deals include Shraddha × Pilgrim (₹45k), not his creator"
   }
  },
@@ -441,7 +441,7 @@
    "creator": "Smriti Mohanty",
    "poc": "Sid",
    "cat": "Other",
-   "item": "AcneStar video submitted, awaiting brand review",
+   "item": "AcneStar video still with brand for review (17:17); chase brand",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -1870,12 +1870,12 @@
    "id": "r165",
    "creator": "Divya Singh",
    "poc": "Sid",
-   "cat": "Approval",
-   "item": "Nykaa script shared 19 Oct, awaiting brand approval",
+   "cat": "Script",
+   "item": "Nykaa approved 11:51, cleared to shoot; first draft ETA asked 17:57, no reply yet",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "19 Oct"
+   "date": "23 Oct"
   },
   {
    "id": "r166",
@@ -2014,7 +2014,7 @@
    "creator": "Pragati Bharti",
    "poc": "Kishore",
    "cat": "Deliverable",
-   "item": "Mamaearth feedback shared 14:48 (more blackheads, transformation); revised video pending",
+   "item": "Mamaearth revised draft chased 17:34 (feedback 14:49); no creator reply yet",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -2069,7 +2069,7 @@
    "creator": "Nausheen",
    "poc": "Natasha",
    "cat": "Script",
-   "item": "Bioderma: asked for guidelines 16:39; Flutch to send guidelines/concept; script due 24 Oct",
+   "item": "Bioderma: brief shared 18:05; script/video promised by 24 Oct",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -2084,6 +2084,39 @@
    "priority": "Med",
    "status": "Closed",
    "flag": "Closed",
+   "date": "23 Oct"
+  },
+  {
+   "id": "r185",
+   "creator": "Neelam",
+   "poc": "Sid",
+   "cat": "Script",
+   "item": "AcneStar script with brand for review; chase brand",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "23 Oct"
+  },
+  {
+   "id": "r186",
+   "creator": "Laveena",
+   "poc": "Natasha",
+   "cat": "Retention risk",
+   "item": "No updates or weekly call for 3 weeks (17:37); Natasha to send pipeline update every alternate day and fix call",
+   "priority": "High",
+   "status": "Open",
+   "flag": "Open",
+   "date": "23 Oct"
+  },
+  {
+   "id": "r187",
+   "creator": "Athira Vinod",
+   "poc": "Kishore",
+   "cat": "Deliverable",
+   "item": "Travel ZIV (AcneStar) video draft shared with brand 17:42; awaiting feedback",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
    "date": "23 Oct"
   }
  ]
