@@ -1,5 +1,5 @@
 {
- "lastUpdated": "2026-10-23T18:20:00+05:30",
+ "lastUpdated": "2026-10-23T18:55:00+05:30",
  "kpis": {
   "Sid": {
    "owned": 22,
@@ -7,7 +7,7 @@
    "notFound": 3,
    "deals": 29,
    "dealValue": "₹8.22L",
-   "openAsks": 45,
+   "openAsks": 46,
    "atRisk": 18
   },
   "Natasha": {
@@ -26,8 +26,8 @@
    "notFound": 9,
    "deals": 15,
    "dealValue": "₹4.50L",
-   "openAsks": 43,
-   "atRisk": 18,
+   "openAsks": 44,
+   "atRisk": 19,
    "note": "+1 identity unresolved; 9 = 5 not found + 4 no recent activity"
   },
   "Kishore": {
@@ -1156,11 +1156,11 @@
    "creator": "Manohar",
    "poc": "Divya",
    "cat": "Script",
-   "item": "No creator reply to scripts since 9 Oct (~13 days)",
-   "priority": "Med",
+   "item": "Updated organic scripts (Tab 7) shared 18:22; awaiting Manohar feedback",
+   "priority": "Low",
    "status": "Open",
    "flag": "Open",
-   "date": "9 Oct"
+   "date": "23 Oct"
   },
   {
    "id": "r101",
@@ -2003,7 +2003,7 @@
    "creator": "Qaiz Khan",
    "poc": "Natasha",
    "cat": "Approval",
-   "item": "Prowl video edits shared 23 Oct 14:22; Qaiz to review",
+   "item": "Prowl edits 14:22 (0.2s glitch, add end CTA); organic ideas posted 18:32; Qaiz to fix edits + pick ideas",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -2069,7 +2069,7 @@
    "creator": "Nausheen",
    "poc": "Natasha",
    "cat": "Script",
-   "item": "Bioderma: brief shared 18:05; script/video promised by 24 Oct",
+   "item": "Renee: KJ shared brief 18:05; script + video due 24 Oct",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -2102,7 +2102,7 @@
    "creator": "Laveena",
    "poc": "Natasha",
    "cat": "Retention risk",
-   "item": "No updates or weekly call for 3 weeks (17:37); Natasha to send pipeline update every alternate day and fix call",
+   "item": "Gokul asked for alternate-day pitching/pipeline updates; Laveena acked 18:16; Natasha to send",
    "priority": "High",
    "status": "Open",
    "flag": "Open",
@@ -2115,6 +2115,28 @@
    "cat": "Deliverable",
    "item": "Travel ZIV (AcneStar) video draft shared with brand 17:42; awaiting feedback",
    "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "23 Oct"
+  },
+  {
+   "id": "r188",
+   "creator": "Hrithika S",
+   "poc": "Sid",
+   "cat": "Follow-up",
+   "item": "Creator sent \"please take care\" note 18:21; Sid to check in and reply",
+   "priority": "Low",
+   "status": "Open",
+   "flag": "Open",
+   "date": "23 Oct"
+  },
+  {
+   "id": "r189",
+   "creator": "Fashion Verge",
+   "poc": "Divya",
+   "cat": "Payment",
+   "item": "Pending invoices + brand-deal mails (Baleno / AU Bank) sent to Divya 18:22-18:28; Divya to process",
+   "priority": "High",
    "status": "Open",
    "flag": "Open",
    "date": "23 Oct"
