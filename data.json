@@ -1,5 +1,5 @@
 {
- "lastUpdated": "2026-10-22T18:45:00+05:30",
+ "lastUpdated": "2026-10-23T14:20:00+05:30",
  "kpis": {
   "Sid": {
    "owned": 22,
@@ -7,7 +7,7 @@
    "notFound": 3,
    "deals": 29,
    "dealValue": "₹8.22L",
-   "openAsks": 35,
+   "openAsks": 37,
    "atRisk": 4
   },
   "Natasha": {
@@ -16,8 +16,8 @@
    "notFound": 5,
    "deals": 37,
    "dealValue": "₹18.22L",
-   "openAsks": 36,
-   "atRisk": 5,
+   "openAsks": 43,
+   "atRisk": 6,
    "note": "+3 identity unresolved"
   },
   "Divya": {
@@ -26,7 +26,7 @@
    "notFound": 9,
    "deals": 15,
    "dealValue": "₹4.50L",
-   "openAsks": 26,
+   "openAsks": 27,
    "atRisk": 4,
    "note": "+1 identity unresolved; 9 = 5 not found + 4 no recent activity"
   },
@@ -36,7 +36,7 @@
    "notFound": 0,
    "deals": 27,
    "dealValue": "₹5.04L",
-   "openAsks": 26,
+   "openAsks": 27,
    "atRisk": 7,
    "note": "CRM deals include Shraddha × Pilgrim (₹45k), not his creator"
   }
@@ -46,8 +46,9 @@
   "Slow deal-confirmation mails (2–6 day waits)",
   "Creators can't see enquiries/payments in CRM; CRM differs from chat",
   "Leave cover gaps: Krutika on sick leave since ~21 Oct; Divya & Kishore covering",
-  "11 high-risk creators, incl. Monisha (decided to leave)",
-  "CRM gaps: chat deals missing, some duplicated"
+  "11 high-risk creators, incl. Monisha (decided to leave) and Laveena (wants to exit)",
+  "CRM gaps: chat deals missing, some duplicated",
+  "Sid on family-emergency leave since 23 Oct; creators asking who covers"
  ],
  "rows": [
   {
@@ -55,11 +56,11 @@
    "creator": "Naja Febin",
    "poc": "Sid",
    "cat": "Script",
-   "item": "Revised WishCare script requested 22 Oct ~1 pm, no reply yet (~2h at read time)",
+   "item": "Revised WishCare script asked 22 Oct; call + re-ask 23 Oct 13:31, no creator reply",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "22 Oct"
+   "date": "23 Oct"
   },
   {
    "id": "r1",
@@ -275,11 +276,11 @@
    "creator": "Priyanshu Verma",
    "poc": "Sid",
    "cat": "Script",
-   "item": "Prowl script approval: creator asked 21 and 22 Oct, still not yet",
+   "item": "Prowl script: revised script shared by creator 23 Oct 12:13 (resolved)",
    "priority": "Med",
-   "status": "Open",
-   "flag": "Open",
-   "date": "22 Oct"
+   "status": "Closed",
+   "flag": "Closed",
+   "date": "23 Oct"
   },
   {
    "id": "r21",
@@ -429,11 +430,11 @@
    "creator": "Adrija",
    "poc": "Sid",
    "cat": "Approval",
-   "item": "Swish approval pending; product order and video follow approval",
+   "item": "Swish scene question answered 23 Oct 11:32; nothing pending",
    "priority": "Med",
-   "status": "Open",
-   "flag": "Open",
-   "date": "—"
+   "status": "Closed",
+   "flag": "Closed",
+   "date": "23 Oct"
   },
   {
    "id": "r35",
@@ -462,22 +463,22 @@
    "creator": "Divya Singh",
    "poc": "Sid",
    "cat": "Deliverable",
-   "item": "Auto-DM link for Dr Sheths asked twice on 22 Oct, team said just a sec (open ~45 min)",
+   "item": "Dr Sheths approved 22 Oct; mandates + auto-DM link shared (resolved)",
    "priority": "Med",
-   "status": "Open",
-   "flag": "Open",
-   "date": "22 Oct"
+   "status": "Closed",
+   "flag": "Closed",
+   "date": "23 Oct"
   },
   {
    "id": "r38",
    "creator": "Shitij Verma",
    "poc": "Sid",
    "cat": "Approval",
-   "item": "Prowl approval pending",
+   "item": "Prowl revised script awaiting brand approval",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "—"
+   "date": "23 Oct"
   },
   {
    "id": "r39",
@@ -605,22 +606,22 @@
    "creator": "Laveena",
    "poc": "Natasha",
    "cat": "Retention risk",
-   "item": "asked for an exit plan; Low pitch counters from brands",
+   "item": "Escalated 23 Oct: wants exit plan; low brand counters vs her 70k inbounds",
    "priority": "High",
    "status": "Open",
    "flag": "At risk",
-   "date": "—"
+   "date": "23 Oct"
   },
   {
    "id": "r51",
    "creator": "Laveena",
    "poc": "Natasha",
    "cat": "Other",
-   "item": "Exit plan in writing requested 21 Oct (~1 day)",
+   "item": "Exit plan re-asked 23 Oct; called Flutch unprofessional, call request unanswered for days",
    "priority": "High",
    "status": "Open",
    "flag": "Open",
-   "date": "21 Oct"
+   "date": "23 Oct"
   },
   {
    "id": "r52",
@@ -715,7 +716,7 @@
    "creator": "Chhavi",
    "poc": "Natasha",
    "cat": "Follow-up",
-   "item": "Brillare dues (PO from July), call-back requested 22 Oct",
+   "item": "Brillare dues (PO from Jul), call-back requested 22 Oct",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -836,22 +837,22 @@
    "creator": "Nausheen",
    "poc": "Natasha",
    "cat": "Script",
-   "item": "Revised Lacto video + Renee script",
+   "item": "Lacto/Calamine revised video + script asked 23 Oct; creator photo 13:57 unchecked",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "—"
+   "date": "23 Oct"
   },
   {
    "id": "r72",
    "creator": "Qaiz Khan",
    "poc": "Natasha",
    "cat": "Other",
-   "item": "Prowl video (asked 21 Oct, ~1 day)",
+   "item": "Prowl face wash video sent 22 Oct; re-share asked 23 Oct (upload lagging)",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "21 Oct"
+   "date": "23 Oct"
   },
   {
    "id": "r73",
@@ -913,7 +914,7 @@
    "creator": "Nishant",
    "poc": "Natasha",
    "cat": "Follow-up",
-   "item": "September insights asked 1 Oct (~21 days, not seen)",
+   "item": "Sep insights asked 1 Oct (~21 days, not seen)",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -1045,11 +1046,11 @@
    "creator": "venessa.pinto",
    "poc": "Divya",
    "cat": "Follow-up",
-   "item": "Updates on Dermavive/Neutrogena asked 14, 19 and 21 Oct (oldest ~8 days)",
+   "item": "Dermavive update promised EOD 23 Oct; Kenvue script requested; creator says brands delaying",
    "priority": "High",
    "status": "Open",
    "flag": "Open",
-   "date": "21 Oct"
+   "date": "23 Oct"
   },
   {
    "id": "r91",
@@ -1111,7 +1112,7 @@
    "creator": "Fashion Verge",
    "poc": "Divya",
    "cat": "Script",
-   "item": "AU Bank / Maruti scripts awaited from creator; Divya asked for script ETA and shoot address / car arrangement (22 Oct)",
+   "item": "AU Bank / Maruti scripts still pending from creator (asked 22 Oct)",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -1529,11 +1530,11 @@
    "creator": "Harish",
    "poc": "Kishore",
    "cat": "Payment",
-   "item": "Deconstruct product invoice for reimbursement (Kishore to share, 19 Oct)",
+   "item": "Deconstruct invoice for reimbursement (promised 19 Oct); brand pinged 3x 23 Oct",
    "priority": "High",
    "status": "Open",
    "flag": "Open",
-   "date": "19 Oct"
+   "date": "23 Oct"
   },
   {
    "id": "r135",
@@ -1693,12 +1694,12 @@
    "id": "r149",
    "creator": "Apoorva",
    "poc": "Kishore",
-   "cat": "Follow-up",
-   "item": "Cars24 brief call",
+   "cat": "Script",
+   "item": "Cars24 script pending 3 days; brand needs it within 1 hour (23 Oct 13:24)",
    "priority": "High",
    "status": "Open",
    "flag": "Open",
-   "date": "—"
+   "date": "23 Oct"
   },
   {
    "id": "r150",
@@ -1716,11 +1717,11 @@
    "creator": "Apoorva",
    "poc": "Kishore",
    "cat": "Payment",
-   "item": "Confirm Instamart payment landed",
+   "item": "Instamart payment chased ~11 days; brand said ASAP 22 Oct, not received 23 Oct",
    "priority": "High",
    "status": "Open",
    "flag": "Open",
-   "date": "—"
+   "date": "23 Oct"
   },
   {
    "id": "r152",
@@ -1831,6 +1832,160 @@
    "status": "Open",
    "flag": "Open",
    "date": "22 Oct"
+  },
+  {
+   "id": "r162",
+   "creator": "Nisha",
+   "poc": "Sid",
+   "cat": "Script",
+   "item": "Asked \"who else can work on script?\" 23 Oct 13:30, unanswered (Sid on leave)",
+   "priority": "High",
+   "status": "Open",
+   "flag": "Open",
+   "date": "23 Oct"
+  },
+  {
+   "id": "r163",
+   "creator": "Nisha",
+   "poc": "Sid",
+   "cat": "Follow-up",
+   "item": "Bosch, Samsung, Jio pitches promised by Sid 19 Oct; still no collab",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "19 Oct"
+  },
+  {
+   "id": "r164",
+   "creator": "Priyanshu Verma",
+   "poc": "Sid",
+   "cat": "Approval",
+   "item": "Revised Prowl script with Amisha/brand for review (shared 23 Oct)",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "23 Oct"
+  },
+  {
+   "id": "r165",
+   "creator": "Divya Singh",
+   "poc": "Sid",
+   "cat": "Approval",
+   "item": "Nykaa script shared 19 Oct, awaiting brand approval",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "19 Oct"
+  },
+  {
+   "id": "r166",
+   "creator": "Yadhu",
+   "poc": "Sid",
+   "cat": "Deliverable",
+   "item": "Content ideas sent 22 Oct, no creator reply",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "22 Oct"
+  },
+  {
+   "id": "r167",
+   "creator": "Laveena",
+   "poc": "Natasha",
+   "cat": "Other",
+   "item": "Canva edit access issue since 22 Oct; made public 23 Oct 09:59, confirm fixed",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "22 Oct"
+  },
+  {
+   "id": "r168",
+   "creator": "Ved",
+   "poc": "Natasha",
+   "cat": "Script",
+   "item": "Prowl script overdue (asked 22 Oct, re-asked 23 Oct; promised by evening)",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "23 Oct"
+  },
+  {
+   "id": "r169",
+   "creator": "Ved",
+   "poc": "Natasha",
+   "cat": "Payment",
+   "item": "Prowl product invoice wrong (roll-on, not face wash); correct one pending",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "22 Oct"
+  },
+  {
+   "id": "r170",
+   "creator": "Mansi",
+   "poc": "Natasha",
+   "cat": "Deliverable",
+   "item": "Video due by Fri 23 Oct (execution plan)",
+   "priority": "Low",
+   "status": "Open",
+   "flag": "Open",
+   "date": "23 Oct"
+  },
+  {
+   "id": "r171",
+   "creator": "Khyati Kunwar",
+   "poc": "Natasha",
+   "cat": "Deliverable",
+   "item": "Shoot planned weekend 24–25 Oct (execution plan)",
+   "priority": "Low",
+   "status": "Open",
+   "flag": "Open",
+   "date": "23 Oct"
+  },
+  {
+   "id": "r172",
+   "creator": "riya.dey_",
+   "poc": "Natasha",
+   "cat": "Deliverable",
+   "item": "Video due by Sat 24 Oct (execution plan)",
+   "priority": "Low",
+   "status": "Open",
+   "flag": "Open",
+   "date": "23 Oct"
+  },
+  {
+   "id": "r173",
+   "creator": "Shweta",
+   "poc": "Natasha",
+   "cat": "Deliverable",
+   "item": "Video due by Sun 25 Oct (execution plan)",
+   "priority": "Low",
+   "status": "Open",
+   "flag": "Open",
+   "date": "23 Oct"
+  },
+  {
+   "id": "r174",
+   "creator": "Ragavi",
+   "poc": "Divya",
+   "cat": "Deliverable",
+   "item": "Thumbnail+caption (22 Oct) and doc (23 Oct) sent; Flutch to check and post, no reply",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "23 Oct"
+  },
+  {
+   "id": "r175",
+   "creator": "Apoorva",
+   "poc": "Kishore",
+   "cat": "Payment",
+   "item": "Society Tea: brand sent NEFT details (₹21,240, 19 Oct) 23 Oct; verify receipt",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "23 Oct"
   }
  ]
 }
