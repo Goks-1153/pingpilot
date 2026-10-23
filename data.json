@@ -1,5 +1,5 @@
 {
- "lastUpdated": "2026-10-23T18:55:00+05:30",
+ "lastUpdated": "2026-10-23T19:35:34+05:30",
  "kpis": {
   "Sid": {
    "owned": 22,
@@ -27,7 +27,7 @@
    "deals": 15,
    "dealValue": "₹4.50L",
    "openAsks": 44,
-   "atRisk": 19,
+   "atRisk": 20,
    "note": "+1 identity unresolved; 9 = 5 not found + 4 no recent activity"
   },
   "Kishore": {
@@ -1871,7 +1871,7 @@
    "creator": "Divya Singh",
    "poc": "Sid",
    "cat": "Script",
-   "item": "Nykaa approved 11:51, cleared to shoot; first draft ETA asked 17:57, no reply yet",
+   "item": "Nykaa approved, cleared to shoot; first draft promised by 24 Oct evening (replied 19:22)",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -2047,8 +2047,8 @@
    "creator": "Fashion Verge",
    "poc": "Divya",
    "cat": "Script",
-   "item": "Baleno script format, video + AU Bank Zenith+ doc sent 23 Oct 15:52; awaiting creator ack/scripts",
-   "priority": "Med",
+   "item": "Brand shared MSIL Baleno script PDF 18:51; Divya to review (AU Bank script still pending)",
+   "priority": "High",
    "status": "Open",
    "flag": "Open",
    "date": "23 Oct"
