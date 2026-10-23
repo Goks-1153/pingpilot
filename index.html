@@ -118,6 +118,12 @@ footer{font-size:13px;padding:14px 12px}
 <label>POC<select id="f-poc"><option value="">All POCs</option></select></label>
 <div class="dfil" id="dfil">Date: <button data-d="all" class="on">All</button><button data-d="today">Today</button><button data-d="yesterday">Yesterday</button><button data-d="week">This week</button><button data-d="month">This month</button><button data-d="custom">Custom range</button><span id="dcus" style="display:none">from <input type="date" id="d-from"> to <input type="date" id="d-to"></span><span id="dnote" class="showing"></span></div><div class="factions"><button class="btn g" id="f-clear">✕ Clear all filters</button><button class="btn p" id="exp">⬇ Export feedback (.txt)</button><span class="showing" id="f-count" aria-live="polite"></span></div></div>
 <h2>POCs</h2><div class="grp" id="grp"><button data-g="Growth" class="on">Growth</button><button data-g="Execution">Execution</button><button data-g="Finance">Finance</button></div><div class="tabs" id="tabs"></div><div id="panel"></div><div id="fin"></div>
+<div id="tkview" class="tk"><div class="panel tk-head"><div><h3 class="tk-h">Tickets</h3><p class="tk-sub">raise and track issues, bugs or feature requests</p></div><div class="tk-ha"><button type="button" class="btn g" id="tk-ref">⟳ Refresh</button><button type="button" class="btn p" id="tk-new">+ Raise ticket</button></div></div>
+<div class="tk-msg" id="tk-msg" aria-live="polite"></div>
+<div class="tk-sec"><div class="tk-sech">Status overview <span class="note">Status is updated by Gokul.</span></div><div class="tk-ov" id="tk-ovs"></div></div>
+<div class="tk-sec"><div class="tk-sech">Deadline overview</div><div class="tk-ov" id="tk-ovd"></div></div>
+<div class="tk-fil"><label>Search<input type="search" id="tk-q" placeholder="Title, description, id or name" autocomplete="off"></label><label>Type<select id="tk-ft"><option value="">All types</option><option>Bug</option><option>Feature request</option><option>Issue</option></select></label><label>Priority<select id="tk-fp"><option value="">All priorities</option><option>Low</option><option>Medium</option><option>High</option><option>Urgent</option></select></label><label>Status<select id="tk-fs"><option value="">All statuses</option><option>Open</option><option>In progress</option><option>Resolved</option><option value="Closed">Closed (incl. Won't do)</option><option>Won't do</option></select></label><label>Deadline<select id="tk-fd"><option value="">All deadlines</option><option value="overdue">Overdue</option><option value="soon">Due soon</option><option value="ontrack">On track</option><option value="met">Deadline met</option><option value="none">No deadline</option></select></label></div>
+<div class="tk-count" id="tk-count" aria-live="polite"></div><div class="tk-list" id="tk-list"></div></div>
 <h2>Open asks &amp; pending items</h2>
 <p class="note">Feedback is saved on this device. Export gives a readable .txt you can share on WhatsApp.</p>
 <label class="msort">Sort<select id="msort" onchange="TS=+this.value;render()"><option value="0">Default (risk)</option><option value="1">TAT ▲ shortest first</option><option value="-1">TAT ▼ longest first</option></select></label><div class="tblw"><table><thead><tr><th>Creator</th><th>POC / Chat</th><th>Item</th><th>Risk</th><th>Status</th><th id="tath" title="Time since the item was raised (date-only items count from midnight IST)" style="cursor:pointer;white-space:nowrap" onclick="TS=TS==0?1:TS==1?-1:0;render()">TAT <span id="tatar">⇅</span></th><th>Feedback</th></tr></thead><tbody id="tb"></tbody></table></div>
@@ -268,5 +274,146 @@ function find(c){return [...document.querySelectorAll('#tb tr[data-c]')].find(r=
 function go(c){let r=find(c);if(!r){const q=document.getElementById('f-q');if(q&&q.value){q.value='';q.dispatchEvent(new Event('input',{bubbles:true}));r=find(c)}}
 if(!r){toast('Hidden by filters');return}r.scrollIntoView({behavior:'smooth',block:'center'});document.querySelectorAll('.ppov').forEach(e=>e.remove());const b=r.getBoundingClientRect(),ov=document.createElement('div');ov.className='ppov';ov.style.cssText='left:'+(b.left+scrollX)+'px;top:'+(b.top+scrollY)+'px;width:'+b.width+'px;height:'+b.height+'px';document.body.appendChild(ov);setTimeout(()=>ov.remove(),2100)}
 document.addEventListener('click',e=>{const el=e.target.closest('.cl[data-c]');if(!el)return;e.preventDefault();e.stopPropagation();go(el.dataset.c)},true);window.ppGo=go})();
+</script>
+<style>
+#tkview{display:none}body.tk-on #tkview{display:block}
+body.tk-on #mfbtn,body.tk-on main>.filters,body.tk-on #tabs,body.tk-on #panel,body.tk-on #fin,body.tk-on #cards,body.tk-on #tkview~*{display:none!important}
+.tk{min-width:0}
+.tk-head{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;border-top:3px solid var(--accent)}
+.tk-head h3.tk-h{margin:0;font-size:18px}.tk-sub{margin:2px 0 0;font-size:13px;color:var(--ink-2)}
+.tk-ha{display:flex;gap:8px;flex-wrap:wrap}.tk-ha .btn{padding:8px 14px}
+.tk-msg{font-size:13px;color:var(--ink-2);margin:8px 2px 0;min-height:0}.tk-msg:empty{display:none}.tk-msg.tk-bad{color:var(--bad)}
+.tk-sec{margin-top:12px}.tk-sech{display:flex;align-items:baseline;justify-content:space-between;gap:8px;flex-wrap:wrap;margin:0 2px 6px;font-size:12px;font-weight:700;color:var(--ink-3);text-transform:uppercase;letter-spacing:.06em}.tk-sech .note{text-transform:none;letter-spacing:0;font-weight:500}
+.tk-ov{display:grid;grid-template-columns:repeat(auto-fit,minmax(118px,1fr));gap:8px}
+.tk-ovc{text-align:left;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:8px 10px;cursor:pointer;color:var(--ink);font-family:var(--font-b);min-width:0}
+.tk-ovc b{display:block;font-family:var(--font-d);font-size:20px;font-weight:700}.tk-ovc span{font-size:11.5px;color:var(--ink-3)}
+.tk-ovc:hover{border-color:#3a2a4a}.tk-ovc.on{border-color:var(--accent);background:var(--accent-soft)}.tk-ovc.on span{color:#c4a5ff}
+.tk-fil{display:grid;grid-template-columns:2fr repeat(4,1fr);gap:8px;margin-top:12px;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:10px}
+.tk-fil label{display:flex;flex-direction:column;gap:3px;font-size:11.5px;font-weight:700;color:var(--ink-3);min-width:0}
+.tk-count{font-size:13px;color:var(--ink-2);font-weight:600;margin:10px 2px 6px}
+.tk-list{display:flex;flex-direction:column;gap:10px}
+.tk-card{background:var(--surface);border:1px solid var(--line);border-left:4px solid var(--accent);border-radius:12px;padding:12px;min-width:0;box-shadow:var(--shadow)}
+.tk-top{display:flex;flex-wrap:wrap;align-items:center;gap:6px}
+.tk-id{font-size:12px;font-weight:700;color:var(--ink-3);font-variant-numeric:tabular-nums}
+.tk-pill{display:inline-block;border-radius:999px;padding:2px 9px;font-size:12px;font-weight:700;background:var(--surface-2);color:var(--ink-2);border:1px solid var(--line);white-space:nowrap}
+.tk-ty-bug{color:#fca5a5;border-color:rgba(239,68,68,.45)}.tk-ty-feature-request{color:#c4a5ff;border-color:rgba(124,58,237,.55)}.tk-ty-issue{color:#fcd34d;border-color:rgba(245,158,11,.45)}
+.tk-pr-low{background:var(--good-soft);color:var(--good);border-color:transparent}.tk-pr-medium{background:var(--warn-soft);color:var(--warn);border-color:transparent}.tk-pr-high{background:var(--bad-soft);color:var(--bad);border-color:transparent}.tk-pr-urgent{background:#ef4444;color:#fff;border-color:#ef4444}
+.tk-st-open{background:var(--accent-soft);color:#c4a5ff;border-color:transparent}.tk-st-in-progress{background:#0f2440;color:#7fb3f0;border-color:transparent}.tk-st-resolved{background:var(--good-soft);color:var(--good);border-color:transparent}.tk-st-closed,.tk-st-won-t-do{color:var(--ink-3)}
+.tk-dl{font-size:12px;font-weight:700;color:var(--ink-2);margin-left:auto;white-space:nowrap}.tk-dl-overdue,.tk-dl-late{color:var(--bad)}.tk-dl-soon{color:var(--warn)}.tk-dl-met{color:var(--good)}
+.tk-title{margin:8px 0 4px;font-family:var(--font-d);font-size:16px;font-weight:700;overflow-wrap:anywhere}
+.tk-desc{margin:0;font-size:14px;color:var(--ink-2);white-space:pre-wrap;overflow-wrap:anywhere}
+.tk-foot{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px;margin-top:10px}
+.tk-meta{font-size:12px;color:var(--ink-3)}
+.tk-disc{background:var(--surface-2);border:1px solid var(--line);color:var(--ink);border-radius:999px;padding:5px 12px;font:700 12.5px var(--font-b);cursor:pointer}.tk-disc[aria-expanded=true]{border-color:var(--accent);color:#c4a5ff}
+.tk-thr[hidden]{display:none}.tk-thr{margin-top:10px;padding-top:10px;border-top:1px solid var(--line);display:flex;flex-direction:column;gap:8px}
+.tk-cm{background:var(--surface-2);border:1px solid var(--line);border-radius:10px;padding:8px 10px;min-width:0}
+.tk-cmh{font-size:12px;color:var(--ink-3)}.tk-cmh b{color:var(--ink);margin-right:6px}
+.tk-cmt{font-size:14px;color:var(--ink-2);white-space:pre-wrap;overflow-wrap:anywhere;margin-top:2px}
+.tk-sys{font-size:12px;color:#a78bfa;padding:2px 4px;overflow-wrap:anywhere}
+.tk-none{font-size:13px;color:var(--ink-3)}
+.tk-add{display:flex;flex-direction:column;gap:6px;margin-top:2px}.tk-add select{max-width:220px}.tk-add textarea{min-height:60px;resize:vertical}
+.tk-row{display:flex;align-items:center;justify-content:flex-end;gap:8px;flex-wrap:wrap}.tk-er{color:var(--bad);font-size:12px;margin-right:auto}
+.tk-empty{padding:18px;text-align:center;color:var(--ink-3);background:var(--surface);border:1px dashed var(--line);border-radius:12px}
+.tk-in{width:100%;padding:8px;border-radius:8px;border:1px solid var(--line);font-size:14px;background:var(--surface);color:var(--ink);font-family:var(--font-b);color-scheme:dark}
+#tkm{position:fixed;inset:0;background:rgba(0,0,0,.6);display:none;align-items:center;justify-content:center;z-index:9999;padding:12px}#tkm.on{display:flex}
+#tkm .bx{background:#100c11;border:1px solid #7c3aed;border-radius:12px;padding:16px;width:min(520px,100%);max-height:calc(100vh - 24px);overflow:auto;color:#f4f2f6}
+#tkm .tk-mh{font-family:var(--font-d);font-size:17px;font-weight:700;margin-bottom:10px}
+#tkm label{display:flex;flex-direction:column;gap:3px;font-size:12px;font-weight:700;color:var(--ink-3);margin-bottom:10px;min-width:0}
+#tkm textarea{min-height:110px;resize:vertical}
+.tk-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:0 10px}
+.tk-opt{font-weight:500;color:var(--ink-3)}
+@media (max-width:760px){
+.tk-head{flex-direction:column;align-items:stretch}.tk-ha .btn{flex:1 1 0;min-height:44px;font-size:15px}
+.tk-ov{grid-template-columns:repeat(3,minmax(0,1fr))}.tk-ovc{padding:8px}.tk-ovc b{font-size:18px}
+.tk-fil{grid-template-columns:1fr 1fr}.tk-fil label:first-child{grid-column:1/-1}
+.tk-fil input,.tk-fil select,.tk-add select,.tk-add textarea,#tkm .tk-in,#tkm select,#tkm textarea{font-size:16px;min-height:44px}
+.tk-add select{max-width:none}.tk-dl{margin-left:0}
+.tk-disc,.tk-row .btn{min-height:44px;padding:8px 16px;font-size:14px}.tk-foot{align-items:stretch}.tk-disc{flex:1 1 100%}
+#tkm .bx{max-height:calc(100dvh - 24px)}#tkm .tk-row .btn{flex:1 1 0;min-height:44px}
+}
+</style>
+<div id="tkm"><form class="bx" id="tk-form" novalidate role="dialog" aria-modal="true" aria-labelledby="tk-mh"><div class="tk-mh" id="tk-mh">Raise a ticket</div>
+<label>Title *<input type="text" class="tk-in" id="tk-ti" maxlength="120" required placeholder="Short summary"></label>
+<label>Description *<textarea id="tk-de" maxlength="3000" required placeholder="What happened / what do you need? Steps, links, creator names…"></textarea></label>
+<div class="tk-grid"><label>Type<select id="tk-ty"><option>Bug</option><option>Feature request</option><option>Issue</option></select></label><label>Priority<select id="tk-pr"><option>Low</option><option selected>Medium</option><option>High</option><option>Urgent</option></select></label><label>Deadline <span class="tk-opt">(optional)</span><input type="date" class="tk-in" id="tk-dl"></label><label>Your name *<select id="tk-by"></select></label></div>
+<div class="tk-row"><span class="tk-er" id="tk-mer" role="alert"></span><button type="button" class="btn g" id="tk-cancel">Cancel</button><button type="submit" class="btn p" id="tk-sub">Raise ticket</button></div></form></div>
+<script>
+(function(){
+const TICKETS_API='https://pingpilot-trigger.gokul-c3a.workers.dev';
+const NAMES=['Sid','Natasha','Divya','Kishore','Gokul','Ria','Amisha','Kruthika','KJ'],DONE=['Resolved','Closed',"Won't do"],TC={Bug:'#ef4444','Feature request':'#7c3aed',Issue:'#f59e0b'},NK='pp_scrape_by';
+const g=i=>document.getElementById(i);
+let T=[],on=false,loading=false,err='',seq=0,prev=null;const OPEN=new Set(),DRAFT={},F={q:'',type:'',pri:'',status:'',dl:''};
+function el(t,c,x){const e=document.createElement(t);if(c)e.className=c;if(x!=null)e.textContent=x;return e}
+const slug=s=>String(s).toLowerCase().replace(/[^a-z]+/g,'-').replace(/^-|-$/g,'');
+const istDay=ms=>new Date(ms+19800000).toISOString().slice(0,10),dnum=s=>Date.parse(s+'T00:00:00Z');
+const hasDl=t=>/^\d{4}-\d{2}-\d{2}$/.test(t.deadline||'')&&!isNaN(dnum(t.deadline));
+const isDone=t=>DONE.includes(t.status),stKey=t=>t.status=="Won't do"?'Closed':t.status;
+const plural=(n,w)=>n+' '+w+(n==1?'':'s');
+function wd(s){const d=new Date(dnum(s));return d.toLocaleDateString('en-US',{timeZone:'UTC',weekday:'short'})+' '+d.getUTCDate()}
+function daysLeft(t){return Math.round((dnum(t.deadline)-dnum(istDay(Date.now())))/864e5)}
+function dlCat(t){if(!hasDl(t))return 'none';if(isDone(t)){const u=Date.parse(t.updatedAt);return istDay(isNaN(u)?Date.now():u)<=t.deadline?'met':'late'}const n=daysLeft(t);return n<0?'overdue':n<=3?'soon':'ontrack'}
+function dlTxt(t){if(!hasDl(t))return '';const c=dlCat(t),n=daysLeft(t);if(c=='met')return 'Due '+wd(t.deadline)+' · met';if(c=='late')return 'Due '+wd(t.deadline)+' · missed';if(n<0)return 'Overdue '+plural(-n,'day');if(n==0)return 'Due today';if(n==1)return 'Due tomorrow';if(n<=3)return 'Due in '+n+' days';return 'Due '+wd(t.deadline)}
+const when=t=>typeof its=='function'?its(t):'';
+function toast(m){const t=el('div','pptoast',m);document.body.appendChild(t);setTimeout(()=>t.remove(),2600)}
+async function api(p,b){let r;try{r=await fetch(TICKETS_API+p,b?{method:'POST',mode:'cors',headers:{'Content-Type':'application/json'},body:JSON.stringify(b)}:{mode:'cors',cache:'no-store'})}catch(e){throw new Error('Could not reach the ticket server — check your connection and try again')}
+let j=null;try{j=await r.json()}catch(e){}if(r.status==429)throw new Error('Too many tickets/comments from this network, try later');if(!r.ok)throw new Error(j&&j.error?String(j.error):'Request failed ('+r.status+')');return j}
+function nameSel(sel,v){sel.textContent='';sel.add(new Option('Select your name…',''));NAMES.forEach(n=>sel.add(new Option(n)));sel.value=NAMES.includes(v)?v:''}
+const myName=()=>localStorage.getItem(NK)||'';
+function setName(v){if(NAMES.includes(v))localStorage.setItem(NK,v)}
+
+async function reload(){const s=++seq;loading=true;err='';paint();try{const j=await api('/tickets');if(s!==seq)return T;T=(Array.isArray(j)?j:j&&Array.isArray(j.tickets)?j.tickets:[]).filter(x=>x&&typeof x=='object')}catch(e){if(s!==seq)return T;err=e.message}loading=false;paint();return T}
+
+function match(t){const q=F.q.trim().toLowerCase();return(!q||[t.title,t.description,t.id,t.by].map(x=>String(x??'')).join(' ').toLowerCase().includes(q))&&(!F.type||t.type==F.type)&&(!F.pri||t.priority==F.pri)&&(!F.status||(F.status=='Closed'?stKey(t)=='Closed':t.status==F.status))&&(!F.dl||dlCat(t)==F.dl)}
+function ovCards(box,defs,key,sel){box.textContent='';defs.forEach(([v,l,n])=>{const b=el('button','tk-ovc'+(F[key]==v?' on':''));b.type='button';b.setAttribute('aria-pressed',F[key]==v);b.append(el('b',null,String(n)),el('span',null,l));b.onclick=()=>{F[key]=v;g(sel).value=v;paint()};box.append(b)})}
+function pill(txt,cls){return el('span','tk-pill '+cls,txt)}
+function thread(t,id){const w=el('div','tk-thr');const items=[...(Array.isArray(t.comments)?t.comments:[]).map(c=>({k:'c',...c})),...(Array.isArray(t.history)?t.history:[]).map(h=>({k:'h',...h}))].filter(x=>x&&typeof x=='object').sort((a,b)=>(Date.parse(a.at)||0)-(Date.parse(b.at)||0));
+if(!items.length)w.append(el('div','tk-none','No comments yet — start the discussion.'));
+items.forEach(x=>{if(x.k=='h'){w.append(el('div','tk-sys','↻ Status '+(x.from?x.from+' → ':'set to ')+(x.to||'—')+(x.note?' — '+x.note:'')+' · '+when(x.at)))}else{const c=el('div','tk-cm'),h=el('div','tk-cmh');h.append(el('b',null,x.by||'Someone'),el('span',null,when(x.at)));c.append(h,el('div','tk-cmt',x.text||''));w.append(c)}});
+const f=el('form','tk-add');f.noValidate=true;const s=el('select');s.setAttribute('aria-label','Your name');nameSel(s,myName());s.onchange=()=>setName(s.value);
+const ta=el('textarea');ta.maxLength=1000;ta.placeholder='Add a comment…';ta.setAttribute('aria-label','Comment');ta.value=DRAFT[id]||'';ta.oninput=()=>{DRAFT[id]=ta.value};
+const row=el('div','tk-row'),er=el('span','tk-er'),pb=el('button','btn p','Post');pb.type='submit';row.append(er,pb);f.append(s,ta,row);
+f.onsubmit=async e=>{e.preventDefault();er.textContent='';const by=s.value,text=ta.value.trim();if(!by){er.textContent='Pick your name';return s.focus()}if(!text){er.textContent='Write a comment first';return ta.focus()}
+pb.disabled=true;pb.textContent='Posting…';try{await api('/tickets/'+encodeURIComponent(id)+'/comments',{by,text});setName(by);delete DRAFT[id];await reload();toast('Comment posted')}catch(x){er.textContent=x.message;pb.disabled=false;pb.textContent='Post'}};
+w.append(f);return w}
+function card(t){const id=String(t.id??''),c=el('article','tk-card');c.dataset.id=id;c.style.borderLeftColor=TC[t.type]||'var(--line)';
+const top=el('div','tk-top');top.append(el('span','tk-id','#'+id));if(t.type)top.append(pill(t.type,'tk-ty-'+slug(t.type)));if(t.priority)top.append(pill(t.priority,'tk-pr-'+slug(t.priority)));top.append(pill(t.status||'Open','tk-st-'+slug(t.status||'Open')));
+const d=dlTxt(t);if(d){const s=el('span','tk-dl tk-dl-'+dlCat(t),'📅 '+d);top.append(s)}
+c.append(top,el('h4','tk-title',t.title||'(untitled)'));if(t.description)c.append(el('p','tk-desc',t.description));
+const ft=el('div','tk-foot'),n=Array.isArray(t.comments)?t.comments.length:0,b=el('button','tk-disc','💬 Discuss ('+n+')');b.type='button';b.setAttribute('aria-expanded',OPEN.has(id));
+ft.append(el('div','tk-meta','by '+(t.by||'Someone')+' · '+when(t.createdAt)),b);c.append(ft);
+const th=thread(t,id);th.hidden=!OPEN.has(id);c.append(th);
+b.onclick=()=>{const o=th.hidden;th.hidden=!o;b.setAttribute('aria-expanded',o);o?OPEN.add(id):OPEN.delete(id)};return c}
+function paint(){const m=g('tk-msg');m.className='tk-msg'+(err?' tk-bad':'');m.textContent=err?'⚠️ '+err:loading?'Loading tickets…':'';g('tk-ref').disabled=loading;
+const cnt=f=>T.filter(f).length;
+ovCards(g('tk-ovs'),[['','All',T.length],['Open','Open',cnt(t=>t.status=='Open')],['In progress','In progress',cnt(t=>t.status=='In progress')],['Resolved','Resolved',cnt(t=>t.status=='Resolved')],['Closed','Closed',cnt(t=>stKey(t)=='Closed')]],'status','tk-fs');
+ovCards(g('tk-ovd'),[['','All',T.length],['overdue','Overdue',cnt(t=>dlCat(t)=='overdue')],['soon','Due soon',cnt(t=>dlCat(t)=='soon')],['ontrack','On track',cnt(t=>dlCat(t)=='ontrack')],['met','Deadline met',cnt(t=>dlCat(t)=='met')],['none','No deadline',cnt(t=>dlCat(t)=='none')]],'dl','tk-fd');
+const L=T.filter(match).sort((a,b)=>(Date.parse(b.createdAt)||0)-(Date.parse(a.createdAt)||0)),box=g('tk-list');box.textContent='';
+g('tk-count').textContent=T.length?'Showing '+L.length+' of '+plural(T.length,'ticket'):'';
+if(!L.length&&!loading)box.append(el('div','tk-empty',err?'Tickets could not be loaded.':T.length?'No tickets match these filters.':'No tickets yet — raise the first one.'));
+L.forEach(t=>box.append(card(t)))}
+
+// filters
+[['tk-ft','type'],['tk-fp','pri'],['tk-fs','status'],['tk-fd','dl']].forEach(([i,k])=>g(i).onchange=()=>{F[k]=g(i).value;paint()});g('tk-q').oninput=()=>{F.q=g('tk-q').value;paint()};
+g('tk-ref').onclick=reload;
+
+// modal
+const M=g('tkm'),mer=g('tk-mer');
+function openM(){g('tk-form').reset();g('tk-pr').value='Medium';nameSel(g('tk-by'),myName());mer.textContent='';g('tk-sub').disabled=false;g('tk-sub').textContent='Raise ticket';M.classList.add('on');g('tk-ti').focus()}
+const closeM=()=>M.classList.remove('on');
+g('tk-new').onclick=openM;g('tk-cancel').onclick=closeM;M.addEventListener('click',e=>{if(e.target==M)closeM()});document.addEventListener('keydown',e=>{if(e.key=='Escape'&&M.classList.contains('on'))closeM()});
+g('tk-by').onchange=()=>setName(g('tk-by').value);
+g('tk-form').onsubmit=async e=>{e.preventDefault();mer.textContent='';const title=g('tk-ti').value.trim(),description=g('tk-de').value.trim(),by=g('tk-by').value,deadline=g('tk-dl').value;
+if(!title){mer.textContent='Title is required';return g('tk-ti').focus()}if(!description){mer.textContent='Description is required';return g('tk-de').focus()}if(!by){mer.textContent='Pick your name';return g('tk-by').focus()}
+if(deadline&&!/^\d{4}-\d{2}-\d{2}$/.test(deadline)){mer.textContent='Deadline is not a valid date';return g('tk-dl').focus()}
+const sb=g('tk-sub');sb.disabled=true;sb.textContent='Raising…';
+try{await api('/tickets',{title,description,type:g('tk-ty').value,priority:g('tk-pr').value,deadline:deadline||'',by});setName(by);closeM();toast('Ticket raised');reload()}catch(x){mer.textContent=x.message;sb.disabled=false;sb.textContent='Raise ticket'}};
+
+// top-level tab
+const G=g('grp'),tb=el('button',null,'Tickets');tb.type='button';tb.id='tkbtn';G.append(tb);
+tb.onclick=()=>{if(!on){prev=G.querySelector('button.on');on=true;document.body.classList.add('tk-on');G.querySelectorAll('button').forEach(x=>x.classList.toggle('on',x==tb))}reload()};
+G.addEventListener('click',e=>{const x=e.target.closest('button[data-g]');if(!x||!on)return;on=false;document.body.classList.remove('tk-on');if(x==prev){e.stopPropagation();G.querySelectorAll('button').forEach(y=>y.classList.toggle('on',y==x))}},true);
+paint();
+window.ppTickets={reload};
+})();
 </script>
 </body></html>
