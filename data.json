@@ -1,5 +1,5 @@
 {
- "lastUpdated": "2026-10-23T15:45:00+05:30",
+ "lastUpdated": "2026-10-23T16:30:00+05:30",
  "kpis": {
   "Sid": {
    "owned": 22,
@@ -16,8 +16,8 @@
    "notFound": 5,
    "deals": 37,
    "dealValue": "₹18.22L",
-   "openAsks": 43,
-   "atRisk": 6,
+   "openAsks": 45,
+   "atRisk": 5,
    "note": "+3 identity unresolved"
   },
   "Divya": {
@@ -26,7 +26,7 @@
    "notFound": 9,
    "deals": 15,
    "dealValue": "₹4.50L",
-   "openAsks": 29,
+   "openAsks": 30,
    "atRisk": 4,
    "note": "+1 identity unresolved; 9 = 5 not found + 4 no recent activity"
   },
@@ -36,7 +36,7 @@
    "notFound": 0,
    "deals": 27,
    "dealValue": "₹5.04L",
-   "openAsks": 30,
+   "openAsks": 29,
    "atRisk": 7,
    "note": "CRM deals include Shraddha × Pilgrim (₹45k), not his creator"
   }
@@ -1332,11 +1332,11 @@
    "creator": "Gurishq Kaur",
    "poc": "Divya",
    "cat": "Script",
-   "item": "Revised script (asked 22 Oct)",
-   "priority": "High",
+   "item": "Approved script sent by Divya 23 Oct 16:03; creator to confirm/shoot",
+   "priority": "Low",
    "status": "Open",
    "flag": "Open",
-   "date": "22 Oct"
+   "date": "23 Oct"
   },
   {
    "id": "r117",
@@ -2025,10 +2025,10 @@
    "creator": "Chhavi",
    "poc": "Kishore",
    "cat": "Approval",
-   "item": "UrbanYog Kojic soap live 28 Oct; concept asked of brand 15:27, awaiting reply",
+   "item": "UrbanYog Kojic soap live 28 Oct; brand confirmed no concept needed (15:44)",
    "priority": "Low",
-   "status": "Open",
-   "flag": "Open",
+   "status": "Closed",
+   "flag": "Closed",
    "date": "23 Oct"
   },
   {
@@ -2047,7 +2047,7 @@
    "creator": "Fashion Verge",
    "poc": "Divya",
    "cat": "Script",
-   "item": "Scripts and shoot location re-asked 23 Oct 14:18 (also 22 Oct); pending creators",
+   "item": "Baleno script format, video + AU Bank Zenith+ doc sent 23 Oct 15:52; awaiting creator ack/scripts",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -2060,6 +2060,17 @@
    "cat": "Deliverable",
    "item": "Samsung S26 Ultra festive reel: concept shared, shooting tomorrow (24 Oct)",
    "priority": "Low",
+   "status": "Open",
+   "flag": "Open",
+   "date": "23 Oct"
+  },
+  {
+   "id": "r183",
+   "creator": "Nausheen",
+   "poc": "Natasha",
+   "cat": "Script",
+   "item": "Bioderma script due 24 Oct (asked help with script); Karanjot asked for concept",
+   "priority": "Med",
    "status": "Open",
    "flag": "Open",
    "date": "23 Oct"
