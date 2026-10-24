@@ -1,5 +1,5 @@
 {
- "lastUpdated": "2026-10-24T18:00:57+05:30",
+ "lastUpdated": "2026-10-24T18:36:20+05:30",
  "kpis": {
   "Sid": {
    "owned": 22,
@@ -7,7 +7,7 @@
    "notFound": 3,
    "deals": 29,
    "dealValue": "₹8.22L",
-   "openAsks": 50,
+   "openAsks": 51,
    "atRisk": 19
   },
   "Natasha": {
@@ -26,7 +26,7 @@
    "notFound": 9,
    "deals": 15,
    "dealValue": "₹4.50L",
-   "openAsks": 45,
+   "openAsks": 44,
    "atRisk": 20,
    "note": "+1 identity unresolved; 9 = 5 not found + 4 no recent activity"
   },
@@ -474,10 +474,10 @@
    "creator": "Shitij Verma",
    "poc": "Sid",
    "cat": "Approval",
-   "item": "Prowl script/brand approval update + weekend shoot slot owed; creator chased 23:41, free only this weekend",
+   "item": "Prowl script: brand approval still pending; Amisha 18:23 says team keeps following up, brand hasn't replied; creator free only this weekend, then travelling; Amisha asked from when he's unavailable",
    "priority": "High",
    "status": "Open",
-   "flag": "Open",
+   "flag": "At risk",
    "date": "24 Oct"
   },
   {
@@ -1112,11 +1112,11 @@
    "creator": "Fashion Verge",
    "poc": "Divya",
    "cat": "Script",
-   "item": "AU Bank / Maruti scripts still pending from creator (asked 22 Oct)",
+   "item": "AU Bank / Maruti scripts: Baleno + AU Zenith+ Credit Card scripts shared 15:52 (resolved)",
    "priority": "Med",
-   "status": "Open",
-   "flag": "Open",
-   "date": "22 Oct"
+   "status": "Closed",
+   "flag": "Closed",
+   "date": "24 Oct"
   },
   {
    "id": "r97",
@@ -2047,11 +2047,11 @@
    "creator": "Fashion Verge",
    "poc": "Divya",
    "cat": "Script",
-   "item": "Brand shared MSIL Baleno script PDF 18:51; Divya to review (AU Bank script still pending)",
+   "item": "Baleno + AU Zenith+ Credit Card scripts both shared (15:52); Divya to review",
    "priority": "High",
    "status": "Open",
    "flag": "Open",
-   "date": "23 Oct"
+   "date": "24 Oct"
   },
   {
    "id": "r182",
@@ -2135,11 +2135,11 @@
    "creator": "Fashion Verge",
    "poc": "Divya",
    "cat": "Payment",
-   "item": "Pending invoices + brand-deal mails (Baleno / AU Bank) sent to Divya 18:22-18:28; Divya to process",
+   "item": "Ganesh sent pending invoice brand-deal mails + invoice details in DMs 18:22-18:28; says invoice will be raised and shared Monday",
    "priority": "High",
    "status": "Open",
    "flag": "Open",
-   "date": "23 Oct"
+   "date": "24 Oct"
   },
   {
    "id": "r190",
@@ -2225,6 +2225,17 @@
    "cat": "Deliverable",
    "item": "Little Joys Protein Mix brief; creator already shooting (24 Oct update)",
    "priority": "Low",
+   "status": "Open",
+   "flag": "Open",
+   "date": "24 Oct"
+  },
+  {
+   "id": "r198",
+   "creator": "Divya Singh",
+   "poc": "Sid",
+   "cat": "Script",
+   "item": "Nykaa: Sid flagged 18:08 that the wrong hook was used (brand doesn't want another product in the hook; a different script was approved); Sid to check with team and fix asap; creator fine with it (18:25)",
+   "priority": "Med",
    "status": "Open",
    "flag": "Open",
    "date": "24 Oct"
