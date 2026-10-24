@@ -1,5 +1,5 @@
 {
- "lastUpdated": "2026-10-24T16:37:00+05:30",
+ "lastUpdated": "2026-10-24T17:19:40+05:30",
  "kpis": {
   "Sid": {
    "owned": 22,
@@ -1870,12 +1870,12 @@
    "id": "r165",
    "creator": "Divya Singh",
    "poc": "Sid",
-   "cat": "Script",
-   "item": "Nykaa approved, cleared to shoot; first draft promised by 24 Oct evening (replied 19:22)",
+   "cat": "Approval",
+   "item": "Nykaa video sent to Amisha (17:05), file + doc posted (17:10, 17:16); awaiting Flutch/brand review",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "23 Oct"
+   "date": "24 Oct"
   },
   {
    "id": "r166",
