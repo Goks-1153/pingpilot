@@ -2,7 +2,7 @@
  "by": "Auto",
  "at": "2026-10-24T15:57:00+05:30",
  "startedAt": "2026-10-24T15:57:00+05:30",
- "status": "scraping",
+ "status": "published",
  "history": [
   {
    "by": "Gokul",
@@ -117,6 +117,14 @@
    "startedAt": "2026-10-24T15:18:03+05:30",
    "durationSec": 76,
    "status": "published"
+  },
+  {
+   "by": "Auto",
+   "startedAt": "2026-10-24T15:57:00+05:30",
+   "durationSec": 180,
+   "status": "published"
   }
- ]
+ ],
+ "finishedAt": "2026-10-24T16:00:00+05:30",
+ "durationSec": 180
 }
