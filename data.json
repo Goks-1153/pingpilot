@@ -1,5 +1,5 @@
 {
- "lastUpdated": "2026-10-24T18:36:20+05:30",
+ "lastUpdated": "2026-10-24T19:11:30+05:30",
  "kpis": {
   "Sid": {
    "owned": 22,
@@ -26,8 +26,8 @@
    "notFound": 9,
    "deals": 15,
    "dealValue": "₹4.50L",
-   "openAsks": 44,
-   "atRisk": 20,
+   "openAsks": 45,
+   "atRisk": 21,
    "note": "+1 identity unresolved; 9 = 5 not found + 4 no recent activity"
   },
   "Kishore": {
@@ -1266,22 +1266,22 @@
    "creator": "Yuvasri",
    "poc": "Divya",
    "cat": "Script",
-   "item": "mCaffeine script awaited (brief 22 Oct)",
+   "item": "mCaffeine script awaited (brief 22 Oct); SocioGlitch (Himani) chased Yuvasri script 18:40, 24 Oct; pending from Flutch side",
    "priority": "High",
    "status": "Open",
    "flag": "Open",
-   "date": "22 Oct"
+   "date": "24 Oct"
   },
   {
    "id": "r111",
    "creator": "Ragavi",
    "poc": "Divya",
    "cat": "Script",
-   "item": "Milkshake revised draft (~3 days)",
-   "priority": "Med",
+   "item": "Milkshake revised script (VO + visuals): Ragavi asked for exact VO to edit 18:59; says no response since afternoon, also asked yesterday; Divya sent VN with changes 19:00, shared VO in personal chat 19:05, to share exact steps",
+   "priority": "High",
    "status": "Open",
-   "flag": "Open",
-   "date": "—"
+   "flag": "At risk",
+   "date": "24 Oct"
   },
   {
    "id": "r112",
@@ -2047,7 +2047,7 @@
    "creator": "Fashion Verge",
    "poc": "Divya",
    "cat": "Script",
-   "item": "Baleno + AU Zenith+ Credit Card scripts both shared (15:52); Divya to review",
+   "item": "Baleno + AU Zenith+ Credit Card scripts both shared (15:52); Bhargavi shared MSIL Baleno Script.pdf 18:51; Divya to review",
    "priority": "High",
    "status": "Open",
    "flag": "Open",
@@ -2168,7 +2168,7 @@
    "creator": "Somya Bisla",
    "poc": "Natasha",
    "cat": "Deliverable",
-   "item": "Milkshake video asked by Khushi (17:49, 24 Oct)",
+   "item": "Milkshake video asked by Khushi (17:49, 24 Oct); draft not yet shared, team to check and get back (18:34-18:50)",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -2235,6 +2235,17 @@
    "poc": "Sid",
    "cat": "Script",
    "item": "Nykaa: Sid flagged 18:08 that the wrong hook was used (brand doesn't want another product in the hook; a different script was approved); Sid to check with team and fix asap; creator fine with it (18:25)",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "24 Oct"
+  },
+  {
+   "id": "r199",
+   "creator": "Ragavi",
+   "poc": "Divya",
+   "cat": "Deliverable",
+   "item": "Milkshake video awaited by execution team (Khushi, 17:49, 24 Oct); blocked on revised VO/script from Divya",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",

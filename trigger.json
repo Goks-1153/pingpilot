@@ -2,14 +2,8 @@
  "by": "Auto",
  "at": "2026-10-24T19:08:00+05:30",
  "startedAt": "2026-10-24T19:08:00+05:30",
- "status": "scraping",
+ "status": "published",
  "history": [
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-23T18:09:07+05:30",
-   "durationSec": 348,
-   "status": "published"
-  },
   {
    "by": "Auto",
    "startedAt": "2026-10-23T18:47:30+05:30",
@@ -123,6 +117,14 @@
    "startedAt": "2026-10-24T18:33:46+05:30",
    "durationSec": 154,
    "status": "published"
+  },
+  {
+   "by": "Auto",
+   "startedAt": "2026-10-24T19:08:00+05:30",
+   "durationSec": 210,
+   "status": "published"
   }
- ]
+ ],
+ "finishedAt": "2026-10-24T19:11:30+05:30",
+ "durationSec": 210
 }
