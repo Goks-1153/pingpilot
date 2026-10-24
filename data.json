@@ -1,5 +1,5 @@
 {
- "lastUpdated": "2026-10-23T19:35:34+05:30",
+ "lastUpdated": "2026-10-24T08:07:00+05:30",
  "kpis": {
   "Sid": {
    "owned": 22,
@@ -8,7 +8,7 @@
    "deals": 29,
    "dealValue": "₹8.22L",
    "openAsks": 46,
-   "atRisk": 18
+   "atRisk": 19
   },
   "Natasha": {
    "owned": 26,
@@ -474,11 +474,11 @@
    "creator": "Shitij Verma",
    "poc": "Sid",
    "cat": "Approval",
-   "item": "Prowl revised script awaiting brand approval",
-   "priority": "Med",
+   "item": "Prowl script/brand approval update + weekend shoot slot owed; creator chased 23:41, free only this weekend",
+   "priority": "High",
    "status": "Open",
    "flag": "Open",
-   "date": "23 Oct"
+   "date": "24 Oct"
   },
   {
    "id": "r39",
@@ -1332,11 +1332,11 @@
    "creator": "Gurishq Kaur",
    "poc": "Divya",
    "cat": "Script",
-   "item": "Approved script sent by Divya 23 Oct 16:03; creator to confirm/shoot",
+   "item": "Approved script shared 23 Oct 16:03, creator acknowledged; draft owed",
    "priority": "Low",
    "status": "Open",
    "flag": "Open",
-   "date": "23 Oct"
+   "date": "24 Oct"
   },
   {
    "id": "r117",
@@ -1717,11 +1717,11 @@
    "creator": "Apoorva",
    "poc": "Kishore",
    "cat": "Payment",
-   "item": "Instamart payment chased ~11 days; brand said ASAP 22 Oct, not received 23 Oct",
-   "priority": "High",
+   "item": "Instamart: brand posted IMPS debit alert ₹9,720 (24 Oct 00:14); confirm credit received and full amount",
+   "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "23 Oct"
+   "date": "24 Oct"
   },
   {
    "id": "r152",
@@ -1904,11 +1904,11 @@
    "creator": "Ved",
    "poc": "Natasha",
    "cat": "Script",
-   "item": "Prowl script overdue (asked 22 Oct, re-asked 23 Oct; promised by evening)",
+   "item": "Prowl script posted 22:31 (5 scenes); Flutch to review + get brand approval",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "23 Oct"
+   "date": "24 Oct"
   },
   {
    "id": "r169",
@@ -1970,11 +1970,11 @@
    "creator": "Ragavi",
    "poc": "Divya",
    "cat": "Deliverable",
-   "item": "Thumbnail+caption (22 Oct) and doc (23 Oct) sent; Flutch to check and post, no reply",
+   "item": "Parachute YT Shorts live link posted 20:53; verify link and report to brand",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "23 Oct"
+   "date": "24 Oct"
   },
   {
    "id": "r175",
@@ -2014,11 +2014,11 @@
    "creator": "Pragati Bharti",
    "poc": "Kishore",
    "cat": "Deliverable",
-   "item": "Mamaearth revised draft chased 17:34 (feedback 14:49); no creator reply yet",
-   "priority": "Med",
+   "item": "Mamaearth: creator says feedback already incorporated, can't show more transformation (19:47); respond to brand: re-shoot or push back",
+   "priority": "High",
    "status": "Open",
    "flag": "Open",
-   "date": "23 Oct"
+   "date": "24 Oct"
   },
   {
    "id": "r179",
