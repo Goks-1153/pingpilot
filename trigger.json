@@ -1,8 +1,8 @@
 {
  "by": "Auto",
- "at": "2026-10-24T14:03:30+05:30",
- "startedAt": "2026-10-24T14:03:30+05:30",
- "status": "published",
+ "at": "2026-10-24T14:44:37+05:30",
+ "startedAt": "2026-10-24T14:44:37+05:30",
+ "status": "scraping",
  "history": [
   {
    "by": "Gokul",
@@ -106,7 +106,5 @@
    "durationSec": 108,
    "status": "published"
   }
- ],
- "finishedAt": "2026-10-24T14:05:18+05:30",
- "durationSec": 108
+ ]
 }
