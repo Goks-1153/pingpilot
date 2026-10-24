@@ -1,5 +1,5 @@
 {
- "lastUpdated": "2026-10-24T17:19:40+05:30",
+ "lastUpdated": "2026-10-24T18:00:57+05:30",
  "kpis": {
   "Sid": {
    "owned": 22,
@@ -7,7 +7,7 @@
    "notFound": 3,
    "deals": 29,
    "dealValue": "₹8.22L",
-   "openAsks": 46,
+   "openAsks": 50,
    "atRisk": 19
   },
   "Natasha": {
@@ -16,7 +16,7 @@
    "notFound": 5,
    "deals": 37,
    "dealValue": "₹18.22L",
-   "openAsks": 56,
+   "openAsks": 58,
    "atRisk": 18,
    "note": "+3 identity unresolved"
   },
@@ -26,7 +26,7 @@
    "notFound": 9,
    "deals": 15,
    "dealValue": "₹4.50L",
-   "openAsks": 44,
+   "openAsks": 45,
    "atRisk": 20,
    "note": "+1 identity unresolved; 9 = 5 not found + 4 no recent activity"
   },
@@ -671,12 +671,12 @@
    "id": "r56",
    "creator": "shweta_sakode",
    "poc": "Natasha",
-   "cat": "Not found",
-   "item": "Not found: activity could not be located",
-   "priority": "Low",
+   "cat": "Deliverable",
+   "item": "Little Joys Protein Mix brief; Natasha handling (execution update 17:49, 24 Oct)",
+   "priority": "Med",
    "status": "Open",
-   "flag": "Not found",
-   "date": "—"
+   "flag": "Open",
+   "date": "24 Oct"
   },
   {
    "id": "r57",
@@ -1838,11 +1838,11 @@
    "creator": "Nisha",
    "poc": "Sid",
    "cat": "Script",
-   "item": "Asked \"who else can work on script?\" 23 Oct 13:30, unanswered (Sid on leave)",
+   "item": "Asked \"who else can work on script?\" 23 Oct 13:30; Amisha named execution POC 17:50, 24 Oct (resolved)",
    "priority": "High",
-   "status": "Open",
-   "flag": "Open",
-   "date": "23 Oct"
+   "status": "Closed",
+   "flag": "Closed",
+   "date": "24 Oct"
   },
   {
    "id": "r163",
@@ -2140,6 +2140,94 @@
    "status": "Open",
    "flag": "Open",
    "date": "23 Oct"
+  },
+  {
+   "id": "r190",
+   "creator": "Divya Singh",
+   "poc": "Sid",
+   "cat": "Deliverable",
+   "item": "Nykaa first draft due 25 Oct evening (Divya 17:56); Amisha apologised for Flutch-side miscommunication",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "24 Oct"
+  },
+  {
+   "id": "r191",
+   "creator": "Pavithra Nagarajan",
+   "poc": "Sid",
+   "cat": "Follow-up",
+   "item": "LIVA collab mail: Gokul can't find it; Sid said he'll loop in Amisha (17:52)",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "24 Oct"
+  },
+  {
+   "id": "r192",
+   "creator": "Somya Bisla",
+   "poc": "Natasha",
+   "cat": "Deliverable",
+   "item": "Milkshake video asked by Khushi (17:49, 24 Oct)",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "24 Oct"
+  },
+  {
+   "id": "r193",
+   "creator": "Pavithra Nagarajan",
+   "poc": "Sid",
+   "cat": "Deliverable",
+   "item": "Aravi: 3 scripts shared, 1 approved; awaiting product",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "24 Oct"
+  },
+  {
+   "id": "r194",
+   "creator": "Adrija",
+   "poc": "Sid",
+   "cat": "Approval",
+   "item": "Swish revised script (21 Oct) awaiting approval",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "24 Oct"
+  },
+  {
+   "id": "r195",
+   "creator": "Kalyani",
+   "poc": "Sid",
+   "cat": "Script",
+   "item": "Uppeel: deal locked 23 Oct, brief shared 24 Oct; script to come from brand",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "24 Oct"
+  },
+  {
+   "id": "r196",
+   "creator": "Yogitha",
+   "poc": "Divya",
+   "cat": "Deliverable",
+   "item": "Yeshaswini asked Divya/Simran for video by 24 Oct EOD or 25 Oct first half",
+   "priority": "High",
+   "status": "Open",
+   "flag": "Open",
+   "date": "24 Oct"
+  },
+  {
+   "id": "r197",
+   "creator": "riya.dey_",
+   "poc": "Natasha",
+   "cat": "Deliverable",
+   "item": "Little Joys Protein Mix brief; creator already shooting (24 Oct update)",
+   "priority": "Low",
+   "status": "Open",
+   "flag": "Open",
+   "date": "24 Oct"
   }
  ]
 }
