@@ -142,6 +142,15 @@
    "output_tokens": 0,
    "estimate": false,
    "note": "Periskope read by the bot's browser agent (not counted); 3 chats active since 10:46 IST: Ved acknowledgement only, plus 2 internal chats (Hemanth Bioderma cost ask, TM group creator request), not added as creator rows"
+  },
+  {
+   "at": "2026-10-24T12:03:00+05:30",
+   "by": "Auto",
+   "engine": "Claude Pro (Claude Code)",
+   "input_tokens": 21745,
+   "output_tokens": 469,
+   "estimate": false,
+   "note": "Merge step only (incl. cache tokens); Periskope read by the bot's browser agent (not counted); 3 chats active since 11:28 IST: Nausheen lacto video chased (row updated), plus 2 internal chats (Joel Office address, Kishore payment ack), not added as creator rows"
   }
  ]
 }
