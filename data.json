@@ -1,5 +1,5 @@
 {
- "lastUpdated": "2026-10-25T08:48:16+05:30",
+ "lastUpdated": "2026-10-25T09:31:32+05:30",
  "kpis": {
   "Sid": {
    "owned": 22,
@@ -26,8 +26,8 @@
    "notFound": 9,
    "deals": 15,
    "dealValue": "₹4.50L",
-   "openAsks": 47,
-   "atRisk": 22,
+   "openAsks": 48,
+   "atRisk": 23,
    "note": "+1 identity unresolved; 9 = 5 not found + 4 no recent activity"
   },
   "Kishore": {
@@ -2316,6 +2316,17 @@
    "status": "Open",
    "flag": "Open",
    "date": "24 Oct"
+  },
+  {
+   "id": "r206",
+   "creator": "venessa.pinto",
+   "poc": "Divya",
+   "cat": "Deliverable",
+   "item": "Amazon WSS2: Ritu (Cloutflow) asked 08:56 25 Oct to get orders placed today from q-commerce apps; campaign must be live by 26 Oct; Divya only said thanks 23:48 24 Oct, no reply yet",
+   "priority": "High",
+   "status": "Open",
+   "flag": "At risk",
+   "date": "25 Oct"
   }
  ]
 }
