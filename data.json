@@ -1,5 +1,5 @@
 {
- "lastUpdated": "2026-10-24T19:53:56+05:30",
+ "lastUpdated": "2026-10-25T08:15:04+05:30",
  "kpis": {
   "Sid": {
    "owned": 22,
@@ -7,8 +7,8 @@
    "notFound": 3,
    "deals": 29,
    "dealValue": "₹8.22L",
-   "openAsks": 51,
-   "atRisk": 19
+   "openAsks": 52,
+   "atRisk": 18
   },
   "Natasha": {
    "owned": 26,
@@ -16,7 +16,7 @@
    "notFound": 5,
    "deals": 37,
    "dealValue": "₹18.22L",
-   "openAsks": 58,
+   "openAsks": 59,
    "atRisk": 18,
    "note": "+3 identity unresolved"
   },
@@ -26,8 +26,8 @@
    "notFound": 9,
    "deals": 15,
    "dealValue": "₹4.50L",
-   "openAsks": 45,
-   "atRisk": 21,
+   "openAsks": 47,
+   "atRisk": 22,
    "note": "+1 identity unresolved; 9 = 5 not found + 4 no recent activity"
   },
   "Kishore": {
@@ -36,8 +36,8 @@
    "notFound": 0,
    "deals": 27,
    "dealValue": "₹5.04L",
-   "openAsks": 37,
-   "atRisk": 28,
+   "openAsks": 39,
+   "atRisk": 29,
    "note": "CRM deals include Shraddha × Pilgrim (₹45k), not his creator"
   }
  },
@@ -980,11 +980,11 @@
    "creator": "Mansi",
    "poc": "Natasha",
    "cat": "Payment",
-   "item": "Dove payment: chased 9, 17, 22 Oct; brand only says checking",
+   "item": "Dove payment: chased 9, 17, 22 Oct; Karanjot said checking 23 Oct; agency chased again 24 Oct 15:10, no reply",
    "priority": "High",
    "status": "Open",
    "flag": "Open",
-   "date": "22 Oct"
+   "date": "24 Oct"
   },
   {
    "id": "r85",
@@ -1277,11 +1277,11 @@
    "creator": "Ragavi",
    "poc": "Divya",
    "cat": "Script",
-   "item": "Milkshake revised script (VO + visuals): Ragavi asked for exact VO to edit 18:59; says no response since afternoon, also asked yesterday; Divya sent VN with changes 19:00, shared VO in personal chat 19:05, to share exact steps",
+   "item": "Milkshake revised script (VO + visuals): Ragavi asked for exact VO to edit 18:59 and said no reply since afternoon (also asked the day before); Divya sent VN 19:00 and VO in personal chat 19:05; Ragavi unsure what to draft, Divya promised exact revisions by tonight, Ragavi ok 21:08; still not shared as of 00:38 25 Oct",
    "priority": "High",
    "status": "Open",
    "flag": "At risk",
-   "date": "24 Oct"
+   "date": "25 Oct"
   },
   {
    "id": "r112",
@@ -1629,11 +1629,11 @@
    "creator": "Athira Vinod",
    "poc": "Kishore",
    "cat": "Deliverable",
-   "item": "Aqualogica reel",
+   "item": "Aqualogica reel: Kishore said ok to take live 23 Oct; brand asked for live link 00:57 25 Oct, no reply",
    "priority": "High",
    "status": "Open",
-   "flag": "Open",
-   "date": "—"
+   "flag": "At risk",
+   "date": "25 Oct"
   },
   {
    "id": "r144",
@@ -2245,7 +2245,73 @@
    "creator": "Ragavi",
    "poc": "Divya",
    "cat": "Deliverable",
-   "item": "Milkshake video awaited by execution team (Khushi, 17:49, 24 Oct); blocked on revised VO/script from Divya",
+   "item": "Milkshake video awaited by execution team (Khushi, 17:49, 24 Oct); Divya asked Khushi for revised VO + visuals 19:04-19:27 and called twice; Khushi replied 00:14 25 Oct; revised script still being sorted",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "25 Oct"
+  },
+  {
+   "id": "r200",
+   "creator": "Pragati Bharti",
+   "poc": "Kishore",
+   "cat": "Script",
+   "item": "Pilgrim Damage Repair Shampoo script: agency (Broz Media) asked for ETA 24 Oct 10:11; Divya apologised 00:00 25 Oct, promised script by Mon 26 Oct",
+   "priority": "High",
+   "status": "Open",
+   "flag": "Open",
+   "date": "25 Oct"
+  },
+  {
+   "id": "r201",
+   "creator": "Gurishq Kaur",
+   "poc": "Divya",
+   "cat": "Follow-up",
+   "item": "Brand POC contacts received (Plum, Moroccan Oil, Monk-e, Aminu Life); Divya to connect Mon 26 Oct and follow up on Nykaa acknowledgement (00:03 25 Oct)",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "25 Oct"
+  },
+  {
+   "id": "r202",
+   "creator": "Apoorva",
+   "poc": "Kishore",
+   "cat": "Deliverable",
+   "item": "Foxtale: Khushi asked for outfits (incl. festive) + draft by 2pm 24 Oct, chased 23:39; creator was travelling, will share by 25 Oct afternoon (07:23)",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "25 Oct"
+  },
+  {
+   "id": "r203",
+   "creator": "Somya Bisla",
+   "poc": "Natasha",
+   "cat": "Script",
+   "item": "Sebamed (influencer.in): agency asked for script 19:50 24 Oct, brief sent on mail; no reply",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "24 Oct"
+  },
+  {
+   "id": "r204",
+   "creator": "Pooja",
+   "poc": "Sid",
+   "cat": "Follow-up",
+   "item": "Eleve Media heater campaign forwarded by creator 19:27 24 Oct; asked for someone to reach out and share commercials; no reply",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "24 Oct"
+  },
+  {
+   "id": "r205",
+   "creator": "venessa.pinto",
+   "poc": "Divya",
+   "cat": "Follow-up",
+   "item": "Amazon (Cloutflow): instructions sent 23:48 24 Oct (order product today, approved script to follow, use script word for word); creator not replied yet, Divya to follow up after noon 25 Oct",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",

@@ -269,6 +269,20 @@
    "output_tokens": 0,
    "estimate": true,
    "note": "Periskope read by the bot's browser agent (not counted); only new message after 19:06 was an internal DM (Hemanth to Sid, 19:23), so no merge step and no row changes"
+  },
+  {
+   "at": "2026-10-25T08:15:04+05:30",
+   "by": "Auto",
+   "engine": "Claude Pro (Claude Code)",
+   "input_tokens": 27172,
+   "input_breakdown": {
+    "uncached": 2,
+    "cache_write": 18563,
+    "cache_read": 8607
+   },
+   "output_tokens": 2787,
+   "estimate": false,
+   "note": "Merge step only; Periskope reading done by the bot's browser agent (not counted)"
   }
  ]
 }
