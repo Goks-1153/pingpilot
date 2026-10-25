@@ -1,5 +1,5 @@
 {
- "lastUpdated": "2026-10-25T12:13:33+05:30",
+ "lastUpdated": "2026-10-25T12:58:59+05:30",
  "kpis": {
   "Sid": {
    "owned": 22,
@@ -7,7 +7,7 @@
    "notFound": 3,
    "deals": 29,
    "dealValue": "₹8.22L",
-   "openAsks": 52,
+   "openAsks": 53,
    "atRisk": 18
   },
   "Natasha": {
@@ -2379,6 +2379,17 @@
    "cat": "Follow-up",
    "item": "Chicnutrix: Nidhi Shah 12:05 25 Oct asked 'When is she posting?' (flagged important); Flutch (Karanjot) owes posting date; unanswered",
    "priority": "High",
+   "status": "Open",
+   "flag": "Open",
+   "date": "25 Oct"
+  },
+  {
+   "id": "r212",
+   "creator": "Kalyani",
+   "poc": "Sid",
+   "cat": "Follow-up",
+   "item": "Pears (WORD) YT short: Sid shared live link 12:40 25 Oct, asked Shriya to add #ad before title; Shriya/WORD owes confirmation; unanswered. Earlier 09:43 Amisha asked to remove Flipkart link + hyperlink brand tag; no reply seen",
+   "priority": "Med",
    "status": "Open",
    "flag": "Open",
    "date": "25 Oct"
