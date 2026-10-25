@@ -1,5 +1,5 @@
 {
- "lastUpdated": "2026-10-25T19:00:59+05:30",
+ "lastUpdated": "2026-10-25T19:49:00+05:30",
  "kpis": {
   "Sid": {
    "owned": 22,
@@ -36,7 +36,7 @@
    "notFound": 0,
    "deals": 27,
    "dealValue": "₹5.04L",
-   "openAsks": 41,
+   "openAsks": 42,
    "atRisk": 30,
    "note": "CRM deals include Shraddha × Pilgrim (₹45k), not his creator"
   }
@@ -1618,7 +1618,7 @@
    "creator": "Athira Vinod",
    "poc": "Kishore",
    "cat": "Other",
-   "item": "Organix Mantra: Nimisha asked 24 Oct if Athira received product; Kishore 10:03 25 Oct said he'll check; Nimisha chased again 17:19 ('Any update??'), still no reply",
+   "item": "Organix Mantra: Nimisha asked 24 Oct if Athira received product; Kishore 10:03 25 Oct said he'll check; Nimisha chased again 17:19 ('Any update??'), still no reply; Gokul nudged Kishore internally 19:30 25 Oct ('Reply panu da')",
    "priority": "High",
    "status": "Open",
    "flag": "At risk",
@@ -2476,7 +2476,7 @@
    "creator": "Fashion Verge",
    "poc": "Divya",
    "cat": "Follow-up",
-   "item": "MG Motors (Socio Impulse, Rishabh) 16:54 25 Oct: paid collab offer, 1 collab reel + event attendance + 1 video story, end Nov or mid Dec; asked for commercials + location asap; Flutch owes reply",
+   "item": "MG Motors (Socio Impulse, Rishabh) 16:54 25 Oct: paid collab offer, 1 collab reel + event attendance + 1 video story, end Nov or mid Dec; Natasha quoted 1.85L 19:16 + confirmed timeline 19:17; Natasha to share Ganesh's final confirmation by 26 Oct",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -2546,6 +2546,17 @@
    "priority": "High",
    "status": "Open",
    "flag": "At risk",
+   "date": "25 Oct"
+  },
+  {
+   "id": "r227",
+   "creator": "Chhavi",
+   "poc": "Kishore",
+   "cat": "Follow-up",
+   "item": "Aravi Organics: Rasesh asked for update 19:29 25 Oct; Amisha 19:30: product arriving Sun (25 Oct), shoot to start after receipt; Rasesh 19:30 'Any update?' unanswered; Amisha owes fresh status",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
    "date": "25 Oct"
   }
  ]
