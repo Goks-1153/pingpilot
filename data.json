@@ -1,5 +1,5 @@
 {
- "lastUpdated": "2026-10-25T14:24:56+05:30",
+ "lastUpdated": "2026-10-25T15:02:04+05:30",
  "kpis": {
   "Sid": {
    "owned": 22,
@@ -26,7 +26,7 @@
    "notFound": 9,
    "deals": 15,
    "dealValue": "₹4.50L",
-   "openAsks": 49,
+   "openAsks": 50,
    "atRisk": 23,
    "note": "+1 identity unresolved; 9 = 5 not found + 4 no recent activity"
   },
@@ -2422,6 +2422,17 @@
    "poc": "Natasha",
    "cat": "Deliverable",
    "item": "Plix: Bhavya 13:40 25 Oct spoke to Ishika; Flutch to share creator list Mon 26 Oct",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "25 Oct"
+  },
+  {
+   "id": "r216",
+   "creator": "Dishyata",
+   "poc": "Divya",
+   "cat": "Follow-up",
+   "item": "Fiama: Dishyata 14:59 25 Oct said brand sent 1-month ad rights confirmation mail, closed at 12k, ad code shared today, looping in team; Flutch (Divya/team) yet to acknowledge",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
