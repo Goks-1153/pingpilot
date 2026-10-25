@@ -1,5 +1,5 @@
 {
- "lastUpdated": "2026-10-25T11:35:54+05:30",
+ "lastUpdated": "2026-10-25T12:13:33+05:30",
  "kpis": {
   "Sid": {
    "owned": 22,
@@ -16,8 +16,8 @@
    "notFound": 5,
    "deals": 37,
    "dealValue": "₹18.22L",
-   "openAsks": 60,
-   "atRisk": 18,
+   "openAsks": 61,
+   "atRisk": 19,
    "note": "+3 identity unresolved"
   },
   "Divya": {
@@ -2368,6 +2368,17 @@
    "cat": "Script",
    "item": "Lux body wash: script doc shared by brand side 10:45 25 Oct; mandates: product visible + clear in frame throughout, greenscreen during application, feed video mandatory, simple transitions (any missed = reshoot); no Flutch reply; Flutch to review script + send feedback/approval to brand/Surabhi",
    "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "25 Oct"
+  },
+  {
+   "id": "r211",
+   "creator": "Khyati Kunwar",
+   "poc": "Natasha",
+   "cat": "Follow-up",
+   "item": "Chicnutrix: Nidhi Shah 12:05 25 Oct asked 'When is she posting?' (flagged important); Flutch (Karanjot) owes posting date; unanswered",
+   "priority": "High",
    "status": "Open",
    "flag": "Open",
    "date": "25 Oct"

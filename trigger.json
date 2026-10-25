@@ -1,8 +1,8 @@
 {
  "by": "Auto",
- "at": "2026-10-25T06:42:04+05:30",
- "startedAt": "2026-10-25T06:42:04+05:30",
- "status": "scraping",
+ "at": "2026-10-25T12:12:04+05:30",
+ "startedAt": "2026-10-25T12:12:04+05:30",
+ "status": "published",
  "history": [
   {
    "by": "Auto",
@@ -153,8 +153,14 @@
    "startedAt": "2026-10-25T11:34:28+05:30",
    "durationSec": 150,
    "status": "published"
+  },
+  {
+   "by": "Auto",
+   "startedAt": "2026-10-25T12:12:04+05:30",
+   "durationSec": 192,
+   "status": "published"
   }
  ],
- "finishedAt": "2026-10-25T11:36:58+05:30",
- "durationSec": 150
+ "finishedAt": "2026-10-25T12:15:16+05:30",
+ "durationSec": 192
 }
