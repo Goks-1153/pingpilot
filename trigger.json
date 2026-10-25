@@ -1,8 +1,8 @@
 {
  "by": "Auto",
- "at": "2026-10-25T12:40:23+05:30",
- "startedAt": "2026-10-25T12:40:23+05:30",
- "status": "scraping",
+ "at": "2026-10-25T18:10:23+05:30",
+ "startedAt": "2026-10-25T18:10:23+05:30",
+ "status": "published",
  "history": [
   {
    "by": "Auto",
@@ -207,6 +207,14 @@
    "startedAt": "2026-10-25T17:31:44+05:30",
    "durationSec": 286,
    "status": "published"
+  },
+  {
+   "by": "Auto",
+   "startedAt": "2026-10-25T18:10:23+05:30",
+   "durationSec": 342,
+   "status": "published"
   }
- ]
+ ],
+ "finishedAt": "2026-10-25T18:16:05+05:30",
+ "durationSec": 342
 }

@@ -1,5 +1,5 @@
 {
- "lastUpdated": "2026-10-25T17:34:23+05:30",
+ "lastUpdated": "2026-10-25T18:12:58+05:30",
  "kpis": {
   "Sid": {
    "owned": 22,
@@ -26,7 +26,7 @@
    "notFound": 9,
    "deals": 15,
    "dealValue": "₹4.50L",
-   "openAsks": 54,
+   "openAsks": 55,
    "atRisk": 25,
    "note": "+1 identity unresolved; 9 = 5 not found + 4 no recent activity"
   },
@@ -2278,7 +2278,7 @@
    "creator": "Apoorva",
    "poc": "Kishore",
    "cat": "Deliverable",
-   "item": "Foxtale: Khushi asked for outfits (incl. festive) + draft by 2pm 24 Oct, chased 23:39; creator was travelling, will share by 25 Oct afternoon (07:23); Khushi chased 16:22 25 Oct; Apoorva shared sharara-style outfit link 16:29; Khushi voice note 16:40, Apoorva 'Okay' 16:42; outfit approval to confirm; draft not yet shared",
+   "item": "Foxtale: Khushi asked for outfits (incl. festive) + draft by 2pm 24 Oct, chased 23:39; creator was travelling, will share by 25 Oct afternoon (07:23); Khushi chased 16:22 25 Oct; Apoorva shared sharara-style outfit link 16:29; Khushi voice note 16:40, Apoorva 'Okay' 16:42; Khushi asked about accessories 17:56, Apoorva: earrings + bangles only 17:57; Apoorva shared shoot background photo 18:00, awaiting Khushi feedback; outfit approval to confirm; draft not yet shared",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -2499,6 +2499,17 @@
    "poc": "Divya",
    "cat": "Payment",
    "item": "Amazon W5S2: Divya said 17:25 that Utkarsh confirmed product reimbursements will be done; not yet paid",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "25 Oct"
+  },
+  {
+   "id": "r223",
+   "creator": "venessa.pinto",
+   "poc": "Divya",
+   "cat": "Follow-up",
+   "item": "Amazon W5S2 product order: available on Nykaa but delivery takes 4 days (Chennai rain), creator 17:40 / Priyansh 17:41; Priyansh confirmed reimbursement via Utkarsh 17:26; Divya to decide: wait or alternate product/platform",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
