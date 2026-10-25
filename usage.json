@@ -325,6 +325,20 @@
    "output_tokens": 2674,
    "estimate": false,
    "note": "Merge step only; Periskope reading done by the bot's browser agent (not counted)"
+  },
+  {
+   "at": "2026-10-25T10:57:10+05:30",
+   "by": "Auto",
+   "engine": "Claude Pro (Claude Code)",
+   "input_tokens": 22119,
+   "input_breakdown": {
+    "uncached": 2,
+    "cache_write": 13510,
+    "cache_read": 8607
+   },
+   "output_tokens": 1156,
+   "estimate": false,
+   "note": "Merge step only; Periskope reading done by the bot's browser agent (not counted)"
   }
  ]
 }

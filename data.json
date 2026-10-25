@@ -1,5 +1,5 @@
 {
- "lastUpdated": "2026-10-25T10:13:57+05:30",
+ "lastUpdated": "2026-10-25T10:57:10+05:30",
  "kpis": {
   "Sid": {
    "owned": 22,
@@ -16,7 +16,7 @@
    "notFound": 5,
    "deals": 37,
    "dealValue": "₹18.22L",
-   "openAsks": 59,
+   "openAsks": 60,
    "atRisk": 18,
    "note": "+3 identity unresolved"
   },
@@ -749,11 +749,11 @@
    "creator": "Surabhi",
    "poc": "Natasha",
    "cat": "Other",
-   "item": "Lux brief/product from agency (two groups for the same campaign)",
+   "item": "Lux body wash brief received from agency (Gurleen, Barcode): 'Surabhi X Lux Bodywash.pdf' 10:39 25 Oct; product receipt not confirmed; two groups for the same campaign",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "—"
+   "date": "25 Oct"
   },
   {
    "id": "r64",
@@ -1607,7 +1607,7 @@
    "creator": "Athira Vinod",
    "poc": "Kishore",
    "cat": "Script",
-   "item": "Plix: Kishore forwarded feedback 10:05 25 Oct (no hair bounce after shampoo); Himanshi (Plix) to revise + share video draft; Athira replied by voice note; Kishore to update brand; Plix owes revised draft",
+   "item": "Plix: Kishore forwarded feedback 10:05 25 Oct (no hair bounce after shampoo); Kishore told Himanshi (Plix) changes + video draft will be shared; 10:16 Himanshi: don't show salon in video, just shoot there (unanswered); Kishore to confirm no-salon direction with Athira + share revised draft with Plix",
    "priority": "High",
    "status": "Open",
    "flag": "Open",
@@ -2357,6 +2357,17 @@
    "cat": "Script",
    "item": "Be Bodywise: Mayank (HYPD) chasing since 22 Oct; Kishore 10:05 25 Oct told brand creator unwell, script by 26 Oct first half; creator (in Ujjain) told Kishore 08:09 script by Mon; dates don't match, Kishore may need to send brand a corrected date",
    "priority": "High",
+   "status": "Open",
+   "flag": "Open",
+   "date": "25 Oct"
+  },
+  {
+   "id": "r210",
+   "creator": "Surabhi",
+   "poc": "Natasha",
+   "cat": "Script",
+   "item": "Lux body wash: script doc shared by brand side 10:45 25 Oct; mandates: product visible + clear in frame throughout, greenscreen during application, feed video mandatory, simple transitions (any missed = reshoot); no Flutch reply; Flutch to review script + send feedback/approval to brand/Surabhi",
+   "priority": "Med",
    "status": "Open",
    "flag": "Open",
    "date": "25 Oct"
