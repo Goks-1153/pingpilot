@@ -1,5 +1,5 @@
 {
- "lastUpdated": "2026-10-25T15:39:41+05:30",
+ "lastUpdated": "2026-10-25T16:20:02+05:30",
  "kpis": {
   "Sid": {
    "owned": 22,
@@ -16,7 +16,7 @@
    "notFound": 5,
    "deals": 37,
    "dealValue": "₹18.22L",
-   "openAsks": 64,
+   "openAsks": 65,
    "atRisk": 20,
    "note": "+3 identity unresolved"
   },
@@ -2443,7 +2443,7 @@
    "creator": "venessa.pinto",
    "poc": "Divya",
    "cat": "Payment",
-   "item": "Amazon W5S2 (Cloutflow): brand gave 30k incl. 1k product reimbursement vs 35k quoted; Venessa 15:29 25 Oct 'not fair'; Divya 15:35 to renegotiate; Divya 15:33-15:37 asked Cloutflow (Utkarsh) for +Rs 2k or drop the campaign, also raised 45 days in email; Cloutflow owes reply, Divya owes update to creator",
+   "item": "Amazon W5S2 (Cloutflow): brand gave 30k incl. 1k product reimbursement vs 35k quoted; Venessa 15:29 25 Oct 'not fair'; Divya 15:35 to renegotiate; Divya 15:33-15:37 asked Cloutflow (Utkarsh) for +Rs 2k or drop the campaign, also raised 45 days in email; Venessa 15:49 said if not, ask for product reimbursement; Divya 16:04-16:05 told Priyansh to raise cost by at least Rs 2k or drop, and said brand should handle product reimbursements; Cloutflow owes reply, Divya owes update to creator",
    "priority": "High",
    "status": "Open",
    "flag": "Open",
@@ -2454,10 +2454,21 @@
    "creator": "venessa.pinto",
    "poc": "Divya",
    "cat": "Deliverable",
-   "item": "Amazon W5S2: Cloutflow (Priyansh) 15:17 25 Oct needs response by 4pm (time-sensitive); q-commerce orders today, live by 26 Oct; outfit/bg confirmation pending; Divya 15:27 awaiting creator response",
+   "item": "Amazon W5S2: Cloutflow (Priyansh) 15:17 25 Oct needs response by 4pm (time-sensitive); q-commerce orders today, live by 26 Oct; outfit/bg confirmation pending; Divya 15:27 awaiting creator response; Priyansh 15:54 'can't delay it so much', needs video today, asked when creator will shoot; shoot date still open",
    "priority": "High",
    "status": "Open",
    "flag": "At risk",
+   "date": "25 Oct"
+  },
+  {
+   "id": "r219",
+   "creator": "Mansi",
+   "poc": "Natasha",
+   "cat": "Follow-up",
+   "item": "Juilee (Plix Life) 16:05-16:06 25 Oct asked rates for mansiara.15: 1 non-collab reel + auto-DM + 1-month ad rights; Flutch owes quote",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
    "date": "25 Oct"
   }
  ]
