@@ -1,5 +1,5 @@
 {
- "lastUpdated": "2026-10-25T15:02:04+05:30",
+ "lastUpdated": "2026-10-25T15:39:41+05:30",
  "kpis": {
   "Sid": {
    "owned": 22,
@@ -26,8 +26,8 @@
    "notFound": 9,
    "deals": 15,
    "dealValue": "₹4.50L",
-   "openAsks": 50,
-   "atRisk": 23,
+   "openAsks": 52,
+   "atRisk": 25,
    "note": "+1 identity unresolved; 9 = 5 not found + 4 no recent activity"
   },
   "Kishore": {
@@ -1761,7 +1761,7 @@
    "creator": "Amna",
    "poc": "Kishore",
    "cat": "Other",
-   "item": "Swiss Beauty Mudpie products not arrived yet",
+   "item": "Swiss Beauty Mudpie products not arrived yet; Aamna 15:37 25 Oct asked whether to buy products herself or brand will send parcel; Kishore owes reply",
    "priority": "High",
    "status": "Open",
    "flag": "Open",
@@ -2432,10 +2432,32 @@
    "creator": "Dishyata",
    "poc": "Divya",
    "cat": "Follow-up",
-   "item": "Fiama: Dishyata 14:59 25 Oct said brand sent 1-month ad rights confirmation mail, closed at 12k, ad code shared today, looping in team; Flutch (Divya/team) yet to acknowledge",
+   "item": "Fiama: Dishyata 14:59 25 Oct said brand sent 1-month ad rights confirmation mail, closed at 12k, ad code shared today; Divya acknowledged 15:30, will update Mon 26 Oct; Divya owes update",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
+   "date": "25 Oct"
+  },
+  {
+   "id": "r217",
+   "creator": "venessa.pinto",
+   "poc": "Divya",
+   "cat": "Payment",
+   "item": "Amazon W5S2 (Cloutflow): brand gave 30k incl. 1k product reimbursement vs 35k quoted; Venessa 15:29 25 Oct 'not fair'; Divya 15:35 to renegotiate; Divya 15:33-15:37 asked Cloutflow (Utkarsh) for +Rs 2k or drop the campaign, also raised 45 days in email; Cloutflow owes reply, Divya owes update to creator",
+   "priority": "High",
+   "status": "Open",
+   "flag": "Open",
+   "date": "25 Oct"
+  },
+  {
+   "id": "r218",
+   "creator": "venessa.pinto",
+   "poc": "Divya",
+   "cat": "Deliverable",
+   "item": "Amazon W5S2: Cloutflow (Priyansh) 15:17 25 Oct needs response by 4pm (time-sensitive); q-commerce orders today, live by 26 Oct; outfit/bg confirmation pending; Divya 15:27 awaiting creator response",
+   "priority": "High",
+   "status": "Open",
+   "flag": "At risk",
    "date": "25 Oct"
   }
  ]
