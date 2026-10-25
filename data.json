@@ -1,5 +1,5 @@
 {
- "lastUpdated": "2026-10-25T16:20:02+05:30",
+ "lastUpdated": "2026-10-25T16:58:19+05:30",
  "kpis": {
   "Sid": {
    "owned": 22,
@@ -2278,7 +2278,7 @@
    "creator": "Apoorva",
    "poc": "Kishore",
    "cat": "Deliverable",
-   "item": "Foxtale: Khushi asked for outfits (incl. festive) + draft by 2pm 24 Oct, chased 23:39; creator was travelling, will share by 25 Oct afternoon (07:23)",
+   "item": "Foxtale: Khushi asked for outfits (incl. festive) + draft by 2pm 24 Oct, chased 23:39; creator was travelling, will share by 25 Oct afternoon (07:23); Khushi chased 16:22 25 Oct; Apoorva shared sharara-style outfit link 16:29; Khushi voice note 16:40, Apoorva 'Okay' 16:42; outfit approval to confirm; draft not yet shared",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -2311,11 +2311,11 @@
    "creator": "venessa.pinto",
    "poc": "Divya",
    "cat": "Follow-up",
-   "item": "Amazon (Cloutflow): instructions sent 23:48 24 Oct (order product today, approved script to follow, use script word for word); creator not replied yet, Divya to follow up after noon 25 Oct",
+   "item": "Amazon (Cloutflow): instructions sent 23:48 24 Oct (order product today, approved script to follow, use script word for word); creator replied 16:50-16:53 25 Oct, will order products first (resolved)",
    "priority": "Med",
-   "status": "Open",
-   "flag": "Open",
-   "date": "24 Oct"
+   "status": "Closed",
+   "flag": "Closed",
+   "date": "25 Oct"
   },
   {
    "id": "r206",
@@ -2443,7 +2443,7 @@
    "creator": "venessa.pinto",
    "poc": "Divya",
    "cat": "Payment",
-   "item": "Amazon W5S2 (Cloutflow): brand gave 30k incl. 1k product reimbursement vs 35k quoted; Venessa 15:29 25 Oct 'not fair'; Divya 15:35 to renegotiate; Divya 15:33-15:37 asked Cloutflow (Utkarsh) for +Rs 2k or drop the campaign, also raised 45 days in email; Venessa 15:49 said if not, ask for product reimbursement; Divya 16:04-16:05 told Priyansh to raise cost by at least Rs 2k or drop, and said brand should handle product reimbursements; Cloutflow owes reply, Divya owes update to creator",
+   "item": "Amazon W5S2 (Cloutflow): brand gave 30k incl. 1k product reimbursement vs 35k quoted; Venessa 15:29 25 Oct 'not fair'; Divya asked Cloutflow (Utkarsh/Priyansh) 15:33-16:05 for +Rs 2k or drop, brand to handle product reimbursement; Utkarsh call 16:25; Divya 16:40: can't do 30k, will proceed only if brand reimburses products, else drop; Utkarsh voice note 16:48 (not transcribed); Divya 16:50 told creator brand okay with reimbursement; Utkarsh owes written confirmation of reimbursement",
    "priority": "High",
    "status": "Open",
    "flag": "Open",
@@ -2454,7 +2454,7 @@
    "creator": "venessa.pinto",
    "poc": "Divya",
    "cat": "Deliverable",
-   "item": "Amazon W5S2: Cloutflow (Priyansh) 15:17 25 Oct needs response by 4pm (time-sensitive); q-commerce orders today, live by 26 Oct; outfit/bg confirmation pending; Divya 15:27 awaiting creator response; Priyansh 15:54 'can't delay it so much', needs video today, asked when creator will shoot; shoot date still open",
+   "item": "Amazon W5S2: Cloutflow needs q-commerce orders today, live by 26 Oct; Priyansh 15:54 needs video today; Divya 16:54 told Cloutflow video by 26 Oct, sharing bg/outfits; Venessa can't shoot 25 Oct (bridal job, no setup), makeup classes 26 Oct + Wed 10-2; Venessa 16:53 to order products first, then send shoot-location options; no shoot date fixed, clashes with 26 Oct promise",
    "priority": "High",
    "status": "Open",
    "flag": "At risk",
@@ -2466,6 +2466,17 @@
    "poc": "Natasha",
    "cat": "Follow-up",
    "item": "Juilee (Plix Life) 16:05-16:06 25 Oct asked rates for mansiara.15: 1 non-collab reel + auto-DM + 1-month ad rights; Flutch owes quote",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "25 Oct"
+  },
+  {
+   "id": "r220",
+   "creator": "Fashion Verge",
+   "poc": "Divya",
+   "cat": "Follow-up",
+   "item": "MG Motors (Socio Impulse, Rishabh) 16:54 25 Oct: paid collab offer, 1 collab reel + event attendance + 1 video story, end Nov or mid Dec; asked for commercials + location asap; Flutch owes reply",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
