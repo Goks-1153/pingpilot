@@ -1,5 +1,5 @@
 {
- "lastUpdated": "2026-10-25T16:58:19+05:30",
+ "lastUpdated": "2026-10-25T17:34:23+05:30",
  "kpis": {
   "Sid": {
    "owned": 22,
@@ -26,7 +26,7 @@
    "notFound": 9,
    "deals": 15,
    "dealValue": "₹4.50L",
-   "openAsks": 52,
+   "openAsks": 54,
    "atRisk": 25,
    "note": "+1 identity unresolved; 9 = 5 not found + 4 no recent activity"
   },
@@ -1618,10 +1618,10 @@
    "creator": "Athira Vinod",
    "poc": "Kishore",
    "cat": "Other",
-   "item": "Organix Mantra: Nimisha asked 24 Oct if Athira received product; Kishore 10:03 25 Oct said he'll check; answer pending",
+   "item": "Organix Mantra: Nimisha asked 24 Oct if Athira received product; Kishore 10:03 25 Oct said he'll check; Nimisha chased again 17:19 ('Any update??'), still no reply",
    "priority": "High",
    "status": "Open",
-   "flag": "Open",
+   "flag": "At risk",
    "date": "25 Oct"
   },
   {
@@ -2477,6 +2477,28 @@
    "poc": "Divya",
    "cat": "Follow-up",
    "item": "MG Motors (Socio Impulse, Rishabh) 16:54 25 Oct: paid collab offer, 1 collab reel + event attendance + 1 video story, end Nov or mid Dec; asked for commercials + location asap; Flutch owes reply",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "25 Oct"
+  },
+  {
+   "id": "r221",
+   "creator": "venessa.pinto",
+   "poc": "Divya",
+   "cat": "Other",
+   "item": "Amazon W5S2: 1 product not on Zepto/Blinkit/Swiggy (Chennai, pincode 60097); Venessa asked if brand can replace it (17:11); Divya asked her to check Amazon (17:23) and Nykaa (17:28), no reply; Priyansh (brand) checking availability",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "25 Oct"
+  },
+  {
+   "id": "r222",
+   "creator": "venessa.pinto",
+   "poc": "Divya",
+   "cat": "Payment",
+   "item": "Amazon W5S2: Divya said 17:25 that Utkarsh confirmed product reimbursements will be done; not yet paid",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
