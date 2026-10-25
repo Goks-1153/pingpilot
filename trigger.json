@@ -1,8 +1,8 @@
 {
  "by": "Auto",
- "at": "2026-10-25T16:17:39+05:30",
- "startedAt": "2026-10-25T16:17:39+05:30",
- "status": "published",
+ "at": "2026-10-25T16:56:17+05:30",
+ "startedAt": "2026-10-25T16:56:17+05:30",
+ "status": "scraping",
  "history": [
   {
    "by": "Auto",
@@ -196,7 +196,5 @@
    "durationSec": 147,
    "status": "published"
   }
- ],
- "finishedAt": "2026-10-25T16:20:06+05:30",
- "durationSec": 147
+ ]
 }
