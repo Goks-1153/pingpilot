@@ -1,5 +1,5 @@
 {
- "lastUpdated": "2026-10-25T12:58:59+05:30",
+ "lastUpdated": "2026-10-25T13:34:54+05:30",
  "kpis": {
   "Sid": {
    "owned": 22,
@@ -16,8 +16,8 @@
    "notFound": 5,
    "deals": 37,
    "dealValue": "₹18.22L",
-   "openAsks": 61,
-   "atRisk": 19,
+   "openAsks": 62,
+   "atRisk": 20,
    "note": "+3 identity unresolved"
   },
   "Divya": {
@@ -2377,7 +2377,7 @@
    "creator": "Khyati Kunwar",
    "poc": "Natasha",
    "cat": "Follow-up",
-   "item": "Chicnutrix: Nidhi Shah 12:05 25 Oct asked 'When is she posting?' (flagged important); Flutch (Karanjot) owes posting date; unanswered",
+   "item": "Chicnutrix: Nidhi Shah 12:05 25 Oct asked 'When is she posting?' (flagged important); Nidhi shared influencer brief deck 13:08, VO ref + more pics/videos to come; Flutch (Karanjot) still owes posting date; unanswered",
    "priority": "High",
    "status": "Open",
    "flag": "Open",
@@ -2390,6 +2390,17 @@
    "cat": "Follow-up",
    "item": "Pears (WORD) YT short: Sid shared live link 12:40 25 Oct, asked Shriya to add #ad before title; Shriya/WORD owes confirmation; unanswered. Earlier 09:43 Amisha asked to remove Flipkart link + hyperlink brand tag; no reply seen",
    "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "25 Oct"
+  },
+  {
+   "id": "r213",
+   "creator": "Chhavi",
+   "poc": "Natasha",
+   "cat": "Follow-up",
+   "item": "Marketing brand (unnamed): Natasha quoted 12:39 25 Oct (IG collab reel + ad rights 45k, YT short 55k, Meta/Google usage 1 mo 15k); brand 13:16 offered Rs. 20k per SOP vs ~1.1L quoted; Natasha/Chhavi owe reply (chat flagged)",
+   "priority": "High",
    "status": "Open",
    "flag": "Open",
    "date": "25 Oct"
