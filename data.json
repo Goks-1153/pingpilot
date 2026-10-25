@@ -1,5 +1,5 @@
 {
- "lastUpdated": "2026-10-25T18:12:58+05:30",
+ "lastUpdated": "2026-10-25T19:00:59+05:30",
  "kpis": {
   "Sid": {
    "owned": 22,
@@ -26,8 +26,8 @@
    "notFound": 9,
    "deals": 15,
    "dealValue": "₹4.50L",
-   "openAsks": 55,
-   "atRisk": 25,
+   "openAsks": 58,
+   "atRisk": 26,
    "note": "+1 identity unresolved; 9 = 5 not found + 4 no recent activity"
   },
   "Kishore": {
@@ -1607,7 +1607,7 @@
    "creator": "Athira Vinod",
    "poc": "Kishore",
    "cat": "Script",
-   "item": "Plix: Kishore forwarded feedback 10:05 25 Oct (no hair bounce after shampoo); Kishore told Himanshi (Plix) changes + video draft will be shared; 10:16 Himanshi: don't show salon in video, just shoot there (unanswered); Kishore to confirm no-salon direction with Athira + share revised draft with Plix",
+   "item": "Plix: Kishore forwarded feedback 10:05 25 Oct (no hair bounce after shampoo); Kishore told Himanshi (Plix) changes + video draft will be shared; 10:16 Himanshi: don't show salon in video, just shoot there (unanswered); 18:49 Athira sent audio (likely reply on Plix feedback), Kishore yet to reply; Kishore to confirm no-salon direction with Athira + share revised draft with Plix",
    "priority": "High",
    "status": "Open",
    "flag": "Open",
@@ -2278,7 +2278,7 @@
    "creator": "Apoorva",
    "poc": "Kishore",
    "cat": "Deliverable",
-   "item": "Foxtale: Khushi asked for outfits (incl. festive) + draft by 2pm 24 Oct, chased 23:39; creator was travelling, will share by 25 Oct afternoon (07:23); Khushi chased 16:22 25 Oct; Apoorva shared sharara-style outfit link 16:29; Khushi voice note 16:40, Apoorva 'Okay' 16:42; Khushi asked about accessories 17:56, Apoorva: earrings + bangles only 17:57; Apoorva shared shoot background photo 18:00, awaiting Khushi feedback; outfit approval to confirm; draft not yet shared",
+   "item": "Foxtale: Khushi asked for outfits (incl. festive) + draft by 2pm 24 Oct; creator was travelling; Apoorva shared sharara-style outfit link 16:29, accessories (earrings + bangles only) 17:57, shoot background photo 18:00; Apoorva unsure on outfit, will shoot 26 Oct + share draft; Khushi called 18:44; 18:59 Khushi: 'we spoke sending mail of 8k'; awaiting Khushi's 8k mail; draft due 26 Oct",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -2513,6 +2513,39 @@
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
+   "date": "25 Oct"
+  },
+  {
+   "id": "r224",
+   "creator": "venessa.pinto",
+   "poc": "Divya",
+   "cat": "Follow-up",
+   "item": "Amazon W5S2: Priyansh asked for reference reel, outfit + background 18:23-18:24; ok to cheat product shot with p2c; Divya shared ref reel 18:42; 18:43 Priyansh asked for approach ref; 18:46 asked if she can order the other products; unanswered",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "25 Oct"
+  },
+  {
+   "id": "r225",
+   "creator": "venessa.pinto",
+   "poc": "Divya",
+   "cat": "Deliverable",
+   "item": "Amazon W5S2: Venessa to order products 18:43; wants to skip or replace eye cream; Divya 18:44: 'Eye cream will check'; Divya to decide on eye cream (skip/replace)",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "25 Oct"
+  },
+  {
+   "id": "r226",
+   "creator": "Dharshne",
+   "poc": "Divya",
+   "cat": "Deliverable",
+   "item": "Samsung Gen Alpha (Boomlet): 18:49 Sanika chased update on other branded content ('can't make this late'); sent 2 more branded reel decks: both reels within 2 wks, concept notes by this weekend; Flutch owes status + ack",
+   "priority": "High",
+   "status": "Open",
+   "flag": "At risk",
    "date": "25 Oct"
   }
  ]
