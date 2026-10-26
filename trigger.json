@@ -2,7 +2,7 @@
  "by": "Auto",
  "at": "2026-10-26T13:17:19+05:30",
  "startedAt": "2026-10-26T13:17:19+05:30",
- "status": "scraping",
+ "status": "published",
  "history": [
   {
    "by": "Auto",
@@ -267,6 +267,14 @@
    "startedAt": "2026-10-26T12:33:17+05:30",
    "durationSec": 527,
    "status": "published"
+  },
+  {
+   "by": "Auto",
+   "startedAt": "2026-10-26T13:17:19+05:30",
+   "durationSec": 471,
+   "status": "published"
   }
- ]
+ ],
+ "finishedAt": "2026-10-26T13:25:10+05:30",
+ "durationSec": 471
 }

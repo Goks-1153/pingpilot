@@ -1,5 +1,5 @@
 {
- "lastUpdated": "2026-10-26T12:38:58+05:30",
+ "lastUpdated": "2026-10-26T13:23:04+05:30",
  "kpis": {
   "Sid": {
    "owned": 22,
@@ -7,8 +7,8 @@
    "notFound": 3,
    "deals": 29,
    "dealValue": "₹8.22L",
-   "openAsks": 60,
-   "atRisk": 20
+   "openAsks": 62,
+   "atRisk": 19
   },
   "Natasha": {
    "owned": 26,
@@ -16,7 +16,7 @@
    "notFound": 5,
    "deals": 37,
    "dealValue": "₹18.22L",
-   "openAsks": 77,
+   "openAsks": 79,
    "atRisk": 21,
    "note": "+3 identity unresolved"
   },
@@ -26,7 +26,7 @@
    "notFound": 9,
    "deals": 15,
    "dealValue": "₹4.50L",
-   "openAsks": 64,
+   "openAsks": 66,
    "atRisk": 26,
    "note": "+1 identity unresolved; 9 = 5 not found + 4 no recent activity"
   },
@@ -37,7 +37,7 @@
    "deals": 27,
    "dealValue": "₹5.04L",
    "openAsks": 48,
-   "atRisk": 29,
+   "atRisk": 28,
    "note": "CRM deals include Shraddha × Pilgrim (₹45k), not his creator"
   }
  },
@@ -144,7 +144,7 @@
    "creator": "Kalyani",
    "poc": "Sid",
    "cat": "Other",
-   "item": "Ghar Soaps (Inari Media, Sandeep): team asked the brand at 11:25 am on 22 Oct, no answer; Amisha chased before/after shot update 10:08 26 Oct (overdue since last week); Inari Media owes update",
+   "item": "Ghar Soaps (Inari Media, Sandeep): team asked the brand at 11:25 am on 22 Oct, no answer; Amisha chased before/after shot update 10:08 26 Oct (overdue since last week); 11:48 26 Oct Amisha: shoot done, video by EOD; Ghar Soap video due EOD 26 Oct",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -749,11 +749,11 @@
    "creator": "Surabhi",
    "poc": "Natasha",
    "cat": "Other",
-   "item": "Lux body wash brief received from agency (Gurleen, Barcode): 'Surabhi X Lux Bodywash.pdf' 10:39 25 Oct; product receipt not confirmed; two groups for the same campaign",
+   "item": "Lux body wash brief received from agency (Gurleen, Barcode): 'Surabhi X Lux Bodywash.pdf' 10:39 25 Oct; Flutch asked 10:10 26 Oct if brand will send bodywash; Gurleen 13:17 'Sharingg' (preview only); product dispatch not confirmed; two groups for the same campaign",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "25 Oct"
+   "date": "26 Oct"
   },
   {
    "id": "r64",
@@ -837,7 +837,7 @@
    "creator": "Nausheen",
    "poc": "Natasha",
    "cat": "Script",
-   "item": "Lacto Calamine revised video: Karanjot sent revised draft 10:03 26 Oct; Bansri feedback 10:05: CTA not in brackets + title case, brand names missing in video, RTB in title case, super 'Lacto Calamine SPF50 Sunscreen with PA++++'; asked Flutch to confirm RTB point; Flutch to confirm RTB + send edited video",
+   "item": "Lacto Calamine revised video: Karanjot sent revised draft 10:03 26 Oct; Bansri feedback 10:05: CTA not in brackets + title case, brand names missing in video, RTB in title case, super 'Lacto Calamine SPF50 Sunscreen with PA++++'; asked Flutch to confirm RTB point; ~12:41 Bansri (preview, creator unclear): 'Super light' word missing again, CTA not matching VO; Flutch to confirm RTB + send edited video",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -2201,10 +2201,10 @@
    "creator": "Kalyani",
    "poc": "Sid",
    "cat": "Script",
-   "item": "Uppeel: deal locked 23 Oct, brief shared 24 Oct; Amisha shared script options 10:35 26 Oct; Kalyani 10:41: will check; options re-shared 11:43; Kalyani to pick a script",
+   "item": "Uppeel: deal locked 23 Oct, brief shared 24 Oct; script options shared 10:35 26 Oct; Kalyani chose Script 2 12:14 26 Oct; mandates sent 13:05 (resolved)",
    "priority": "Med",
-   "status": "Open",
-   "flag": "Open",
+   "status": "Closed",
+   "flag": "Closed",
    "date": "26 Oct"
   },
   {
@@ -2256,10 +2256,10 @@
    "creator": "Pragati Bharti",
    "poc": "Kishore",
    "cat": "Script",
-   "item": "Pilgrim Damage Repair Shampoo script: agency (Broz Media) asked for ETA 10:11 24 Oct; Divya promised script by Mon 26 Oct; Pilgrim chased 10:33 26 Oct ('by when can you share'); Flutch owes script today",
+   "item": "Pilgrim Damage Repair Shampoo script: agency (Broz Media) asked ETA 10:11 24 Oct; Pilgrim chased 10:33 26 Oct; script shared 12:51 26 Oct, content bucket confirmed (3rd, transformation) 13:06; Shefali 'Okay thanks' (resolved)",
    "priority": "High",
-   "status": "Open",
-   "flag": "Open",
+   "status": "Closed",
+   "flag": "Closed",
    "date": "26 Oct"
   },
   {
@@ -2278,7 +2278,7 @@
    "creator": "Apoorva",
    "poc": "Kishore",
    "cat": "Deliverable",
-   "item": "Foxtale: Khushi asked for outfits (incl. festive) + draft by 2pm 24 Oct; creator was travelling; Apoorva shared sharara-style outfit link 16:29, accessories (earrings + bangles only) 17:57, shoot background photo 18:00; Apoorva unsure on outfit, will shoot 26 Oct + share draft; Khushi called 18:44; 18:59 Khushi: 'we spoke sending mail of 8k'; awaiting Khushi's 8k mail; 01:51 26 Oct Khushi asked for tank top / night suit / anything not black (colour mandatory); Apoorva: tank top only in black; Khushi to check Apoorva's profile; 11:43 Apoorva: 'any update? do lmk at the earliest'; Flutch owes outfit reply; no draft seen yet; draft due 26 Oct",
+   "item": "Foxtale: Khushi asked for outfits + draft by 2pm 24 Oct; outfit links/accessories/bg shared 24 Oct; Khushi's 8k mail awaited; 01:51 26 Oct Khushi wants any colour except black (Apoorva has tank top only in black); Apoorva chased 11:43; 13:19 Apoorva 'Okay got it' (update given); outfit colour still unresolved in chat; no draft seen; draft due 26 Oct",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -2355,10 +2355,10 @@
    "creator": "Pragati Bharti",
    "poc": "Kishore",
    "cat": "Script",
-   "item": "Be Bodywise: Mayank (HYPD) chasing since 22 Oct; Kishore 10:05 25 Oct told brand script by 26 Oct first half; Mayank pinged 11:37 26 Oct; Kishore 11:38: script by 1pm; script due 1pm 26 Oct",
+   "item": "Be Bodywise: Mayank (HYPD) chasing since 22 Oct; Kishore promised script by 1pm 26 Oct; 'sharing you pragati's script' ~12:52 26 Oct (preview) (resolved)",
    "priority": "High",
-   "status": "Open",
-   "flag": "Open",
+   "status": "Closed",
+   "flag": "Closed",
    "date": "26 Oct"
   },
   {
@@ -2729,10 +2729,10 @@
    "creator": "Hrithika S",
    "poc": "Sid",
    "cat": "Script",
-   "item": "Ruby's Organics (Socioglitch): script asked 18:41 24 Oct, promised Mon first half; Socioglitch 10:41 26 Oct 'pls share asap'; Amisha chased 10:46; Hrithika owes script",
+   "item": "Ruby's Organics (Socioglitch): script asked 18:41 24 Oct; Socioglitch note 12:12 26 Oct, Hrithika 12:13: ignore 'system of actives' line; product received (resolved)",
    "priority": "High",
-   "status": "Open",
-   "flag": "Open",
+   "status": "Closed",
+   "flag": "Closed",
    "date": "26 Oct"
   },
   {
@@ -2916,8 +2916,8 @@
    "creator": "Athira Vinod",
    "poc": "Kishore",
    "cat": "Follow-up",
-   "item": "Samsung GCP: Kishore asked 11:44 26 Oct for update on pending deliverables; Tina 11:45: will check and revert; Samsung owes confirmation",
-   "priority": "Med",
+   "item": "Samsung GCP: Kishore asked 11:44 26 Oct for update on pending deliverables; Tina 11:45: will check and revert; ~12:52 Tina (preview): video correction, share by 1:30pm; corrected video due 1:30pm 26 Oct",
+   "priority": "High",
    "status": "Open",
    "flag": "Open",
    "date": "26 Oct"
@@ -2960,7 +2960,7 @@
    "creator": "Yogitha",
    "poc": "Divya",
    "cat": "Deliverable",
-   "item": "Kiro Beauty: Yogitha chose script 2 (12:16 26 Oct); code YOGITHA10, tag Kiro Beauty (12:19); Divya getting back on post time (12:21); Shiksha 12:24 asked to update CRM, add script, move stage to shooting; CRM update + post date pending",
+   "item": "Kiro Beauty: Yogitha chose script 2 (12:16 26 Oct); code YOGITHA10, tag Kiro Beauty (12:19); Divya 12:21: video approved, can it go live today; Shiksha 12:24 asked to update CRM, add script, move stage to shooting; go-live today + CRM update pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -2983,6 +2983,116 @@
    "poc": "Kishore",
    "cat": "Script",
    "item": "Innovist: Sagar 11:30 26 Oct: Script 3 looks good, add Amazon best-seller call-out; Karanjot 11:58 'okay', asked for outfit mandates; brand owes outfit mandates",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "26 Oct"
+  },
+  {
+   "id": "r267",
+   "creator": "Nishant",
+   "poc": "Natasha",
+   "cat": "Deliverable",
+   "item": "Kapiva: Lokesh (Inspirant Media) to edit; KJ shared raw footage drive link 13:17 26 Oct, asked Lokesh to check; edit pending",
+   "priority": "Low",
+   "status": "Open",
+   "flag": "Open",
+   "date": "26 Oct"
+  },
+  {
+   "id": "r268",
+   "creator": "Yogitha",
+   "poc": "Divya",
+   "cat": "Follow-up",
+   "item": "Lovetc: Anirudh (AER Media) 13:02 26 Oct asked if products received + outfit references; Divya 13:16: 'Let me check'; Divya owes product receipt confirmation + outfit refs",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "26 Oct"
+  },
+  {
+   "id": "r269",
+   "creator": "Somya Bisla",
+   "poc": "Natasha",
+   "cat": "Other",
+   "item": "Bombae: Shreya 13:02 26 Oct asked if products received; Natasha + Somya 13:16 asked brand for tracking details; outfits + bg (purple/white) requested 11:30; tracking pending",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "26 Oct"
+  },
+  {
+   "id": "r270",
+   "creator": "Hrithika S",
+   "poc": "Sid",
+   "cat": "Deliverable",
+   "item": "Ruby's Organics: shoot after 2 Nov (Amisha 12:15 26 Oct); brand asked 12:46 for earlier shoot, Hrithika 13:08: not possible; Flutch to keep Socioglitch updated",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "26 Oct"
+  },
+  {
+   "id": "r271",
+   "creator": "Hrithika S",
+   "poc": "Sid",
+   "cat": "Follow-up",
+   "item": "Weekly call fixed 4pm 26 Oct (Hrithika asked 12:16, Amisha + Sid confirmed)",
+   "priority": "Low",
+   "status": "Open",
+   "flag": "Open",
+   "date": "26 Oct"
+  },
+  {
+   "id": "r272",
+   "creator": "Pragati Bharti",
+   "poc": "Kishore",
+   "cat": "Approval",
+   "item": "Pilgrim: script shared 12:51 26 Oct (transformation bucket); Broz Media/Pilgrim feedback pending",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "26 Oct"
+  },
+  {
+   "id": "r273",
+   "creator": "Kalyani",
+   "poc": "Sid",
+   "cat": "Other",
+   "item": "Uppeel: Shiksha 13:05 26 Oct asked brand for Kalyani's tracking details; Kalyani 11:53: product not received yet; tracking pending",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "26 Oct"
+  },
+  {
+   "id": "r274",
+   "creator": "Apoorva",
+   "poc": "Kishore",
+   "cat": "Other",
+   "item": "Uppeel: Apoorva on Script 2; Shiksha 11:43 26 Oct asked brand for tracking details; tracking pending",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "26 Oct"
+  },
+  {
+   "id": "r275",
+   "creator": "Gurishq Kaur",
+   "poc": "Divya",
+   "cat": "Other",
+   "item": "Nykaa NAP (Pre-Wash Reset Serum + Clarifying Shampoo): brand offer 12:56 26 Oct; Gurishq accepted + shared address 12:58; product dispatch pending",
+   "priority": "Low",
+   "status": "Open",
+   "flag": "Open",
+   "date": "26 Oct"
+  },
+  {
+   "id": "r276",
+   "creator": "Kalyani",
+   "poc": "Sid",
+   "cat": "Follow-up",
+   "item": "Pears (WORD): Shriya 12:40 26 Oct asked Amisha to start sharing insights; insights pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
