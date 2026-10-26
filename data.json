@@ -1,5 +1,5 @@
 {
- "lastUpdated": "2026-10-26T16:21:06+05:30",
+ "lastUpdated": "2026-10-26T17:07:20+05:30",
  "kpis": {
   "Sid": {
    "owned": 22,
@@ -7,8 +7,8 @@
    "notFound": 3,
    "deals": 29,
    "dealValue": "₹8.22L",
-   "openAsks": 64,
-   "atRisk": 19
+   "openAsks": 63,
+   "atRisk": 18
   },
   "Natasha": {
    "owned": 26,
@@ -16,7 +16,7 @@
    "notFound": 5,
    "deals": 37,
    "dealValue": "₹18.22L",
-   "openAsks": 84,
+   "openAsks": 86,
    "atRisk": 21,
    "note": "+3 identity unresolved"
   },
@@ -26,8 +26,8 @@
    "notFound": 9,
    "deals": 15,
    "dealValue": "₹4.50L",
-   "openAsks": 67,
-   "atRisk": 26,
+   "openAsks": 69,
+   "atRisk": 27,
    "note": "+1 identity unresolved; 9 = 5 not found + 4 no recent activity"
   },
   "Kishore": {
@@ -36,7 +36,7 @@
    "notFound": 0,
    "deals": 27,
    "dealValue": "₹5.04L",
-   "openAsks": 49,
+   "openAsks": 50,
    "atRisk": 28,
    "note": "CRM deals include Shraddha × Pilgrim (₹45k), not his creator"
   }
@@ -617,11 +617,11 @@
    "creator": "Laveena",
    "poc": "Natasha",
    "cat": "Other",
-   "item": "Exit plan re-asked 23 Oct; called Flutch unprofessional, call request unanswered for days",
+   "item": "Exit plan re-asked 23 Oct; called Flutch unprofessional, call request unanswered for days; 17:02 26 Oct: asked why she has to go through Gokul/Shruti to get a response, said POC should be replaced if not interested; Flutch reply pending",
    "priority": "High",
    "status": "Open",
-   "flag": "Open",
-   "date": "23 Oct"
+   "flag": "At risk",
+   "date": "26 Oct"
   },
   {
    "id": "r52",
@@ -1090,11 +1090,11 @@
    "creator": "Aruna",
    "poc": "Divya",
    "cat": "Approval",
-   "item": "Typsy re-approval pending (~1 day)",
+   "item": "Typsy re-approval pending; Aruna asked for video update 17:02 26 Oct; Divya 17:03: go-live in Nov; creator reply pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "—"
+   "date": "26 Oct"
   },
   {
    "id": "r95",
@@ -2245,7 +2245,7 @@
    "creator": "Ragavi",
    "poc": "Divya",
    "cat": "Deliverable",
-   "item": "Milkshake: creator unresponsive over weekend (09:37 26 Oct); Khushi shared Ragavi's revised script to brand 09:59; Ragavi forwarded 'No Frizz Allowed' script 10:09; Ragavi 13:48: 'Kindly check the mails'; Divya 14:00: will reply today; Divya owes mail reply; awaiting Milkshake script approval; video still pending",
+   "item": "Milkshake: creator unresponsive over weekend (09:37 26 Oct); Khushi shared Ragavi's revised script to brand 09:59; Ragavi forwarded 'No Frizz Allowed' script 10:09; Ragavi 13:48: 'Kindly check the mails'; Divya 14:00: will reply today; Khushi 16:56 to brand: Ragavi changes made (preview); Divya owes mail reply; brand approval + video still pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -2278,7 +2278,7 @@
    "creator": "Apoorva",
    "poc": "Kishore",
    "cat": "Deliverable",
-   "item": "Foxtale: Khushi asked for outfits + draft by 2pm 24 Oct; outfit links/accessories/bg shared 24 Oct; Khushi's 8k mail awaited; 01:51 26 Oct Khushi wants any colour except black (Apoorva has tank top only in black); Apoorva chased 11:43; 13:19 Apoorva 'Okay got it'; 13:44 Khushi shared supers/talking points (preview); outfit colour still unresolved in chat; no draft seen; draft due 26 Oct",
+   "item": "Foxtale: Khushi asked for outfits + draft by 2pm 24 Oct; outfit links/accessories/bg shared 24 Oct; 01:51 26 Oct Khushi wanted any colour except black; 13:44 Khushi shared supers/talking points; Apoorva 16:45: shoot done, draft by EOD or tomorrow; Khushi 16:49: please share today; draft pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -2850,10 +2850,10 @@
    "creator": "Hrithika S",
    "poc": "Sid",
    "cat": "Approval",
-   "item": "Bioderma (Chtrbox): Hrithika shared video 10:51 26 Oct; Swapnil sent to brand 10:55; Amisha 11:12: need update today, Hrithika unavailable from 27 Oct; Swapnil 11:40 asked if minor changes possible + can go live; thumbnail + caption asked 11:44 (internal); Swapnil 13:34 'Noted' (preview); brand approval pending",
+   "item": "Bioderma (Chtrbox): Hrithika shared video 10:51 26 Oct; Swapnil sent to brand 10:55; Hrithika 17:02: reel live; Swapnil 17:02 asked for #Ad at start of caption; Hrithika 17:03: done; Swapnil 17:04 thanked (resolved)",
    "priority": "High",
-   "status": "Open",
-   "flag": "At risk",
+   "status": "Closed",
+   "flag": "Closed",
    "date": "26 Oct"
   },
   {
@@ -3004,7 +3004,7 @@
    "creator": "Yogitha",
    "poc": "Divya",
    "cat": "Follow-up",
-   "item": "Lovetc: Anirudh (AER Media) 13:02 26 Oct asked if products received + outfit references; Divya 13:16: 'Let me check'; Divya owes product receipt confirmation + outfit refs",
+   "item": "Lovetc: Anirudh (AER Media) 13:02 26 Oct asked if products received + outfit references; Divya 13:16: 'Let me check'; 16:56 Flutch confirmed products received (preview); outfit refs still pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -3092,7 +3092,7 @@
    "creator": "Kalyani",
    "poc": "Sid",
    "cat": "Follow-up",
-   "item": "Pears (WORD): Shriya 12:40 26 Oct asked Amisha to start sharing insights; insights pending",
+   "item": "Pears (WORD): Shriya 12:40 26 Oct asked Amisha to start sharing insights; Shriya 16:45 asked Sid/Amisha to sign MOU; insights + MOU signing pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -3169,7 +3169,7 @@
    "creator": "Somya Bisla",
    "poc": "Natasha",
    "cat": "Other",
-   "item": "Somya in India from 7 Nov; asked 15:00 26 Oct to send India address to brands + push campaigns after Diwali; Natasha 15:09: will do; Natasha to share India address with brands",
+   "item": "Somya in India from 7 Nov; asked 15:00 26 Oct to send India address to brands + push campaigns after Diwali; Natasha 15:09: will do; 16:27 Somya asked which products to bring to India (preview); Natasha to share India address with brands + confirm products",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -3192,6 +3192,61 @@
    "poc": "Kishore",
    "cat": "Other",
    "item": "Chhavi posted 5 reel links 16:11 26 Oct; 16:16 flagged UrbanYog + Be Bodywise missing; Flutch (Sid/Shivani) to add entries",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "26 Oct"
+  },
+  {
+   "id": "r286",
+   "creator": "venessa.pinto",
+   "poc": "Divya",
+   "cat": "Follow-up",
+   "item": "Amazon W5S2 (Cloutflow): colour-correction ask 16:34 26 Oct; Divya 16:35-16:36: details shared only at 3:20pm, timelines to be considered, need videos to align shoot; Ritu 16:37: urgent UTM links call; Ritu called Divya 17:03, asked for callback; Divya owes callback + shoot timeline alignment",
+   "priority": "High",
+   "status": "Open",
+   "flag": "Open",
+   "date": "26 Oct"
+  },
+  {
+   "id": "r287",
+   "creator": "Yuvasri",
+   "poc": "Divya",
+   "cat": "Follow-up",
+   "item": "Ghar Soaps (Nidhi Arika): quoted 55,000 for 1 non-collab reel + 1 month ad rights; Nidhi 16:57 26 Oct asked if negotiable; Divya 17:04: yes; awaiting Nidhi's counter/confirmation",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "26 Oct"
+  },
+  {
+   "id": "r288",
+   "creator": "Apoorva",
+   "poc": "Kishore",
+   "cat": "Payment",
+   "item": "Foxtale: Apoorva 16:42 26 Oct asked if Kishore raised the invoice (preview); Kishore to confirm",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "26 Oct"
+  },
+  {
+   "id": "r289",
+   "creator": "Gayathri Thanabal",
+   "poc": "Natasha",
+   "cat": "Payment",
+   "item": "Veet: Gayatri 16:46 26 Oct asked if payment is on track; Natasha reply pending",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "26 Oct"
+  },
+  {
+   "id": "r290",
+   "creator": "Ishika",
+   "poc": "Natasha",
+   "cat": "Follow-up",
+   "item": "Ishika 16:44 26 Oct asked Gokul for CRM update; Gokul reply pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
