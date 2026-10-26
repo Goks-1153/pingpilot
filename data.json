@@ -1,5 +1,5 @@
 {
- "lastUpdated": "2026-10-26T08:09:57+05:30",
+ "lastUpdated": "2026-10-26T08:48:40+05:30",
  "kpis": {
   "Sid": {
    "owned": 22,
@@ -26,7 +26,7 @@
    "notFound": 9,
    "deals": 15,
    "dealValue": "₹4.50L",
-   "openAsks": 58,
+   "openAsks": 59,
    "atRisk": 26,
    "note": "+1 identity unresolved; 9 = 5 not found + 4 no recent activity"
   },
@@ -37,7 +37,7 @@
    "deals": 27,
    "dealValue": "₹5.04L",
    "openAsks": 43,
-   "atRisk": 31,
+   "atRisk": 32,
    "note": "CRM deals include Shraddha × Pilgrim (₹45k), not his creator"
   }
  },
@@ -2036,11 +2036,11 @@
    "creator": "IPLIX",
    "poc": "Kishore",
    "cat": "Script",
-   "item": "Sugar: product received, shoot after 24 Oct; script update asked 14:21",
-   "priority": "Med",
+   "item": "Sugar: product received, shoot after 24 Oct; script update asked 14:21 23 Oct; Aadrika (Iplix) chased 08:11 26 Oct: revised script still not sent for approval, 'very slow', wants it wrapped today for both creators; no Flutch reply as of 08:50",
+   "priority": "High",
    "status": "Open",
-   "flag": "Open",
-   "date": "23 Oct"
+   "flag": "At risk",
+   "date": "26 Oct"
   },
   {
    "id": "r181",
@@ -2498,11 +2498,11 @@
    "creator": "venessa.pinto",
    "poc": "Divya",
    "cat": "Payment",
-   "item": "Amazon W5S2: Divya said 17:25 that Utkarsh confirmed product reimbursements will be done; not yet paid",
+   "item": "Amazon W5S2: Divya said 17:25 25 Oct that Utkarsh confirmed product reimbursements will be done; creator shared order bill 08:43 26 Oct (Rs 1347, ordered 08:42); not yet paid",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "25 Oct"
+   "date": "26 Oct"
   },
   {
    "id": "r223",
@@ -2531,11 +2531,11 @@
    "creator": "venessa.pinto",
    "poc": "Divya",
    "cat": "Deliverable",
-   "item": "Amazon W5S2: Venessa to order products 18:43; wants to skip or replace eye cream; Divya 18:44: 'Eye cream will check'; Divya to decide on eye cream (skip/replace)",
+   "item": "Amazon W5S2: Venessa wants to skip or replace eye cream; Divya 18:44 25 Oct: 'Eye cream will check'; order placed 08:42 26 Oct (Rs 1347); Divya's eye cream decision (skip/replace) not seen",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "25 Oct"
+   "date": "26 Oct"
   },
   {
    "id": "r226",
@@ -2591,6 +2591,17 @@
    "status": "Open",
    "flag": "Open",
    "date": "25 Oct"
+  },
+  {
+   "id": "r231",
+   "creator": "venessa.pinto",
+   "poc": "Divya",
+   "cat": "Approval",
+   "item": "Outfit options photo sent 08:40 26 Oct; background options to follow; Flutch owes response/approval, no reply yet",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "26 Oct"
   }
  ]
 }
