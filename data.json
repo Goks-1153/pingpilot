@@ -1,5 +1,5 @@
 {
- "lastUpdated": "2026-10-25T19:49:00+05:30",
+ "lastUpdated": "2026-10-26T08:09:57+05:30",
  "kpis": {
   "Sid": {
    "owned": 22,
@@ -7,7 +7,7 @@
    "notFound": 3,
    "deals": 29,
    "dealValue": "₹8.22L",
-   "openAsks": 53,
+   "openAsks": 54,
    "atRisk": 18
   },
   "Natasha": {
@@ -16,7 +16,7 @@
    "notFound": 5,
    "deals": 37,
    "dealValue": "₹18.22L",
-   "openAsks": 65,
+   "openAsks": 66,
    "atRisk": 20,
    "note": "+3 identity unresolved"
   },
@@ -36,8 +36,8 @@
    "notFound": 0,
    "deals": 27,
    "dealValue": "₹5.04L",
-   "openAsks": 42,
-   "atRisk": 30,
+   "openAsks": 43,
+   "atRisk": 31,
    "note": "CRM deals include Shraddha × Pilgrim (₹45k), not his creator"
   }
  },
@@ -1761,7 +1761,7 @@
    "creator": "Amna",
    "poc": "Kishore",
    "cat": "Other",
-   "item": "Swiss Beauty Mudpie products not arrived yet; Aamna 15:37 25 Oct asked whether to buy products herself or brand will send parcel; Kishore owes reply",
+   "item": "Swiss Beauty Mudpie products not arrived yet; Aamna 15:37 25 Oct asked whether to buy products herself or brand will send parcel; contact card shared 22:48 25 Oct ('Contact him'); Kishore owes reply",
    "priority": "High",
    "status": "Open",
    "flag": "Open",
@@ -2278,11 +2278,11 @@
    "creator": "Apoorva",
    "poc": "Kishore",
    "cat": "Deliverable",
-   "item": "Foxtale: Khushi asked for outfits (incl. festive) + draft by 2pm 24 Oct; creator was travelling; Apoorva shared sharara-style outfit link 16:29, accessories (earrings + bangles only) 17:57, shoot background photo 18:00; Apoorva unsure on outfit, will shoot 26 Oct + share draft; Khushi called 18:44; 18:59 Khushi: 'we spoke sending mail of 8k'; awaiting Khushi's 8k mail; draft due 26 Oct",
+   "item": "Foxtale: Khushi asked for outfits (incl. festive) + draft by 2pm 24 Oct; creator was travelling; Apoorva shared sharara-style outfit link 16:29, accessories (earrings + bangles only) 17:57, shoot background photo 18:00; Apoorva unsure on outfit, will shoot 26 Oct + share draft; Khushi called 18:44; 18:59 Khushi: 'we spoke sending mail of 8k'; awaiting Khushi's 8k mail; 01:51 26 Oct Khushi asked for tank top / night suit / anything not black (colour mandatory); Apoorva: tank top only in black; Khushi to check Apoorva's profile; no draft seen yet; draft due 26 Oct",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "25 Oct"
+   "date": "26 Oct"
   },
   {
    "id": "r203",
@@ -2554,6 +2554,39 @@
    "poc": "Kishore",
    "cat": "Follow-up",
    "item": "Aravi Organics: Rasesh asked for update 19:29 25 Oct; Amisha 19:30: product arriving Sun (25 Oct), shoot to start after receipt; Rasesh 19:30 'Any update?' unanswered; Amisha owes fresh status",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "25 Oct"
+  },
+  {
+   "id": "r228",
+   "creator": "Athira Vinod",
+   "poc": "Kishore",
+   "cat": "Deliverable",
+   "item": "Samsung Galaxy S26 Ultra: Tina sent KV 23:44 25 Oct; story due 10:00 26 Oct tagging @samsungindia, #Collaboration #GalaxyS26UltraAt79999 #BestTimeToBuy; not yet confirmed in chat",
+   "priority": "High",
+   "status": "Open",
+   "flag": "Open",
+   "date": "26 Oct"
+  },
+  {
+   "id": "r229",
+   "creator": "Nisha",
+   "poc": "Sid",
+   "cat": "Approval",
+   "item": "Malabar: Nisha sent saree outfit photo 23:01 25 Oct; awaiting approval from Nihaal / Flutch; no reply",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "25 Oct"
+  },
+  {
+   "id": "r230",
+   "creator": "Khyati Kunwar",
+   "poc": "Natasha",
+   "cat": "Follow-up",
+   "item": "Plum inbound pitch (Pooja Srivastava) 22:45 25 Oct: 1 non-collab reel, VO mandatory, any language except English; asked commercials, availability, contact; Natasha owes reply",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
