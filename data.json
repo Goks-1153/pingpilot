@@ -1,5 +1,5 @@
 {
- "lastUpdated": "2026-10-26T11:51:16+05:30",
+ "lastUpdated": "2026-10-26T12:38:58+05:30",
  "kpis": {
   "Sid": {
    "owned": 22,
@@ -7,7 +7,7 @@
    "notFound": 3,
    "deals": 29,
    "dealValue": "₹8.22L",
-   "openAsks": 58,
+   "openAsks": 60,
    "atRisk": 20
   },
   "Natasha": {
@@ -16,7 +16,7 @@
    "notFound": 5,
    "deals": 37,
    "dealValue": "₹18.22L",
-   "openAsks": 74,
+   "openAsks": 77,
    "atRisk": 21,
    "note": "+3 identity unresolved"
   },
@@ -26,8 +26,8 @@
    "notFound": 9,
    "deals": 15,
    "dealValue": "₹4.50L",
-   "openAsks": 62,
-   "atRisk": 25,
+   "openAsks": 64,
+   "atRisk": 26,
    "note": "+1 identity unresolved; 9 = 5 not found + 4 no recent activity"
   },
   "Kishore": {
@@ -36,7 +36,7 @@
    "notFound": 0,
    "deals": 27,
    "dealValue": "₹5.04L",
-   "openAsks": 46,
+   "openAsks": 48,
    "atRisk": 29,
    "note": "CRM deals include Shraddha × Pilgrim (₹45k), not his creator"
   }
@@ -2278,7 +2278,7 @@
    "creator": "Apoorva",
    "poc": "Kishore",
    "cat": "Deliverable",
-   "item": "Foxtale: Khushi asked for outfits (incl. festive) + draft by 2pm 24 Oct; creator was travelling; Apoorva shared sharara-style outfit link 16:29, accessories (earrings + bangles only) 17:57, shoot background photo 18:00; Apoorva unsure on outfit, will shoot 26 Oct + share draft; Khushi called 18:44; 18:59 Khushi: 'we spoke sending mail of 8k'; awaiting Khushi's 8k mail; 01:51 26 Oct Khushi asked for tank top / night suit / anything not black (colour mandatory); Apoorva: tank top only in black; Khushi to check Apoorva's profile; no draft seen yet; draft due 26 Oct",
+   "item": "Foxtale: Khushi asked for outfits (incl. festive) + draft by 2pm 24 Oct; creator was travelling; Apoorva shared sharara-style outfit link 16:29, accessories (earrings + bangles only) 17:57, shoot background photo 18:00; Apoorva unsure on outfit, will shoot 26 Oct + share draft; Khushi called 18:44; 18:59 Khushi: 'we spoke sending mail of 8k'; awaiting Khushi's 8k mail; 01:51 26 Oct Khushi asked for tank top / night suit / anything not black (colour mandatory); Apoorva: tank top only in black; Khushi to check Apoorva's profile; 11:43 Apoorva: 'any update? do lmk at the earliest'; Flutch owes outfit reply; no draft seen yet; draft due 26 Oct",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -2289,7 +2289,7 @@
    "creator": "Somya Bisla",
    "poc": "Natasha",
    "cat": "Script",
-   "item": "Sebamed (influencer.in): agency asked for script 19:50 24 Oct, brief sent on mail; Natasha 10:04 26 Oct asked if products must be ordered or brand ships; awaiting answer",
+   "item": "Sebamed (influencer.in): agency asked for script 19:50 24 Oct, brief sent on mail; Natasha 10:04 26 Oct asked if products must be ordered or brand ships; Stefania 11:49-11:50: creator to order from qcom (links in conf mail); Sid 11:55 asked what the 15,000 amount is for; agency owes answer",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -2377,7 +2377,7 @@
    "creator": "Khyati Kunwar",
    "poc": "Natasha",
    "cat": "Follow-up",
-   "item": "Chicnutrix: Nidhi asked posting date 12:05 25 Oct; video shared 09:56 26 Oct; Nidhi 10:07: 'Good to go. Please share collab request'; Flutch to send collab request",
+   "item": "Chicnutrix: Nidhi asked posting date 12:05 25 Oct; video shared 09:56 26 Oct; Nidhi 10:07: 'Good to go. Please share collab request'; Esha shared auto-DM link 12:34 26 Oct (done); Flutch still to send collab request",
    "priority": "High",
    "status": "Open",
    "flag": "Open",
@@ -2885,6 +2885,105 @@
    "cat": "Payment",
    "item": "Lacto Calamine (Mansi & Khyati): separate reimbursement invoice asked 11:32 26 Oct; Karanjot 11:41: will share this week",
    "priority": "Low",
+   "status": "Open",
+   "flag": "Open",
+   "date": "26 Oct"
+  },
+  {
+   "id": "r258",
+   "creator": "Nishant",
+   "poc": "Natasha",
+   "cat": "Follow-up",
+   "item": "Proganiq: creative directions shared Fri 23 Oct; Tushar (Proganiq) 12:34 26 Oct asked for shoot status + expected delivery timeline; Flutch (Karanjot) owes update",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "26 Oct"
+  },
+  {
+   "id": "r259",
+   "creator": "Nausheen",
+   "poc": "Natasha",
+   "cat": "Deliverable",
+   "item": "IS (Grath Entertainment): Karanjot 11:02 'okay, sharing'; Ankush 12:28 26 Oct asked Karanjot for outfit + bg, needs to close campaign asap; Karanjot owes outfit + bg",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "26 Oct"
+  },
+  {
+   "id": "r260",
+   "creator": "Athira Vinod",
+   "poc": "Kishore",
+   "cat": "Follow-up",
+   "item": "Samsung GCP: Kishore asked 11:44 26 Oct for update on pending deliverables; Tina 11:45: will check and revert; Samsung owes confirmation",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "26 Oct"
+  },
+  {
+   "id": "r261",
+   "creator": "Lekshmi Krishnan",
+   "poc": "Divya",
+   "cat": "Follow-up",
+   "item": "Derma Co: brand (Gunjan) said they may drop campaign; Divya 11:48 26 Oct: awaiting update, can't back out of deal; brief revision pending; brand owes reply",
+   "priority": "High",
+   "status": "Open",
+   "flag": "At risk",
+   "date": "26 Oct"
+  },
+  {
+   "id": "r262",
+   "creator": "Vrushab",
+   "poc": "Sid",
+   "cat": "Follow-up",
+   "item": "StayVista (barter): Shruti 11:00 26 Oct asked to pick up for Vrushab + Nikhil; Pooja chased 11:55; no reply from StayVista (Nupur)",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "26 Oct"
+  },
+  {
+   "id": "r263",
+   "creator": "Qaiz Khan",
+   "poc": "Natasha",
+   "cat": "Deliverable",
+   "item": "Fashwash: link shared ~11:58 26 Oct; Karanjot 12:02 asked to take it live; Qaiz 'Ok'; confirm live",
+   "priority": "Low",
+   "status": "Open",
+   "flag": "Open",
+   "date": "26 Oct"
+  },
+  {
+   "id": "r264",
+   "creator": "Yogitha",
+   "poc": "Divya",
+   "cat": "Deliverable",
+   "item": "Kiro Beauty: Yogitha chose script 2 (12:16 26 Oct); code YOGITHA10, tag Kiro Beauty (12:19); Divya getting back on post time (12:21); Shiksha 12:24 asked to update CRM, add script, move stage to shooting; CRM update + post date pending",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "26 Oct"
+  },
+  {
+   "id": "r265",
+   "creator": "Meenakshi Anoop",
+   "poc": "Sid",
+   "cat": "Follow-up",
+   "item": "Adfluence (ADF) YT: rates 1,45,000 / 40,000; Rohit 11:51 26 Oct 'Any update?'; Hemanth 12:19 asked for update; commercial/intent confirmation pending",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "26 Oct"
+  },
+  {
+   "id": "r266",
+   "creator": "Chhavi",
+   "poc": "Kishore",
+   "cat": "Script",
+   "item": "Innovist: Sagar 11:30 26 Oct: Script 3 looks good, add Amazon best-seller call-out; Karanjot 11:58 'okay', asked for outfit mandates; brand owes outfit mandates",
+   "priority": "Med",
    "status": "Open",
    "flag": "Open",
    "date": "26 Oct"
