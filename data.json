@@ -1,5 +1,5 @@
 {
- "lastUpdated": "2026-10-26T09:22:16+05:30",
+ "lastUpdated": "2026-10-26T10:13:35+05:30",
  "kpis": {
   "Sid": {
    "owned": 22,
@@ -7,8 +7,8 @@
    "notFound": 3,
    "deals": 29,
    "dealValue": "₹8.22L",
-   "openAsks": 54,
-   "atRisk": 18
+   "openAsks": 56,
+   "atRisk": 19
   },
   "Natasha": {
    "owned": 26,
@@ -16,8 +16,8 @@
    "notFound": 5,
    "deals": 37,
    "dealValue": "₹18.22L",
-   "openAsks": 66,
-   "atRisk": 20,
+   "openAsks": 70,
+   "atRisk": 21,
    "note": "+3 identity unresolved"
   },
   "Divya": {
@@ -26,8 +26,8 @@
    "notFound": 9,
    "deals": 15,
    "dealValue": "₹4.50L",
-   "openAsks": 59,
-   "atRisk": 26,
+   "openAsks": 58,
+   "atRisk": 25,
    "note": "+1 identity unresolved; 9 = 5 not found + 4 no recent activity"
   },
   "Kishore": {
@@ -36,8 +36,8 @@
    "notFound": 0,
    "deals": 27,
    "dealValue": "₹5.04L",
-   "openAsks": 43,
-   "atRisk": 32,
+   "openAsks": 45,
+   "atRisk": 30,
    "note": "CRM deals include Shraddha × Pilgrim (₹45k), not his creator"
   }
  },
@@ -144,11 +144,11 @@
    "creator": "Kalyani",
    "poc": "Sid",
    "cat": "Other",
-   "item": "Ghar Soaps: team asked the brand at 11:25 am on 22 Oct, no answer; creator waiting",
+   "item": "Ghar Soaps (Inari Media, Sandeep): team asked the brand at 11:25 am on 22 Oct, no answer; Amisha chased before/after shot update 10:08 26 Oct (overdue since last week); Inari Media owes update",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "22 Oct"
+   "date": "26 Oct"
   },
   {
    "id": "r9",
@@ -221,11 +221,11 @@
    "creator": "Hiba & Nida",
    "poc": "Sid",
    "cat": "Retention risk",
-   "item": "Creator unhappy with delays (19 Oct); Payment slipped twice",
+   "item": "Creator unhappy with delays (19 Oct); payment slipped twice; 10:03 26 Oct internal: creators want at least some payment for their effort; Flutch to decide response",
    "priority": "High",
    "status": "Open",
    "flag": "At risk",
-   "date": "19 Oct"
+   "date": "26 Oct"
   },
   {
    "id": "r16",
@@ -418,12 +418,12 @@
    "id": "r33",
    "creator": "Meenakshi Anoop",
    "poc": "Sid",
-   "cat": "Not found",
-   "item": "Not found: activity could not be located",
-   "priority": "Low",
+   "cat": "Follow-up",
+   "item": "Emma Germany mattress (Viral Squad, Jyothi/John): Sid asked for deliverables 10:06 26 Oct (quote with 6 months ad rights requested); Viral Squad owes deliverables",
+   "priority": "Med",
    "status": "Open",
-   "flag": "Not found",
-   "date": "—"
+   "flag": "Open",
+   "date": "26 Oct"
   },
   {
    "id": "r34",
@@ -837,11 +837,11 @@
    "creator": "Nausheen",
    "poc": "Natasha",
    "cat": "Script",
-   "item": "Lacto/Calamine revised video: chased 24 Oct 11:55; Nausheen sent video 13:51 25 Oct (no text); Flutch yet to acknowledge/review; script status unclear; photo unchecked",
+   "item": "Lacto Calamine revised video: Karanjot sent revised draft 10:03 26 Oct; Bansri feedback 10:05: CTA not in brackets + title case, brand names missing in video, RTB in title case, super 'Lacto Calamine SPF50 Sunscreen with PA++++'; asked Flutch to confirm RTB point; Flutch to confirm RTB + send edited video",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "25 Oct"
+   "date": "26 Oct"
   },
   {
    "id": "r72",
@@ -1046,11 +1046,11 @@
    "creator": "venessa.pinto",
    "poc": "Divya",
    "cat": "Follow-up",
-   "item": "Dermavive update promised EOD 23 Oct; Kenvue script requested; creator says brands delaying",
+   "item": "Dermavive update promised EOD 23 Oct; Kenvue Neutrogena: Kishore pushed for update 09:31 26 Oct; Bhawna 10:10: multiple feedback rounds, management change, previous executor left, new POC reviewing from scratch; script approval pending; Flutch to respond",
    "priority": "High",
    "status": "Open",
    "flag": "Open",
-   "date": "23 Oct"
+   "date": "26 Oct"
   },
   {
    "id": "r91",
@@ -1277,11 +1277,11 @@
    "creator": "Ragavi",
    "poc": "Divya",
    "cat": "Script",
-   "item": "Milkshake revised script (VO + visuals): Ragavi asked for exact VO to edit 18:59 and said no reply since afternoon (also asked the day before); Divya sent VN 19:00 and VO in personal chat 19:05; Ragavi unsure what to draft, Divya promised exact revisions by tonight, Ragavi ok 21:08; still not shared as of 00:38 25 Oct",
+   "item": "Milkshake revised script (VO + visuals): exact revisions owed to Ragavi since 24 Oct; Khushi shared Ragavi's revised script to brand 09:59 26 Oct (resolved)",
    "priority": "High",
-   "status": "Open",
-   "flag": "At risk",
-   "date": "25 Oct"
+   "status": "Closed",
+   "flag": "Closed",
+   "date": "26 Oct"
   },
   {
    "id": "r112",
@@ -1618,11 +1618,11 @@
    "creator": "Athira Vinod",
    "poc": "Kishore",
    "cat": "Other",
-   "item": "Organix Mantra: Nimisha asked 24 Oct if Athira received product; Kishore 10:03 25 Oct said he'll check; Nimisha chased again 17:19 ('Any update??'), still no reply; Gokul nudged Kishore internally 19:30 25 Oct ('Reply panu da')",
+   "item": "Organix Mantra: Nimisha asked 24 Oct and chased 25 Oct if Athira received product; 09:27 26 Oct: creator gets product on 27 Oct (resolved)",
    "priority": "High",
-   "status": "Open",
-   "flag": "At risk",
-   "date": "25 Oct"
+   "status": "Closed",
+   "flag": "Closed",
+   "date": "26 Oct"
   },
   {
    "id": "r143",
@@ -1695,11 +1695,11 @@
    "creator": "Apoorva",
    "poc": "Kishore",
    "cat": "Script",
-   "item": "Cars24 script 3 days late; brand wanted it within 1 hr (13:23); still not confirmed at 15:33, 23 Oct",
+   "item": "Cars24 script 3 days late; brand wanted it within 1 hr (13:23, 23 Oct); script shared 09:45 26 Oct, Apoorva 'Sure' (resolved)",
    "priority": "High",
-   "status": "Open",
-   "flag": "Open",
-   "date": "23 Oct"
+   "status": "Closed",
+   "flag": "Closed",
+   "date": "26 Oct"
   },
   {
    "id": "r150",
@@ -1750,10 +1750,10 @@
    "creator": "Amna",
    "poc": "Kishore",
    "cat": "Deliverable",
-   "item": "Aqualogica (Cloutflow): Ananya chased repeatedly; Kishore 10:03 25 Oct said video draft on 30 Oct; Ananya 11:24 'Won't be possible'; Kishore 09:20 26 Oct: 'I'll try to push & get the video at the earliest'; no revised date given yet",
+   "item": "Aqualogica (Cloutflow): Ananya rejected 30 Oct draft date; Kishore 09:26 26 Oct asked Amna for draft by Thu 29 Oct (brand said Fri won't work); Amna draft due 29 Oct",
    "priority": "High",
    "status": "Open",
-   "flag": "At risk",
+   "flag": "Open",
    "date": "26 Oct"
   },
   {
@@ -1794,11 +1794,11 @@
    "creator": "Sathyapriya",
    "poc": "Kishore",
    "cat": "Script",
-   "item": "SUGAR revised-script feedback",
+   "item": "SUGAR (IPLIX): 10:00 26 Oct feedback: script needs a better hook; 10:01 Sathyapriya sent revised script (Glide Peptide Plumping Gloss Stick); 10:05 Kishore handling (Kruttika bedridden); needs SUGAR/IPLIX approval",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "—"
+   "date": "26 Oct"
   },
   {
    "id": "r159",
@@ -2003,11 +2003,11 @@
    "creator": "Qaiz Khan",
    "poc": "Natasha",
    "cat": "Approval",
-   "item": "Prowl edits 14:22 (0.2s glitch, add end CTA); organic ideas posted 18:32; Qaiz to fix edits + pick ideas",
+   "item": "Prowl edits 14:22 23 Oct (0.2s glitch, add end CTA); organic ideas posted 18:32; Khushi asked Naitik (Prowl) 10:00 26 Oct for update on Qaiz's video; Prowl approval pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "23 Oct"
+   "date": "26 Oct"
   },
   {
    "id": "r178",
@@ -2036,7 +2036,7 @@
    "creator": "IPLIX",
    "poc": "Kishore",
    "cat": "Script",
-   "item": "Sugar: product received, shoot after 24 Oct; script update asked 14:21 23 Oct; Aadrika (Iplix) chased 08:11 26 Oct: revised script still not sent for approval, 'very slow', wants it wrapped today for both creators; no Flutch reply as of 08:50",
+   "item": "Sugar: product received, shoot after 24 Oct; Aadrika (Iplix) chased 08:11 26 Oct: revised script still not sent, 'very slow', wants both creators wrapped today; 09:58 Karanjot asked her to check Florence's script; Sid asked Kishore to share the other creator's script; Kishore to share; Aadrika to approve",
    "priority": "High",
    "status": "Open",
    "flag": "At risk",
@@ -2113,11 +2113,11 @@
    "creator": "Athira Vinod",
    "poc": "Kishore",
    "cat": "Deliverable",
-   "item": "Travel ZIV (AcneStar) video draft shared with brand 17:42; awaiting feedback",
+   "item": "Travel ZIV (AcneStar) video draft shared with brand 17:42 23 Oct; Kishore asked Shivangi for update 09:29 26 Oct; awaiting feedback",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "23 Oct"
+   "date": "26 Oct"
   },
   {
    "id": "r188",
@@ -2179,11 +2179,11 @@
    "creator": "Pavithra Nagarajan",
    "poc": "Sid",
    "cat": "Deliverable",
-   "item": "Aravi: 3 scripts shared, 1 approved; awaiting product",
+   "item": "Aravi: 3 scripts shared, 1 approved; product ETA moved from 25 to 28 Oct (Amisha 10:00 26 Oct), brand told 10:04; product due ~28 Oct",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "24 Oct"
+   "date": "26 Oct"
   },
   {
    "id": "r194",
@@ -2222,12 +2222,12 @@
    "id": "r197",
    "creator": "riya.dey_",
    "poc": "Natasha",
-   "cat": "Deliverable",
-   "item": "Little Joys Protein Mix brief; creator already shooting (24 Oct update)",
+   "cat": "Approval",
+   "item": "Little Joys Protein Mix: video shared for approval 10:02-10:03 26 Oct (followed script, supers added); awaiting Little Joys approval",
    "priority": "Low",
    "status": "Open",
    "flag": "Open",
-   "date": "24 Oct"
+   "date": "26 Oct"
   },
   {
    "id": "r198",
@@ -2245,11 +2245,11 @@
    "creator": "Ragavi",
    "poc": "Divya",
    "cat": "Deliverable",
-   "item": "Milkshake video awaited by execution team (Khushi, 17:49, 24 Oct); Divya asked Khushi for revised VO + visuals 19:04-19:27 and called twice; Khushi replied 00:14 25 Oct; revised script still being sorted",
+   "item": "Milkshake: creator unresponsive over weekend (09:37 26 Oct); Khushi shared Ragavi's revised script to brand 09:59; Ragavi forwarded 'No Frizz Allowed' script 10:09; awaiting Milkshake script approval; video still pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "25 Oct"
+   "date": "26 Oct"
   },
   {
    "id": "r200",
@@ -2289,22 +2289,22 @@
    "creator": "Somya Bisla",
    "poc": "Natasha",
    "cat": "Script",
-   "item": "Sebamed (influencer.in): agency asked for script 19:50 24 Oct, brief sent on mail; no reply",
+   "item": "Sebamed (influencer.in): agency asked for script 19:50 24 Oct, brief sent on mail; Natasha 10:04 26 Oct asked if products must be ordered or brand ships; awaiting answer",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "24 Oct"
+   "date": "26 Oct"
   },
   {
    "id": "r204",
    "creator": "Pooja",
    "poc": "Sid",
    "cat": "Follow-up",
-   "item": "Eleve Media heater campaign forwarded by creator 19:27 24 Oct; asked for someone to reach out and share commercials; no reply",
+   "item": "Eleve Media heater campaign forwarded by creator 19:27 24 Oct; 10:01 26 Oct Flutch agreed to share commercials; commercials not yet shared",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "24 Oct"
+   "date": "26 Oct"
   },
   {
    "id": "r205",
@@ -2366,33 +2366,33 @@
    "creator": "Surabhi",
    "poc": "Natasha",
    "cat": "Script",
-   "item": "Lux body wash: script doc shared by brand side 10:45 25 Oct; mandates: product visible + clear in frame throughout, greenscreen during application, feed video mandatory, simple transitions (any missed = reshoot); no Flutch reply; Flutch to review script + send feedback/approval to brand/Surabhi",
+   "item": "Lux body wash: script doc from brand side 10:45 25 Oct (product visible throughout, greenscreen during application, feed video mandatory, simple transitions; any missed = reshoot); Karanjot shared script PDF, ref reels + mandates with Surabhi 10:09 26 Oct; Surabhi to confirm mandates; 2nd P&G YT Shorts unboxing brief not yet in, Karanjot to update",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "25 Oct"
+   "date": "26 Oct"
   },
   {
    "id": "r211",
    "creator": "Khyati Kunwar",
    "poc": "Natasha",
    "cat": "Follow-up",
-   "item": "Chicnutrix: Nidhi Shah 12:05 25 Oct asked 'When is she posting?' (flagged important); Nidhi shared influencer brief deck 13:08, VO ref + more pics/videos to come; Flutch (Karanjot) still owes posting date; unanswered",
+   "item": "Chicnutrix: Nidhi asked posting date 12:05 25 Oct; video shared 09:56 26 Oct; Nidhi 10:07: 'Good to go. Please share collab request'; Flutch to send collab request",
    "priority": "High",
    "status": "Open",
    "flag": "Open",
-   "date": "25 Oct"
+   "date": "26 Oct"
   },
   {
    "id": "r212",
    "creator": "Kalyani",
    "poc": "Sid",
    "cat": "Follow-up",
-   "item": "Pears (WORD) YT short: Sid shared live link 12:40 25 Oct, asked Shriya to add #ad before title; Shriya/WORD owes confirmation; unanswered. Earlier 09:43 Amisha asked to remove Flipkart link + hyperlink brand tag; no reply seen",
+   "item": "Pears (WORD) YT short: Sid shared live link 12:40 25 Oct, asked Shriya to add #ad before title; Amisha 09:53 26 Oct told creator brand wants #ad in YT Short title; creator to add #ad. Earlier ask (25 Oct 09:43) to remove Flipkart link + hyperlink brand tag, no reply seen",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "25 Oct"
+   "date": "26 Oct"
   },
   {
    "id": "r213",
@@ -2575,22 +2575,22 @@
    "creator": "Nisha",
    "poc": "Sid",
    "cat": "Approval",
-   "item": "Malabar: Nisha sent saree outfit photo 23:01 25 Oct; awaiting approval from Nihaal / Flutch; no reply",
-   "priority": "Med",
+   "item": "Malabar: saree photo 23:01 25 Oct; script shared for approval 09:35 26 Oct; Nisha shared look 10:05 for 27 Oct shoot; Amisha asked Nihaal 10:06 to approve outfit + script soon; approval needed before 27 Oct shoot",
+   "priority": "High",
    "status": "Open",
    "flag": "Open",
-   "date": "25 Oct"
+   "date": "26 Oct"
   },
   {
    "id": "r230",
    "creator": "Khyati Kunwar",
    "poc": "Natasha",
    "cat": "Follow-up",
-   "item": "Plum inbound pitch (Pooja Srivastava) 22:45 25 Oct: 1 non-collab reel, VO mandatory, any language except English; asked commercials, availability, contact; Natasha owes reply",
+   "item": "Plum inbound pitch (Pooja Srivastava) 22:45 25 Oct: 1 non-collab reel, VO mandatory, non-English; Natasha quoted 55k 09:57 26 Oct; awaiting response",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "25 Oct"
+   "date": "26 Oct"
   },
   {
    "id": "r231",
@@ -2598,6 +2598,116 @@
    "poc": "Divya",
    "cat": "Approval",
    "item": "Outfit options photo sent 08:40 26 Oct; Divya shared outfit options with Priyansh (brand) 09:13; awaiting Priyansh approval; background options from creator still to follow",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "26 Oct"
+  },
+  {
+   "id": "r232",
+   "creator": "Kalyani",
+   "poc": "Sid",
+   "cat": "Approval",
+   "item": "Venusia (Influencer.in): Amisha asked 10:04 26 Oct if script approved; Influencer.in owes confirmation",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "26 Oct"
+  },
+  {
+   "id": "r233",
+   "creator": "Shweta Malhan",
+   "poc": "Natasha",
+   "cat": "Approval",
+   "item": "Wishcare: draft received 10:02 26 Oct, shared internally for approval; brand approval pending",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "26 Oct"
+  },
+  {
+   "id": "r234",
+   "creator": "Chhavi",
+   "poc": "Kishore",
+   "cat": "Script",
+   "item": "Plum Goodness (IPLIX): Aayushi asked for revised script 09:47 26 Oct; Karanjot pasted Script 2 (dandruff winter VO) 09:59; Aayushi to approve",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "26 Oct"
+  },
+  {
+   "id": "r235",
+   "creator": "Surabhi",
+   "poc": "Natasha",
+   "cat": "Follow-up",
+   "item": "P&G event (23 Oct): Karanjot asked P&G for go-live date 09:59 26 Oct; P&G owes date",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "26 Oct"
+  },
+  {
+   "id": "r236",
+   "creator": "Florence Chand",
+   "poc": "Natasha",
+   "cat": "Script",
+   "item": "SUGAR (IPLIX): Karanjot asked Aadrika 09:58 26 Oct to check Florence's script; Aadrika wants it wrapped today; approval pending",
+   "priority": "High",
+   "status": "Open",
+   "flag": "Open",
+   "date": "26 Oct"
+  },
+  {
+   "id": "r237",
+   "creator": "Somya Bisla",
+   "poc": "Natasha",
+   "cat": "Deliverable",
+   "item": "Natasha reminded 09:56 26 Oct to share video today; Somya 10:06: 'Sure but by eod'; video due EOD 26 Oct",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "26 Oct"
+  },
+  {
+   "id": "r238",
+   "creator": "Athira Vinod",
+   "poc": "Kishore",
+   "cat": "Follow-up",
+   "item": "Athira asked for the CRM 09:28 26 Oct; Kishore 09:30: will share today",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "26 Oct"
+  },
+  {
+   "id": "r239",
+   "creator": "Amna",
+   "poc": "Kishore",
+   "cat": "Follow-up",
+   "item": "Kishore asked Aditya (Amna's manager) for a call on a collab 09:37 26 Oct; Aditya owes reply",
+   "priority": "Low",
+   "status": "Open",
+   "flag": "Open",
+   "date": "26 Oct"
+  },
+  {
+   "id": "r240",
+   "creator": "Apoorva",
+   "poc": "Kishore",
+   "cat": "Follow-up",
+   "item": "Lakme Cold Press: Siddhika 10:07 26 Oct asked to connect today; Kishore asked for timing; call time not fixed",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "26 Oct"
+  },
+  {
+   "id": "r241",
+   "creator": "Pooja",
+   "poc": "Sid",
+   "cat": "Follow-up",
+   "item": "Sachin: Sid quoted 10:09 26 Oct: reel 20,000; 1 video story or 2 static stories 5,000; Sachin owes response",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
