@@ -1,5 +1,5 @@
 {
- "lastUpdated": "2026-10-26T18:55:01+05:30",
+ "lastUpdated": "2026-10-26T19:44:35+05:30",
  "kpis": {
   "Sid": {
    "owned": 22,
@@ -16,7 +16,7 @@
    "notFound": 5,
    "deals": 37,
    "dealValue": "₹18.22L",
-   "openAsks": 93,
+   "openAsks": 94,
    "atRisk": 20,
    "note": "+3 identity unresolved"
   },
@@ -26,7 +26,7 @@
    "notFound": 9,
    "deals": 15,
    "dealValue": "₹4.50L",
-   "openAsks": 73,
+   "openAsks": 74,
    "atRisk": 27,
    "note": "+1 identity unresolved; 9 = 5 not found + 4 no recent activity"
   },
@@ -36,8 +36,8 @@
    "notFound": 0,
    "deals": 27,
    "dealValue": "₹5.04L",
-   "openAsks": 50,
-   "atRisk": 27,
+   "openAsks": 53,
+   "atRisk": 28,
    "note": "CRM deals include Shraddha × Pilgrim (₹45k), not his creator"
   }
  },
@@ -2278,7 +2278,7 @@
    "creator": "Apoorva",
    "poc": "Kishore",
    "cat": "Deliverable",
-   "item": "Foxtale: Khushi asked for outfits + draft by 2pm 24 Oct; outfit links/accessories/bg shared 24 Oct; 01:51 26 Oct Khushi wanted any colour except black; 13:44 Khushi shared supers/talking points; Apoorva 16:45: shoot done, draft by EOD or tomorrow; Khushi 16:49: please share today; draft pending",
+   "item": "Foxtale: Khushi asked for outfits + draft by 2pm 24 Oct; outfit links/accessories/bg shared 24 Oct; 13:44 26 Oct Khushi shared supers/talking points; Apoorva 16:45: shoot done; Khushi 18:59 feedback (supers too ChatGPT, closer skin shots); Apoorva 19:14 'Ok'; revised video pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -2421,11 +2421,11 @@
    "creator": "Ishika",
    "poc": "Natasha",
    "cat": "Deliverable",
-   "item": "Plix: Bhavya 13:40 25 Oct spoke to Ishika; Flutch to share creator list Mon 26 Oct",
+   "item": "Plix: Bhavya 13:40 25 Oct spoke to Ishika; creator list sent 18:17 26 Oct; Ishika 19:05: will check and get back; feedback on list pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "25 Oct"
+   "date": "26 Oct"
   },
   {
    "id": "r216",
@@ -2553,10 +2553,10 @@
    "creator": "Chhavi",
    "poc": "Kishore",
    "cat": "Follow-up",
-   "item": "Aravi Organics: Rasesh asked for update 19:29 25 Oct; Amisha 09:42 26 Oct: product delivery delayed to 28 Oct; Karanjot shared 'aravi video' 17:32, asked Rasesh to check; brand review pending",
+   "item": "Aravi Organics: Rasesh asked for update 19:29 25 Oct; Amisha 09:42 26 Oct: product delivery delayed to 28 Oct; Karanjot shared 'aravi video' 17:32; Rasesh 19:16: revised video good to go (resolved)",
    "priority": "Med",
-   "status": "Open",
-   "flag": "Open",
+   "status": "Closed",
+   "flag": "Closed",
    "date": "26 Oct"
   },
   {
@@ -2575,7 +2575,7 @@
    "creator": "Nisha",
    "poc": "Sid",
    "cat": "Approval",
-   "item": "Malabar: saree photo 23:01 25 Oct; script shared for approval 09:35 26 Oct; Nisha shared look 10:05 for 27 Oct shoot; Amisha shared approved Diwali script 17:27; Sid looped in new mail id 17:28; Nisha reply on mail id pending; outfit approval not confirmed; shoot 27 Oct",
+   "item": "Malabar: saree photo 23:01 25 Oct; script shared for approval 09:35 26 Oct; Nisha shared look 10:05 for 27 Oct shoot; Amisha shared approved Diwali script 17:27; Sid looped in new mail id 17:28; Nisha 18:58 'Any update on Script approval??'; Sid 19:03: Amisha will confirm; Nisha 19:16 'plz ask her to chk'; Amisha to confirm; outfit approval not confirmed; shoot 27 Oct",
    "priority": "High",
    "status": "Open",
    "flag": "Open",
@@ -2773,7 +2773,7 @@
    "creator": "Apoorva",
    "poc": "Kishore",
    "cat": "Approval",
-   "item": "Cars24: Apoorva's script added 10:32 26 Oct; Cars24 approval pending",
+   "item": "Cars24: Apoorva's script added 10:32 26 Oct; Srestha chased Mohit 19:30 (creators making an issue); Mohit 19:37: need to revise this script, will share hooks, wants call 27 Oct first half; Mohit hooks + revised scripts pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -3334,10 +3334,10 @@
    "creator": "Yuvasri",
    "poc": "Divya",
    "cat": "Other",
-   "item": "Pilgrim (SocioGlitch, Himani): 18:46 26 Oct courier outside for Yuvasree shipment; Divya to receive/ack",
+   "item": "Pilgrim (SocioGlitch, Himani): 18:46 26 Oct courier outside for Yuvasree shipment; pickup logistics 18:55-19:05; Divya 19:05 'Noted' (resolved)",
    "priority": "Low",
-   "status": "Open",
-   "flag": "Open",
+   "status": "Closed",
+   "flag": "Closed",
    "date": "26 Oct"
   },
   {
@@ -3389,7 +3389,7 @@
    "creator": "venessa.pinto",
    "poc": "Divya",
    "cat": "Other",
-   "item": "Amazon affiliate (Cloutflow): Divya 17:12 26 Oct: 'we didn't agree for any affiliate one'; Ritu 18:43: 'Please follow the process'; affiliate terms dispute unresolved",
+   "item": "Amazon affiliate (Cloutflow): Divya 17:12 26 Oct: 'we didn't agree for any affiliate one'; Ritu 18:43: 'Please follow the process'; Divya 19:00 asked for English (creator can't understand Hindi); Ritu: 'Kindly translate'; Divya to translate affiliate process; affiliate terms dispute unresolved",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -3444,7 +3444,7 @@
    "creator": "Somya Bisla",
    "poc": "Natasha",
    "cat": "Deliverable",
-   "item": "Sacred Groove: Somya 18:36 26 Oct: 'I will share it today itself'; due 26 Oct",
+   "item": "Sacred Groove: Somya 18:36 26 Oct: 'I will share it today itself'; 19:31 Somya tagged brand (Gitashree) 'Please see' on prop/setup photos; brand reply pending; due 26 Oct",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -3500,6 +3500,83 @@
    "poc": "Natasha",
    "cat": "Approval",
    "item": "Nausheen 16:35 26 Oct: script 'yes works'; background sent 17:57 (campaign not named); outfit/bg approval pending",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "26 Oct"
+  },
+  {
+   "id": "r314",
+   "creator": "Yuvasri",
+   "poc": "Divya",
+   "cat": "Script",
+   "item": "Ruby's Organics (Onestick Correct + Fix): Yuvasri shared script (8 clips) 19:33 26 Oct; Divya/brand approval pending",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "26 Oct"
+  },
+  {
+   "id": "r315",
+   "creator": "Florence Chand",
+   "poc": "Natasha",
+   "cat": "Follow-up",
+   "item": "Zettx agency outreach forwarded 25 Oct; Florence sent photo 19:25 26 Oct; no Flutch reply yet",
+   "priority": "Low",
+   "status": "Open",
+   "flag": "Open",
+   "date": "26 Oct"
+  },
+  {
+   "id": "r316",
+   "creator": "Chhavi",
+   "poc": "Kishore",
+   "cat": "Deliverable",
+   "item": "Aravi Organics: approved 19:16 26 Oct; post using only the Amazon link the brand shared; Chhavi to post",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "26 Oct"
+  },
+  {
+   "id": "r317",
+   "creator": "Neha Evecravers",
+   "poc": "Divya",
+   "cat": "Follow-up",
+   "item": "Shivani shared updated organic content ideas + sheet 19:14 26 Oct; Neha reply pending",
+   "priority": "Low",
+   "status": "Open",
+   "flag": "Open",
+   "date": "26 Oct"
+  },
+  {
+   "id": "r318",
+   "creator": "Harish",
+   "poc": "Kishore",
+   "cat": "Follow-up",
+   "item": "Harish 19:13 26 Oct: 'no update at all' (Tamil); no Flutch reply; Flutch owes update",
+   "priority": "High",
+   "status": "Open",
+   "flag": "At risk",
+   "date": "26 Oct"
+  },
+  {
+   "id": "r319",
+   "creator": "Shivani Raj",
+   "poc": "Kishore",
+   "cat": "Deliverable",
+   "item": "Kisna Jewellery: story-repost screenshot asked since 24 Oct; Srishti 18:57 26 Oct 'pls share asap'; Kishore to share",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "26 Oct"
+  },
+  {
+   "id": "r320",
+   "creator": "Harish",
+   "poc": "Kishore",
+   "cat": "Follow-up",
+   "item": "Deconstruct (SocioGlitch, Parul): Pilgrim closed; Kishore 18:48 26 Oct asked to lock Harish at 15k; Parul confirmation pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
