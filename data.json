@@ -1,5 +1,5 @@
 {
- "lastUpdated": "2026-10-26T10:56:16+05:30",
+ "lastUpdated": "2026-10-26T11:51:16+05:30",
  "kpis": {
   "Sid": {
    "owned": 22,
@@ -26,7 +26,7 @@
    "notFound": 9,
    "deals": 15,
    "dealValue": "₹4.50L",
-   "openAsks": 61,
+   "openAsks": 62,
    "atRisk": 25,
    "note": "+1 identity unresolved; 9 = 5 not found + 4 no recent activity"
   },
@@ -36,7 +36,7 @@
    "notFound": 0,
    "deals": 27,
    "dealValue": "₹5.04L",
-   "openAsks": 45,
+   "openAsks": 46,
    "atRisk": 29,
    "note": "CRM deals include Shraddha × Pilgrim (₹45k), not his creator"
   }
@@ -386,11 +386,11 @@
    "creator": "Hrithika S",
    "poc": "Sid",
    "cat": "Other",
-   "item": "Bioderma agency asked for an ETA (22 Oct)",
+   "item": "Bioderma agency asked for an ETA (22 Oct); Hrithika shared video for approval 10:51 26 Oct (resolved)",
    "priority": "High",
-   "status": "Open",
-   "flag": "Open",
-   "date": "22 Oct"
+   "status": "Closed",
+   "flag": "Closed",
+   "date": "26 Oct"
   },
   {
    "id": "r31",
@@ -1607,7 +1607,7 @@
    "creator": "Athira Vinod",
    "poc": "Kishore",
    "cat": "Script",
-   "item": "Plix: Kishore forwarded feedback 10:05 25 Oct (no hair bounce after shampoo); Kishore told Himanshi (Plix) changes + video draft will be shared; 10:16 Himanshi: don't show salon in video, just shoot there; 18:49 Athira sent audio (likely reply on Plix feedback); Kishore 09:20 26 Oct told Plix 'Let me check with the creator'; Kishore to confirm no-salon direction with Athira + share revised draft with Plix",
+   "item": "Plix: Kishore forwarded feedback 10:05 25 Oct (no hair bounce after shampoo); Kishore told Himanshi (Plix) changes + video draft will be shared; 10:16 Himanshi: don't show salon in video, just shoot there; 18:49 Athira sent audio (likely reply on Plix feedback); Kishore 09:20 26 Oct told Plix 'Let me check with the creator'; 11:37 Himanshi: 'Send video today only'; Kishore to confirm no-salon direction with Athira; video due 26 Oct",
    "priority": "High",
    "status": "Open",
    "flag": "Open",
@@ -1804,12 +1804,12 @@
    "id": "r159",
    "creator": "Sandeep",
    "poc": "Kishore",
-   "cat": "Deliverable",
-   "item": "Prowl deliverables after 8 Oct lock: no creator reply seen",
+   "cat": "Script",
+   "item": "Prowl: Kishore shared brief 11:14 26 Oct, asked for script asap; Sandeep 11:36: will check and get back; Sandeep owes script",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "8 Oct"
+   "date": "26 Oct"
   },
   {
    "id": "r160",
@@ -1860,7 +1860,7 @@
    "creator": "Priyanshu Verma",
    "poc": "Sid",
    "cat": "Approval",
-   "item": "Revised Prowl script shared 23 Oct; revised scripts added to Prowl group 10:21 26 Oct; Prowl approval pending",
+   "item": "Revised Prowl script shared 23 Oct; revised scripts added to Prowl group 10:21 26 Oct; Khushi asked Naitik 11:38 for update on revised scripts; Prowl approval pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -2003,10 +2003,10 @@
    "creator": "Qaiz Khan",
    "poc": "Natasha",
    "cat": "Approval",
-   "item": "Prowl edits 14:22 23 Oct (0.2s glitch, add end CTA); Khushi asked Naitik (Prowl) 10:00 26 Oct for update on Qaiz's video; revised scripts added 10:21; Prowl approval pending",
+   "item": "Prowl edits 14:22 23 Oct (0.2s glitch, add end CTA); Khushi asked Naitik (Prowl) 10:00 26 Oct for update; Naitik approved Qaiz's video 11:23 26 Oct (resolved)",
    "priority": "Med",
-   "status": "Open",
-   "flag": "Open",
+   "status": "Closed",
+   "flag": "Closed",
    "date": "26 Oct"
   },
   {
@@ -2201,7 +2201,7 @@
    "creator": "Kalyani",
    "poc": "Sid",
    "cat": "Script",
-   "item": "Uppeel: deal locked 23 Oct, brief shared 24 Oct; Amisha shared script options 10:35 26 Oct; Kalyani 10:41: will check; Kalyani to pick a script",
+   "item": "Uppeel: deal locked 23 Oct, brief shared 24 Oct; Amisha shared script options 10:35 26 Oct; Kalyani 10:41: will check; options re-shared 11:43; Kalyani to pick a script",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -2355,11 +2355,11 @@
    "creator": "Pragati Bharti",
    "poc": "Kishore",
    "cat": "Script",
-   "item": "Be Bodywise: Mayank (HYPD) chasing since 22 Oct; Kishore 10:05 25 Oct told brand creator unwell, script by 26 Oct first half; creator (in Ujjain) told Kishore 08:09 script by Mon; dates don't match, Kishore may need to send brand a corrected date",
+   "item": "Be Bodywise: Mayank (HYPD) chasing since 22 Oct; Kishore 10:05 25 Oct told brand script by 26 Oct first half; Mayank pinged 11:37 26 Oct; Kishore 11:38: script by 1pm; script due 1pm 26 Oct",
    "priority": "High",
    "status": "Open",
    "flag": "Open",
-   "date": "25 Oct"
+   "date": "26 Oct"
   },
   {
    "id": "r210",
@@ -2840,6 +2840,50 @@
    "poc": "Sid",
    "cat": "Other",
    "item": "Tamada Media: vendor registration link + POC email forwarded 10:21 26 Oct; registration pending",
+   "priority": "Low",
+   "status": "Open",
+   "flag": "Open",
+   "date": "26 Oct"
+  },
+  {
+   "id": "r254",
+   "creator": "Hrithika S",
+   "poc": "Sid",
+   "cat": "Approval",
+   "item": "Bioderma (Chtrbox): Hrithika shared video 10:51 26 Oct; Swapnil sent to brand 10:55; Amisha 11:12: need update today, Hrithika unavailable from 27 Oct; Swapnil 11:40 asked if minor changes possible + can go live; Flutch to reply; thumbnail + caption asked 11:44 (internal); brand approval pending",
+   "priority": "High",
+   "status": "Open",
+   "flag": "At risk",
+   "date": "26 Oct"
+  },
+  {
+   "id": "r255",
+   "creator": "Apoorva",
+   "poc": "Kishore",
+   "cat": "Follow-up",
+   "item": "Brillare: Apoorva asked 'any update?' 11:39 26 Oct on video changes; brand POC / Kishore owe update",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "26 Oct"
+  },
+  {
+   "id": "r256",
+   "creator": "Diksha",
+   "poc": "Divya",
+   "cat": "Script",
+   "item": "Sacred Grove: Gitashree asked for first script draft 11:32 26 Oct; Divya 11:38: will update on script today; Diksha's script pending",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "26 Oct"
+  },
+  {
+   "id": "r257",
+   "creator": "Mansi",
+   "poc": "Natasha",
+   "cat": "Payment",
+   "item": "Lacto Calamine (Mansi & Khyati): separate reimbursement invoice asked 11:32 26 Oct; Karanjot 11:41: will share this week",
    "priority": "Low",
    "status": "Open",
    "flag": "Open",
