@@ -1,5 +1,5 @@
 {
- "lastUpdated": "2026-10-27T08:11:11+05:30",
+ "lastUpdated": "2026-10-27T08:51:15+05:30",
  "kpis": {
   "Sid": {
    "owned": 22,
@@ -1805,10 +1805,10 @@
    "creator": "Sandeep",
    "poc": "Kishore",
    "cat": "Script",
-   "item": "Prowl: Kishore shared brief 11:14 26 Oct, asked for script asap; Sandeep 11:36: will check and get back; Sandeep owes script",
+   "item": "Prowl: Kishore shared brief 11:14 26 Oct, asked for script asap; Sandeep 11:36: will check and get back; Sandeep sent script 08:50 27 Oct (resolved)",
    "priority": "Med",
-   "status": "Open",
-   "flag": "Open",
+   "status": "Closed",
+   "flag": "Closed",
    "date": "26 Oct"
   },
   {
@@ -3614,6 +3614,17 @@
    "status": "Open",
    "flag": "At risk",
    "date": "26 Oct"
+  },
+  {
+   "id": "r324",
+   "creator": "Sandeep",
+   "poc": "Kishore",
+   "cat": "Script",
+   "item": "Prowl Aqua Gel Sunscreen: Sandeep sent script/caption 08:50 27 Oct (Chennai summer, oily skin angle); Flutch 08:50 asked for English version so brand understands; Sandeep owes English version",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "27 Oct"
   }
  ]
 }
