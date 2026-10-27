@@ -1,5 +1,5 @@
 {
- "lastUpdated": "2026-10-26T19:44:35+05:30",
+ "lastUpdated": "2026-10-27T08:11:11+05:30",
  "kpis": {
   "Sid": {
    "owned": 22,
@@ -16,8 +16,8 @@
    "notFound": 5,
    "deals": 37,
    "dealValue": "₹18.22L",
-   "openAsks": 94,
-   "atRisk": 20,
+   "openAsks": 96,
+   "atRisk": 21,
    "note": "+3 identity unresolved"
   },
   "Divya": {
@@ -26,7 +26,7 @@
    "notFound": 9,
    "deals": 15,
    "dealValue": "₹4.50L",
-   "openAsks": 74,
+   "openAsks": 75,
    "atRisk": 27,
    "note": "+1 identity unresolved; 9 = 5 not found + 4 no recent activity"
   },
@@ -2278,11 +2278,11 @@
    "creator": "Apoorva",
    "poc": "Kishore",
    "cat": "Deliverable",
-   "item": "Foxtale: Khushi asked for outfits + draft by 2pm 24 Oct; outfit links/accessories/bg shared 24 Oct; 13:44 26 Oct Khushi shared supers/talking points; Apoorva 16:45: shoot done; Khushi 18:59 feedback (supers too ChatGPT, closer skin shots); Apoorva 19:14 'Ok'; revised video pending",
+   "item": "Foxtale: Khushi asked for outfits + draft by 2pm 24 Oct; outfit links/accessories/bg shared 24 Oct; 13:44 26 Oct Khushi shared supers/talking points; Apoorva 16:45: shoot done; Khushi 18:59-19:01 feedback (supers too ChatGPT, closer skin shots, keep length, supers list given); Apoorva 19:14 'Ok'; Khushi 00:12 27 Oct: 'checking'; Foxtale feedback on revised cut pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "26 Oct"
+   "date": "27 Oct"
   },
   {
    "id": "r203",
@@ -3580,6 +3580,39 @@
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
+   "date": "26 Oct"
+  },
+  {
+   "id": "r321",
+   "creator": "Mansi",
+   "poc": "Natasha",
+   "cat": "Follow-up",
+   "item": "Krishna's Herbal & Ayurveda (Ansh) 00:24 27 Oct pitch for mansiara.15: 1 IG collab reel + 30 days boosting; asked commercials + language; Natasha to reply",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "27 Oct"
+  },
+  {
+   "id": "r322",
+   "creator": "Dharshne",
+   "poc": "Divya",
+   "cat": "Script",
+   "item": "Dove (ShenaniGenZ): agency 22:49-22:50 26 Oct shared script doc, soap pic, script 2 reference reels (regional language ok), tagged Divya; voice note ~00:00 27 Oct; Divya to respond; creator to shoot per script 2",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "26 Oct"
+  },
+  {
+   "id": "r323",
+   "creator": "Nausheen",
+   "poc": "Natasha",
+   "cat": "Retention risk",
+   "item": "Nausheen ~22:15 26 Oct: asked why campaign-opportunity emails are unread; wants brands answered fast in festive season; offered to talk to brands herself; team to clear unread brand emails + reply",
+   "priority": "High",
+   "status": "Open",
+   "flag": "At risk",
    "date": "26 Oct"
   }
  ]
