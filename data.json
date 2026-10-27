@@ -1,5 +1,5 @@
 {
- "lastUpdated": "2026-10-27T19:07:12+05:30",
+ "lastUpdated": "2026-10-27T19:51:11+05:30",
  "kpis": {
   "Sid": {
    "owned": 22,
@@ -16,7 +16,7 @@
    "notFound": 5,
    "deals": 37,
    "dealValue": "₹18.22L",
-   "openAsks": 113,
+   "openAsks": 114,
    "atRisk": 21,
    "note": "+3 identity unresolved"
   },
@@ -26,8 +26,8 @@
    "notFound": 9,
    "deals": 15,
    "dealValue": "₹4.50L",
-   "openAsks": 92,
-   "atRisk": 31,
+   "openAsks": 94,
+   "atRisk": 32,
    "note": "+1 identity unresolved; 9 = 5 not found + 4 no recent activity"
   },
   "Kishore": {
@@ -36,7 +36,7 @@
    "notFound": 0,
    "deals": 27,
    "dealValue": "₹5.04L",
-   "openAsks": 73,
+   "openAsks": 74,
    "atRisk": 29,
    "note": "CRM deals include Shraddha × Pilgrim (₹45k), not his creator"
   },
@@ -3574,7 +3574,7 @@
    "creator": "Shivani Raj",
    "poc": "Kishore",
    "cat": "Deliverable",
-   "item": "Kisna Jewellery: story-repost screenshot asked since 24 Oct; Srishti 18:57 26 Oct 'pls share asap'; 16:50 27 Oct Flutch asked Shivani for SS and told brand 'Sharing it by 6pm'; SS due 18:00 27 Oct",
+   "item": "Kisna Jewellery: story-repost screenshot asked since 24 Oct; Srishti 18:57 26 Oct 'pls share asap'; 16:50 27 Oct Flutch asked Shivani for SS and told brand 'Sharing it by 6pm'; SS due 18:00 27 Oct; 19:32 Esme (Kisna) chased '??' tagging Flutch POC; SS overdue",
    "priority": "High",
    "status": "Open",
    "flag": "At risk",
@@ -3871,7 +3871,7 @@
    "creator": "Ishika",
    "poc": "Natasha",
    "cat": "Other",
-   "item": "Skin Inspired: Ishika 12:05 27 Oct: 'These are not possible'; 14:37 urbanaura feedback: enhance music, text, transitions, sound effects, add pump shot; last two clips going black/dim; 15:43 Karanjot: 'checking this'; 16:32 document posted; 17:00 urbanaura: 'Okay sent'; Flutch to check what was sent + video fixes pending",
+   "item": "Skin Inspired: Ishika 12:05 27 Oct: 'These are not possible'; 14:37 urbanaura feedback: enhance music, text, transitions, sound effects, add pump shot; last two clips going black/dim; 15:43 Karanjot: 'checking this'; 16:32 document posted; 17:00 urbanaura: 'Okay sent'; 19:21 Ishika: 'Update ???'; Flutch to check what was sent + update Ishika; video fixes pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -3882,7 +3882,7 @@
    "creator": "Nausheen",
    "poc": "Natasha",
    "cat": "Script",
-   "item": "IS: Karanjot 12:04 27 Oct asked for script update; 13:35 Ankush asked when Nausheen can share the video; 15:44 Karanjot: 'let me check'; 16:04 Gaurav (IS) asked for a date; 17:40 KJ: she can shoot on Thursday (29 Oct) only; IS to confirm Thursday shoot; Nausheen script + video date pending",
+   "item": "IS: Karanjot 12:04 27 Oct asked for script update; 13:35 Ankush asked when Nausheen can share the video; 15:44 Karanjot: 'let me check'; 16:04 Gaurav (IS) asked for a date; 17:40 KJ: she can shoot on Thursday (29 Oct) only; 19:38 Ankush: 'so she can give the video by friday right?'; Flutch to confirm video by Fri 30 Oct; Nausheen script + video pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -4091,7 +4091,7 @@
    "creator": "Ishika",
    "poc": "Natasha",
    "cat": "Follow-up",
-   "item": "Olay: Ishika 14:26 27 Oct asked 'Caption thumbnail ?'; caption/thumbnail answer pending",
+   "item": "Olay: Ishika 14:26 27 Oct asked 'Caption thumbnail ?'; 19:37 Ishika: 'Pls Provide asap'; caption/thumbnail answer pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -4421,11 +4421,11 @@
    "creator": "Apoorva",
    "poc": "Kishore",
    "cat": "Deliverable",
-   "item": "Foxtale: Khushi 17:14 27 Oct: 'lets post'; 17:54 Khushi: 'when are we posting?'; Flutch to confirm posting date; Apoorva to post + share live link",
+   "item": "Foxtale: Khushi 17:14 27 Oct: 'lets post'; 17:54 Khushi: 'when are we posting?'; 19:09 Apoorva: 'Tomorrow morning'; Apoorva to post 28 Oct morning + share live link",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "27 Oct"
+   "date": "28 Oct"
   },
   {
    "id": "r397",
@@ -4564,7 +4564,7 @@
    "creator": "Apoorva",
    "poc": "Kishore",
    "cat": "Payment",
-   "item": "Staze (Sep): invoice shared 18:51 27 Oct; Staze to process",
+   "item": "Staze (Sep): invoice shared 18:51 27 Oct; 19:11 Apoorva: 'kindly add the product reimbursement also'; Flutch to add product reimbursement to invoice; Staze to process",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -4610,6 +4610,50 @@
    "cat": "Deliverable",
    "item": "Tarun shared organic content ideas 18:34 27 Oct (shared group with Sandeep); creator review pending",
    "priority": "Low",
+   "status": "Open",
+   "flag": "Open",
+   "date": "27 Oct"
+  },
+  {
+   "id": "r414",
+   "creator": "venessa.pinto",
+   "poc": "Divya",
+   "cat": "Deliverable",
+   "item": "Amazon W5S2: Priyansh (brand) 19:45 27 Oct tagged Flutch: 'need these done by 8pm'; deliverables due 20:00 27 Oct",
+   "priority": "High",
+   "status": "Open",
+   "flag": "At risk",
+   "date": "27 Oct"
+  },
+  {
+   "id": "r415",
+   "creator": "Surabhi",
+   "poc": "Natasha",
+   "cat": "Follow-up",
+   "item": "19:33 27 Oct Surabhi: clauses used to go in the confirmation acknowledgement email (when Bhavya managed), hopes they still do; Flutch to confirm clauses are included",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "27 Oct"
+  },
+  {
+   "id": "r416",
+   "creator": "Pragati Bharti",
+   "poc": "Kishore",
+   "cat": "Follow-up",
+   "item": "19:28 27 Oct Pragati: 'Can she share approved outfits and bg' (brand not named); approved outfits + bg to be shared",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "27 Oct"
+  },
+  {
+   "id": "r417",
+   "creator": "Gurishq Kaur",
+   "poc": "Divya",
+   "cat": "Deliverable",
+   "item": "Live link shared 19:23 27 Oct (brand not named); Flutch to verify + pass to brand",
+   "priority": "Med",
    "status": "Open",
    "flag": "Open",
    "date": "27 Oct"
