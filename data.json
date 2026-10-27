@@ -1,5 +1,5 @@
 {
- "lastUpdated": "2026-10-27T10:05:23+05:30",
+ "lastUpdated": "2026-10-27T10:45:51+05:30",
  "kpis": {
   "Sid": {
    "owned": 22,
@@ -16,7 +16,7 @@
    "notFound": 5,
    "deals": 37,
    "dealValue": "₹18.22L",
-   "openAsks": 98,
+   "openAsks": 101,
    "atRisk": 22,
    "note": "+3 identity unresolved"
   },
@@ -36,7 +36,7 @@
    "notFound": 0,
    "deals": 27,
    "dealValue": "₹5.04L",
-   "openAsks": 53,
+   "openAsks": 58,
    "atRisk": 28,
    "note": "CRM deals include Shraddha × Pilgrim (₹45k), not his creator"
   }
@@ -2267,11 +2267,11 @@
    "creator": "Gurishq Kaur",
    "poc": "Divya",
    "cat": "Follow-up",
-   "item": "Brand POC contacts received (Plum, Moroccan Oil, Monk-e, Aminu Life); Divya to connect Mon 26 Oct and follow up on Nykaa acknowledgement (00:03 25 Oct)",
+   "item": "Brand POC contacts received (Plum, Moroccan Oil, Monk-e, Aminu Life); Divya to connect Mon 26 Oct and follow up on Nykaa acknowledgement (00:03 25 Oct); Gurishq 10:07 27 Oct: will connect with POCs today + update on brand pitched yesterday; creator update pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "25 Oct"
+   "date": "27 Oct"
   },
   {
    "id": "r202",
@@ -2421,11 +2421,11 @@
    "creator": "Ishika",
    "poc": "Natasha",
    "cat": "Deliverable",
-   "item": "Plix: Bhavya 13:40 25 Oct spoke to Ishika; creator list sent 18:17 26 Oct; Ishika 19:05: will check and get back; feedback on list pending",
+   "item": "Plix: Bhavya 13:40 25 Oct spoke to Ishika; creator list sent 18:17 26 Oct; Ishika 19:05: will check and get back; Bhavya followed up 10:24 27 Oct (thought locking was ongoing); feedback on list pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "26 Oct"
+   "date": "27 Oct"
   },
   {
    "id": "r216",
@@ -2652,11 +2652,11 @@
    "creator": "Florence Chand",
    "poc": "Natasha",
    "cat": "Script",
-   "item": "SUGAR (IPLIX): Karanjot asked Aadrika 09:58 26 Oct to check Florence's script; Aadrika wants it wrapped today; approval pending",
+   "item": "SUGAR (IPLIX): Karanjot asked Aadrika 09:58 26 Oct to check Florence's script; Aadrika wants it wrapped today; Florence's video shared with brand 10:07 27 Oct; brand approval pending",
    "priority": "High",
    "status": "Open",
    "flag": "Open",
-   "date": "26 Oct"
+   "date": "27 Oct"
   },
   {
    "id": "r237",
@@ -3257,11 +3257,11 @@
    "creator": "Shraddha",
    "poc": "Natasha",
    "cat": "Follow-up",
-   "item": "Pilgrim shampoo (Broz Media, Riya): asked if Shraddha has product; Karanjot 11:16 26 Oct: confirming soon; Riya chased 16:56; Karanjot confirmation pending",
+   "item": "Pilgrim shampoo (Broz Media, Riya): asked if Shraddha has product; Karanjot 11:16 26 Oct: confirming soon; Riya chased 16:56; 10:35 27 Oct: product not received yet; brand owes shipment/tracking",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "26 Oct"
+   "date": "27 Oct"
   },
   {
    "id": "r292",
@@ -3411,11 +3411,11 @@
    "creator": "Mansi",
    "poc": "Natasha",
    "cat": "Approval",
-   "item": "The Derma Co: Karanjot 18:43 26 Oct asked Shubhani to check script; Mansi ordering product from Zepto; script approval + product delivery pending",
+   "item": "The Derma Co: Karanjot 18:43 26 Oct asked Shubhani to check script; Mansi ordering product from Zepto; 10:25 27 Oct Mansi asked for the video at the earliest; Mansi owes video; script approval + product delivery not confirmed",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "26 Oct"
+   "date": "27 Oct"
   },
   {
    "id": "r306",
@@ -3587,7 +3587,7 @@
    "creator": "Mansi",
    "poc": "Natasha",
    "cat": "Follow-up",
-   "item": "Krishna's Herbal & Ayurveda (Ansh) 00:24 27 Oct pitch for mansiara.15: 1 IG collab reel + 30 days boosting; asked commercials + language; Natasha to reply",
+   "item": "Krishna's Herbal & Ayurveda (Ansh) 00:24 27 Oct pitch for mansiara.15: 1 IG collab reel + 30 days boosting; asked commercials + language; rates shared 10:38 27 Oct (1 collab reel 45k, 1-month ad rights 15k); Ansh to respond",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -3653,8 +3653,96 @@
    "creator": "venessa.pinto",
    "poc": "Divya",
    "cat": "Deliverable",
-   "item": "Amazon W5S2: power cut, half shot (Venessa 09:57 27 Oct); shooting rest after makeup class (back by 3pm); final before 5pm, live 7pm; Divya updated Ritu/Priyansh 10:01; video + go-live due 27 Oct",
+   "item": "Amazon W5S2: power cut, half shot (Venessa 09:57 27 Oct); shooting rest after makeup class (back by 3pm); final before 5pm, live 7pm; Divya updated Ritu/Priyansh 10:01; 10:11 Flutch asked Venessa for yesterday's shot; Ritu 10:24: a mandatory item is needed before video can go live, asked to align or share login details; shot + alignment/login details + video + go-live due 27 Oct",
    "priority": "High",
+   "status": "Open",
+   "flag": "Open",
+   "date": "27 Oct"
+  },
+  {
+   "id": "r328",
+   "creator": "Shweta",
+   "poc": "Natasha",
+   "cat": "Deliverable",
+   "item": "4th story pushed to next month (10:29 27 Oct)",
+   "priority": "Low",
+   "status": "Open",
+   "flag": "Open",
+   "date": "27 Oct"
+  },
+  {
+   "id": "r329",
+   "creator": "Chhavi",
+   "poc": "Kishore",
+   "cat": "Follow-up",
+   "item": "UrbanYog: Chhavi locked for 6 deals, 5 done, 1 remaining (10:29 27 Oct); brand owes last deal/brief",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "27 Oct"
+  },
+  {
+   "id": "r330",
+   "creator": "Apoorva",
+   "poc": "Kishore",
+   "cat": "Follow-up",
+   "item": "Vuducom (Ishita) 10:25 27 Oct asked 'this is for Apoorva?'; Flutch to answer",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "27 Oct"
+  },
+  {
+   "id": "r331",
+   "creator": "Apoorva",
+   "poc": "Kishore",
+   "cat": "Follow-up",
+   "item": "H&S Clinical (Sep): Flutch asked brand contacts for update 10:24 27 Oct; brand update pending",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "27 Oct"
+  },
+  {
+   "id": "r332",
+   "creator": "Florence Chand",
+   "poc": "Natasha",
+   "cat": "Approval",
+   "item": "Lacto Calamine: Florence's revised video shared with brand 10:21 27 Oct; brand approval pending",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "27 Oct"
+  },
+  {
+   "id": "r333",
+   "creator": "Pragati Bharti",
+   "poc": "Kishore",
+   "cat": "Follow-up",
+   "item": "Wishcare: offer at 25,000 sent 10:12 27 Oct; Pragati to respond",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "27 Oct"
+  },
+  {
+   "id": "r334",
+   "creator": "Pragati Bharti",
+   "poc": "Kishore",
+   "cat": "Follow-up",
+   "item": "Aqualogica (Celebistaan): Flutch asked for Pragati brief 10:30 27 Oct; brief pending",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "27 Oct"
+  },
+  {
+   "id": "r335",
+   "creator": "Florence Chand",
+   "poc": "Natasha",
+   "cat": "Follow-up",
+   "item": "Bajaj (Social Box): Karanjot asked brand for brief + details for Florence 10:23 27 Oct; brief pending",
+   "priority": "Med",
    "status": "Open",
    "flag": "Open",
    "date": "27 Oct"
