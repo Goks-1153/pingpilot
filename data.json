@@ -1,5 +1,5 @@
 {
- "lastUpdated": "2026-10-27T12:45:08+05:30",
+ "lastUpdated": "2026-10-27T13:20:42+05:30",
  "kpis": {
   "Sid": {
    "owned": 22,
@@ -16,7 +16,7 @@
    "notFound": 5,
    "deals": 37,
    "dealValue": "₹18.22L",
-   "openAsks": 105,
+   "openAsks": 106,
    "atRisk": 23,
    "note": "+3 identity unresolved"
   },
@@ -26,7 +26,7 @@
    "notFound": 9,
    "deals": 15,
    "dealValue": "₹4.50L",
-   "openAsks": 82,
+   "openAsks": 84,
    "atRisk": 29,
    "note": "+1 identity unresolved; 9 = 5 not found + 4 no recent activity"
   },
@@ -36,7 +36,7 @@
    "notFound": 0,
    "deals": 27,
    "dealValue": "₹5.04L",
-   "openAsks": 63,
+   "openAsks": 64,
    "atRisk": 28,
    "note": "CRM deals include Shraddha × Pilgrim (₹45k), not his creator"
   }
@@ -232,7 +232,7 @@
    "creator": "Hiba & Nida",
    "poc": "Sid",
    "cat": "Other",
-   "item": "Nida's Fine Wine status question at 12:46 pm on 22 Oct, unanswered; 10:49 27 Oct Fine Wine (Ajitha) shared contacts managing collabs for Hrithika + Hiba & Nida; Flutch to follow up with contacts",
+   "item": "Nida's Fine Wine status question at 12:46 pm on 22 Oct, unanswered; 10:49 27 Oct Fine Wine (Ajitha) shared contacts managing collabs for Hrithika + Hiba & Nida; 12:55 27 Oct Fine Wine: when can Hiba Nida video go live, 'more than a month now'; Flutch to give go-live date + follow up with contacts",
    "priority": "High",
    "status": "Open",
    "flag": "Open",
@@ -441,7 +441,7 @@
    "creator": "Smriti Mohanty",
    "poc": "Sid",
    "cat": "Other",
-   "item": "AcneStar (Travel ZIV) video still with brand for review (17:17 23 Oct); Amisha asked for update 10:42 26 Oct; ZIV: waiting on higher team; 12:05 27 Oct Shivangi: 'For Smriti' (context unclear); ZIV approval pending",
+   "item": "AcneStar (Travel ZIV) video still with brand for review (17:17 23 Oct); Amisha asked for update 10:42 26 Oct; ZIV: waiting on higher team; 12:05 27 Oct Shivangi: 'For Smriti' (context unclear); 12:47 Amisha: 'please check with the brand, she has already sent'; ZIV approval pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -903,11 +903,11 @@
    "creator": "Uma",
    "poc": "Natasha",
    "cat": "Follow-up",
-   "item": "Hilary formalities (checking)",
+   "item": "Hilary formalities (checking); 13:15 27 Oct Karanjot asked for confirmation before proceeding with the video; confirmation pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "—"
+   "date": "27 Oct"
   },
   {
    "id": "r78",
@@ -1607,7 +1607,7 @@
    "creator": "Athira Vinod",
    "poc": "Kishore",
    "cat": "Script",
-   "item": "Plix: Kishore forwarded feedback 10:05 25 Oct (no hair bounce after shampoo); Kishore told Himanshi (Plix) changes + video draft will be shared; 10:16 Himanshi: don't show salon in video, just shoot there; 18:49 Athira sent audio (likely reply on Plix feedback); Kishore 09:20 26 Oct told Plix 'Let me check with the creator'; 11:37 Himanshi: 'Send video today only'; video due 26 Oct missed; 11:20-11:21 27 Oct Himanshi asked why so much delay, 'I dont want any delay after that'; video still owed",
+   "item": "Plix: Kishore forwarded feedback 10:05 25 Oct (no hair bounce after shampoo); Kishore told Himanshi (Plix) changes + video draft will be shared; 10:16 Himanshi: don't show salon in video, just shoot there; 18:49 Athira sent audio (likely reply on Plix feedback); Kishore 09:20 26 Oct told Plix 'Let me check with the creator'; 11:37 Himanshi: 'Send video today only'; video due 26 Oct missed; 11:20-11:21 27 Oct Himanshi asked why so much delay, 'I dont want any delay after that'; 12:59 Himanshi: 'we have to inform brand for the video'; video still owed",
    "priority": "High",
    "status": "Open",
    "flag": "At risk",
@@ -2542,7 +2542,7 @@
    "creator": "Dharshne",
    "poc": "Divya",
    "cat": "Deliverable",
-   "item": "Samsung Gen Alpha (Boomlet): Sanika chased 18:49 25 Oct ('can't make this late'); 2 more branded reel decks (both reels within 2 wks, concept notes by weekend); brand 10:16 26 Oct: share script by first half; Amisha 14:59: following up with creator; 10:02-10:03 27 Oct Amisha shared Dharshne's nightography mode draft with Sanika; client feedback pending",
+   "item": "Samsung Gen Alpha (Boomlet): Sanika chased 18:49 25 Oct ('can't make this late'); 2 more branded reel decks (both reels within 2 wks, concept notes by weekend); brand 10:16 26 Oct: share script by first half; Amisha 14:59: following up with creator; 10:02-10:03 27 Oct Amisha shared Dharshne's nightography mode draft with Sanika; 12:55 Amisha asked for an update on this video as well; client feedback pending",
    "priority": "High",
    "status": "Open",
    "flag": "Open",
@@ -2630,11 +2630,11 @@
    "creator": "Chhavi",
    "poc": "Kishore",
    "cat": "Script",
-   "item": "Plum Goodness (IPLIX): Aayushi asked for revised script 09:47 26 Oct; Karanjot pasted Script 2 (dandruff winter VO) 09:59; Aayushi to approve",
+   "item": "Plum Goodness (IPLIX): Aayushi asked for revised script 09:47 26 Oct; Karanjot pasted Script 2 (dandruff winter VO) 09:59; Karanjot chased for update 13:16 27 Oct; Aayushi to approve",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "26 Oct"
+   "date": "27 Oct"
   },
   {
    "id": "r235",
@@ -2916,7 +2916,7 @@
    "creator": "Athira Vinod",
    "poc": "Kishore",
    "cat": "Follow-up",
-   "item": "Samsung GCP: Kishore asked 11:44 26 Oct for update on pending deliverables; Tina: video correction, share by 1:30pm; deadline missed; Kishore chased 16:18; Athira sent file 17:10; Tina 17:37: still not syncing, 17:38: add smooth transitions; 10:00 27 Oct Tina asked Athira to post Reshare story now + share link; 11:00 brand asked to share on priority; 11:26 Tina: get festive video edited before 1pm; 12:35 Tina: needed by 1pm to share with Samsung, must go live today; Athira owes story post + link + festive video edit by 1pm 27 Oct",
+   "item": "Samsung GCP: Kishore asked 11:44 26 Oct for update on pending deliverables; Tina: video correction, share by 1:30pm; deadline missed; Kishore chased 16:18; Athira sent file 17:10; Tina 17:37: still not syncing, 17:38: add smooth transitions; 10:00 27 Oct Tina asked Athira to post Reshare story now + share link; 11:00 brand asked to share on priority; 11:26 Tina: get festive video edited before 1pm; 12:35 Tina: needed by 1pm to share with Samsung; 12:53 Tina: share video by 6pm max, must go live today or it won't count in deliverables; Athira owes story post + link + video by 6pm 27 Oct",
    "priority": "High",
    "status": "Open",
    "flag": "At risk",
@@ -3411,7 +3411,7 @@
    "creator": "Mansi",
    "poc": "Natasha",
    "cat": "Approval",
-   "item": "The Derma Co: Karanjot 18:43 26 Oct asked Shubhani to check script; Mansi ordering product from Zepto; 10:25 27 Oct Mansi asked for the video at the earliest; Mansi owes video; script approval + product delivery not confirmed",
+   "item": "The Derma Co: Karanjot 18:43 26 Oct asked Shubhani to check script; Mansi ordering product from Zepto; 10:25 27 Oct Mansi asked for the video at the earliest; 12:56 Karanjot asked for approval so shoot can happen quickly; script approval + product delivery not confirmed; Mansi owes video",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -3598,11 +3598,11 @@
    "creator": "Dharshne",
    "poc": "Divya",
    "cat": "Script",
-   "item": "Dove (ShenaniGenZ): agency 22:49-22:50 26 Oct shared script doc, soap pic, script 2 reference reels (regional language ok), tagged Divya; voice note ~00:00 27 Oct; Divya to respond; creator to shoot per script 2",
+   "item": "Dove (ShenaniGenZ): agency 22:49-22:50 26 Oct shared script doc, soap pic, script 2 reference reels (regional language ok), tagged Divya; voice note ~00:00 27 Oct; 12:46 27 Oct Amisha asked agency for campaign timeline; 12:56 Amisha asked Dharshne for bg options (room + bathroom), white outfits, and to buy Dove Body Wash + share order screenshot; Dharshne owes options + screenshot; timeline pending; creator to shoot per script 2",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "26 Oct"
+   "date": "27 Oct"
   },
   {
    "id": "r323",
@@ -3675,7 +3675,7 @@
    "creator": "Chhavi",
    "poc": "Kishore",
    "cat": "Follow-up",
-   "item": "UrbanYog: Chhavi locked for 6 deals, 5 done, 1 remaining (10:29 27 Oct); 11:59 Karanjot asked brand how many reels total / how many extending; 12:00 Karanjot asked Chhavi to repeat Kojic soap (brand wants her video), asked for script, old shots usable; Chhavi script + UrbanYog answer pending",
+   "item": "UrbanYog: Chhavi locked for 6 deals, 5 done, 1 remaining (10:29 27 Oct); 11:59 Karanjot asked brand how many reels total / how many extending; 12:00 Karanjot asked Chhavi to repeat Kojic soap (brand wants her video), asked for script, old shots usable; 12:50 Justin (UrbanYog) suggested hook 'I ordered the pack of 12 cause the results were so good'; Chhavi script + UrbanYog answer pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -3984,6 +3984,50 @@
    "poc": "Kishore",
    "cat": "Payment",
    "item": "Typsy: 12:31 27 Oct payment received, GST payment still pending",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "27 Oct"
+  },
+  {
+   "id": "r358",
+   "creator": "Chhavi",
+   "poc": "Kishore",
+   "cat": "Deliverable",
+   "item": "Bare Anatomy: Karanjot 13:17 27 Oct told Chhavi to go ahead with shoot; Chhavi to shoot",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "27 Oct"
+  },
+  {
+   "id": "r359",
+   "creator": "Nausheen",
+   "poc": "Natasha",
+   "cat": "Follow-up",
+   "item": "Derma Co: Karanjot 13:16 27 Oct asked '30 or 20ml?'; size confirmation pending",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "27 Oct"
+  },
+  {
+   "id": "r360",
+   "creator": "Dharshne",
+   "poc": "Divya",
+   "cat": "Follow-up",
+   "item": "Lux (IPLIX): Amisha 13:01 27 Oct asked for campaign timeline; timeline pending",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "27 Oct"
+  },
+  {
+   "id": "r361",
+   "creator": "venessa.pinto",
+   "poc": "Divya",
+   "cat": "Follow-up",
+   "item": "Amazon W5S2 (Ritu) 12:45-12:48 27 Oct: tracking ID to be created 'Venessa-beauty-ip-oct'; tracking ID creation pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
