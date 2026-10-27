@@ -1,5 +1,5 @@
 {
- "lastUpdated": "2026-10-27T14:41:39+05:30",
+ "lastUpdated": "2026-10-27T15:20:25+05:30",
  "kpis": {
   "Sid": {
    "owned": 22,
@@ -7,7 +7,7 @@
    "notFound": 3,
    "deals": 29,
    "dealValue": "₹8.22L",
-   "openAsks": 70,
+   "openAsks": 71,
    "atRisk": 19
   },
   "Natasha": {
@@ -26,8 +26,8 @@
    "notFound": 9,
    "deals": 15,
    "dealValue": "₹4.50L",
-   "openAsks": 85,
-   "atRisk": 30,
+   "openAsks": 86,
+   "atRisk": 31,
    "note": "+1 identity unresolved; 9 = 5 not found + 4 no recent activity"
   },
   "Kishore": {
@@ -37,7 +37,7 @@
    "deals": 27,
    "dealValue": "₹5.04L",
    "openAsks": 65,
-   "atRisk": 29,
+   "atRisk": 28,
    "note": "CRM deals include Shraddha × Pilgrim (₹45k), not his creator"
   }
  },
@@ -749,11 +749,11 @@
    "creator": "Surabhi",
    "poc": "Natasha",
    "cat": "Other",
-   "item": "Lux body wash brief received from agency (Gurleen, Barcode): 'Surabhi X Lux Bodywash.pdf' 10:39 25 Oct; Flutch asked 10:10 26 Oct if brand will send bodywash; Gurleen 13:17 'Sharingg'; 13:54 Blinkit product link shared; 13:56 Gurleen: 'I hope creator is shooting today?'; shoot confirmation owed to brand; product dispatch not confirmed; two groups for the same campaign",
+   "item": "Lux body wash brief received from agency (Gurleen, Barcode) 10:39 25 Oct; Blinkit product link shared 13:54 26 Oct; Gurleen 13:56 asked if creator shooting today; 15:16 27 Oct Karanjot: shoot almost done, editing starts today; edited draft to brand pending; two groups for same campaign",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "26 Oct"
+   "date": "27 Oct"
   },
   {
    "id": "r64",
@@ -837,7 +837,7 @@
    "creator": "Nausheen",
    "poc": "Natasha",
    "cat": "Script",
-   "item": "Lacto Calamine revised video: Karanjot sent revised draft 10:03 26 Oct; Bansri feedback 10:05: CTA not in brackets + title case, brand names missing in video, RTB in title case, super 'Lacto Calamine SPF50 Sunscreen with PA++++'; asked Flutch to confirm RTB point; ~12:41 Bansri (preview, creator unclear): 'Super light' word missing again, CTA not matching VO; 18:34 Saba (brand, group incl. Khyati + Florence): script corrections (product names, capitalisation); Karanjot 18:37: 'yes, we spoke'; 14:18 27 Oct Saba (creator unclear): Kaolin Clay pronunciation still off, 'Lacto Calamine SPF50 Sunscreen with PA++++' still incorrect; corrections to apply + Flutch to confirm RTB + send edited video",
+   "item": "Lacto Calamine revised video: Karanjot sent revised draft 10:03 26 Oct; Bansri feedback 10:05: CTA not in brackets + title case, brand names missing in video, RTB in title case, super 'Lacto Calamine SPF50 Sunscreen with PA++++'; asked Flutch to confirm RTB point; ~12:41 Bansri (preview, creator unclear): 'Super light' word missing again, CTA not matching VO; 18:34 Saba (brand, group incl. Khyati + Florence): script corrections (product names, capitalisation); Karanjot 18:37: 'yes, we spoke'; 14:18 27 Oct Saba (creator unclear): Kaolin Clay pronunciation still off, 'Lacto Calamine SPF50 Sunscreen with PA++++' still incorrect; 15:17 Karanjot: on kaolin, creator said the same as informed earlier; kaolin clarification with brand + corrections + RTB confirmation + edited video pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -1750,7 +1750,7 @@
    "creator": "Amna",
    "poc": "Kishore",
    "cat": "Deliverable",
-   "item": "Aqualogica (Cloutflow): Ananya rejected 30 Oct draft date; Kishore 09:26 26 Oct asked Amna for draft by Thu 29 Oct (brand said Fri won't work); Amna 13:40 'Sure, I will try my best' (preview); 14:15 27 Oct Ananya: 'What's the update?'; update owed to Ananya; Amna draft due 29 Oct",
+   "item": "Aqualogica (Cloutflow): Ananya rejected 30 Oct draft date; Kishore 09:26 26 Oct asked Amna for draft by Thu 29 Oct; Amna 13:40 'Sure, I will try my best'; 14:15 27 Oct Ananya: 'What's the update?'; 15:14 Flutch: draft will be shared Fri 30 Oct (brand earlier said Fri won't work); brand acceptance + draft 30 Oct pending",
    "priority": "High",
    "status": "Open",
    "flag": "Open",
@@ -1904,7 +1904,7 @@
    "creator": "Ved",
    "poc": "Natasha",
    "cat": "Script",
-   "item": "Prowl script posted 22:31 24 Oct (5 scenes); 12:30 27 Oct Khushi posted feedback in Prowl group (preview: 'changes made'); 13:39 Khushi: 'will get back'; Flutch to review feedback + get brand approval",
+   "item": "Prowl script posted 22:31 24 Oct (5 scenes); 12:30 27 Oct Khushi posted feedback in Prowl group (preview: 'changes made'); 13:39 Khushi: 'will get back'; 15:14 aryan (Prowl) tagged Flutch: 'pls check'; Flutch to check aryan's message + get brand approval",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -2168,11 +2168,11 @@
    "creator": "Somya Bisla",
    "poc": "Natasha",
    "cat": "Deliverable",
-   "item": "Milkshake video asked by Khushi (17:49, 24 Oct); team to check and get back (18:34-18:50); Natasha asked Somya again for draft 17:20 26 Oct; draft still pending",
+   "item": "Milkshake video asked by Khushi (17:49, 24 Oct); Natasha chased draft 17:20 26 Oct; 15:12 27 Oct Khushi told Milkshake Somya's changes made, asked for approval; brand approval pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "26 Oct"
+   "date": "27 Oct"
   },
   {
    "id": "r193",
@@ -2938,7 +2938,7 @@
    "creator": "Vrushab",
    "poc": "Sid",
    "cat": "Follow-up",
-   "item": "StayVista (barter): Shruti 11:00 26 Oct asked to pick up for Vrushab + Nikhil; Pooja chased 11:55; 12:04 27 Oct Pooja asked for property details to take it further; 12:13 Vrushab: giving all deliverables on barter, wants good properties like those shared earlier; property details pending",
+   "item": "StayVista (barter): Shruti 11:00 26 Oct asked to pick up for Vrushab + Nikhil; Pooja chased 11:55; 12:04 27 Oct Pooja asked for property details; 12:13 Vrushab: all deliverables on barter, wants good properties like those shared earlier; 15:16 Pooja: 'This one' (selection, context unclear); property confirmation pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -3147,11 +3147,11 @@
    "creator": "Dishyata",
    "poc": "Divya",
    "cat": "Follow-up",
-   "item": "Joyun: Dishyata 13:27 26 Oct asked for confirmation on the video (preview); confirmation pending",
-   "priority": "Med",
+   "item": "Joyun: Dishyata 13:27 26 Oct asked for confirmation on the video; 14:44 27 Oct Dishyata: told it was urgent, needs go-live date beforehand, can't keep it on hold; confirmation + go-live date owed to creator",
+   "priority": "High",
    "status": "Open",
    "flag": "Open",
-   "date": "26 Oct"
+   "date": "27 Oct"
   },
   {
    "id": "r282",
@@ -3554,11 +3554,11 @@
    "creator": "Harish",
    "poc": "Kishore",
    "cat": "Follow-up",
-   "item": "Harish 19:13 26 Oct: 'no update at all' (Tamil); no Flutch reply; Flutch owes update",
+   "item": "Harish 19:13 26 Oct: 'no update at all' (Tamil); Flutch 15:00 27 Oct shared Pilgrim deal locked at 13,000 (resolved)",
    "priority": "High",
-   "status": "Open",
-   "flag": "At risk",
-   "date": "26 Oct"
+   "status": "Closed",
+   "flag": "Closed",
+   "date": "27 Oct"
   },
   {
    "id": "r319",
@@ -4049,7 +4049,7 @@
    "creator": "Khyati Kunwar",
    "poc": "Natasha",
    "cat": "Follow-up",
-   "item": "Udisha Kumar (Khyati's manager) 13:46 27 Oct: Flutch reached out to Khaleel re potential collab for Khyati, asked for details; Flutch to share details",
+   "item": "Udisha Kumar (Khyati's manager) 13:46 27 Oct: Flutch reached out to Khaleel re potential collab for Khyati, asked for details; 15:04 Udisha: Khyati's commercials 60k for 1 reel; Flutch to share details + respond on rate",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -4071,7 +4071,7 @@
    "creator": "Uma",
    "poc": "Natasha",
    "cat": "Other",
-   "item": "13:26 27 Oct Uma asked to approve the login; 14:07 Uma: 'Can u do it again'; redo/approval pending",
+   "item": "13:26 27 Oct Uma asked to approve the login; 14:07 'Can u do it again'; 15:15 'Haven't received'; 15:18 'Kindly do check now'; login approval still pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -4093,7 +4093,7 @@
    "creator": "Hrithika S",
    "poc": "Sid",
    "cat": "Payment",
-   "item": "Hrithika 14:24 27 Oct asked for the invoice to be shared today (brand not named); invoice due 27 Oct",
+   "item": "Hrithika 14:24 27 Oct asked for the invoice to be shared today (brand not named); 15:13 Hrithika X Internal: 'Sure, sharing it today'; invoice due 27 Oct",
    "priority": "High",
    "status": "Open",
    "flag": "Open",
@@ -4115,8 +4115,41 @@
    "creator": "Apoorva",
    "poc": "Kishore",
    "cat": "Payment",
-   "item": "FAE (liner + lip whip): Kashish 14:15 27 Oct asked for invoice; Fae finance chat 14:18: 'We had closed for 15k'; invoice to be shared",
+   "item": "FAE (liner + lip whip): Kashish 14:15 27 Oct asked for invoice; Fae finance 14:18: 'We had closed for 15k'; Kashish 14:59 'Okay thank you'; document sent to Fae finance POC 15:18 (likely invoice); confirm invoice received",
    "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "27 Oct"
+  },
+  {
+   "id": "r370",
+   "creator": "Ragavi",
+   "poc": "Divya",
+   "cat": "Follow-up",
+   "item": "Milkshake: Ragavi 15:12 27 Oct asked if a story is also included; Flutch to answer",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "27 Oct"
+  },
+  {
+   "id": "r371",
+   "creator": "Harish",
+   "poc": "Kishore",
+   "cat": "Follow-up",
+   "item": "Pilgrim: Flutch 15:00 27 Oct told Harish deal locked at 13,000; Harish's address shared in Pilgrim group 15:02; Harish confirmation pending",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "27 Oct"
+  },
+  {
+   "id": "r372",
+   "creator": "Smriti Mohanty",
+   "poc": "Sid",
+   "cat": "Follow-up",
+   "item": "Iplix (Shyam) 14:45 27 Oct: Smriti's Instagram profile shared; next step unclear",
+   "priority": "Low",
    "status": "Open",
    "flag": "Open",
    "date": "27 Oct"
