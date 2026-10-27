@@ -1,5 +1,5 @@
 {
- "lastUpdated": "2026-10-27T13:59:26+05:30",
+ "lastUpdated": "2026-10-27T14:41:39+05:30",
  "kpis": {
   "Sid": {
    "owned": 22,
@@ -7,8 +7,8 @@
    "notFound": 3,
    "deals": 29,
    "dealValue": "₹8.22L",
-   "openAsks": 69,
-   "atRisk": 18
+   "openAsks": 70,
+   "atRisk": 19
   },
   "Natasha": {
    "owned": 26,
@@ -17,7 +17,7 @@
    "deals": 37,
    "dealValue": "₹18.22L",
    "openAsks": 109,
-   "atRisk": 23,
+   "atRisk": 22,
    "note": "+3 identity unresolved"
   },
   "Divya": {
@@ -26,8 +26,8 @@
    "notFound": 9,
    "deals": 15,
    "dealValue": "₹4.50L",
-   "openAsks": 84,
-   "atRisk": 29,
+   "openAsks": 85,
+   "atRisk": 30,
    "note": "+1 identity unresolved; 9 = 5 not found + 4 no recent activity"
   },
   "Kishore": {
@@ -36,7 +36,7 @@
    "notFound": 0,
    "deals": 27,
    "dealValue": "₹5.04L",
-   "openAsks": 64,
+   "openAsks": 65,
    "atRisk": 29,
    "note": "CRM deals include Shraddha × Pilgrim (₹45k), not his creator"
   }
@@ -617,11 +617,11 @@
    "creator": "Laveena",
    "poc": "Natasha",
    "cat": "Other",
-   "item": "Exit plan re-asked 23 Oct; called Flutch unprofessional, call request unanswered for days; 17:02 26 Oct: asked why she has to go through Gokul/Shruti to get a response, said POC should be replaced if not interested; 17:01 26 Oct: said Natasha MIA all Oct, no call or message; 17:02: asked Natasha to replace herself; 17:28: asked Gokul to assign a POC who communicates; Gokul response pending",
+   "item": "Exit plan re-asked 23 Oct; called Flutch unprofessional, call request unanswered for days; 17:02 26 Oct: asked why she has to go through Gokul/Shruti to get a response, said POC should be replaced if not interested; 17:01 26 Oct: said Natasha MIA all Oct, no call or message; 17:02: asked Natasha to replace herself; 17:28: asked Gokul to assign a POC who communicates; 14:37 27 Oct Gokul after call: new POC assigned (to connect alternate days / as needed), Riya to handle business pitching + deal closing (resolved)",
    "priority": "High",
-   "status": "Open",
-   "flag": "At risk",
-   "date": "26 Oct"
+   "status": "Closed",
+   "flag": "Closed",
+   "date": "27 Oct"
   },
   {
    "id": "r52",
@@ -837,11 +837,11 @@
    "creator": "Nausheen",
    "poc": "Natasha",
    "cat": "Script",
-   "item": "Lacto Calamine revised video: Karanjot sent revised draft 10:03 26 Oct; Bansri feedback 10:05: CTA not in brackets + title case, brand names missing in video, RTB in title case, super 'Lacto Calamine SPF50 Sunscreen with PA++++'; asked Flutch to confirm RTB point; ~12:41 Bansri (preview, creator unclear): 'Super light' word missing again, CTA not matching VO; 18:34 Saba (brand, group incl. Khyati + Florence): script corrections (product names, capitalisation); Karanjot 18:37: 'yes, we spoke'; corrections to apply + Flutch to confirm RTB + send edited video",
+   "item": "Lacto Calamine revised video: Karanjot sent revised draft 10:03 26 Oct; Bansri feedback 10:05: CTA not in brackets + title case, brand names missing in video, RTB in title case, super 'Lacto Calamine SPF50 Sunscreen with PA++++'; asked Flutch to confirm RTB point; ~12:41 Bansri (preview, creator unclear): 'Super light' word missing again, CTA not matching VO; 18:34 Saba (brand, group incl. Khyati + Florence): script corrections (product names, capitalisation); Karanjot 18:37: 'yes, we spoke'; 14:18 27 Oct Saba (creator unclear): Kaolin Clay pronunciation still off, 'Lacto Calamine SPF50 Sunscreen with PA++++' still incorrect; corrections to apply + Flutch to confirm RTB + send edited video",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "26 Oct"
+   "date": "27 Oct"
   },
   {
    "id": "r72",
@@ -1750,11 +1750,11 @@
    "creator": "Amna",
    "poc": "Kishore",
    "cat": "Deliverable",
-   "item": "Aqualogica (Cloutflow): Ananya rejected 30 Oct draft date; Kishore 09:26 26 Oct asked Amna for draft by Thu 29 Oct (brand said Fri won't work); Amna 13:40 'Sure, I will try my best' (preview); Amna draft due 29 Oct",
+   "item": "Aqualogica (Cloutflow): Ananya rejected 30 Oct draft date; Kishore 09:26 26 Oct asked Amna for draft by Thu 29 Oct (brand said Fri won't work); Amna 13:40 'Sure, I will try my best' (preview); 14:15 27 Oct Ananya: 'What's the update?'; update owed to Ananya; Amna draft due 29 Oct",
    "priority": "High",
    "status": "Open",
    "flag": "Open",
-   "date": "26 Oct"
+   "date": "27 Oct"
   },
   {
    "id": "r155",
@@ -3862,7 +3862,7 @@
    "creator": "Ishika",
    "poc": "Natasha",
    "cat": "Other",
-   "item": "Skin Inspired: Ishika 12:05 27 Oct: 'These are not possible'; Flutch reply/alternative pending",
+   "item": "Skin Inspired: Ishika 12:05 27 Oct: 'These are not possible'; 14:37 urbanaura (brand) feedback: enhance music, text, transitions, sound effects, add pump shot; Flutch reply/alternative + video revision pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -4071,7 +4071,51 @@
    "creator": "Uma",
    "poc": "Natasha",
    "cat": "Other",
-   "item": "13:26 27 Oct Uma asked to approve the login; approval pending",
+   "item": "13:26 27 Oct Uma asked to approve the login; 14:07 Uma: 'Can u do it again'; redo/approval pending",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "27 Oct"
+  },
+  {
+   "id": "r366",
+   "creator": "Ishika",
+   "poc": "Natasha",
+   "cat": "Follow-up",
+   "item": "Olay: Ishika 14:26 27 Oct asked 'Caption thumbnail ?'; caption/thumbnail answer pending",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "27 Oct"
+  },
+  {
+   "id": "r367",
+   "creator": "Hrithika S",
+   "poc": "Sid",
+   "cat": "Payment",
+   "item": "Hrithika 14:24 27 Oct asked for the invoice to be shared today (brand not named); invoice due 27 Oct",
+   "priority": "High",
+   "status": "Open",
+   "flag": "Open",
+   "date": "27 Oct"
+  },
+  {
+   "id": "r368",
+   "creator": "venessa.pinto",
+   "poc": "Divya",
+   "cat": "Deliverable",
+   "item": "Amazon W5S2: Ritu 14:23 27 Oct: video needed by 15:30 today; video due 15:30 27 Oct",
+   "priority": "High",
+   "status": "Open",
+   "flag": "Open",
+   "date": "27 Oct"
+  },
+  {
+   "id": "r369",
+   "creator": "Apoorva",
+   "poc": "Kishore",
+   "cat": "Payment",
+   "item": "FAE (liner + lip whip): Kashish 14:15 27 Oct asked for invoice; Fae finance chat 14:18: 'We had closed for 15k'; invoice to be shared",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
