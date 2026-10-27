@@ -1,5 +1,5 @@
 {
- "lastUpdated": "2026-10-27T17:15:55+05:30",
+ "lastUpdated": "2026-10-27T17:51:07+05:30",
  "kpis": {
   "Sid": {
    "owned": 22,
@@ -17,7 +17,7 @@
    "deals": 37,
    "dealValue": "₹18.22L",
    "openAsks": 110,
-   "atRisk": 20,
+   "atRisk": 21,
    "note": "+3 identity unresolved"
   },
   "Divya": {
@@ -26,8 +26,8 @@
    "notFound": 9,
    "deals": 15,
    "dealValue": "₹4.50L",
-   "openAsks": 87,
-   "atRisk": 30,
+   "openAsks": 88,
+   "atRisk": 31,
    "note": "+1 identity unresolved; 9 = 5 not found + 4 no recent activity"
   },
   "Kishore": {
@@ -36,7 +36,7 @@
    "notFound": 0,
    "deals": 27,
    "dealValue": "₹5.04L",
-   "openAsks": 66,
+   "openAsks": 68,
    "atRisk": 29,
    "note": "CRM deals include Shraddha × Pilgrim (₹45k), not his creator"
   },
@@ -384,7 +384,7 @@
    "creator": "Hrithika S",
    "poc": "Sid",
    "cat": "Other",
-   "item": "Underneat video ETA chased by brand; 09:46 27 Oct Amisha: editing done, mostly live today, waiting for approval; Hrithika asked to go live tomorrow (28 Oct) since Bioderma posted 26 Oct; 09:59 Hrithika: will approve edit before posting, waiting for draft; 11:07 27 Oct brand '?'; 12:05 Shubhanshi: 'Yes but our team decides if it will be or not'; 12:26 Hrithika: 'I understand thank you!'; brand team decision + draft to Hrithika + go-live date pending",
+   "item": "Underneat video ETA chased by brand; 09:46 27 Oct Amisha: editing done, mostly live today, waiting for approval; Hrithika asked to go live tomorrow (28 Oct) since Bioderma posted 26 Oct; 09:59 Hrithika: will approve edit before posting, waiting for draft; 11:07 27 Oct brand '?'; 12:05 Shubhanshi: 'Yes but our team decides if it will be or not'; 12:26 Hrithika: 'I understand thank you!'; 17:24 Shubhanshi: 'kal tak bata dena' (Flutch update due 28 Oct); brand team decision + draft to Hrithika + go-live date pending",
    "priority": "High",
    "status": "Open",
    "flag": "Open",
@@ -3420,8 +3420,8 @@
    "creator": "Mansi",
    "poc": "Natasha",
    "cat": "Approval",
-   "item": "The Derma Co: Karanjot 18:43 26 Oct asked Shubhani to check script; Mansi ordering product from Zepto; 10:25 27 Oct Mansi asked for video at earliest; 12:56 Karanjot asked for approval; 15:44 Shubhani: 'Yes follow up liya hai'; 16:43 KJ: 'please share update'; script approval + product delivery not confirmed; Mansi owes video",
-   "priority": "Med",
+   "item": "The Derma Co: Karanjot 18:43 26 Oct asked Shubhani to check script; Mansi ordering product from Zepto; 10:25 27 Oct Mansi asked for video at earliest; 12:56 Karanjot asked for approval; 15:44 Shubhani: 'Yes follow up liya hai'; 16:43 KJ: 'please share update'; 17:49 KJ: shoot day saved for Derma Co lost waiting for approval; script approval overdue + shoot to be rescheduled; product delivery not confirmed; Mansi owes video",
+   "priority": "High",
    "status": "Open",
    "flag": "Open",
    "date": "27 Oct"
@@ -3607,7 +3607,7 @@
    "creator": "Dharshne",
    "poc": "Riya",
    "cat": "Script",
-   "item": "Dove (ShenaniGenZ): agency 22:49-22:50 26 Oct shared script doc, soap pic, script 2 reference reels (regional language ok), tagged Divya; voice note ~00:00 27 Oct; 12:46 27 Oct Amisha asked agency for campaign timeline; 12:56 Amisha asked Dharshne for bg options (room + bathroom), white outfits, and to buy Dove Body Wash + share order screenshot; Dharshne owes options + screenshot; timeline pending; creator to shoot per script 2",
+   "item": "Dove (ShenaniGenZ): agency 22:49-22:50 26 Oct shared script doc, soap pic, script 2 reference reels (regional language ok), tagged Divya; voice note ~00:00 27 Oct; 12:46 27 Oct Amisha asked agency for campaign timeline; 12:56 Amisha asked Dharshne for bg options (room + bathroom), white outfits, and to buy Dove Body Wash + share order screenshot; 17:13 ShenaniGenZ asked for Dharshne's earliest shoot date; Dharshne owes options + screenshot; Flutch to share earliest shoot date; timeline pending; creator to shoot per script 2",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -3882,7 +3882,7 @@
    "creator": "Nausheen",
    "poc": "Natasha",
    "cat": "Script",
-   "item": "IS: Karanjot 12:04 27 Oct asked for script update; 13:35 Ankush asked when Nausheen can share the video; 15:44 Karanjot: 'let me check'; 16:04 Gaurav (IS) asked for a date; Nausheen script + video date pending",
+   "item": "IS: Karanjot 12:04 27 Oct asked for script update; 13:35 Ankush asked when Nausheen can share the video; 15:44 Karanjot: 'let me check'; 16:04 Gaurav (IS) asked for a date; 17:40 KJ: she can shoot on Thursday (29 Oct) only; IS to confirm Thursday shoot; Nausheen script + video date pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -4355,7 +4355,7 @@
    "creator": "Athira Vinod",
    "poc": "Kishore",
    "cat": "Deliverable",
-   "item": "Flutch asked Athira for caption 16:53 27 Oct (brand not named); caption pending",
+   "item": "Flutch asked Athira for caption 16:53 27 Oct (brand not named); 17:48 Flutch: create caption based on product + add relevant hashtags; caption + hashtags pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -4390,6 +4390,39 @@
    "cat": "Other",
    "item": "Pears: Ishika shared email Ishikarastogi.collab@gmail.com 16:40 27 Oct; Flutch to use it",
    "priority": "Low",
+   "status": "Open",
+   "flag": "Open",
+   "date": "27 Oct"
+  },
+  {
+   "id": "r394",
+   "creator": "Pragati Bharti",
+   "poc": "Kishore",
+   "cat": "Follow-up",
+   "item": "Shivani 17:42 27 Oct: couldn't reach Pragati on call to discuss content strategy; Pragati to share a free time for call",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "27 Oct"
+  },
+  {
+   "id": "r395",
+   "creator": "Yogitha",
+   "poc": "Divya",
+   "cat": "Payment",
+   "item": "Character Cosmetic (Disha) 17:41 27 Oct: pending item still not done, delaying payment process; Flutch to complete",
+   "priority": "High",
+   "status": "Open",
+   "flag": "Open",
+   "date": "27 Oct"
+  },
+  {
+   "id": "r396",
+   "creator": "Apoorva",
+   "poc": "Kishore",
+   "cat": "Deliverable",
+   "item": "Foxtale: Khushi 17:14 27 Oct: 'lets post'; Apoorva to post + share live link",
+   "priority": "Med",
    "status": "Open",
    "flag": "Open",
    "date": "27 Oct"
