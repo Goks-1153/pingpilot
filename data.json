@@ -1,5 +1,5 @@
 {
- "lastUpdated": "2026-10-27T18:28:57+05:30",
+ "lastUpdated": "2026-10-27T19:07:12+05:30",
  "kpis": {
   "Sid": {
    "owned": 22,
@@ -7,7 +7,7 @@
    "notFound": 3,
    "deals": 29,
    "dealValue": "₹8.22L",
-   "openAsks": 78,
+   "openAsks": 79,
    "atRisk": 18
   },
   "Natasha": {
@@ -16,7 +16,7 @@
    "notFound": 5,
    "deals": 37,
    "dealValue": "₹18.22L",
-   "openAsks": 110,
+   "openAsks": 113,
    "atRisk": 21,
    "note": "+3 identity unresolved"
   },
@@ -26,7 +26,7 @@
    "notFound": 9,
    "deals": 15,
    "dealValue": "₹4.50L",
-   "openAsks": 91,
+   "openAsks": 92,
    "atRisk": 31,
    "note": "+1 identity unresolved; 9 = 5 not found + 4 no recent activity"
   },
@@ -36,7 +36,7 @@
    "notFound": 0,
    "deals": 27,
    "dealValue": "₹5.04L",
-   "openAsks": 70,
+   "openAsks": 73,
    "atRisk": 29,
    "note": "CRM deals include Shraddha × Pilgrim (₹45k), not his creator"
   },
@@ -846,7 +846,7 @@
    "creator": "Nausheen",
    "poc": "Natasha",
    "cat": "Script",
-   "item": "Lacto Calamine revised video: Karanjot sent revised draft 10:03 26 Oct; Bansri feedback 10:05: CTA not in brackets + title case, brand names missing in video, RTB in title case, super 'Lacto Calamine SPF50 Sunscreen with PA++++'; asked Flutch to confirm RTB point; ~12:41 Bansri (preview, creator unclear): 'Super light' word missing again, CTA not matching VO; 18:34 Saba (brand, group incl. Khyati + Florence): script corrections (product names, capitalisation); Karanjot 18:37: 'yes, we spoke'; 14:18 27 Oct Saba (creator unclear): Kaolin Clay pronunciation still off, 'Lacto Calamine SPF50 Sunscreen with PA++++' still incorrect; 15:17 Karanjot: on kaolin, creator said the same as informed earlier; kaolin clarification with brand + corrections + RTB confirmation + edited video pending",
+   "item": "Lacto Calamine revised video: Karanjot sent revised draft 10:03 26 Oct; Bansri feedback 10:05: CTA not in brackets + title case, brand names missing in video, RTB in title case, super 'Lacto Calamine SPF50 Sunscreen with PA++++'; asked Flutch to confirm RTB point; ~12:41 Bansri (preview, creator unclear): 'Super light' word missing again, CTA not matching VO; 18:34 Saba (brand, group incl. Khyati + Florence): script corrections (product names, capitalisation); Karanjot 18:37: 'yes, we spoke'; 14:18 27 Oct Saba (creator unclear): Kaolin Clay pronunciation still off, 'Lacto Calamine SPF50 Sunscreen with PA++++' still incorrect; 15:17 Karanjot: on kaolin, creator said the same as informed earlier; 19:02 Saba: 'Checking' (creator unclear); kaolin clarification with brand + corrections + RTB confirmation + edited video pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -1088,11 +1088,11 @@
    "creator": "Diksha",
    "poc": "Divya",
    "cat": "Payment",
-   "item": "Pilgrim invoices chased by agency since ~6 Oct (>2 weeks)",
+   "item": "Pilgrim invoices chased by agency since ~6 Oct (>2 weeks); Diksha's invoice shared in Pilgrim group 18:47 27 Oct; Pilgrim to process",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "6 Oct"
+   "date": "27 Oct"
   },
   {
    "id": "r94",
@@ -1264,11 +1264,11 @@
    "creator": "Yuvasri",
    "poc": "Divya",
    "cat": "Payment",
-   "item": "Pilgrim invoices owed (shared group)",
+   "item": "Pilgrim invoices owed (shared group); invoice shared in Yuvasri X Pilgrim 18:48 27 Oct; Pilgrim to process",
    "priority": "High",
    "status": "Open",
    "flag": "Open",
-   "date": "—"
+   "date": "27 Oct"
   },
   {
    "id": "r110",
@@ -1748,11 +1748,11 @@
    "creator": "Amna",
    "poc": "Kishore",
    "cat": "Approval",
-   "item": "Swiss Beauty Awaken: ready to go live, waiting on approval; Kishore owes approval",
+   "item": "Swiss Beauty Awaken: ready to go live, waiting on approval; Kishore owes approval; 18:53 27 Oct yeshaswini shared live link for Amna's 2nd Swiss Beauty video (unclear if this is Awaken); confirm",
    "priority": "High",
    "status": "Open",
    "flag": "Open",
-   "date": "25 Oct"
+   "date": "27 Oct"
   },
   {
    "id": "r154",
@@ -2925,7 +2925,7 @@
    "creator": "Athira Vinod",
    "poc": "Kishore",
    "cat": "Follow-up",
-   "item": "Samsung GCP: Kishore asked 11:44 26 Oct for update on pending deliverables; Tina: video correction, share by 1:30pm; deadline missed; Kishore chased 16:18; Athira sent file 17:10; Tina 17:37: still not syncing, 17:38: add smooth transitions; 10:00 27 Oct Tina asked Athira to post Reshare story now + share link; 11:00 brand asked to share on priority; 11:26 Tina: get festive video edited before 1pm; 12:35 Tina: needed by 1pm to share with Samsung; 12:53 Tina: share video by 6pm max, must go live today or it won't count in deliverables; 18:26 Athira: 'I tried my best'; 6pm deadline passed; Flutch to review + respond; story post + link + video status unconfirmed",
+   "item": "Samsung GCP: Kishore asked 11:44 26 Oct for update on pending deliverables; Tina: video correction, share by 1:30pm; deadline missed; Kishore chased 16:18; Athira sent file 17:10; Tina 17:37: still not syncing, 17:38: add smooth transitions; 10:00 27 Oct Tina asked Athira to post Reshare story now + share link; 11:00 brand asked to share on priority; 11:26 Tina: get festive video edited before 1pm; 12:35 Tina: needed by 1pm to share with Samsung; 12:53 Tina: share video by 6pm max, must go live today or it won't count in deliverables; 18:26 Athira: 'I tried my best'; 18:57 Monica (brand): 'wait'; 6pm deadline passed; Flutch to review + respond; story post + link + video status unconfirmed",
    "priority": "High",
    "status": "Open",
    "flag": "At risk",
@@ -3057,11 +3057,11 @@
    "creator": "Pragati Bharti",
    "poc": "Kishore",
    "cat": "Approval",
-   "item": "Pilgrim: script shared 12:51 26 Oct (transformation bucket); Broz Media/Pilgrim feedback pending",
+   "item": "Pilgrim: script shared 12:51 26 Oct (transformation bucket); document shared in Pilgrim DRS group 18:56 27 Oct; Broz Media/Pilgrim feedback + acknowledgement pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "26 Oct"
+   "date": "27 Oct"
   },
   {
    "id": "r273",
@@ -4432,10 +4432,10 @@
    "creator": "Pragati Bharti",
    "poc": "Kishore",
    "cat": "Follow-up",
-   "item": "ADF (LPR): Abhishek 18:25 27 Oct asked Kishore for Pragati's shoot date + whether she received the product; Kishore to reply",
+   "item": "ADF (LPR): Abhishek 18:25 27 Oct asked Kishore for Pragati's shoot date + whether she received the product; 18:43 reply: 'We will be starting the Shoot' (resolved)",
    "priority": "Med",
-   "status": "Open",
-   "flag": "Open",
+   "status": "Closed",
+   "flag": "Closed",
    "date": "27 Oct"
   },
   {
@@ -4443,7 +4443,7 @@
    "creator": "Nisha",
    "poc": "Sid",
    "cat": "Deliverable",
-   "item": "Amisha 18:19 27 Oct reminded Nisha to add clips to the drive link (brand not named); clips upload pending",
+   "item": "Amisha 18:19 27 Oct reminded Nisha to add clips to the drive link (brand not named); 18:27 Nisha: 'Just finished the shoot'; clips upload pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -4454,7 +4454,7 @@
    "creator": "Athira Vinod",
    "poc": "Kishore",
    "cat": "Other",
-   "item": "Lakme Cold Press: Nayab 18:15 27 Oct shared Blinkit link for Lakme lip balm; Athira to order product",
+   "item": "Lakme Cold Press: Nayab 18:15 27 Oct shared Blinkit link for Lakme lip balm; 18:44 'Okie' (sender unconfirmed); Athira to order product",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -4510,6 +4510,105 @@
    "poc": "Divya",
    "cat": "Follow-up",
    "item": "Shivani shared updated organic content ideas + sheet 17:53 27 Oct; Ragavi's reply pending",
+   "priority": "Low",
+   "status": "Open",
+   "flag": "Open",
+   "date": "27 Oct"
+  },
+  {
+   "id": "r405",
+   "creator": "Surabhi",
+   "poc": "Natasha",
+   "cat": "Follow-up",
+   "item": "19:05 27 Oct: 'Pls tell them the video was shared for approval within the time frame that was given' (brand not named); Flutch to tell brand video was submitted on time",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "27 Oct"
+  },
+  {
+   "id": "r406",
+   "creator": "venessa.pinto",
+   "poc": "Divya",
+   "cat": "Follow-up",
+   "item": "Amazon W5S2: Priyansh (brand) 19:02 27 Oct: 'When is this soon?? Tomorrow?'; Flutch/creator to give date",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "27 Oct"
+  },
+  {
+   "id": "r407",
+   "creator": "Sathyapriya",
+   "poc": "Kishore",
+   "cat": "Payment",
+   "item": "Pilgrim (SocioGlitch, Parul): Sathyapriya's invoice shared 18:57 27 Oct; agency to process",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "27 Oct"
+  },
+  {
+   "id": "r408",
+   "creator": "Surabhi",
+   "poc": "Natasha",
+   "cat": "Follow-up",
+   "item": "Livogen: Surabhi 18:52 27 Oct asked if 2nd video brief came (likely unboxing; package kept unopened); Flutch to share brief",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "27 Oct"
+  },
+  {
+   "id": "r409",
+   "creator": "Apoorva",
+   "poc": "Kishore",
+   "cat": "Payment",
+   "item": "Staze (Sep): invoice shared 18:51 27 Oct; Staze to process",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "27 Oct"
+  },
+  {
+   "id": "r410",
+   "creator": "Surabhi",
+   "poc": "Natasha",
+   "cat": "Follow-up",
+   "item": "18:50 27 Oct: '70k' rate quoted in creator chat (brand/context unclear); reply pending",
+   "priority": "Low",
+   "status": "Open",
+   "flag": "Open",
+   "date": "27 Oct"
+  },
+  {
+   "id": "r411",
+   "creator": "Pavithra Nagarajan",
+   "poc": "Sid",
+   "cat": "Other",
+   "item": "H&S Oct (new): Amisha 18:49 27 Oct: 'Its done, please proceed'; brand to proceed",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "27 Oct"
+  },
+  {
+   "id": "r412",
+   "creator": "Sandeep",
+   "poc": "Kishore",
+   "cat": "Deliverable",
+   "item": "Tarun shared organic content ideas 18:34 27 Oct (shared group with Rajamanickam); creator review pending",
+   "priority": "Low",
+   "status": "Open",
+   "flag": "Open",
+   "date": "27 Oct"
+  },
+  {
+   "id": "r413",
+   "creator": "Rajamanickam",
+   "poc": "Kishore",
+   "cat": "Deliverable",
+   "item": "Tarun shared organic content ideas 18:34 27 Oct (shared group with Sandeep); creator review pending",
    "priority": "Low",
    "status": "Open",
    "flag": "Open",
