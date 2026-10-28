@@ -1,5 +1,5 @@
 {
- "lastUpdated": "2026-10-28T18:13:15+05:30",
+ "lastUpdated": "2026-10-28T19:09:01+05:30",
  "kpis": {
   "Sid": {
    "owned": 22,
@@ -7,7 +7,7 @@
    "notFound": 3,
    "deals": 29,
    "dealValue": "₹8.22L",
-   "openAsks": 91,
+   "openAsks": 93,
    "atRisk": 19
   },
   "Natasha": {
@@ -16,8 +16,8 @@
    "notFound": 5,
    "deals": 37,
    "dealValue": "₹18.22L",
-   "openAsks": 132,
-   "atRisk": 22,
+   "openAsks": 134,
+   "atRisk": 23,
    "note": "+3 identity unresolved"
   },
   "Divya": {
@@ -26,7 +26,7 @@
    "notFound": 9,
    "deals": 15,
    "dealValue": "₹4.50L",
-   "openAsks": 106,
+   "openAsks": 107,
    "atRisk": 34,
    "note": "+1 identity unresolved; 9 = 5 not found + 4 no recent activity"
   },
@@ -46,7 +46,7 @@
    "notFound": 0,
    "deals": 0,
    "dealValue": "₹0",
-   "openAsks": 15,
+   "openAsks": 16,
    "atRisk": 4
   }
  },
@@ -758,8 +758,8 @@
    "creator": "Surabhi",
    "poc": "Natasha",
    "cat": "Other",
-   "item": "Lux body wash brief received from agency (Gurleen, Barcode) 10:39 25 Oct; Blinkit product link shared 13:54 26 Oct; Gurleen 13:56 asked if creator shooting today; 15:16 27 Oct Karanjot: shoot almost done, editing starts today; 12:08 28 Oct Surabhi sent Lux video, tagged Karanjot; Karanjot review + send to brand pending; two groups for same campaign",
-   "priority": "Med",
+   "item": "Lux body wash brief received from agency (Gurleen, Barcode) 10:39 25 Oct; Blinkit product link shared 13:54 26 Oct; Gurleen 13:56 asked if creator shooting today; 15:16 27 Oct Karanjot: shoot almost done, editing starts today; 12:08 28 Oct Surabhi sent Lux video, tagged Karanjot; Karanjot review + send to brand pending; two groups for same campaign; 18:47 Gurleen (Lux) sent brand feedback (add afx, add supers, English-only subtitles), asked ASAP; Karanjot to apply",
+   "priority": "High",
    "status": "Open",
    "flag": "Open",
    "date": "28 Oct"
@@ -2430,11 +2430,11 @@
    "creator": "Ishika",
    "poc": "Natasha",
    "cat": "Deliverable",
-   "item": "Plix: Bhavya 13:40 25 Oct spoke to Ishika; creator list sent 18:17 26 Oct; Ishika 19:05: will check and get back; Bhavya followed up 10:24 27 Oct (thought locking was ongoing); feedback on list pending",
+   "item": "Plix: Bhavya 13:40 25 Oct spoke to Ishika; creator list sent 18:17 26 Oct; Ishika 19:05: will check and get back; Bhavya followed up 10:24 27 Oct (thought locking was ongoing); feedback on list pending; 18:03 Plix asked for a language column to shortlist region-wise; 18:48 Bhavya: list with language column done; Plix review pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "27 Oct"
+   "date": "28 Oct"
   },
   {
    "id": "r216",
@@ -2804,11 +2804,11 @@
    "creator": "Fashion Verge",
    "poc": "Divya",
    "cat": "Script",
-   "item": "AU Bank: Divya reminded 10:27 26 Oct to share script; 12:27 27 Oct asked again for AU Bank script + Baleno shoot availability; Ganesh 12:27: 'Sharing you in a while'; 16:04 Flutch asked AU Bank to check the script; 17:01 Ganesh: 'we can do it on friday' (likely shoot, Fri 30 Oct); Flutch to confirm Fri; AU Bank script review + invoices still owed",
+   "item": "AU Bank: Divya reminded 10:27 26 Oct to share script; 12:27 27 Oct asked again for AU Bank script + Baleno shoot availability; Ganesh 12:27: 'Sharing you in a while'; 16:04 Flutch asked AU Bank to check the script; 17:01 Ganesh: 'we can do it on friday' (likely shoot, Fri 30 Oct); Flutch to confirm Fri; AU Bank script review + invoices still owed; 18:06-18:08 Divya: shoot Fri 30 Oct; Ganesh asked for Telugu voice-over script + Baleno script; Divya: 'Sharing you in a while'; Telugu script pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "27 Oct"
+   "date": "28 Oct"
   },
   {
    "id": "r250",
@@ -3871,7 +3871,7 @@
    "creator": "Ishika",
    "poc": "Natasha",
    "cat": "Other",
-   "item": "Skin Inspired: Ishika 12:05 27 Oct: 'These are not possible'; 14:37 urbanaura feedback (music, text, transitions, SFX, pump shot; last two clips dim); 17:00 urbanaura: 'Okay sent'; 10:24 28 Oct Karanjot asked Ishika for video update; Ishika wants to go live today; 12:31 Urbanaura: waiting for brand reply; 14:29-14:32 brand feedback: change purple text colour, remove extra SFX; 16:01 Ishika: 'Update on this'; final draft + go-live 28 Oct pending; 18:03 Karanjot asked Urban Aura for video update + company/GST details",
+   "item": "Skin Inspired: Ishika 12:05 27 Oct: 'These are not possible'; 14:37 urbanaura feedback (music, text, transitions, SFX, pump shot; last two clips dim); 17:00 urbanaura: 'Okay sent'; 10:24 28 Oct Karanjot asked Ishika for video update; Ishika wants to go live today; 12:31 Urbanaura: waiting for brand reply; 14:29-14:32 brand feedback: change purple text colour, remove extra SFX; 16:01 Ishika: 'Update on this'; final draft + go-live 28 Oct pending; 18:03 Karanjot asked Urban Aura for video update + company/GST details; 18:52 Ishika forwarded feedback ('only this change then gtg'); Flutch to relay change + get final draft",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -4410,7 +4410,7 @@
    "creator": "Yogitha",
    "poc": "Divya",
    "cat": "Payment",
-   "item": "Character Cosmetic (Disha) 17:41 27 Oct: pending item still not done, delaying payment process; 17:00 28 Oct 'I will get this done' (preview); 17:01 story screenshot on Whislink asked (sender unclear); story screenshot pending; 17:33-17:40 Divya asked Yogitha to upload story reshare screenshot on Wishlink; 17:37 Disha: still not uploaded; 17:39 Yogitha: will do; screenshot needed to unlock payment",
+   "item": "Character Cosmetic (Disha) 17:41 27 Oct: pending item still not done, delaying payment process; 17:00 28 Oct 'I will get this done' (preview); 17:01 story screenshot on Whislink asked (sender unclear); story screenshot pending; 17:33-17:40 Divya asked Yogitha to upload story reshare screenshot on Wishlink; 17:37 Disha: still not uploaded; 17:39 Yogitha: will do; screenshot needed to unlock payment; 18:17 Yogitha sent a link (likely the Wishlink screenshot); Divya to confirm with Disha",
    "priority": "High",
    "status": "Open",
    "flag": "Open",
@@ -5180,7 +5180,7 @@
    "creator": "Apoorva",
    "poc": "Kishore",
    "cat": "Follow-up",
-   "item": "Pilgrim anti-dandruff shampoo (Broz Media, Shefali): 15:56 28 Oct locking Apoorva, asked email + address; 15:59 same deliverables (1 non-collab reel + 1 month ad rights); 16:00 Apoorva unsure she can repeat same commercials with this brand; Apoorva decision pending",
+   "item": "Pilgrim anti-dandruff shampoo (Broz Media, Shefali): 15:56 28 Oct locking Apoorva, asked email + address; 15:59 same deliverables (1 non-collab reel + 1 month ad rights); 16:00 Apoorva unsure she can repeat same commercials with this brand; Apoorva decision pending; 18:55 Shefali locked Apoorva at the same price this month (higher cost going forward); creator invoice + GST details pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -5235,7 +5235,7 @@
    "creator": "Khyati Kunwar",
    "poc": "Natasha",
    "cat": "Approval",
-   "item": "Lacto Calamine: 10:36 + 15:20 28 Oct Karanjot chased video updates; 15:33 brand shared ahead; KJ asked to close Khyati/Nausheen/Florence by Fri 30 Oct; 16:15 Saba: go live after approval; KJ voice notes 16:20, 16:27; 16:40 Saba: 'Yes'; brand approval + go-live on Khyati video due 30 Oct",
+   "item": "Lacto Calamine: 10:36 + 15:20 28 Oct Karanjot chased video updates; 15:33 brand shared ahead; KJ asked to close Khyati/Nausheen/Florence by Fri 30 Oct; 16:15 Saba: go live after approval; KJ voice notes 16:20, 16:27; 16:40 Saba: 'Yes'; brand approval + go-live on Khyati video due 30 Oct; 18:36 Karanjot forwarded a video, Saba reviewing",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -5246,7 +5246,7 @@
    "creator": "Smriti Mohanty",
    "poc": "Sid",
    "cat": "Other",
-   "item": "31 Oct event (Disha): dress code red, white, grey shared 15:31 28 Oct; confirmation mail due EOD 29 Oct",
+   "item": "31 Oct event (Disha): dress code red, white, grey shared 15:31 28 Oct; confirmation mail due EOD 29 Oct; 18:32 Khaleel shared the dress code for the CHOSEN event on 31 Oct",
    "priority": "Low",
    "status": "Open",
    "flag": "Open",
@@ -5391,6 +5391,72 @@
    "cat": "Payment",
    "item": "Traya (Purplle): 17:41 28 Oct Nisha flagged pending GST payment for Pooja Milley; 18:00 invoice after 2% TDS 31,900 but only 26,950 received; balance 4,950 pending",
    "priority": "High",
+   "status": "Open",
+   "flag": "Open",
+   "date": "28 Oct"
+  },
+  {
+   "id": "r485",
+   "creator": "Neelam",
+   "poc": "Riya",
+   "cat": "Follow-up",
+   "item": "18:13 28 Oct Neelam asked for product details and whether the deal is locked; Flutch reply pending",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "28 Oct"
+  },
+  {
+   "id": "r486",
+   "creator": "Adrija",
+   "poc": "Sid",
+   "cat": "Deliverable",
+   "item": "18:42 28 Oct Sid + Adrija discussed the event and Swish; campaign draft due 29 Oct",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "28 Oct"
+  },
+  {
+   "id": "r487",
+   "creator": "Hiba & Nida",
+   "poc": "Sid",
+   "cat": "Payment",
+   "item": "18:20-18:31 28 Oct Sid discussed payment + deliverables with Nida; 18:40 Shivani shared content ideas; payment discussion open",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "28 Oct"
+  },
+  {
+   "id": "r488",
+   "creator": "Mansi",
+   "poc": "Natasha",
+   "cat": "Follow-up",
+   "item": "18:28 28 Oct Natasha: 'Checking on these' (creator's open questions); Natasha to revert",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "28 Oct"
+  },
+  {
+   "id": "r489",
+   "creator": "Nausheen",
+   "poc": "Natasha",
+   "cat": "Follow-up",
+   "item": "18:55 28 Oct Natasha said she will reach out to the POC (brand not named); outreach pending",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "28 Oct"
+  },
+  {
+   "id": "r490",
+   "creator": "Yuvasri",
+   "poc": "Divya",
+   "cat": "Follow-up",
+   "item": "18:43 28 Oct Divya asked 'For which brand ???'; creator reply pending",
+   "priority": "Low",
    "status": "Open",
    "flag": "Open",
    "date": "28 Oct"

@@ -1118,6 +1118,15 @@
    "output_tokens": 0,
    "estimate": true,
    "note": "Claude Code hit session limit (resets ~21:20 IST); Gemini Pro API quota exhausted (429); merge done by the bot itself, tokens not metered"
+  },
+  {
+   "at": "2026-10-28T19:09:01+05:30",
+   "by": "Auto",
+   "engine": "Bot's own engine",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "estimate": true,
+   "note": "Claude Code session limit (resets ~21:20 IST) and Gemini Pro API 429; merge done by the bot itself; Periskope reading by the browser agent (not counted)"
   }
  ]
 }
