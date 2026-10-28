@@ -1,7 +1,7 @@
 {
  "by": "Auto",
- "at": "2026-10-28T08:50:48+05:30",
- "startedAt": "2026-10-28T08:50:48+05:30",
+ "at": "2026-10-28T11:09:07+05:30",
+ "startedAt": "2026-10-28T11:09:07+05:30",
  "status": "published",
  "history": [
   {
@@ -435,9 +435,33 @@
    "startedAt": "2026-10-28T08:50:48+05:30",
    "durationSec": 70,
    "status": "skipped-no-source"
+  },
+  {
+   "by": "Auto",
+   "startedAt": "2026-10-28T09:22:30+05:30",
+   "durationSec": 60,
+   "status": "skipped-no-source"
+  },
+  {
+   "by": "Auto",
+   "startedAt": "2026-10-28T10:03:56+05:30",
+   "durationSec": 60,
+   "status": "skipped-no-source"
+  },
+  {
+   "by": "Auto",
+   "startedAt": "2026-10-28T10:36:05+05:30",
+   "durationSec": 60,
+   "status": "skipped-no-source"
+  },
+  {
+   "by": "Auto",
+   "startedAt": "2026-10-28T11:09:07+05:30",
+   "durationSec": 1226,
+   "status": "published"
   }
  ],
- "finishedAt": "2026-10-28T08:51:58+05:30",
- "durationSec": 70,
- "note": "Periskope unreachable from box network; kept last good data"
+ "finishedAt": "2026-10-28T11:29:33+05:30",
+ "durationSec": 1226,
+ "note": "Periskope back at console.periskope.app; 13 new rows, 33 updated, 2 closed"
 }
