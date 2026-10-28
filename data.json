@@ -1,5 +1,5 @@
 {
- "lastUpdated": "2026-10-28T12:15:36+05:30",
+ "lastUpdated": "2026-10-28T12:57:52+05:30",
  "kpis": {
   "Sid": {
    "owned": 22,
@@ -16,7 +16,7 @@
    "notFound": 5,
    "deals": 37,
    "dealValue": "₹18.22L",
-   "openAsks": 119,
+   "openAsks": 121,
    "atRisk": 22,
    "note": "+3 identity unresolved"
   },
@@ -26,8 +26,8 @@
    "notFound": 9,
    "deals": 15,
    "dealValue": "₹4.50L",
-   "openAsks": 99,
-   "atRisk": 32,
+   "openAsks": 101,
+   "atRisk": 34,
    "note": "+1 identity unresolved; 9 = 5 not found + 4 no recent activity"
   },
   "Kishore": {
@@ -46,7 +46,7 @@
    "notFound": 0,
    "deals": 0,
    "dealValue": "₹0",
-   "openAsks": 12,
+   "openAsks": 13,
    "atRisk": 4
   }
  },
@@ -2100,10 +2100,10 @@
    "creator": "Neelam",
    "poc": "Sid",
    "cat": "Script",
-   "item": "AcneStar (Travel ZIV) script with brand for review; Amisha asked for update 10:42 26 Oct; ZIV: waiting on higher team; Amisha 09:59 27 Oct: brands haven't shared update, following up; 10:18 28 Oct Amisha asked ZIV for update on Neelam's script; ZIV approval pending",
+   "item": "AcneStar (Travel ZIV) script with brand for review; Amisha asked for update 10:42 26 Oct; ZIV: waiting on higher team; Amisha 09:59 27 Oct: brands haven't shared update, following up; 10:18 28 Oct Amisha asked ZIV for update on Neelam's script; 12:46-12:47 28 Oct Amisha shared approved AcneStar script with Neelam (resolved)",
    "priority": "Med",
-   "status": "Open",
-   "flag": "Open",
+   "status": "Closed",
+   "flag": "Closed",
    "date": "28 Oct"
   },
   {
@@ -2122,11 +2122,11 @@
    "creator": "Athira Vinod",
    "poc": "Kishore",
    "cat": "Deliverable",
-   "item": "Travel ZIV (AcneStar) video draft shared with brand 17:42 23 Oct; Kishore asked Shivangi for update 09:29 26 Oct; Kishore shared revised draft 17:40 26 Oct; 11:20 27 Oct ZIV asked for update on Athira's draft; draft status to be confirmed with brand",
+   "item": "Travel ZIV (AcneStar) video draft shared with brand 17:42 23 Oct; Kishore asked Shivangi for update 09:29 26 Oct; Kishore shared revised draft 17:40 26 Oct; 11:20 27 Oct ZIV asked for update on Athira's draft; 12:03 28 Oct Shivangi (ZIV): 'good to go' (resolved)",
    "priority": "Med",
-   "status": "Open",
-   "flag": "Open",
-   "date": "27 Oct"
+   "status": "Closed",
+   "flag": "Closed",
+   "date": "28 Oct"
   },
   {
    "id": "r188",
@@ -2639,7 +2639,7 @@
    "creator": "Chhavi",
    "poc": "Kishore",
    "cat": "Script",
-   "item": "Plum Goodness (IPLIX): Aayushi asked for revised script 09:47 26 Oct; Karanjot pasted Script 2 (dandruff winter VO) 09:59; Karanjot chased for update 13:16 27 Oct; 13:26 Karanjot: 'checking'; 11:07 28 Oct Aayushi: 'When is chhavi shooting?'; product stuck in transit, brand asked Flutch to order via Blinkit for reimbursement; Chhavi shoot date + Blinkit order/reimbursement pending",
+   "item": "Plum Goodness (IPLIX): Aayushi asked for revised script 09:47 26 Oct; Karanjot pasted Script 2 (dandruff winter VO) 09:59; Karanjot chased for update 13:16 27 Oct; 13:26 Karanjot: 'checking'; 11:07 28 Oct Aayushi: 'When is chhavi shooting?'; product stuck in transit, brand asked Flutch to order via Blinkit for reimbursement; 12:54 28 Oct Karanjot: Chhavi received product, can shoot by Fri 30 Oct; brand ack of Friday shoot pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -3948,11 +3948,11 @@
    "creator": "Athira Vinod",
    "poc": "Kishore",
    "cat": "Script",
-   "item": "Skinvest: Nisha 11:21 27 Oct: 'Script for athira'; script pending",
+   "item": "Skinvest: Nisha 11:21 27 Oct: 'Script for athira'; 12:50 28 Oct Nisha (brand): 'any update??' (preview); script pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "27 Oct"
+   "date": "28 Oct"
   },
   {
    "id": "r354",
@@ -4884,6 +4884,83 @@
    "poc": "Riya",
    "cat": "Follow-up",
    "item": "Sanjogta 11:43 28 Oct asked for new CRM details (preview); Flutch reply pending",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "28 Oct"
+  },
+  {
+   "id": "r439",
+   "creator": "Gurishq Kaur",
+   "poc": "Divya",
+   "cat": "Retention risk",
+   "item": "Divya 12:53 28 Oct: both were inbound queries, confirmation emails to be shared once locked; then said outreach was from her end + POC is different; 12:55 Gurishq: 'this isn't how it works'; POC / inbound vs outreach dispute; reply pending",
+   "priority": "High",
+   "status": "Open",
+   "flag": "At risk",
+   "date": "28 Oct"
+  },
+  {
+   "id": "r440",
+   "creator": "Ishika",
+   "poc": "Natasha",
+   "cat": "Script",
+   "item": "Pears: Karanjot shared script 12:47 28 Oct; 12:51 asked 4 questions (ethnic wear after application, outfit colour, makeup before, loofah); Ishika answers + script approval pending",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "28 Oct"
+  },
+  {
+   "id": "r441",
+   "creator": "kanvidholakia_",
+   "poc": "Divya",
+   "cat": "Payment",
+   "item": "Kanvi X Dove (Barcode): Sid chased Seeya 12:48-12:49 28 Oct to clear payment + share UTR once paid; called 12:49; payment + UTR pending",
+   "priority": "High",
+   "status": "Open",
+   "flag": "Open",
+   "date": "28 Oct"
+  },
+  {
+   "id": "r442",
+   "creator": "Chhavi",
+   "poc": "Kishore",
+   "cat": "Follow-up",
+   "item": "Frizty Personal Care: brand asked Chhavi's commercials for electric gua sha reel + before/after; Natasha quoted 1 collab reel 45k 12:48 28 Oct; brand response pending",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "28 Oct"
+  },
+  {
+   "id": "r443",
+   "creator": "Anjela",
+   "poc": "Natasha",
+   "cat": "Other",
+   "item": "Mamaearth rice hydra gel (26k, live 1 Nov): Natasha forwarded 12:45 28 Oct; Anjela not interested; Natasha to relay decline",
+   "priority": "Low",
+   "status": "Open",
+   "flag": "Open",
+   "date": "28 Oct"
+  },
+  {
+   "id": "r444",
+   "creator": "Neelam",
+   "poc": "Riya",
+   "cat": "Deliverable",
+   "item": "AcneStar (Travel ZIV): approved script (30-sec reel) shared 12:46-12:47 28 Oct, Amisha asked to shoot soon; shoot + draft pending",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "28 Oct"
+  },
+  {
+   "id": "r445",
+   "creator": "Smriti Mohanty",
+   "poc": "Sid",
+   "cat": "Follow-up",
+   "item": "Travel ZIV: Amisha 12:04 28 Oct asked for Smriti's collab request (not sent yet); collab request pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
