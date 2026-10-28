@@ -1,5 +1,5 @@
 {
- "lastUpdated": "2026-10-27T19:51:11+05:30",
+ "lastUpdated": "2026-10-28T08:08:17+05:30",
  "kpis": {
   "Sid": {
    "owned": 22,
@@ -7,7 +7,7 @@
    "notFound": 3,
    "deals": 29,
    "dealValue": "₹8.22L",
-   "openAsks": 79,
+   "openAsks": 80,
    "atRisk": 18
   },
   "Natasha": {
@@ -4421,10 +4421,10 @@
    "creator": "Apoorva",
    "poc": "Kishore",
    "cat": "Deliverable",
-   "item": "Foxtale: Khushi 17:14 27 Oct: 'lets post'; 17:54 Khushi: 'when are we posting?'; 19:09 Apoorva: 'Tomorrow morning'; Apoorva to post 28 Oct morning + share live link",
+   "item": "Foxtale: Khushi 17:14 27 Oct: 'lets post'; 17:54 Khushi: 'when are we posting?'; 19:09 Apoorva: 'Tomorrow morning'; 23:44 Khushi: supposed to go live today, already a day late; 23:52 Apoorva: already posted organic reel; live/paid posting timing unresolved; Flutch follow-up needed",
    "priority": "Med",
    "status": "Open",
-   "flag": "Open",
+   "flag": "At risk",
    "date": "28 Oct"
   },
   {
@@ -4657,6 +4657,28 @@
    "status": "Open",
    "flag": "Open",
    "date": "27 Oct"
+  },
+  {
+   "id": "r418",
+   "creator": "Uma",
+   "poc": "Natasha",
+   "cat": "Approval",
+   "item": "Hilary Rhoda: Uma's one-dot blush challenge reel concept/script posted 22:42 27 Oct; Isha (brand) 04:09 28 Oct: 'approved' (resolved)",
+   "priority": "Med",
+   "status": "Closed",
+   "flag": "Closed",
+   "date": "28 Oct"
+  },
+  {
+   "id": "r419",
+   "creator": "Yadhu",
+   "poc": "Sid",
+   "cat": "Follow-up",
+   "item": "HK Vitals (Big Media): Nandini 01:57 28 Oct shared rate list; wants to close Yadhu for reel + 1-month rights at ₹20–25K (tagged Sid); Sid to respond",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "28 Oct"
   }
  ]
 }
