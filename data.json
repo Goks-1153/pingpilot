@@ -1,5 +1,5 @@
 {
- "lastUpdated": "2026-10-28T19:09:01+05:30",
+ "lastUpdated": "2026-10-28T19:50:09+05:30",
  "kpis": {
   "Sid": {
    "owned": 22,
@@ -7,7 +7,7 @@
    "notFound": 3,
    "deals": 29,
    "dealValue": "₹8.22L",
-   "openAsks": 93,
+   "openAsks": 94,
    "atRisk": 19
   },
   "Natasha": {
@@ -758,7 +758,7 @@
    "creator": "Surabhi",
    "poc": "Natasha",
    "cat": "Other",
-   "item": "Lux body wash brief received from agency (Gurleen, Barcode) 10:39 25 Oct; Blinkit product link shared 13:54 26 Oct; Gurleen 13:56 asked if creator shooting today; 15:16 27 Oct Karanjot: shoot almost done, editing starts today; 12:08 28 Oct Surabhi sent Lux video, tagged Karanjot; Karanjot review + send to brand pending; two groups for same campaign; 18:47 Gurleen (Lux) sent brand feedback (add afx, add supers, English-only subtitles), asked ASAP; Karanjot to apply",
+   "item": "Lux body wash brief received from agency (Gurleen, Barcode) 10:39 25 Oct; Blinkit product link shared 13:54 26 Oct; Gurleen 13:56 asked if creator shooting today; 15:16 27 Oct Karanjot: shoot almost done, editing starts today; 12:08 28 Oct Surabhi sent Lux video, tagged Karanjot; Karanjot review + send to brand pending; two groups for same campaign; 18:47 Gurleen (Lux) sent brand feedback (add afx, add supers, English-only subtitles), asked ASAP; Karanjot to apply; 19:38 Karanjot passed feedback to Surabhi; 19:39-19:40 Surabhi: supers added, subtitles to English, asked what afx means; revised Lux edit pending",
    "priority": "High",
    "status": "Open",
    "flag": "Open",
@@ -4179,11 +4179,11 @@
    "creator": "Shraddha",
    "poc": "Natasha",
    "cat": "Script",
-   "item": "AcneStar: Karanjot 15:51 27 Oct asked brand for script ETA (closing by serial no.; pending a long time); brand ETA pending",
+   "item": "AcneStar: Karanjot 15:51 27 Oct asked brand for script ETA (closing by serial no.; pending a long time); brand ETA pending; 19:29 28 Oct Arpit: will try to close it asap; brand closure pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "27 Oct"
+   "date": "28 Oct"
   },
   {
    "id": "r375",
@@ -5180,7 +5180,7 @@
    "creator": "Apoorva",
    "poc": "Kishore",
    "cat": "Follow-up",
-   "item": "Pilgrim anti-dandruff shampoo (Broz Media, Shefali): 15:56 28 Oct locking Apoorva, asked email + address; 15:59 same deliverables (1 non-collab reel + 1 month ad rights); 16:00 Apoorva unsure she can repeat same commercials with this brand; Apoorva decision pending; 18:55 Shefali locked Apoorva at the same price this month (higher cost going forward); creator invoice + GST details pending",
+   "item": "Pilgrim anti-dandruff shampoo (Broz Media, Shefali): 15:56 28 Oct locking Apoorva, asked email + address; 15:59 same deliverables (1 non-collab reel + 1 month ad rights); 16:00 Apoorva unsure she can repeat same commercials with this brand; Apoorva decision pending; 18:55 Shefali locked Apoorva at the same price this month (higher cost going forward); creator invoice + GST details pending; 19:12 Apoorva: can't repeat the same brand unless commercials increase; price response pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -5246,7 +5246,7 @@
    "creator": "Smriti Mohanty",
    "poc": "Sid",
    "cat": "Other",
-   "item": "31 Oct event (Disha): dress code red, white, grey shared 15:31 28 Oct; confirmation mail due EOD 29 Oct; 18:32 Khaleel shared the dress code for the CHOSEN event on 31 Oct",
+   "item": "31 Oct event (Disha): dress code red, white, grey shared 15:31 28 Oct; confirmation mail due EOD 29 Oct; 18:32 Khaleel shared the dress code for the CHOSEN event on 31 Oct; 19:23 Smriti acknowledged the dress code",
    "priority": "Low",
    "status": "Open",
    "flag": "Open",
@@ -5444,7 +5444,7 @@
    "creator": "Nausheen",
    "poc": "Natasha",
    "cat": "Follow-up",
-   "item": "18:55 28 Oct Natasha said she will reach out to the POC (brand not named); outreach pending",
+   "item": "18:55 28 Oct Natasha said she will reach out to the POC (brand not named); outreach pending; 19:09 Nausheen forwarded Barcode (Suhani) Parachute Shampoo offer (1 non-collab reel, ₹2-3k, 90-day payment); Flutch reply pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -5457,6 +5457,17 @@
    "cat": "Follow-up",
    "item": "18:43 28 Oct Divya asked 'For which brand ???'; creator reply pending",
    "priority": "Low",
+   "status": "Open",
+   "flag": "Open",
+   "date": "28 Oct"
+  },
+  {
+   "id": "r491",
+   "creator": "Kalyani",
+   "poc": "Sid",
+   "cat": "Follow-up",
+   "item": "Uppeel: 19:32 28 Oct Kalyani received products, asked if preferred language is Malayalam or English; Flutch answer pending",
+   "priority": "Med",
    "status": "Open",
    "flag": "Open",
    "date": "28 Oct"
