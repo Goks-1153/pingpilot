@@ -1,5 +1,5 @@
 {
- "lastUpdated": "2026-10-28T17:17:43+05:30",
+ "lastUpdated": "2026-10-28T18:13:15+05:30",
  "kpis": {
   "Sid": {
    "owned": 22,
@@ -7,8 +7,8 @@
    "notFound": 3,
    "deals": 29,
    "dealValue": "₹8.22L",
-   "openAsks": 89,
-   "atRisk": 18
+   "openAsks": 91,
+   "atRisk": 19
   },
   "Natasha": {
    "owned": 25,
@@ -16,7 +16,7 @@
    "notFound": 5,
    "deals": 37,
    "dealValue": "₹18.22L",
-   "openAsks": 128,
+   "openAsks": 132,
    "atRisk": 22,
    "note": "+3 identity unresolved"
   },
@@ -26,7 +26,7 @@
    "notFound": 9,
    "deals": 15,
    "dealValue": "₹4.50L",
-   "openAsks": 105,
+   "openAsks": 106,
    "atRisk": 34,
    "note": "+1 identity unresolved; 9 = 5 not found + 4 no recent activity"
   },
@@ -1616,7 +1616,7 @@
    "creator": "Athira Vinod",
    "poc": "Kishore",
    "cat": "Script",
-   "item": "Plix: feedback forwarded 10:05 25 Oct; Himanshi 11:37 26 Oct: 'Send video today only'; due 26 Oct missed; 27 Oct Himanshi complained about delay, 16:50 'Thankss'; 10:39 28 Oct Plix POC needs Athira's video before 12 PM; 16:04 + 16:16 Himanshi chased again; 16:19 Kishore: creator had a personal emergency; 16:20 Kishore: draft today; draft due EOD 28 Oct",
+   "item": "Plix: feedback forwarded 10:05 25 Oct; Himanshi 11:37 26 Oct: 'Send video today only'; due 26 Oct missed; 27 Oct Himanshi complained about delay, 16:50 'Thankss'; 10:39 28 Oct Plix POC needs Athira's video before 12 PM; 16:04 + 16:16 Himanshi chased again; 16:19 Kishore: creator had a personal emergency; 16:20 Kishore: draft today; draft due EOD 28 Oct; 17:53 Himanshi: draft today without further delay (timeline extended); 17:55 Kishore assured",
    "priority": "High",
    "status": "Open",
    "flag": "At risk",
@@ -1880,11 +1880,11 @@
    "creator": "Divya Singh",
    "poc": "Sid",
    "cat": "Approval",
-   "item": "Nykaa video sent to Amisha (17:05), file + doc posted (17:10, 17:16) 24 Oct; Nykaa (Aishwarya) 17:30 26 Oct: will share by EOD 27 Oct, asked to do it urgently; address + script approvals pending",
+   "item": "Nykaa video sent to Amisha (17:05), file + doc posted (17:10, 17:16) 24 Oct; Nykaa (Aishwarya) 17:30 26 Oct: will share by EOD 27 Oct, asked to do it urgently; address + script approvals pending; 17:45 28 Oct Khushi chased Nykaa (Aishwarya) for feedback (followed up for 2 days); Nykaa feedback pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "26 Oct"
+   "date": "28 Oct"
   },
   {
    "id": "r166",
@@ -2826,7 +2826,7 @@
    "creator": "Ishika",
    "poc": "Natasha",
    "cat": "Approval",
-   "item": "Earth Rhythm: parcel received; Karanjot asked brand for script update 10:21 26 Oct; 10:31 28 Oct Karanjot shared script doc; brand wants ingredient mentions + new shades; 11:58 Ishika: 'give me some time' (preview); Ishika script revision pending",
+   "item": "Earth Rhythm: parcel received; Karanjot asked brand for script update 10:21 26 Oct; 10:31 28 Oct Karanjot shared script doc; brand wants ingredient mentions + new shades; 11:58 Ishika: 'give me some time' (preview); Ishika script revision pending; 17:18 Abigail (Earth Rhythm): 'Alright works' (shoot timing); 18:02 Karanjot asked for company/GST details",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -2925,7 +2925,7 @@
    "creator": "Athira Vinod",
    "poc": "Kishore",
    "cat": "Follow-up",
-   "item": "Samsung GCP: video correction due 1:30pm 26 Oct missed; Athira sent file 17:10, Tina: not syncing, add smooth transitions; 10:00 27 Oct Tina asked Athira to post Reshare story + share link; 12:53 Tina: video by 6pm max, must go live 27 Oct or it won't count; 18:26 Athira: 'I tried my best'; 18:57 Monica: 'wait'; 10:44 28 Oct Tina: Athira must post KV on story before 11:00; Tina chased story 15:29, 15:53, 16:49; 16:50 urgent story upload, tagged Kishore + Athira; no Flutch reply; Athira story + link urgent",
+   "item": "Samsung GCP: video correction due 1:30pm 26 Oct missed; Athira sent file 17:10, Tina: not syncing, add smooth transitions; 10:00 27 Oct Tina asked Athira to post Reshare story + share link; 12:53 Tina: video by 6pm max, must go live 27 Oct or it won't count; 18:26 Athira: 'I tried my best'; 18:57 Monica: 'wait'; 10:44 28 Oct Tina: Athira must post KV on story before 11:00; Tina chased story 15:29, 15:53, 16:49; 16:50 urgent story upload, tagged Kishore + Athira; no Flutch reply; Athira story + link urgent; 17:59 + 18:01 Monica/Tina chased again tagging Athira + Kishore; story still not live (due before 11:00 28 Oct)",
    "priority": "High",
    "status": "Open",
    "flag": "At risk",
@@ -3277,10 +3277,10 @@
    "creator": "Somya Bisla",
    "poc": "Natasha",
    "cat": "Other",
-   "item": "Pilgrim anti-dandruff shampoo (55k deal locked 26 Oct): 18:05 execution POC introduced, asked for product details + brief; 11:01 28 Oct Shefali (Broz Media) wants Somya's script before 2 PM; Natasha: Somya will share today; 16:00 Shefali chased script; 16:07 Natasha: Somya busy with Karva Chauth prep, script today; 16:17 Shefali: must come today (festival tomorrow); Somya script due EOD 28 Oct",
+   "item": "Pilgrim anti-dandruff shampoo (55k deal locked 26 Oct): 18:05 execution POC introduced, asked for product details + brief; 11:01 28 Oct Shefali (Broz Media) wants Somya's script before 2 PM; Natasha: Somya will share today; 16:00 Shefali chased script; 16:07 Natasha: Somya busy with Karva Chauth prep, script today; 16:17 Shefali: must come today (festival tomorrow); Somya script due EOD 28 Oct; 18:00 Shefali: 'What's the eta?'; script past 2 PM deadline, Natasha reply pending",
    "priority": "Med",
    "status": "Open",
-   "flag": "Open",
+   "flag": "At risk",
    "date": "28 Oct"
   },
   {
@@ -3409,11 +3409,11 @@
    "creator": "Florence Chand",
    "poc": "Natasha",
    "cat": "Payment",
-   "item": "Bajaj (Social Box, Chalsi): invoice asked 12:54 26 Oct, Natasha: this week; Karanjot named execution POC 18:40; Muskan shared mail 18:42; invoice due this week",
+   "item": "Bajaj (Social Box, Chalsi): invoice asked 12:54 26 Oct, Natasha: this week; Karanjot named execution POC 18:40; Muskan shared mail 18:42; invoice due this week; 17:18 28 Oct Chalsi asked invoice update; 17:43 Karanjot: will share by tomorrow (29 Oct); invoice due 29 Oct",
    "priority": "Low",
    "status": "Open",
    "flag": "Open",
-   "date": "26 Oct"
+   "date": "28 Oct"
   },
   {
    "id": "r305",
@@ -3871,7 +3871,7 @@
    "creator": "Ishika",
    "poc": "Natasha",
    "cat": "Other",
-   "item": "Skin Inspired: Ishika 12:05 27 Oct: 'These are not possible'; 14:37 urbanaura feedback (music, text, transitions, SFX, pump shot; last two clips dim); 17:00 urbanaura: 'Okay sent'; 10:24 28 Oct Karanjot asked Ishika for video update; Ishika wants to go live today; 12:31 Urbanaura: waiting for brand reply; 14:29-14:32 brand feedback: change purple text colour, remove extra SFX; 16:01 Ishika: 'Update on this'; final draft + go-live 28 Oct pending",
+   "item": "Skin Inspired: Ishika 12:05 27 Oct: 'These are not possible'; 14:37 urbanaura feedback (music, text, transitions, SFX, pump shot; last two clips dim); 17:00 urbanaura: 'Okay sent'; 10:24 28 Oct Karanjot asked Ishika for video update; Ishika wants to go live today; 12:31 Urbanaura: waiting for brand reply; 14:29-14:32 brand feedback: change purple text colour, remove extra SFX; 16:01 Ishika: 'Update on this'; final draft + go-live 28 Oct pending; 18:03 Karanjot asked Urban Aura for video update + company/GST details",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -4399,18 +4399,18 @@
    "creator": "Pragati Bharti",
    "poc": "Kishore",
    "cat": "Follow-up",
-   "item": "Shivani 17:42 27 Oct: couldn't reach Pragati on call to discuss content strategy; Pragati to share a free time for call",
+   "item": "Shivani 17:42 27 Oct: couldn't reach Pragati on call to discuss content strategy; Pragati to share a free time for call; 17:45 28 Oct Shivani tried calling Pragati again, asked for call-back time",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "27 Oct"
+   "date": "28 Oct"
   },
   {
    "id": "r395",
    "creator": "Yogitha",
    "poc": "Divya",
    "cat": "Payment",
-   "item": "Character Cosmetic (Disha) 17:41 27 Oct: pending item still not done, delaying payment process; 17:00 28 Oct 'I will get this done' (preview); 17:01 story screenshot on Whislink asked (sender unclear); story screenshot pending",
+   "item": "Character Cosmetic (Disha) 17:41 27 Oct: pending item still not done, delaying payment process; 17:00 28 Oct 'I will get this done' (preview); 17:01 story screenshot on Whislink asked (sender unclear); story screenshot pending; 17:33-17:40 Divya asked Yogitha to upload story reshare screenshot on Wishlink; 17:37 Disha: still not uploaded; 17:39 Yogitha: will do; screenshot needed to unlock payment",
    "priority": "High",
    "status": "Open",
    "flag": "Open",
@@ -4729,7 +4729,7 @@
    "creator": "Ved",
    "poc": "Natasha",
    "cat": "Script",
-   "item": "Prowl: Karanjot 10:47 28 Oct asked Ved for revised script based on brand feedback; revised script pending",
+   "item": "Prowl: Karanjot 10:47 28 Oct asked Ved for revised script based on brand feedback; revised script pending; 17:53 Aryan asked revised script for Ved Dubey; 17:55 Kishore / 18:01 Karanjot: by tomorrow morning (29 Oct)",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -4751,7 +4751,7 @@
    "creator": "Gurishq Kaur",
    "poc": "Divya",
    "cat": "Deliverable",
-   "item": "Wholeleaf: Shiva (brand) 10:36 28 Oct asked for Gurishq's ad code; Flutch to share ad code",
+   "item": "Wholeleaf: Shiva (brand) 10:36 28 Oct asked for Gurishq's ad code; Flutch to share ad code; 17:28 Shiva still awaiting ad code; 17:40 Srestha asked Divya for ad code (Gurishq live); ad code still pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -4993,7 +4993,7 @@
    "creator": "Monisha",
    "poc": "Kishore",
    "cat": "Other",
-   "item": "Chicnutrix (Esha) 12:53 28 Oct: asked which creators won't order product (needs address, mail, phone) to dispatch today + order screenshots for reimbursement; Monisha order decision/address pending",
+   "item": "Chicnutrix (Esha) 12:53 28 Oct: asked which creators won't order product (needs address, mail, phone) to dispatch today + order screenshots for reimbursement; Monisha order decision/address pending; 17:47 Bhavya: Monisha locked for Chicnutrix (18k)",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -5015,7 +5015,7 @@
    "creator": "Kalyani",
    "poc": "Sid",
    "cat": "Other",
-   "item": "Chicnutrix (Esha) 12:53 28 Oct: asked which creators won't order product (needs address, mail, phone) to dispatch today + order screenshots for reimbursement; 15:22 Esha chased; 15:28 Amisha sent Kalyani links, 15:30 asked her to order + send screenshot; 16:05 Amisha told brand Kalyani being checked; brand dispatches today, Amazon link not working; 16:37 Amisha sent Chicnutrix links again; 16:58 one bottle confirmed; Kalyani order + screenshot pending",
+   "item": "Chicnutrix (Esha) 12:53 28 Oct: asked which creators won't order product (needs address, mail, phone) to dispatch today + order screenshots for reimbursement; 15:22 Esha chased; 15:28 Amisha sent Kalyani links, 15:30 asked her to order + send screenshot; 16:05 Amisha told brand Kalyani being checked; brand dispatches today, Amazon link not working; 16:37 Amisha sent Chicnutrix links again; 16:58 one bottle confirmed; Kalyani order + screenshot pending; 17:25 Amisha told Esha: Kalyani will order the product",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -5314,6 +5314,83 @@
    "cat": "Follow-up",
    "item": "Brand counter low (brand not named); 16:53-17:00 28 Oct Natasha told Somya she asked for 55k + explained engagement fluctuation; price decision pending",
    "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "28 Oct"
+  },
+  {
+   "id": "r478",
+   "creator": "Ishika",
+   "poc": "Natasha",
+   "cat": "Payment",
+   "item": "Olay: 18:02 28 Oct Karanjot asked Ina/Arvin for company details for invoice; 18:04 details shared by email; invoice to be raised",
+   "priority": "Low",
+   "status": "Open",
+   "flag": "Open",
+   "date": "28 Oct"
+  },
+  {
+   "id": "r479",
+   "creator": "Nishant",
+   "poc": "Natasha",
+   "cat": "Payment",
+   "item": "Zoll Medicine (Gladyoucame, Anupreet): vendor payment form shared 18:01 28 Oct (needs invoice + confirmation-mail PDF); 18:05 Karanjot: will fill and update by tomorrow morning; form due 29 Oct",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "28 Oct"
+  },
+  {
+   "id": "r480",
+   "creator": "Khyati Kunwar",
+   "poc": "Natasha",
+   "cat": "Payment",
+   "item": "Big Media (Saanika) 18:02 28 Oct asked Flutch to ping Khyati's invoice; invoice pending",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "28 Oct"
+  },
+  {
+   "id": "r481",
+   "creator": "Naja Febin",
+   "poc": "Sid",
+   "cat": "Follow-up",
+   "item": "Sid shared brand IG link (rubys.organics) 18:03 28 Oct; Naja response pending",
+   "priority": "Low",
+   "status": "Open",
+   "flag": "Open",
+   "date": "28 Oct"
+  },
+  {
+   "id": "r482",
+   "creator": "Anjela",
+   "poc": "Natasha",
+   "cat": "Follow-up",
+   "item": "Flipside (Neha): 17:19 28 Oct Natasha said Anjela on vacation; 17:20 Neha: can do at 60k, asked when Flutch can come back; Natasha reply pending",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "28 Oct"
+  },
+  {
+   "id": "r483",
+   "creator": "Hamsa",
+   "poc": "Divya",
+   "cat": "Follow-up",
+   "item": "Traya (AgentC, Riddhi; 90,000 quoted earlier by Divya): 17:45 28 Oct Riddhi asked for age, gender split + city insights; Flutch to share insights",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "28 Oct"
+  },
+  {
+   "id": "r484",
+   "creator": "Pooja",
+   "poc": "Sid",
+   "cat": "Payment",
+   "item": "Traya (Purplle): 17:41 28 Oct Nisha flagged pending GST payment for Pooja Milley; 18:00 invoice after 2% TDS 31,900 but only 26,950 received; balance 4,950 pending",
+   "priority": "High",
    "status": "Open",
    "flag": "Open",
    "date": "28 Oct"
