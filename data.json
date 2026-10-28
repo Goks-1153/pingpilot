@@ -1,5 +1,5 @@
 {
- "lastUpdated": "2026-10-28T13:46:02+05:30",
+ "lastUpdated": "2026-10-28T14:35:12+05:30",
  "kpis": {
   "Sid": {
    "owned": 22,
@@ -16,7 +16,7 @@
    "notFound": 5,
    "deals": 37,
    "dealValue": "₹18.22L",
-   "openAsks": 122,
+   "openAsks": 123,
    "atRisk": 22,
    "note": "+3 identity unresolved"
   },
@@ -26,7 +26,7 @@
    "notFound": 9,
    "deals": 15,
    "dealValue": "₹4.50L",
-   "openAsks": 102,
+   "openAsks": 103,
    "atRisk": 34,
    "note": "+1 identity unresolved; 9 = 5 not found + 4 no recent activity"
   },
@@ -36,7 +36,7 @@
    "notFound": 0,
    "deals": 27,
    "dealValue": "₹5.04L",
-   "openAsks": 77,
+   "openAsks": 79,
    "atRisk": 29,
    "note": "CRM deals include Shraddha × Pilgrim (₹45k), not his creator"
   },
@@ -2760,7 +2760,7 @@
    "creator": "Adrija",
    "poc": "Sid",
    "cat": "Deliverable",
-   "item": "Swish: script approved 26 Oct; Adrija to shoot 27 Oct; 10:00 28 Oct Amisha asked if she is shooting today; 13:34 28 Oct Amisha shared script Google Doc ('updating the same doc'); Adrija asked 'This is the final script?', shooting today; Flutch to confirm final script",
+   "item": "Swish: script approved 26 Oct; Adrija to shoot 27 Oct; 10:00 28 Oct Amisha asked if she is shooting today; 13:34 28 Oct Amisha shared script Google Doc ('updating the same doc'); Adrija asked 'This is the final script?', shooting today; 14:14 Amisha confirmed final script ('Yesss'); Adrija 'Ayyoo okayy'; shoot + draft pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -2892,11 +2892,11 @@
    "creator": "Mansi",
    "poc": "Natasha",
    "cat": "Payment",
-   "item": "Lacto Calamine (Mansi & Khyati): separate reimbursement invoice asked 11:32 26 Oct; Karanjot 11:41: will share this week",
-   "priority": "Low",
+   "item": "Lacto Calamine (Mansi & Khyati): separate reimbursement invoice asked 11:32 26 Oct; Karanjot 11:41: will share this week; 13:44 28 Oct Ankita: 'Invoices pls', needs to close it; invoices pending from KJ",
+   "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "26 Oct"
+   "date": "28 Oct"
   },
   {
    "id": "r258",
@@ -4047,11 +4047,11 @@
    "creator": "Mansi",
    "poc": "Natasha",
    "cat": "Follow-up",
-   "item": "Lacto Calamine (Mansi & Khyati): Ankita 13:57 27 Oct asked for watch-time insights; Flutch to share",
+   "item": "Lacto Calamine (Mansi & Khyati): Ankita 13:57 27 Oct asked for watch-time insights; 12:00 28 Oct asked again (watch-time, save/share insights, no hiding likes); KJ 'okay'; insights pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "27 Oct"
+   "date": "28 Oct"
   },
   {
    "id": "r363",
@@ -4674,7 +4674,7 @@
    "creator": "Yadhu",
    "poc": "Sid",
    "cat": "Follow-up",
-   "item": "HK Vitals (Big Media): Nandini 01:57 28 Oct shared rate list; wants to close Yadhu for reel + 1-month rights at ₹20–25K (tagged Sid); Sid shared rates, asked to close Yadhu at 20–25K; 11:07 28 Oct Nandini: ':('; rate negotiation pending",
+   "item": "HK Vitals (Big Media): Nandini 01:57 28 Oct shared rate list; wants to close Yadhu for reel + 1-month rights at ₹20–25K (tagged Sid); Sid shared rates, asked to close Yadhu at 20–25K; 11:07 28 Oct Nandini: ':('; 14:24 Nandini: '@Sid? Lmk on Yadhu asap'; Sid reply + rate negotiation pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -4806,7 +4806,7 @@
    "creator": "Ankit Mishra",
    "poc": "Riya",
    "cat": "Deliverable",
-   "item": "09:57 28 Oct Ankit: sending first draft (brand not named); first draft pending",
+   "item": "09:57 28 Oct Ankit: sending first draft (brand not named); 13:49 Ankit posted a document (likely draft); draft review pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -4894,7 +4894,7 @@
    "creator": "Gurishq Kaur",
    "poc": "Divya",
    "cat": "Retention risk",
-   "item": "Divya 12:53 28 Oct: both were inbound queries, confirmation emails to be shared once locked; then said outreach was from her end + POC is different; 12:55 Gurishq: 'this isn't how it works'; 12:56 (preview, sender unconfirmed): 'You might have been talking to a different poc but it's still an inbound'; POC / inbound vs outreach dispute; reply pending",
+   "item": "Divya 12:53 28 Oct: both were inbound queries, confirmation emails to be shared once locked; then said outreach was from her end + POC is different; 12:55 Gurishq: 'this isn't how it works'; 12:56 (preview, sender unconfirmed): 'You might have been talking to a different poc but it's still an inbound'; 14:22 (preview, sender unconfirmed): 'Thanks will just avoid confusion. Do provide data to support when you can'; POC / inbound vs outreach dispute; supporting data pending",
    "priority": "High",
    "status": "Open",
    "flag": "At risk",
@@ -4949,7 +4949,7 @@
    "creator": "Neelam",
    "poc": "Riya",
    "cat": "Deliverable",
-   "item": "AcneStar (Travel ZIV): approved script (30-sec reel) shared 12:46-12:47 28 Oct, Amisha asked to shoot soon; shoot + draft pending",
+   "item": "AcneStar (Travel ZIV): approved script (30-sec reel) shared 12:46-12:47 28 Oct, Amisha asked to shoot soon; 14:24 Neelam: 'Sure' (preview); shoot + draft pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -5048,8 +5048,52 @@
    "creator": "Surabhi",
    "poc": "Natasha",
    "cat": "Deliverable",
-   "item": "Minimalist: reel live 13:39 28 Oct; 13:40 Disha (Wishlink) asked to add it on Wishlink app; Wishlink addition pending",
+   "item": "Minimalist: reel live 13:39 28 Oct; 13:40 Disha (Wishlink) asked to add it on Wishlink app; 14:27 Disha: 'is it through an agency?' (preview); Wishlink addition + reply pending",
    "priority": "Low",
+   "status": "Open",
+   "flag": "Open",
+   "date": "28 Oct"
+  },
+  {
+   "id": "r454",
+   "creator": "Chhavi",
+   "poc": "Kishore",
+   "cat": "Deliverable",
+   "item": "PRO Hair (BLUBOX, Shreya): live reel link shared earlier 28 Oct; 13:48 Shreya asked creator to unhide likes on the video, wants confirmation once done; Chhavi to unhide likes + KJ to confirm to Shreya",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "28 Oct"
+  },
+  {
+   "id": "r455",
+   "creator": "Mansi",
+   "poc": "Natasha",
+   "cat": "Payment",
+   "item": "Denaro Media (Sufia): KJ asked for invoice format 12:28 28 Oct; Sufia shared 'Invoice Format Denaro Media LLP.xlsx' 13:54, tagged KJ (brand not named); KJ to raise invoice",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "28 Oct"
+  },
+  {
+   "id": "r456",
+   "creator": "Pragati Bharti",
+   "poc": "Kishore",
+   "cat": "Follow-up",
+   "item": "13:43 28 Oct Pragati chat: 'Kishor plz reply her' (sender unconfirmed, context unclear); photo 13:44; Kishore reply pending",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "28 Oct"
+  },
+  {
+   "id": "r457",
+   "creator": "Yuvasri",
+   "poc": "Divya",
+   "cat": "Follow-up",
+   "item": "Lux Bodywash (Barcode, Kanishka) 14:16 28 Oct tagged Kishore: 'please share this on priority' (item not specified); Flutch to share",
+   "priority": "Med",
    "status": "Open",
    "flag": "Open",
    "date": "28 Oct"
