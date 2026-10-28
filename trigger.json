@@ -2,7 +2,7 @@
  "by": "Auto",
  "at": "2026-10-28T12:07:35+05:30",
  "startedAt": "2026-10-28T12:07:35+05:30",
- "status": "running",
+ "status": "published",
  "history": [
   {
    "by": "Auto",
@@ -459,7 +459,15 @@
    "startedAt": "2026-10-28T11:09:07+05:30",
    "durationSec": 1226,
    "status": "published"
+  },
+  {
+   "by": "Auto",
+   "startedAt": "2026-10-28T12:07:35+05:30",
+   "durationSec": 666,
+   "status": "published"
   }
  ],
- "note": "Auto scrape running"
+ "finishedAt": "2026-10-28T12:18:41+05:30",
+ "durationSec": 666,
+ "note": "6 new rows, 17 updated, 1 closed (busy hour: ~85 active chats, most read from list previews)"
 }
