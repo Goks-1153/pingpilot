@@ -1,5 +1,5 @@
 {
- "lastUpdated": "2026-10-29T18:07:12+05:30",
+ "lastUpdated": "2026-10-29T18:57:06+05:30",
  "kpis": {
   "Sid": {
    "owned": 22,
@@ -7,7 +7,7 @@
    "notFound": 3,
    "deals": 29,
    "dealValue": "₹8.22L",
-   "openAsks": 100,
+   "openAsks": 103,
    "atRisk": 20
   },
   "Natasha": {
@@ -16,7 +16,7 @@
    "notFound": 5,
    "deals": 37,
    "dealValue": "₹18.22L",
-   "openAsks": 141,
+   "openAsks": 143,
    "atRisk": 26,
    "note": "+3 identity unresolved"
   },
@@ -4410,7 +4410,7 @@
    "creator": "Yogitha",
    "poc": "Divya",
    "cat": "Payment",
-   "item": "Character Cosmetic (Disha) 17:41 27 Oct: pending item still not done, delaying payment process; 17:33-17:40 28 Oct Divya asked Yogitha to upload story reshare screenshot on Wishlink; 18:17 Yogitha sent a link (likely the screenshot); 12:06-12:17 29 Oct Disha (Wishlink) asked for invoice today; Divya: will share today; Yogitha invoice due 29 Oct",
+   "item": "Character Cosmetic (Disha) 17:41 27 Oct: pending item still not done, delaying payment process; 17:33-17:40 28 Oct Divya asked Yogitha to upload story reshare screenshot on Wishlink; 18:17 Yogitha sent a link (likely the screenshot); 12:06-12:17 29 Oct Disha (Wishlink) asked for invoice today; Divya: will share today; 17:40 29 Oct Disha asked for invoice again; 18:48 Divya: will be done by 12:00 30 Oct; Yogitha invoice due 12:00 30 Oct",
    "priority": "High",
    "status": "Open",
    "flag": "Open",
@@ -5994,7 +5994,7 @@
    "creator": "riya.dey_",
    "poc": "Natasha",
    "cat": "Follow-up",
-   "item": "Mudra Shah 16:24 29 Oct (preview): Riya Dey channel rates shared: YT Short 80,000, 1 month boosting rights 35,000; response pending",
+   "item": "Mudra Shah 16:24 29 Oct (preview): Riya Dey channel rates shared: YT Short 80,000, 1 month boosting rights 35,000; 18:41 Kishore asked Mudra to close riya.dey_ at these rates; 18:47 Mudra: 'will pitch'; pitch outcome pending",
    "priority": "Low",
    "status": "Open",
    "flag": "Open",
@@ -6040,6 +6040,61 @@
    "cat": "Follow-up",
    "item": "17:57 29 Oct Nisha: '@Sidharth it's urgent, plz call'; Sid call pending",
    "priority": "High",
+   "status": "Open",
+   "flag": "Open",
+   "date": "29 Oct"
+  },
+  {
+   "id": "r544",
+   "creator": "Ved",
+   "poc": "Natasha",
+   "cat": "Follow-up",
+   "item": "Brief shared (brand not named); 17:36 29 Oct Ved asked 'Budget?'; Natasha video call 18:48, voice call 18:49; budget to be shared",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "29 Oct"
+  },
+  {
+   "id": "r545",
+   "creator": "Florence Chand",
+   "poc": "Natasha",
+   "cat": "Follow-up",
+   "item": "influencer.in (Stefania): Sid call 18:45 29 Oct; POC to send Florence confirmation mail to sidharthv@flutch.in morning of 30 Oct; confirmation mail pending",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "29 Oct"
+  },
+  {
+   "id": "r546",
+   "creator": "Priyanshu Verma",
+   "poc": "Sid",
+   "cat": "Follow-up",
+   "item": "Dhanisha Patil: urgent brand ask 18:10 29 Oct (brand not named); 18:26 Divya shared rates: 3 reels 1.2L; brand confirmation pending",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "29 Oct"
+  },
+  {
+   "id": "r547",
+   "creator": "Shitij Verma",
+   "poc": "Sid",
+   "cat": "Follow-up",
+   "item": "Dhanisha Patil: urgent brand ask 18:10 29 Oct (brand not named); 18:26 Divya shared rates: 3 reels 3.6L; brand confirmation pending",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "29 Oct"
+  },
+  {
+   "id": "r548",
+   "creator": "Vrushab",
+   "poc": "Sid",
+   "cat": "Follow-up",
+   "item": "Tarun sent 10 organic content ideas 18:30 29 Oct; 18:45 Vrushab: 'checking'; Vrushab feedback pending",
+   "priority": "Med",
    "status": "Open",
    "flag": "Open",
    "date": "29 Oct"
