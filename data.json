@@ -1,5 +1,5 @@
 {
- "lastUpdated": "2026-10-29T15:50:34+05:30",
+ "lastUpdated": "2026-10-29T16:33:25+05:30",
  "kpis": {
   "Sid": {
    "owned": 22,
@@ -16,8 +16,8 @@
    "notFound": 5,
    "deals": 37,
    "dealValue": "₹18.22L",
-   "openAsks": 137,
-   "atRisk": 23,
+   "openAsks": 141,
+   "atRisk": 26,
    "note": "+3 identity unresolved"
   },
   "Divya": {
@@ -46,7 +46,7 @@
    "notFound": 0,
    "deals": 0,
    "dealValue": "₹0",
-   "openAsks": 17,
+   "openAsks": 18,
    "atRisk": 5
   }
  },
@@ -483,7 +483,7 @@
    "creator": "Shitij Verma",
    "poc": "Sid",
    "cat": "Approval",
-   "item": "Prowl script: brand approval pending, no brand reply as of 24 Oct; creator available only till Mon 26 Oct, then travelling (10:10 25 Oct); 10:33 28 Oct Shitij: will add brand feedback to video; revised video pending; 11:30 29 Oct Shitij asked Amisha for update (Amisha on leave); Flutch reply pending",
+   "item": "Prowl script: brand approval pending, no brand reply as of 24 Oct; creator available only till Mon 26 Oct, then travelling (10:10 25 Oct); 10:33 28 Oct Shitij: will add brand feedback to video; revised video pending; 11:30 29 Oct Shitij asked Amisha for update (Amisha on leave); Amisha shared brand feedback; 16:28 29 Oct Sid asked when draft can be shared; Shitij asked if script is approved; script approval confirmation + draft pending",
    "priority": "High",
    "status": "Open",
    "flag": "Open",
@@ -538,11 +538,11 @@
    "creator": "Shraddha",
    "poc": "Natasha",
    "cat": "Follow-up",
-   "item": "Be Bodywise: call-back request to brand 22 Oct unanswered",
+   "item": "Be Bodywise: call-back request to brand 22 Oct unanswered; 16:18 29 Oct Karanjot re-shared request, asked to align it for today (preview); brand reply pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "22 Oct"
+   "date": "29 Oct"
   },
   {
    "id": "r44",
@@ -824,11 +824,11 @@
    "creator": "Nausheen",
    "poc": "Natasha",
    "cat": "Payment",
-   "item": "Plum overdue payment chased 22 Oct, no brand reply",
+   "item": "Plum overdue payment chased 22 Oct, no brand reply; 16:21-16:26 29 Oct Karanjot asked Rakshita Mishra to clear overdue payment on priority; Rishabh (Plum): they spoke; payment pending",
    "priority": "High",
    "status": "Open",
    "flag": "Open",
-   "date": "22 Oct"
+   "date": "29 Oct"
   },
   {
    "id": "r70",
@@ -1858,11 +1858,11 @@
    "creator": "Nisha",
    "poc": "Sid",
    "cat": "Follow-up",
-   "item": "Bosch, Samsung, Jio pitches promised by Sid 19 Oct; still no collab",
+   "item": "Bosch, Samsung, Jio pitches promised by Sid 19 Oct; still no collab; 16:24 29 Oct Nisha: doesn't remember discussing feedback/negotiations, last discussion was Sugar negotiations; following up with other brands, nothing strong yet; Flutch follow-up pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "19 Oct"
+   "date": "29 Oct"
   },
   {
    "id": "r164",
@@ -2056,7 +2056,7 @@
    "creator": "Fashion Verge",
    "poc": "Divya",
    "cat": "Script",
-   "item": "Baleno + AU Zenith+ Credit Card scripts both shared (15:52); Bhargavi shared MSIL Baleno Script.pdf 18:51; 16:31 27 Oct Harshit (T1 Baleno) asked 'any update?'; 16:35 Flutch: 'Not yet'; 12:44 29 Oct Harshit (Eleve Media): creator delayed, needs Telugu VO script by 13:30 + black/blue/grey formal outfit options, shoot 30 Oct; 13:47-14:01 Divya asked Ganesh for specific options, Ganesh sent photo 14:01; 14:04 Divya forwarded to T1 Baleno group; confirm Telugu script + outfit options delivered",
+   "item": "Baleno + AU Zenith+ Credit Card scripts both shared (15:52); Bhargavi shared MSIL Baleno Script.pdf 18:51; 16:31 27 Oct Harshit (T1 Baleno) asked 'any update?'; 16:35 Flutch: 'Not yet'; 12:44 29 Oct Harshit (Eleve Media): creator delayed, needs Telugu VO script by 13:30 + black/blue/grey formal outfit options, shoot 30 Oct; 13:47-14:01 Divya asked Ganesh for specific options, Ganesh sent photo 14:01; 14:04 Divya forwarded to T1 Baleno group; ~16:26 29 Oct MSIL Baleno script pdf in T1 Baleno group; Divya asked Ganesh for black/blue/grey formal outfit options, creator will send; client script approval + outfit options pending",
    "priority": "High",
    "status": "Open",
    "flag": "Open",
@@ -4344,7 +4344,7 @@
    "creator": "Laveena",
    "poc": "Riya",
    "cat": "Follow-up",
-   "item": "Laveena 16:54 27 Oct to Riya: caught up today, asked to connect tomorrow; 13:30 28 Oct Riya posted check-in (preview); 13:27-13:47 29 Oct Laveena asked when to connect; Riya asked her availability; Laveena: 'Sure'; call time to be fixed",
+   "item": "Laveena 16:54 27 Oct to Riya: caught up today, asked to connect tomorrow; 13:30 28 Oct Riya posted check-in (preview); 13:27-13:47 29 Oct Laveena asked when to connect; Riya asked her availability; Laveena: 'Sure'; 16:06 29 Oct Laveena asked to proceed, has other meetings (preview); call time to be fixed",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -5004,11 +5004,11 @@
    "creator": "Smriti Mohanty",
    "poc": "Sid",
    "cat": "Other",
-   "item": "Chicnutrix (Esha) 12:53 28 Oct: asked which creators won't order product (needs address, mail, phone) to dispatch today + order screenshots for reimbursement; 15:22 Esha chased; 16:00 Amisha sent Smriti links, asked her to order + send screenshot; 16:01 Smriti: will order by evening, Amazon link broken; 16:02 Nykaa link suggested; 16:04 Amisha confirmed; 16:05 Amisha told brand Smriti orders by EOD with screenshot; brand says Amazon link not working; Smriti order + screenshot pending",
+   "item": "Chicnutrix (Esha) 12:53 28 Oct: asked which creators won't order product (needs address, mail, phone) to dispatch today + order screenshots for reimbursement; 15:22 Esha chased; 16:00 Amisha sent Smriti links, asked her to order + send screenshot; 16:01 Smriti: will order by evening, Amazon link broken; 16:02 Nykaa link suggested; 16:04 Amisha confirmed; 16:05 Amisha told brand Smriti orders by EOD with screenshot; brand says Amazon link not working; Smriti order + screenshot pending; 16:29 29 Oct Chicnutrix posted Glow Advanced script (smriti)",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "28 Oct"
+   "date": "29 Oct"
   },
   {
    "id": "r450",
@@ -5411,7 +5411,7 @@
    "creator": "Adrija",
    "poc": "Sid",
    "cat": "Deliverable",
-   "item": "18:42 28 Oct Sid + Adrija discussed the event and Swish; campaign draft due 29 Oct; 13:54 29 Oct Adrija: shoot done, needs one item before editing (brand not named); Amisha on leave; Flutch to find out what Adrija needs; 15:00 29 Oct Adrija: free coffee offer exhausted, can't record that bit; Sid checking alternative",
+   "item": "18:42 28 Oct Sid + Adrija discussed the event and Swish; campaign draft due 29 Oct; 13:54 29 Oct Adrija: shoot done, needs one item before editing (brand not named); Amisha on leave; Flutch to find out what Adrija needs; 15:00 29 Oct Adrija: free coffee offer exhausted, can't record that bit; Sid checking alternative; 16:14 Adrija asked Sid for update (preview); Sid reply pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -5466,7 +5466,7 @@
    "creator": "Kalyani",
    "poc": "Sid",
    "cat": "Follow-up",
-   "item": "Uppeel: 19:32 28 Oct Kalyani received products, asked if preferred language is Malayalam or English; 10:45-11:02 29 Oct Kalyani asked for language/outfit/bg approvals, wants to finish shoot today; Amisha sent on-leave notice; Flutch answer pending; 15:22-15:24 29 Oct Sid relayed brand note (script is a guide, hook under 30s, used as ads); English vs Malayalam still open; Sid checking",
+   "item": "Uppeel: 19:32 28 Oct Kalyani received products, asked if preferred language is Malayalam or English; 10:45-11:02 29 Oct Kalyani asked for language/outfit/bg approvals, wants to finish shoot today; Amisha sent on-leave notice; Flutch answer pending; 15:22-15:24 29 Oct Sid relayed brand note (script is a guide, hook under 30s, used as ads); English vs Malayalam still open; Sid checking; 16:16 Kalyani asked for updates (preview)",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -5664,7 +5664,7 @@
    "creator": "Ishika",
    "poc": "Natasha",
    "cat": "Payment",
-   "item": "Edel (Trendifyy, Anshika): 11:00 29 Oct Karanjot asked Anshika to clear payment; Anshika: collab finalised at Rs 10,000 but invoice raised at Rs 11,800, no separate commission; asked for updated Rs 10,000 invoice; 12:34 Karanjot: difference is GST (standard); payment pending",
+   "item": "Edel (Trendifyy, Anshika): 11:00 29 Oct Karanjot asked Anshika to clear payment; Anshika: collab finalised at Rs 10,000 but invoice raised at Rs 11,800, no separate commission; asked for updated Rs 10,000 invoice; 12:34 Karanjot: difference is GST (standard); 16:24 Karanjot tagged Anshika again; payment pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -5944,6 +5944,61 @@
    "id": "r534",
    "cat": "Payment",
    "item": "Simple (Barcode, Gurleen): payment overdue since 27 Oct; 15:41 29 Oct Kishore asked for exact payment date; date pending"
+  },
+  {
+   "id": "r535",
+   "creator": "Nausheen",
+   "poc": "Natasha",
+   "cat": "Payment",
+   "item": "Swiss Beauty (12 Sep live): POC asked for invoice again; 16:28-16:30 29 Oct Karanjot re-sent invoice pdf, asked POC to process payment today (overdue); payment pending",
+   "priority": "High",
+   "status": "Open",
+   "flag": "Open",
+   "date": "29 Oct"
+  },
+  {
+   "id": "r536",
+   "creator": "Uma",
+   "poc": "Natasha",
+   "cat": "Payment",
+   "item": "Hilary Rhoda: 16:26 29 Oct Karanjot asked Isha (brand) to process first deal payment (overdue); payment pending",
+   "priority": "High",
+   "status": "Open",
+   "flag": "Open",
+   "date": "29 Oct"
+  },
+  {
+   "id": "r537",
+   "creator": "Surabhi",
+   "poc": "Natasha",
+   "cat": "Payment",
+   "item": "Dot & Key: 16:07 29 Oct Karanjot asked brand to process overdue Aug campaign payment (preview); payment pending",
+   "priority": "High",
+   "status": "Open",
+   "flag": "Open",
+   "date": "29 Oct"
+  },
+  {
+   "id": "r538",
+   "creator": "Dharshne",
+   "poc": "Riya",
+   "cat": "Follow-up",
+   "item": "SUGAR: 16:25 29 Oct Ajitha asked if Dharshane has purchased the product (preview); Flutch to confirm",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "29 Oct"
+  },
+  {
+   "id": "r539",
+   "creator": "riya.dey_",
+   "poc": "Natasha",
+   "cat": "Follow-up",
+   "item": "Mudra Shah 16:24 29 Oct (preview): Riya Dey channel rates shared: YT Short 80,000, 1 month boosting rights 35,000; response pending",
+   "priority": "Low",
+   "status": "Open",
+   "flag": "Open",
+   "date": "29 Oct"
   }
  ]
 }
