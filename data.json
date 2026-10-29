@@ -1,5 +1,5 @@
 {
- "lastUpdated": "2026-10-29T18:57:06+05:30",
+ "lastUpdated": "2026-10-29T19:51:22+05:30",
  "kpis": {
   "Sid": {
    "owned": 22,
@@ -7,8 +7,8 @@
    "notFound": 3,
    "deals": 29,
    "dealValue": "₹8.22L",
-   "openAsks": 103,
-   "atRisk": 20
+   "openAsks": 104,
+   "atRisk": 21
   },
   "Natasha": {
    "owned": 25,
@@ -16,7 +16,7 @@
    "notFound": 5,
    "deals": 37,
    "dealValue": "₹18.22L",
-   "openAsks": 143,
+   "openAsks": 145,
    "atRisk": 26,
    "note": "+3 identity unresolved"
   },
@@ -26,7 +26,7 @@
    "notFound": 9,
    "deals": 15,
    "dealValue": "₹4.50L",
-   "openAsks": 122,
+   "openAsks": 123,
    "atRisk": 41,
    "note": "+1 identity unresolved; 9 = 5 not found + 4 no recent activity"
   },
@@ -2045,7 +2045,7 @@
    "creator": "IPLIX",
    "poc": "Kishore",
    "cat": "Script",
-   "item": "Sugar: Aadrika (Iplix) chased 08:11 26 Oct ('very slow'); Kishore shared Sathyapriya's revised script 10:19-10:20; 12:38 27 Oct Shreya asked for caption + live time; 15:44 Karanjot: 'she will post before 5'; 17:04 Shreya: 'Pls send live link'; 17:53 Shreya: 'Welcome' (live link possibly shared); 12:35-13:20 29 Oct brand wants video taken down (SUGAR must be uppercase, product mirrored); revised video asked from Karanjot; revised video pending",
+   "item": "Sugar: Aadrika (Iplix) chased 08:11 26 Oct ('very slow'); Kishore shared Sathyapriya's revised script 10:19-10:20; 12:38 27 Oct Shreya asked for caption + live time; 15:44 Karanjot: 'she will post before 5'; 17:04 Shreya: 'Pls send live link'; 17:53 Shreya: 'Welcome' (live link possibly shared); 12:35-13:20 29 Oct brand wants video taken down (SUGAR must be uppercase, product mirrored); revised video asked from Karanjot; 18:59 29 Oct Karanjot forwarded revised video to Shreya: no changes, creator can go live; creator go-live pending",
    "priority": "High",
    "status": "Open",
    "flag": "Open",
@@ -3838,7 +3838,7 @@
    "creator": "Smriti Mohanty",
    "poc": "Sid",
    "cat": "Approval",
-   "item": "LUX: Amisha asked brand 11:06 27 Oct if approved; 18:20 Amisha chased again ('Please update'); 10:27 28 Oct Amisha called, asked for Smriti video update; 11:32 Amisha: 'Yesyes keep us posted' (preview); LUX feedback by 29 Oct: add SFX, remove purple frame; 12:31 29 Oct LUX asked for revised draft today; Smriti revised video due 29 Oct",
+   "item": "LUX: Amisha asked brand 11:06 27 Oct if approved; 18:20 Amisha chased again ('Please update'); 10:27 28 Oct Amisha called, asked for Smriti video update; 11:32 Amisha: 'Yesyes keep us posted' (preview); LUX feedback by 29 Oct: add SFX, remove purple frame; 12:31 29 Oct LUX asked for revised draft today; 19:27 29 Oct Sanika (Barcode) asked Amisha again for revised draft today (add SFX, remove purple frame); Smriti revised video due 29 Oct",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -5543,7 +5543,7 @@
    "creator": "Yuvasri",
    "poc": "Divya",
    "cat": "Deliverable",
-   "item": "08:17 29 Oct Yuvasri shared mCaffeine draft video (IMG_4277.MOV); 12:34-12:37 Divya asked mCaffeine (Hiteshree) to add one shot + align video (creator not named); Hiteshree: 'let me check'; 15:45 29 Oct mCaffeine asked when revised changes will be shared; 16:05 Divya shared draft; 17:04 Hiteshree approved, video can go live with original audio, sent auto-DM links (Flipkart, Blinkit); go-live pending",
+   "item": "08:17 29 Oct Yuvasri shared mCaffeine draft video (IMG_4277.MOV); 12:34-12:37 Divya asked mCaffeine (Hiteshree) to add one shot + align video (creator not named); Hiteshree: 'let me check'; 15:45 29 Oct mCaffeine asked when revised changes will be shared; 16:05 Divya shared draft; 17:04 Hiteshree approved, video can go live with original audio, sent auto-DM links (Flipkart, Blinkit); 17:13 go-live instructions sent (original audio, no music, auto-DM links); 19:45 29 Oct Yuvasri told Divya she will take the reel live soon; go-live pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -5719,7 +5719,7 @@
    "creator": "Uma",
    "poc": "Natasha",
    "cat": "Deliverable",
-   "item": "Sugar Glide Gloss Stick: 12:05-12:18 29 Oct Karanjot forwarded brief (buy Pink Pop/Mauve Murmur, share screenshot), wants screenshot + script sooner; Uma will buy in evening; 12:24-12:25 Karanjot posted creator cost (413/-); Sugar wants festive looks + gloss application shots; Vrinda asked for script; 12:38 lip gloss received (purchase done); script pending; 15:28-15:33 29 Oct Karanjot shared Uma script to Ajitha for check; Sugar approval pending",
+   "item": "Sugar Glide Gloss Stick: 12:05-12:18 29 Oct Karanjot forwarded brief (buy Pink Pop/Mauve Murmur, share screenshot), wants screenshot + script sooner; Uma will buy in evening; 12:24-12:25 Karanjot posted creator cost (413/-); Sugar wants festive looks + gloss application shots; Vrinda asked for script; 12:38 lip gloss received (purchase done); script pending; 15:28-15:33 29 Oct Karanjot shared Uma script to Ajitha for check; 19:32 29 Oct Ajitha: 'will revert'; Sugar approval pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -5730,7 +5730,7 @@
    "creator": "Ishika",
    "poc": "Natasha",
    "cat": "Deliverable",
-   "item": "Sugar: 12:23-12:24 29 Oct Ishika shooting 30 Oct (Zepto purchase), wants everything finalised today; Karanjot asked if 413/- order comes today; Sugar wants festive looks + gloss application shots; Vrinda asked for script; 13:17-13:30 Ishika listed as purchased in Sugar group; Ajitha wants scripting closed today; script + finalisation pending; 15:28-15:33 29 Oct Karanjot shared Ishika script to Ajitha for check; Sugar approval pending",
+   "item": "Sugar: 12:23-12:24 29 Oct Ishika shooting 30 Oct (Zepto purchase), wants everything finalised today; Karanjot asked if 413/- order comes today; Sugar wants festive looks + gloss application shots; Vrinda asked for script; 13:17-13:30 Ishika listed as purchased in Sugar group; Ajitha wants scripting closed today; script + finalisation pending; 15:28-15:33 29 Oct Karanjot shared Ishika script to Ajitha for check; 19:32 29 Oct Ajitha: 'will revert'; Sugar approval pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -6095,6 +6095,50 @@
    "cat": "Follow-up",
    "item": "Tarun sent 10 organic content ideas 18:30 29 Oct; 18:45 Vrushab: 'checking'; Vrushab feedback pending",
    "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "29 Oct"
+  },
+  {
+   "id": "r549",
+   "creator": "Surabhi",
+   "poc": "Natasha",
+   "cat": "Deliverable",
+   "item": "Lux Bodywash: 19:43 29 Oct Gurleen (Barcode) posted caption + posting mandates, tagged Karanjot (no paid partnership, no #ad at start, #collaboration at start, tag Lux India, non-branded cover, Zepto link in automation); posting pending",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "29 Oct"
+  },
+  {
+   "id": "r550",
+   "creator": "Manohar",
+   "poc": "Divya",
+   "cat": "Follow-up",
+   "item": "Auzra (Ridhi) 19:38 29 Oct asked Divya for Manohar's commercials: 1 collab reel, 1 non-collab reel, ad-rights charges; Divya to send commercials",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "29 Oct"
+  },
+  {
+   "id": "r551",
+   "creator": "Nisha",
+   "poc": "Sid",
+   "cat": "Deliverable",
+   "item": "Malabar: Sid asked for edited video by 14:00-15:00 30 Oct (Malabar branding, subtitles, '30% off*'); 19:27 29 Oct Nihaal needs time, checking with editor; 19:30 Sid: video not going on Flutch page, 14:00 tomorrow is challenging, ETA soon; editor ETA pending",
+   "priority": "High",
+   "status": "Open",
+   "flag": "Open",
+   "date": "29 Oct"
+  },
+  {
+   "id": "r552",
+   "creator": "riya.dey_",
+   "poc": "Natasha",
+   "cat": "Follow-up",
+   "item": "Mudra Shah: 18:54 29 Oct Kishore shared Riya Dey YouTube rates (80k/Short + 35k boosting); Mudra to pitch",
+   "priority": "Low",
    "status": "Open",
    "flag": "Open",
    "date": "29 Oct"
