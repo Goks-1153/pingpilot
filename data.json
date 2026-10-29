@@ -1,5 +1,5 @@
 {
- "lastUpdated": "2026-10-29T14:49:55+05:30",
+ "lastUpdated": "2026-10-29T15:50:34+05:30",
  "kpis": {
   "Sid": {
    "owned": 22,
@@ -16,8 +16,8 @@
    "notFound": 5,
    "deals": 37,
    "dealValue": "₹18.22L",
-   "openAsks": 139,
-   "atRisk": 24,
+   "openAsks": 137,
+   "atRisk": 23,
    "note": "+3 identity unresolved"
   },
   "Divya": {
@@ -36,8 +36,8 @@
    "notFound": 0,
    "deals": 27,
    "dealValue": "₹5.04L",
-   "openAsks": 88,
-   "atRisk": 28,
+   "openAsks": 90,
+   "atRisk": 30,
    "note": "CRM deals include Shraddha × Pilgrim (₹45k), not his creator"
   },
   "Riya": {
@@ -758,10 +758,10 @@
    "creator": "Surabhi",
    "poc": "Natasha",
    "cat": "Other",
-   "item": "Lux body wash brief received from agency (Gurleen, Barcode) 10:39 25 Oct; Blinkit product link shared 13:54 26 Oct; Gurleen 13:56 asked if creator shooting today; 15:16 27 Oct Karanjot: shoot almost done, editing starts today; 12:08 28 Oct Surabhi sent Lux video, tagged Karanjot; Karanjot review + send to brand pending; two groups for same campaign; 18:47 Gurleen (Lux) sent brand feedback (add afx, add supers, English-only subtitles), asked ASAP; Karanjot to apply; 19:38 Karanjot passed feedback to Surabhi; 19:39-19:40 Surabhi: supers added, subtitles to English, asked what afx means; 20:21 brand forwarded Lux edited video to Karanjot, Karanjot 'checking this'; 21:14 request (forwarded, sender unconfirmed) for more SFX + supers at start of video; 21:54 Surabhi: edit tomorrow morning (29 Oct); 10:21 29 Oct Surabhi: will share the edit, Karanjot 'okay thankyou'; 11:46-12:17 29 Oct Lux asked for revised asset ASAP; Karanjot: sharing in some time; revised Lux edit pending",
+   "item": "Lux body wash brief received from agency (Gurleen, Barcode) 10:39 25 Oct; Blinkit product link shared 13:54 26 Oct; Gurleen 13:56 asked if creator shooting today; 15:16 27 Oct Karanjot: shoot almost done, editing starts today; 12:08 28 Oct Surabhi sent Lux video, tagged Karanjot; Karanjot review + send to brand pending; two groups for same campaign; 18:47 Gurleen (Lux) sent brand feedback (add afx, add supers, English-only subtitles), asked ASAP; Karanjot to apply; 19:38 Karanjot passed feedback to Surabhi; 19:39-19:40 Surabhi: supers added, subtitles to English, asked what afx means; 20:21 brand forwarded Lux edited video to Karanjot, Karanjot 'checking this'; 21:14 request (forwarded, sender unconfirmed) for more SFX + supers at start of video; 21:54 Surabhi: edit tomorrow morning (29 Oct); 10:21 29 Oct Surabhi: will share the edit, Karanjot 'okay thankyou'; 11:46-12:17 29 Oct Lux asked for revised asset ASAP; Karanjot: sharing in some time; revised Lux edit pending; 15:20 29 Oct revised Lux video forwarded to Gurleen (Barcode) (resolved)",
    "priority": "High",
-   "status": "Open",
-   "flag": "Open",
+   "status": "Closed",
+   "flag": "Closed",
    "date": "29 Oct"
   },
   {
@@ -1616,7 +1616,7 @@
    "creator": "Athira Vinod",
    "poc": "Kishore",
    "cat": "Script",
-   "item": "Plix: feedback forwarded 10:05 25 Oct; Himanshi 11:37 26 Oct: 'Send video today only'; due 26 Oct missed; 27 Oct Himanshi complained about delay, 16:50 'Thankss'; 10:39 28 Oct Plix POC needs Athira's video before 12 PM; 16:04 + 16:16 Himanshi chased again; 16:19 Kishore: creator had a personal emergency; 16:20 Kishore: draft today; draft due EOD 28 Oct; 17:53 Himanshi: draft today without further delay (timeline extended); 17:55 Kishore assured; 10:07-10:22 29 Oct Himanshi: collab cancelled if video not in by 12 PM; Kishore promised draft by 12; draft due 12:00 29 Oct; 13:50-13:52 29 Oct Kruthika shared Athira's revised draft (bouncier hair, no mid parting) with Plix, after the 12:00 deadline; Plix approval pending; 14:11 29 Oct Plix: draft works, add text and send back fast; 14:35 Kruthika asked Plix for exact ingredient names; Plix text pending, then final video",
+   "item": "Plix: feedback forwarded 10:05 25 Oct; Himanshi 11:37 26 Oct: 'Send video today only'; due 26 Oct missed; 27 Oct Himanshi complained about delay, 16:50 'Thankss'; 10:39 28 Oct Plix POC needs Athira's video before 12 PM; 16:04 + 16:16 Himanshi chased again; 16:19 Kishore: creator had a personal emergency; 16:20 Kishore: draft today; draft due EOD 28 Oct; 17:53 Himanshi: draft today without further delay (timeline extended); 17:55 Kishore assured; 10:07-10:22 29 Oct Himanshi: collab cancelled if video not in by 12 PM; Kishore promised draft by 12; draft due 12:00 29 Oct; 13:50-13:52 29 Oct Kruthika shared Athira's revised draft (bouncier hair, no mid parting) with Plix, after the 12:00 deadline; Plix approval pending; 14:11 29 Oct Plix: draft works, add text and send back fast; 14:35 Kruthika asked Plix for exact ingredient names; Plix text pending, then final video; 14:55-15:00 29 Oct Kruthika taking ingredient names from product description, asked Plix to hurry",
    "priority": "High",
    "status": "Open",
    "flag": "At risk",
@@ -2826,7 +2826,7 @@
    "creator": "Ishika",
    "poc": "Natasha",
    "cat": "Approval",
-   "item": "Earth Rhythm: parcel received; Karanjot asked brand for script update 10:21 26 Oct; 10:31 28 Oct Karanjot shared script doc; brand wants ingredient mentions + new shades; 11:58 Ishika: 'give me some time' (preview); 17:18 Abigail (Earth Rhythm): 'Alright works' (shoot timing); 18:02 Karanjot asked for company/GST details; 21:29 Ishika sent video; 09:51-09:53 29 Oct Abigail: video 'seems very flat and forced', wants bubbly intro, shared reference reels; revised video + brand GST details pending",
+   "item": "Earth Rhythm: parcel received; Karanjot asked brand for script update 10:21 26 Oct; 10:31 28 Oct Karanjot shared script doc; brand wants ingredient mentions + new shades; 11:58 Ishika: 'give me some time' (preview); 17:18 Abigail (Earth Rhythm): 'Alright works' (shoot timing); 18:02 Karanjot asked for company/GST details; 21:29 Ishika sent video; 09:51-09:53 29 Oct Abigail: video 'seems very flat and forced', wants bubbly intro, shared reference reels; revised video + brand GST details pending; 15:42 29 Oct Abigail: brand wants reshoot (video looks forced); Ishika says reshoot not possible, offers better audio/font; Karanjot awaiting brand decision",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -3079,11 +3079,11 @@
    "creator": "Apoorva",
    "poc": "Kishore",
    "cat": "Other",
-   "item": "Uppeel: Apoorva on Script 2; Shiksha 11:43 26 Oct asked brand for tracking details; tracking pending",
+   "item": "Uppeel: Apoorva on Script 2; Shiksha 11:43 26 Oct asked brand for tracking details; tracking pending; 15:39-15:43 29 Oct Tanaya feedback on first draft (softer shadows, DM Sans, smaller text, say \"appeal\"); Shiksha: edits in progress; revised draft pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "26 Oct"
+   "date": "29 Oct"
   },
   {
    "id": "r275",
@@ -5334,10 +5334,10 @@
    "creator": "Nishant",
    "poc": "Natasha",
    "cat": "Payment",
-   "item": "Zoll Medicine (Gladyoucame, Anupreet): vendor payment form shared 18:01 28 Oct (needs invoice + confirmation-mail PDF); 18:05 Karanjot: will fill and update by tomorrow morning; form due 29 Oct; 14:08 29 Oct Anupreet chased 'filled?'; creator will fill by morning 30 Oct; form due 30 Oct",
+   "item": "Zoll Medicine (Gladyoucame, Anupreet): vendor payment form shared 18:01 28 Oct (needs invoice + confirmation-mail PDF); 18:05 Karanjot: will fill and update by tomorrow morning; form due 29 Oct; 14:08 29 Oct Anupreet chased 'filled?'; creator will fill by morning 30 Oct; form due 30 Oct; 15:11 29 Oct Karanjot confirmed vendor form filled (resolved)",
    "priority": "Med",
-   "status": "Open",
-   "flag": "Open",
+   "status": "Closed",
+   "flag": "Closed",
    "date": "29 Oct"
   },
   {
@@ -5411,7 +5411,7 @@
    "creator": "Adrija",
    "poc": "Sid",
    "cat": "Deliverable",
-   "item": "18:42 28 Oct Sid + Adrija discussed the event and Swish; campaign draft due 29 Oct; 13:54 29 Oct Adrija: shoot done, needs one item before editing (brand not named); Amisha on leave; Flutch to find out what Adrija needs",
+   "item": "18:42 28 Oct Sid + Adrija discussed the event and Swish; campaign draft due 29 Oct; 13:54 29 Oct Adrija: shoot done, needs one item before editing (brand not named); Amisha on leave; Flutch to find out what Adrija needs; 15:00 29 Oct Adrija: free coffee offer exhausted, can't record that bit; Sid checking alternative",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -5466,7 +5466,7 @@
    "creator": "Kalyani",
    "poc": "Sid",
    "cat": "Follow-up",
-   "item": "Uppeel: 19:32 28 Oct Kalyani received products, asked if preferred language is Malayalam or English; 10:45-11:02 29 Oct Kalyani asked for language/outfit/bg approvals, wants to finish shoot today; Amisha sent on-leave notice; Flutch answer pending",
+   "item": "Uppeel: 19:32 28 Oct Kalyani received products, asked if preferred language is Malayalam or English; 10:45-11:02 29 Oct Kalyani asked for language/outfit/bg approvals, wants to finish shoot today; Amisha sent on-leave notice; Flutch answer pending; 15:22-15:24 29 Oct Sid relayed brand note (script is a guide, hook under 30s, used as ads); English vs Malayalam still open; Sid checking",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -5543,7 +5543,7 @@
    "creator": "Yuvasri",
    "poc": "Divya",
    "cat": "Deliverable",
-   "item": "08:17 29 Oct Yuvasri shared mCaffeine draft video (IMG_4277.MOV); 12:34-12:37 Divya asked mCaffeine (Hiteshree) to add one shot + align video (creator not named); Hiteshree: 'let me check'; brand check on shot changes pending",
+   "item": "08:17 29 Oct Yuvasri shared mCaffeine draft video (IMG_4277.MOV); 12:34-12:37 Divya asked mCaffeine (Hiteshree) to add one shot + align video (creator not named); Hiteshree: 'let me check'; brand check on shot changes pending; 15:45 29 Oct mCaffeine asked when revised changes will be shared; Flutch owes revised video",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -5719,7 +5719,7 @@
    "creator": "Uma",
    "poc": "Natasha",
    "cat": "Deliverable",
-   "item": "Sugar Glide Gloss Stick: 12:05-12:18 29 Oct Karanjot forwarded brief (buy Pink Pop/Mauve Murmur, share screenshot), wants screenshot + script sooner; Uma will buy in evening; 12:24-12:25 Karanjot posted creator cost (413/-); Sugar wants festive looks + gloss application shots; Vrinda asked for script; 12:38 lip gloss received (purchase done); script pending",
+   "item": "Sugar Glide Gloss Stick: 12:05-12:18 29 Oct Karanjot forwarded brief (buy Pink Pop/Mauve Murmur, share screenshot), wants screenshot + script sooner; Uma will buy in evening; 12:24-12:25 Karanjot posted creator cost (413/-); Sugar wants festive looks + gloss application shots; Vrinda asked for script; 12:38 lip gloss received (purchase done); script pending; 15:28-15:33 29 Oct Karanjot shared Uma script to Ajitha for check; Sugar approval pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -5730,7 +5730,7 @@
    "creator": "Ishika",
    "poc": "Natasha",
    "cat": "Deliverable",
-   "item": "Sugar: 12:23-12:24 29 Oct Ishika shooting 30 Oct (Zepto purchase), wants everything finalised today; Karanjot asked if 413/- order comes today; Sugar wants festive looks + gloss application shots; Vrinda asked for script; 13:17-13:30 Ishika listed as purchased in Sugar group; Ajitha wants scripting closed today; script + finalisation pending",
+   "item": "Sugar: 12:23-12:24 29 Oct Ishika shooting 30 Oct (Zepto purchase), wants everything finalised today; Karanjot asked if 413/- order comes today; Sugar wants festive looks + gloss application shots; Vrinda asked for script; 13:17-13:30 Ishika listed as purchased in Sugar group; Ajitha wants scripting closed today; script + finalisation pending; 15:28-15:33 29 Oct Karanjot shared Ishika script to Ajitha for check; Sugar approval pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -5752,7 +5752,7 @@
    "creator": "Hiba & Nida",
    "poc": "Sid",
    "cat": "Follow-up",
-   "item": "Wild Date (ECRU PR, nivedha): 11:41-12:21 29 Oct wants Hiba & Nida for Diwali hampers Amazon Finds series, asked commercials; Sid asked for deliverables; 13:47 nivedha: 1 Diwali hamper reel, wants collab + non-collab commercials, no ad rights; Sid to send commercials",
+   "item": "Wild Date (ECRU PR, nivedha): 11:41-12:21 29 Oct wants Hiba & Nida for Diwali hampers Amazon Finds series, asked commercials; Sid asked for deliverables; 13:47 nivedha: 1 Diwali hamper reel, wants collab + non-collab commercials, no ad rights; Sid to send commercials; 15:39 29 Oct Sid quoted 30,000 collab / 28,000 non-collab; Nivedha reply pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -5922,6 +5922,28 @@
    "status": "Open",
    "flag": "Open",
    "date": "29 Oct"
+  },
+  {
+   "creator": "Athira Vinod",
+   "poc": "Kishore",
+   "status": "Open",
+   "flag": "Open",
+   "date": "29 Oct",
+   "priority": "High",
+   "id": "r533",
+   "cat": "Payment",
+   "item": "Pears (Barcode, Shriya): 15:39 29 Oct Kishore asked to align payment by 30 Oct, can't hold creator longer; payment pending"
+  },
+  {
+   "creator": "Athira Vinod",
+   "poc": "Kishore",
+   "status": "Open",
+   "flag": "At risk",
+   "date": "29 Oct",
+   "priority": "High",
+   "id": "r534",
+   "cat": "Payment",
+   "item": "Simple (Barcode, Gurleen): payment overdue since 27 Oct; 15:41 29 Oct Kishore asked for exact payment date; date pending"
   }
  ]
 }
