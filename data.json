@@ -1,5 +1,5 @@
 {
- "lastUpdated": "2026-10-29T09:02:08+05:30",
+ "lastUpdated": "2026-10-29T09:50:38+05:30",
  "kpis": {
   "Sid": {
    "owned": 22,
@@ -36,8 +36,8 @@
    "notFound": 0,
    "deals": 27,
    "dealValue": "₹5.04L",
-   "openAsks": 84,
-   "atRisk": 30,
+   "openAsks": 83,
+   "atRisk": 29,
    "note": "CRM deals include Shraddha × Pilgrim (₹45k), not his creator"
   },
   "Riya": {
@@ -1737,11 +1737,11 @@
    "creator": "Amna",
    "poc": "Kishore",
    "cat": "Retention risk",
-   "item": "Creator unwell; Execution POC (Krutika) on sick leave from ~21 Oct",
+   "item": "Creator unwell; Execution POC (Krutika) on sick leave from ~21 Oct; 09:43 29 Oct Aamna: feeling better; 09:42 Kishore welcomed Kruttika back in Deals (resolved)",
    "priority": "High",
-   "status": "Open",
-   "flag": "At risk",
-   "date": "21 Oct"
+   "status": "Closed",
+   "flag": "Closed",
+   "date": "29 Oct"
   },
   {
    "id": "r153",
@@ -1759,11 +1759,11 @@
    "creator": "Amna",
    "poc": "Kishore",
    "cat": "Deliverable",
-   "item": "Aqualogica (Cloutflow): Ananya rejected 30 Oct draft date; Kishore 09:26 26 Oct asked Amna for draft by Thu 29 Oct; Amna 13:40 'Sure, I will try my best'; 14:15 27 Oct Ananya: 'What's the update?'; 15:14 Flutch: draft will be shared Fri 30 Oct (brand earlier said Fri won't work); 17:09 Flutch: will check with creator and get back; 22:55 28 Oct Aamna shared Aqualogica draft; 22:56 Kishore thanked; Kishore review + send to brand pending",
+   "item": "Aqualogica (Cloutflow): Ananya rejected 30 Oct draft date; Kishore asked for draft by Thu 29 Oct; 22:55 28 Oct Aamna shared Aqualogica draft; 09:43-09:44 29 Oct Kishore shared Amna's draft with Ananya (Cloutflow); Cloutflow/Aqualogica approval pending",
    "priority": "High",
    "status": "Open",
    "flag": "Open",
-   "date": "28 Oct"
+   "date": "29 Oct"
   },
   {
    "id": "r155",
@@ -3728,11 +3728,11 @@
    "creator": "Pragati Bharti",
    "poc": "Kishore",
    "cat": "Follow-up",
-   "item": "Wishcare: offer at 25,000 sent 10:12 27 Oct; Pragati to respond",
+   "item": "Wishcare: offer at 25,000 sent 10:12 27 Oct; 09:45 29 Oct Kishore followed up with Pragati on Wishcare video draft (she's busy till ~30 Oct, Karwa Chauth); draft pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "27 Oct"
+   "date": "29 Oct"
   },
   {
    "id": "r334",
@@ -5125,11 +5125,11 @@
    "creator": "Gurishq Kaur",
    "poc": "Divya",
    "cat": "Follow-up",
-   "item": "Close Up (Tist Media, Veda): Purple Color Corrector; 1 collab reel + 1 story + 1 month usage/boosting; live 9–11 Nov; creator buys product; 16:06 28 Oct campaign forwarded, Hemanth 16:07: will check with creator; 16:10 Divya sent to Gurishq, she agreed + asked price; 16:18 Divya: pitching 40K, Gurishq 'cool'; 16:19 Flutch quoted ₹40,000 to Tist (sender unconfirmed); Tist response pending",
+   "item": "Close Up (Tist Media, Veda): Purple Color Corrector; 1 collab reel + 1 story + 1 month usage/boosting; live 9–11 Nov; creator buys product; ₹40,000 quoted 16:19 28 Oct; 09:46 29 Oct Hemanth asked Veda for update, 'open for negotiations'; Tist response pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "28 Oct"
+   "date": "29 Oct"
   },
   {
    "id": "r461",
@@ -5279,11 +5279,11 @@
    "creator": "Neha",
    "poc": "Riya",
    "cat": "Approval",
-   "item": "Celebistaan (Gurleen): Neha Sharma's revised video in 16:26 28 Oct; Amisha sent to brand 16:27, asked if good to go 16:28; 20:22 Prashant tagged Kishore; 21:20 Neha: 'Any feedback??'; brand approval + Amisha feedback pending",
+   "item": "Celebistaan (Gurleen): Neha Sharma's revised video in 16:26 28 Oct; Amisha sent to brand 16:27, asked if good to go 16:28; 20:22 Prashant tagged Kishore; 21:20 Neha: 'Any feedback??'; 09:44 29 Oct Kishore: 'Thank you bro'; brand approval + feedback to Neha unconfirmed",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "28 Oct"
+   "date": "29 Oct"
   },
   {
    "id": "r475",
