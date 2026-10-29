@@ -1,5 +1,5 @@
 {
- "lastUpdated": "2026-10-29T13:29:20+05:30",
+ "lastUpdated": "2026-10-29T14:10:52+05:30",
  "kpis": {
   "Sid": {
    "owned": 22,
@@ -26,8 +26,8 @@
    "notFound": 9,
    "deals": 15,
    "dealValue": "₹4.50L",
-   "openAsks": 120,
-   "atRisk": 40,
+   "openAsks": 121,
+   "atRisk": 41,
    "note": "+1 identity unresolved; 9 = 5 not found + 4 no recent activity"
   },
   "Kishore": {
@@ -47,7 +47,7 @@
    "deals": 0,
    "dealValue": "₹0",
    "openAsks": 17,
-   "atRisk": 4
+   "atRisk": 5
   }
  },
  "themes": [
@@ -1616,7 +1616,7 @@
    "creator": "Athira Vinod",
    "poc": "Kishore",
    "cat": "Script",
-   "item": "Plix: feedback forwarded 10:05 25 Oct; Himanshi 11:37 26 Oct: 'Send video today only'; due 26 Oct missed; 27 Oct Himanshi complained about delay, 16:50 'Thankss'; 10:39 28 Oct Plix POC needs Athira's video before 12 PM; 16:04 + 16:16 Himanshi chased again; 16:19 Kishore: creator had a personal emergency; 16:20 Kishore: draft today; draft due EOD 28 Oct; 17:53 Himanshi: draft today without further delay (timeline extended); 17:55 Kishore assured; 10:07-10:22 29 Oct Himanshi: collab cancelled if video not in by 12 PM; Kishore promised draft by 12; draft due 12:00 29 Oct",
+   "item": "Plix: feedback forwarded 10:05 25 Oct; Himanshi 11:37 26 Oct: 'Send video today only'; due 26 Oct missed; 27 Oct Himanshi complained about delay, 16:50 'Thankss'; 10:39 28 Oct Plix POC needs Athira's video before 12 PM; 16:04 + 16:16 Himanshi chased again; 16:19 Kishore: creator had a personal emergency; 16:20 Kishore: draft today; draft due EOD 28 Oct; 17:53 Himanshi: draft today without further delay (timeline extended); 17:55 Kishore assured; 10:07-10:22 29 Oct Himanshi: collab cancelled if video not in by 12 PM; Kishore promised draft by 12; draft due 12:00 29 Oct; 13:50-13:52 29 Oct Kruthika shared Athira's revised draft (bouncier hair, no mid parting) with Plix, after the 12:00 deadline; Plix approval pending",
    "priority": "High",
    "status": "Open",
    "flag": "At risk",
@@ -2056,11 +2056,11 @@
    "creator": "Fashion Verge",
    "poc": "Divya",
    "cat": "Script",
-   "item": "Baleno + AU Zenith+ Credit Card scripts both shared (15:52); Bhargavi shared MSIL Baleno Script.pdf 18:51; 16:31 27 Oct Harshit (T1 Baleno) asked 'any update?'; 16:35 Flutch: 'Not yet'; update owed to Harshit",
+   "item": "Baleno + AU Zenith+ Credit Card scripts both shared (15:52); Bhargavi shared MSIL Baleno Script.pdf 18:51; 16:31 27 Oct Harshit (T1 Baleno) asked 'any update?'; 16:35 Flutch: 'Not yet'; 12:44 29 Oct Harshit (Eleve Media): creator delayed, needs Telugu VO script by 13:30 + black/blue/grey formal outfit options, shoot 30 Oct; 13:47-14:01 Divya asked Ganesh for specific options, Ganesh sent photo 14:01; 14:04 Divya forwarded to T1 Baleno group; confirm Telugu script + outfit options delivered",
    "priority": "High",
    "status": "Open",
    "flag": "Open",
-   "date": "27 Oct"
+   "date": "29 Oct"
   },
   {
    "id": "r182",
@@ -3277,10 +3277,10 @@
    "creator": "Somya Bisla",
    "poc": "Natasha",
    "cat": "Other",
-   "item": "Pilgrim anti-dandruff shampoo (55k deal locked 26 Oct): 18:05 execution POC introduced, asked for product details + brief; 11:01 28 Oct Shefali (Broz Media) wants Somya's script before 2 PM; Natasha: Somya will share today; 16:00 Shefali chased script; 16:07 Natasha: Somya busy with Karva Chauth prep, script today; 16:17 Shefali: must come today (festival tomorrow); 18:00 Shefali: 'What's the eta?'; 11:16 29 Oct Shefali: following up for 2 days on Somya's script; 11:44 Natasha asked Somya for Pilgrim script; Natasha promised script by 2 PM; 13:04 Pilgrim anti-dandruff script shared; creator feedback pending",
+   "item": "Pilgrim anti-dandruff shampoo (55k deal locked 26 Oct): 18:05 execution POC introduced, asked for product details + brief; 11:01 28 Oct Shefali (Broz Media) wants Somya's script before 2 PM; Natasha: Somya will share today; 16:00 Shefali chased script; 16:07 Natasha: Somya busy with Karva Chauth prep, script today; 16:17 Shefali: must come today (festival tomorrow); 18:00 Shefali: 'What's the eta?'; 11:16 29 Oct Shefali: following up for 2 days on Somya's script; 11:44 Natasha asked Somya for Pilgrim script; Natasha promised script by 2 PM; 13:04 Pilgrim anti-dandruff script shared; 14:02-14:05 Somya chose music reel; 14:06 Natasha shared music-reel script with Shefali Media; Pilgrim script approval pending",
    "priority": "Med",
    "status": "Open",
-   "flag": "At risk",
+   "flag": "Open",
    "date": "29 Oct"
   },
   {
@@ -4344,11 +4344,11 @@
    "creator": "Laveena",
    "poc": "Riya",
    "cat": "Follow-up",
-   "item": "Laveena 16:54 27 Oct to Riya: caught up today, asked to connect tomorrow; 13:30 28 Oct Riya posted check-in (preview); Laveena reply + call pending",
+   "item": "Laveena 16:54 27 Oct to Riya: caught up today, asked to connect tomorrow; 13:30 28 Oct Riya posted check-in (preview); 13:27-13:47 29 Oct Laveena asked when to connect; Riya asked her availability; Laveena: 'Sure'; call time to be fixed",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "28 Oct"
+   "date": "29 Oct"
   },
   {
    "id": "r390",
@@ -4806,11 +4806,11 @@
    "creator": "Ankit Mishra",
    "poc": "Riya",
    "cat": "Deliverable",
-   "item": "09:57 28 Oct Ankit: sending first draft (brand not named); 13:49 Ankit posted a document (likely draft); draft review pending",
+   "item": "09:57 28 Oct Ankit: sending first draft (brand not named); 13:49 Ankit posted a document (likely draft); 14:01 29 Oct Riya passed on brand feedback: add CTA, fix pronunciations; Ankit's revised video pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "28 Oct"
+   "date": "29 Oct"
   },
   {
    "id": "r432",
@@ -5411,11 +5411,11 @@
    "creator": "Adrija",
    "poc": "Sid",
    "cat": "Deliverable",
-   "item": "18:42 28 Oct Sid + Adrija discussed the event and Swish; campaign draft due 29 Oct",
+   "item": "18:42 28 Oct Sid + Adrija discussed the event and Swish; campaign draft due 29 Oct; 13:54 29 Oct Adrija: shoot done, needs one item before editing (brand not named); Amisha on leave; Flutch to find out what Adrija needs",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "28 Oct"
+   "date": "29 Oct"
   },
   {
    "id": "r487",
@@ -5686,10 +5686,10 @@
    "creator": "Dharshne",
    "poc": "Riya",
    "cat": "Deliverable",
-   "item": "Sugar Cosmetics: 11:34 29 Oct Riya sent brief (1 non-collab reel + 1 month ad rights, locked Rs 20,000); 12:32-12:34 Riya asked Dharshne to order today (any shade) + share script by 3 PM; order screenshot + script due 15:00 29 Oct",
-   "priority": "Med",
+   "item": "Sugar Cosmetics: 11:34 29 Oct Riya sent brief (1 non-collab reel + 1 month ad rights, locked Rs 20,000); 12:32-12:34 Riya asked Dharshne to order today (any shade) + share script by 3 PM; 13:17-13:30 Ajitha (Sugar) wants it fast-tracked and scripting closed today; Dharshne not on purchased list; Ajitha asked about the remaining creators (late order = late delivery); order screenshot + script due 15:00 29 Oct",
+   "priority": "High",
    "status": "Open",
-   "flag": "Open",
+   "flag": "At risk",
    "date": "29 Oct"
   },
   {
@@ -5730,7 +5730,7 @@
    "creator": "Ishika",
    "poc": "Natasha",
    "cat": "Deliverable",
-   "item": "Sugar: 12:23-12:24 29 Oct Ishika shooting 30 Oct (Zepto purchase), wants everything finalised today; Karanjot asked if 413/- order comes today; Sugar wants festive looks + gloss application shots; Vrinda asked for script; order + script + finalisation pending",
+   "item": "Sugar: 12:23-12:24 29 Oct Ishika shooting 30 Oct (Zepto purchase), wants everything finalised today; Karanjot asked if 413/- order comes today; Sugar wants festive looks + gloss application shots; Vrinda asked for script; 13:17-13:30 Ishika listed as purchased in Sugar group; Ajitha wants scripting closed today; script + finalisation pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -5752,7 +5752,7 @@
    "creator": "Hiba & Nida",
    "poc": "Sid",
    "cat": "Follow-up",
-   "item": "Wild Date (ECRU PR, nivedha): 11:41-12:21 29 Oct wants Hiba & Nida for Diwali hampers Amazon Finds series, asked commercials; Sid asked for deliverables; brand reply pending",
+   "item": "Wild Date (ECRU PR, nivedha): 11:41-12:21 29 Oct wants Hiba & Nida for Diwali hampers Amazon Finds series, asked commercials; Sid asked for deliverables; 13:47 nivedha: 1 Diwali hamper reel, wants collab + non-collab commercials, no ad rights; Sid to send commercials",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -5907,6 +5907,17 @@
    "poc": "Divya",
    "cat": "Payment",
    "item": "Dot & Key: 13:17 29 Oct Kishore chased payment (60 days overdue); payment pending",
+   "priority": "High",
+   "status": "Open",
+   "flag": "Open",
+   "date": "29 Oct"
+  },
+  {
+   "id": "r532",
+   "creator": "venessa.pinto",
+   "poc": "Divya",
+   "cat": "Deliverable",
+   "item": "Sugar Glide Gloss Stick: 12:19-13:47 29 Oct Divya asked Venessa to order + send script; go-live 30-31 Oct; 13:17-13:30 Venessa not on Sugar purchased list; Ajitha asked about remaining creators; purchase proof + script pending",
    "priority": "High",
    "status": "Open",
    "flag": "Open",
