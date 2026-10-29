@@ -1,5 +1,5 @@
 {
- "lastUpdated": "2026-10-29T16:33:25+05:30",
+ "lastUpdated": "2026-10-29T17:21:58+05:30",
  "kpis": {
   "Sid": {
    "owned": 22,
@@ -26,7 +26,7 @@
    "notFound": 9,
    "deals": 15,
    "dealValue": "₹4.50L",
-   "openAsks": 121,
+   "openAsks": 122,
    "atRisk": 41,
    "note": "+1 identity unresolved; 9 = 5 not found + 4 no recent activity"
   },
@@ -36,7 +36,7 @@
    "notFound": 0,
    "deals": 27,
    "dealValue": "₹5.04L",
-   "openAsks": 90,
+   "openAsks": 91,
    "atRisk": 30,
    "note": "CRM deals include Shraddha × Pilgrim (₹45k), not his creator"
   },
@@ -538,7 +538,7 @@
    "creator": "Shraddha",
    "poc": "Natasha",
    "cat": "Follow-up",
-   "item": "Be Bodywise: call-back request to brand 22 Oct unanswered; 16:18 29 Oct Karanjot re-shared request, asked to align it for today (preview); brand reply pending",
+   "item": "Be Bodywise: call-back request to brand 22 Oct unanswered; 16:18 29 Oct Karanjot re-shared request, asked to align it for today (preview); 16:47 Karanjot: invoice overdue, asked to align today; Samya: invoice FL2026-27/2105 (9 Oct) paid, another payment not done (Surabhi's execution), asked Divya to reach Prachi; pending invoice payment + Prachi contact",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -1880,7 +1880,7 @@
    "creator": "Divya Singh",
    "poc": "Sid",
    "cat": "Approval",
-   "item": "Nykaa video sent to Amisha (17:05), file + doc posted (17:10, 17:16) 24 Oct; Nykaa (Aishwarya) 17:30 26 Oct: will share by EOD 27 Oct, asked to do it urgently; address + script approvals pending; 17:45 28 Oct Khushi chased Nykaa (Aishwarya) for feedback (followed up for 2 days); 10:27 29 Oct Khushi asked Nykaa for update on Divya's video; Nykaa feedback pending",
+   "item": "Nykaa video sent to Amisha (17:05), file + doc posted (17:10, 17:16) 24 Oct; Nykaa (Aishwarya) 17:30 26 Oct: will share by EOD 27 Oct, asked to do it urgently; address + script approvals pending; 17:45 28 Oct Khushi chased Nykaa (Aishwarya) for feedback (followed up for 2 days); 10:27 29 Oct Khushi asked Nykaa for update on Divya's video; ~17:16 29 Oct Khushi chased feedback on Divya's video again; Nykaa feedback pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -3156,11 +3156,11 @@
    "creator": "Dishyata",
    "poc": "Divya",
    "cat": "Follow-up",
-   "item": "Joyun: Dishyata 13:27 26 Oct asked for confirmation on the video; 14:44 27 Oct Dishyata: told it was urgent, needs go-live date beforehand, can't keep it on hold; 15:27 Plix: founder busy, hasn't reviewed video yet; 18:20 Paridhi feedback: swap the 2 clips (stretch visual better in hand one); supers still not approved; 16:15 28 Oct Plix (Bhavika) asked for revised video; 16:16 Dishyata sent it; 16:28 Plix: will get back; Plix feedback + supers approval + go-live date pending",
+   "item": "Joyun: Dishyata 13:27 26 Oct asked for confirmation on the video; 14:44 27 Oct Dishyata: told it was urgent, needs go-live date beforehand, can't keep it on hold; 15:27 Plix: founder busy, hasn't reviewed video yet; 18:20 Paridhi feedback: swap the 2 clips (stretch visual better in hand one); 16:15 28 Oct Plix (Bhavika) asked for revised video; 16:16 Dishyata sent it; 16:28 Plix: will get back; ~17:15 29 Oct Dishyata agreed to supers feedback (no more changes after this), asked live date; Chtrbox (Paridhi): can go live 30 Oct; Dishyata revised video pending; go-live 30 Oct",
    "priority": "High",
    "status": "Open",
    "flag": "Open",
-   "date": "28 Oct"
+   "date": "29 Oct"
   },
   {
    "id": "r282",
@@ -4014,11 +4014,11 @@
    "creator": "Nausheen",
    "poc": "Natasha",
    "cat": "Follow-up",
-   "item": "Derma Co: Karanjot 13:16 27 Oct asked '30 or 20ml?'; 13:55 lata: 'script' (context unclear); 15:36 lata: 'done' (context unclear); size confirmation not seen",
+   "item": "Derma Co: Karanjot 13:16 27 Oct asked '30 or 20ml?'; 13:55 lata: 'script' (context unclear); 15:36 lata: 'done' (context unclear); size confirmation not seen; ~17:18 29 Oct Lata asked Karanjot to share draft (no sale callout); draft pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "27 Oct"
+   "date": "29 Oct"
   },
   {
    "id": "r360",
@@ -4993,7 +4993,7 @@
    "creator": "Monisha",
    "poc": "Kishore",
    "cat": "Other",
-   "item": "Chicnutrix (Esha) 12:53 28 Oct: asked which creators won't order product (needs address, mail, phone) to dispatch today + order screenshots for reimbursement; 17:47 Bhavya: Monisha locked for Chicnutrix (18k); 12:10 29 Oct Monisha asked Kishore for update on Chicnutrix confirmation mail; confirmation mail + order/address pending",
+   "item": "Chicnutrix (Esha) 12:53 28 Oct: asked which creators won't order product (needs address, mail, phone) to dispatch today + order screenshots for reimbursement; 17:47 Bhavya: Monisha locked for Chicnutrix (18k); 12:10 29 Oct Monisha asked Kishore for update on Chicnutrix confirmation mail; ~17:25 29 Oct Flutch asked if Monisha is ordering; confirmation mail + Monisha order pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -5004,7 +5004,7 @@
    "creator": "Smriti Mohanty",
    "poc": "Sid",
    "cat": "Other",
-   "item": "Chicnutrix (Esha) 12:53 28 Oct: asked which creators won't order product (needs address, mail, phone) to dispatch today + order screenshots for reimbursement; 15:22 Esha chased; 16:00 Amisha sent Smriti links, asked her to order + send screenshot; 16:01 Smriti: will order by evening, Amazon link broken; 16:02 Nykaa link suggested; 16:04 Amisha confirmed; 16:05 Amisha told brand Smriti orders by EOD with screenshot; brand says Amazon link not working; Smriti order + screenshot pending; 16:29 29 Oct Chicnutrix posted Glow Advanced script (smriti)",
+   "item": "Chicnutrix (Esha) 12:53 28 Oct: asked which creators won't order product (needs address, mail, phone) to dispatch today + order screenshots for reimbursement; 15:22 Esha chased; 16:00 Amisha sent Smriti links, asked her to order + send screenshot; 16:01 Smriti: will order by evening, Amazon link broken; 16:02 Nykaa link suggested; 16:04 Amisha confirmed; 16:05 Amisha told brand Smriti orders by EOD with screenshot; brand says Amazon link not working; 16:29 29 Oct Chicnutrix posted Glow Advanced script (smriti); 16:36 Kishore sent mail ID; 16:43 order placed (creator not named); confirm Smriti's order",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -5015,11 +5015,11 @@
    "creator": "Kalyani",
    "poc": "Sid",
    "cat": "Other",
-   "item": "Chicnutrix (Esha) 12:53 28 Oct: asked which creators won't order product (needs address, mail, phone) to dispatch today + order screenshots for reimbursement; 15:22 Esha chased; 15:28 Amisha sent Kalyani links, 15:30 asked her to order + send screenshot; 16:05 Amisha told brand Kalyani being checked; brand dispatches today, Amazon link not working; 16:37 Amisha sent Chicnutrix links again; 16:58 one bottle confirmed; Kalyani order + screenshot pending; 17:25 Amisha told Esha: Kalyani will order the product",
+   "item": "Chicnutrix (Esha) 12:53 28 Oct: asked which creators won't order product (needs address, mail, phone) to dispatch today + order screenshots for reimbursement; 15:22 Esha chased; 15:28 Amisha sent Kalyani links, 15:30 asked her to order + send screenshot; 16:05 Amisha told brand Kalyani being checked; brand dispatches today, Amazon link not working; 16:37 Amisha sent Chicnutrix links again; 16:58 one bottle confirmed; 17:25 Amisha told Esha: Kalyani will order the product; 17:25 29 Oct Flutch asked again, reply: Kalyani will order; Kalyani order + screenshot pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "28 Oct"
+   "date": "29 Oct"
   },
   {
    "id": "r451",
@@ -5279,10 +5279,10 @@
    "creator": "Neha",
    "poc": "Riya",
    "cat": "Approval",
-   "item": "Celebistaan (Gurleen): Neha Sharma's revised video in 16:26 28 Oct; Amisha sent to brand 16:27, asked if good to go 16:28; 20:22 Prashant tagged Kishore; 21:20 Neha: 'Any feedback??'; 09:44 29 Oct Kishore: 'Thank you bro'; brand approval + feedback to Neha unconfirmed",
+   "item": "Celebistaan (Gurleen): Neha Sharma's revised video in 16:26 28 Oct; Amisha sent to brand 16:27, asked if good to go 16:28; 20:22 Prashant tagged Kishore; 21:20 Neha: 'Any feedback??'; 09:44 29 Oct Kishore: 'Thank you bro'; 16:27 29 Oct Kishore forwarded revised video for approval; 17:13 Gurleen: 'Live kardo pls' (resolved)",
    "priority": "Med",
-   "status": "Open",
-   "flag": "Open",
+   "status": "Closed",
+   "flag": "Closed",
    "date": "29 Oct"
   },
   {
@@ -5543,7 +5543,7 @@
    "creator": "Yuvasri",
    "poc": "Divya",
    "cat": "Deliverable",
-   "item": "08:17 29 Oct Yuvasri shared mCaffeine draft video (IMG_4277.MOV); 12:34-12:37 Divya asked mCaffeine (Hiteshree) to add one shot + align video (creator not named); Hiteshree: 'let me check'; brand check on shot changes pending; 15:45 29 Oct mCaffeine asked when revised changes will be shared; Flutch owes revised video",
+   "item": "08:17 29 Oct Yuvasri shared mCaffeine draft video (IMG_4277.MOV); 12:34-12:37 Divya asked mCaffeine (Hiteshree) to add one shot + align video (creator not named); Hiteshree: 'let me check'; 15:45 29 Oct mCaffeine asked when revised changes will be shared; 16:05 Divya shared draft; 17:04 Hiteshree approved, video can go live with original audio, sent auto-DM links (Flipkart, Blinkit); go-live pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -5996,6 +5996,39 @@
    "cat": "Follow-up",
    "item": "Mudra Shah 16:24 29 Oct (preview): Riya Dey channel rates shared: YT Short 80,000, 1 month boosting rights 35,000; response pending",
    "priority": "Low",
+   "status": "Open",
+   "flag": "Open",
+   "date": "29 Oct"
+  },
+  {
+   "id": "r540",
+   "creator": "Eshita Banerjee",
+   "poc": "Divya",
+   "cat": "Script",
+   "item": "Whole Leaf: Eshita's revised non-Diwali script sent 12:59 29 Oct; ~17:16 Flutch chased brand POC; Whole Leaf response pending",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "29 Oct"
+  },
+  {
+   "id": "r541",
+   "creator": "Apoorva",
+   "poc": "Kishore",
+   "cat": "Follow-up",
+   "item": "Asian Paints Royale 'Araluva Karnataka' (Christy X TM): 17:16 29 Oct Natasha quoted Apoorva 15k (1 reel + 1 story) / 25k (+ 7-day boosting); brand reply pending",
+   "priority": "Low",
+   "status": "Open",
+   "flag": "Open",
+   "date": "29 Oct"
+  },
+  {
+   "id": "r542",
+   "creator": "Neha",
+   "poc": "Riya",
+   "cat": "Deliverable",
+   "item": "Celebistaan (Gurleen) 17:13 29 Oct: 'Live kardo pls'; Neha to take revised video live; live link pending",
+   "priority": "Med",
    "status": "Open",
    "flag": "Open",
    "date": "29 Oct"
