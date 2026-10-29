@@ -1,5 +1,5 @@
 {
- "lastUpdated": "2026-10-29T08:15:37+05:30",
+ "lastUpdated": "2026-10-29T09:02:08+05:30",
  "kpis": {
   "Sid": {
    "owned": 22,
@@ -26,7 +26,7 @@
    "notFound": 9,
    "deals": 15,
    "dealValue": "₹4.50L",
-   "openAsks": 107,
+   "openAsks": 108,
    "atRisk": 34,
    "note": "+1 identity unresolved; 9 = 5 not found + 4 no recent activity"
   },
@@ -4883,7 +4883,7 @@
    "creator": "Sanjogta",
    "poc": "Riya",
    "cat": "Follow-up",
-   "item": "Sanjogta 11:43 28 Oct asked for campaign updates + new CRM details; 02:21 29 Oct Pradeep tagged Sid; still unanswered",
+   "item": "Sanjogta 11:43 28 Oct asked for campaign updates + new CRM details; 02:21 29 Oct Pradeep tagged Sid; 08:51 29 Oct Sid tagged Riya: 'Kindly check here'; Riya reply pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -5537,6 +5537,17 @@
    "status": "Open",
    "flag": "Open",
    "date": "28 Oct"
+  },
+  {
+   "id": "r498",
+   "creator": "Yuvasri",
+   "poc": "Divya",
+   "cat": "Deliverable",
+   "item": "08:17 29 Oct Yuvasri shared mCaffeine draft video (IMG_4277.MOV); Divya review/reply pending",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "29 Oct"
   }
  ]
 }

@@ -2,7 +2,7 @@
  "by": "Auto",
  "at": "2026-10-29T09:00:28+05:30",
  "startedAt": "2026-10-29T09:00:28+05:30",
- "status": "running",
+ "status": "published",
  "history": [
   {
    "by": "Auto",
@@ -525,6 +525,15 @@
    "startedAt": "2026-10-29T08:06:29+05:30",
    "durationSec": 977,
    "status": "published"
+  },
+  {
+   "by": "Auto",
+   "startedAt": "2026-10-29T09:00:28+05:30",
+   "durationSec": 508,
+   "status": "published"
   }
- ]
+ ],
+ "note": "1 new rows, 1 updated, 0 closed",
+ "finishedAt": "2026-10-29T09:08:56+05:30",
+ "durationSec": 508
 }
