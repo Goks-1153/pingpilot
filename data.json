@@ -1,5 +1,5 @@
 {
- "lastUpdated": "2026-10-29T17:21:58+05:30",
+ "lastUpdated": "2026-10-29T18:07:12+05:30",
  "kpis": {
   "Sid": {
    "owned": 22,
@@ -7,8 +7,8 @@
    "notFound": 3,
    "deals": 29,
    "dealValue": "₹8.22L",
-   "openAsks": 99,
-   "atRisk": 19
+   "openAsks": 100,
+   "atRisk": 20
   },
   "Natasha": {
    "owned": 25,
@@ -1858,7 +1858,7 @@
    "creator": "Nisha",
    "poc": "Sid",
    "cat": "Follow-up",
-   "item": "Bosch, Samsung, Jio pitches promised by Sid 19 Oct; still no collab; 16:24 29 Oct Nisha: doesn't remember discussing feedback/negotiations, last discussion was Sugar negotiations; following up with other brands, nothing strong yet; Flutch follow-up pending",
+   "item": "Bosch, Samsung, Jio pitches promised by Sid 19 Oct; still no collab; 16:24 29 Oct Nisha: doesn't remember discussing feedback/negotiations, last discussion was Sugar negotiations; following up with other brands, nothing strong yet; 16:01 29 Oct Sid listed brand counters (Lebroid 20k, Typsy over budget, Fittr); Flutch follow-up pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -2826,7 +2826,7 @@
    "creator": "Ishika",
    "poc": "Natasha",
    "cat": "Approval",
-   "item": "Earth Rhythm: parcel received; Karanjot asked brand for script update 10:21 26 Oct; 10:31 28 Oct Karanjot shared script doc; brand wants ingredient mentions + new shades; 11:58 Ishika: 'give me some time' (preview); 17:18 Abigail (Earth Rhythm): 'Alright works' (shoot timing); 18:02 Karanjot asked for company/GST details; 21:29 Ishika sent video; 09:51-09:53 29 Oct Abigail: video 'seems very flat and forced', wants bubbly intro, shared reference reels; revised video + brand GST details pending; 15:42 29 Oct Abigail: brand wants reshoot (video looks forced); Ishika says reshoot not possible, offers better audio/font; Karanjot awaiting brand decision",
+   "item": "Earth Rhythm: parcel received; Karanjot asked brand for script update 10:21 26 Oct; 10:31 28 Oct Karanjot shared script doc; brand wants ingredient mentions + new shades; 11:58 Ishika: 'give me some time' (preview); 17:18 Abigail (Earth Rhythm): 'Alright works' (shoot timing); 18:02 Karanjot asked for company/GST details; 21:29 Ishika sent video; 09:51-09:53 29 Oct Abigail: video 'seems very flat and forced', wants bubbly intro, shared reference reels; revised video + brand GST details pending; 15:42 29 Oct Abigail: brand wants reshoot (video looks forced); Ishika says reshoot not possible, offers better audio/font; 17:52 29 Oct Ishika: 'Pls add me in the call also' (preview); add Ishika to call; Karanjot awaiting brand decision",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -2947,7 +2947,7 @@
    "creator": "Vrushab",
    "poc": "Sid",
    "cat": "Follow-up",
-   "item": "StayVista (barter): Shruti 11:00 26 Oct asked to pick up for Vrushab + Nikhil; Pooja chased 11:55; 12:04 27 Oct Pooja asked for property details; 12:13 Vrushab: all deliverables on barter, wants good properties like those shared earlier; 15:16 Pooja: 'This one' (selection, context unclear); 10:30-10:43 29 Oct Vrushab wants property finalised today, needs 2-3 options for 10-11 people; StayVista options + property confirmation pending",
+   "item": "StayVista (barter): Shruti 11:00 26 Oct asked to pick up for Vrushab + Nikhil; Pooja chased 11:55; 12:04 27 Oct Pooja asked for property details; 12:13 Vrushab: all deliverables on barter, wants good properties like those shared earlier; 15:16 Pooja: 'This one' (selection, context unclear); 10:30-10:43 29 Oct Vrushab wants property finalised today, needs 2-3 options for 10-11 people (4BHK); 12:28 Sid asked for 2-3 more options or finalise Casa Joe; 12:36 Shruti: brand POC reverts 30 Oct; 17:57 Vrushab: 'Did the POC revert?'; brand POC reply + property confirmation pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -5653,7 +5653,7 @@
    "creator": "Neelam",
    "poc": "Riya",
    "cat": "Deliverable",
-   "item": "Sugar Cosmetics: 11:30 29 Oct Riya sent brief (1 non-collab reel + 1 month ad rights, locked Rs 14,000); Neelam sent shade photo by 11:37; 11:52-11:53 Riya forwarded Sugar brief: order + screenshot + script by 3 PM 29 Oct; screenshot + script pending; 14:09-14:12 29 Oct Riya asked Neelam to write the script in her own pattern; 14:46 Neelam sent media (likely script/screenshot); Riya review pending",
+   "item": "Sugar Cosmetics: 11:30 29 Oct Riya sent brief (1 non-collab reel + 1 month ad rights, locked Rs 14,000); Neelam sent shade photo by 11:37; 11:52-11:53 Riya forwarded Sugar brief: order + screenshot + script by 3 PM 29 Oct; 14:09-14:12 29 Oct Riya asked Neelam to write the script in her own pattern; 14:46 Neelam sent media (likely script/screenshot); 17:57 29 Oct Neelam posted plumping gloss stick script/caption (preview); script review pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -6029,6 +6029,17 @@
    "cat": "Deliverable",
    "item": "Celebistaan (Gurleen) 17:13 29 Oct: 'Live kardo pls'; Neha to take revised video live; live link pending",
    "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "29 Oct"
+  },
+  {
+   "id": "r543",
+   "creator": "Nisha",
+   "poc": "Sid",
+   "cat": "Follow-up",
+   "item": "17:57 29 Oct Nisha: '@Sidharth it's urgent, plz call'; Sid call pending",
+   "priority": "High",
    "status": "Open",
    "flag": "Open",
    "date": "29 Oct"
