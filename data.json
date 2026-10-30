@@ -1,5 +1,5 @@
 {
- "lastUpdated": "2026-10-30T10:31:14+05:30",
+ "lastUpdated": "2026-10-30T11:17:11+05:30",
  "kpis": {
   "Sid": {
    "owned": 22,
@@ -16,7 +16,7 @@
    "notFound": 5,
    "deals": 37,
    "dealValue": "₹18.22L",
-   "openAsks": 145,
+   "openAsks": 146,
    "atRisk": 26,
    "note": "+3 identity unresolved"
   },
@@ -36,7 +36,7 @@
    "notFound": 0,
    "deals": 27,
    "dealValue": "₹5.04L",
-   "openAsks": 94,
+   "openAsks": 92,
    "atRisk": 31,
    "note": "CRM deals include Shraddha × Pilgrim (₹45k), not his creator"
   },
@@ -846,11 +846,11 @@
    "creator": "Nausheen",
    "poc": "Natasha",
    "cat": "Script",
-   "item": "Lacto Calamine revised video: Karanjot sent revised draft 10:03 26 Oct; Bansri feedback: CTA/title case, brand names missing, super 'Lacto Calamine SPF50 Sunscreen with PA++++'; RTB point to confirm; 'Super light' missing, CTA not matching VO; Saba script corrections 18:34; 14:18 27 Oct Saba: Kaolin Clay pronunciation + super still incorrect; 15:17 Karanjot: creator said same as informed earlier; 19:02 Saba: 'Checking'; 10:36 + 15:20 28 Oct Karanjot chased video updates; 15:33 brand shared ahead; KJ asked to close all three (Khyati/Nausheen/Florence) by Fri 30 Oct; 16:15 Saba: go live after approval; KJ voice notes 16:20, 16:27; 16:40 Saba: 'Yes'; brand approval + go-live due 30 Oct",
+   "item": "Lacto Calamine revised video: Karanjot sent revised draft 10:03 26 Oct; Bansri feedback: CTA/title case, brand names missing, super 'Lacto Calamine SPF50 Sunscreen with PA++++'; RTB point to confirm; 'Super light' missing, CTA not matching VO; Saba script corrections 18:34; 14:18 27 Oct Saba: Kaolin Clay pronunciation + super still incorrect; 15:17 Karanjot: creator said same as informed earlier; 19:02 Saba: 'Checking'; 10:36 + 15:20 28 Oct Karanjot chased video updates; 15:33 brand shared ahead; KJ asked to close all three (Khyati/Nausheen/Florence) by Fri 30 Oct; 16:15 Saba: go live after approval; KJ voice notes 16:20, 16:27; 16:40 Saba: 'Yes'; ~10:55 30 Oct Karanjot asked brand for update ('need to close it this month'); brand approval + go-live due 30 Oct",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "28 Oct"
+   "date": "30 Oct"
   },
   {
    "id": "r72",
@@ -1869,22 +1869,22 @@
    "creator": "Priyanshu Verma",
    "poc": "Sid",
    "cat": "Approval",
-   "item": "Revised Prowl script shared 23 Oct; revised scripts added to Prowl group 10:21 26 Oct; Khushi asked Naitik 11:38 for update on revised scripts; Prowl approval pending",
+   "item": "Revised Prowl script shared 23 Oct; revised scripts added to Prowl group 10:21 26 Oct; Khushi asked Naitik 11:38 for update on revised scripts; Prowl approval pending; 10:59 30 Oct execution asked Sid whether Priyanshu shot for Prowl; shoot status pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "26 Oct"
+   "date": "30 Oct"
   },
   {
    "id": "r165",
    "creator": "Divya Singh",
    "poc": "Sid",
    "cat": "Approval",
-   "item": "Nykaa video sent to Amisha (17:05), file + doc posted (17:10, 17:16) 24 Oct; Nykaa (Aishwarya) 17:30 26 Oct: will share by EOD 27 Oct, asked to do it urgently; address + script approvals pending; 17:45 28 Oct Khushi chased Nykaa (Aishwarya) for feedback (followed up for 2 days); 10:27 29 Oct Khushi asked Nykaa for update on Divya's video; ~17:16 29 Oct Khushi chased feedback on Divya's video again; Nykaa feedback pending",
+   "item": "Nykaa video sent to Amisha (17:05), file + doc posted (17:10, 17:16) 24 Oct; Nykaa (Aishwarya) 17:30 26 Oct: will share by EOD 27 Oct, asked to do it urgently; address + script approvals pending; 17:45 28 Oct Khushi chased Nykaa (Aishwarya) for feedback (followed up for 2 days); 10:27 29 Oct Khushi asked Nykaa for update on Divya's video; ~17:16 29 Oct Khushi chased feedback again; 10:34 30 Oct Divya Singh's side asked for Nykaa approval today (2 days left in month); 10:40 Sid: following up, Nykaa delaying; 11:02 'Pls do keep me informed'; Nykaa approval pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "29 Oct"
+   "date": "30 Oct"
   },
   {
    "id": "r166",
@@ -2782,11 +2782,11 @@
    "creator": "Apoorva",
    "poc": "Kishore",
    "cat": "Approval",
-   "item": "Cars24: Apoorva's script added 10:32 26 Oct; Srestha chased Mohit 19:30 (creators making an issue); Mohit 19:37: need to revise this script, will share hooks, wants call 27 Oct first half; 12:06-12:11 29 Oct Srestha chased scripts for Apoorva, Prateek, Yeshwanth; Cars24 payments contact now Sheetal (Pooja leaving); revised scripts + payment follow-up pending",
+   "item": "Cars24: Apoorva's script added 10:32 26 Oct; Srestha chased Mohit 19:30 (creators making an issue); Mohit 19:37: need to revise this script, will share hooks, wants call 27 Oct first half; 12:06-12:11 29 Oct Srestha chased scripts for Apoorva, Prateek, Yeshwanth; Cars24 payments contact now Sheetal (Pooja leaving); 10:27 30 Oct Srestha asked Kishore for revised ~45s script for Apoorva (brand not named); 10:33 Kishore: 'Sharing!'; revised script + payment follow-up pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "29 Oct"
+   "date": "30 Oct"
   },
   {
    "id": "r248",
@@ -3079,10 +3079,10 @@
    "creator": "Apoorva",
    "poc": "Kishore",
    "cat": "Other",
-   "item": "Uppeel: Apoorva on Script 2; Shiksha 11:43 26 Oct asked brand for tracking details; tracking pending; 15:39-15:43 29 Oct Tanaya feedback on first draft (softer shadows, DM Sans, smaller text, say \"appeal\"); Shiksha: edits in progress; 09:56 30 Oct revised video shared, Tanaya asked to check; Uppeel feedback pending",
+   "item": "Uppeel: Apoorva on Script 2; Shiksha 11:43 26 Oct asked brand for tracking details; 15:39-15:43 29 Oct Tanaya feedback on first draft (softer shadows, DM Sans, smaller text, say \"appeal\"); 09:56 30 Oct revised video shared; 10:27 Tanaya: looks good; 10:30 Dr Avani: 'Video is fine. Captions will be ok in 4:5?'; 11:04 Tanaya: 'yes yes' (resolved)",
    "priority": "Med",
-   "status": "Open",
-   "flag": "Open",
+   "status": "Closed",
+   "flag": "Closed",
    "date": "30 Oct"
   },
   {
@@ -3266,11 +3266,11 @@
    "creator": "Shraddha",
    "poc": "Natasha",
    "cat": "Follow-up",
-   "item": "Pilgrim shampoo (Broz Media, Riya): asked if Shraddha has product; Karanjot 11:16 26 Oct: confirming soon; Riya chased 16:56; 10:35 27 Oct: product not received yet; 11:51 28 Oct Karanjot: 'hoping to share it at the earliest' (preview); brand owes shipment/tracking; 11:25 29 Oct Pilgrim asked for deliverable ETA; 11:38 Karanjot: sharing by today; deliverable due 29 Oct",
+   "item": "Pilgrim shampoo (Broz Media, Riya): asked if Shraddha has product; Karanjot 11:16 26 Oct: confirming soon; Riya chased 16:56; 10:35 27 Oct: product not received yet; 11:51 28 Oct Karanjot: 'hoping to share it at the earliest' (preview); 11:25 29 Oct Pilgrim asked for deliverable ETA; 11:38 Karanjot: sharing by today; ~11:01 30 Oct Broz Media (Riya) asked Karanjot 'Any update on the draft' (due Thu 29 Oct); draft overdue",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "29 Oct"
+   "date": "30 Oct"
   },
   {
    "id": "r292",
@@ -3717,18 +3717,18 @@
    "creator": "Florence Chand",
    "poc": "Natasha",
    "cat": "Approval",
-   "item": "Lacto Calamine: Florence's revised video shared with brand 10:21 27 Oct; 10:36 + 15:20 28 Oct Karanjot chased; 15:33 brand shared ahead; KJ asked to close all three by Fri 30 Oct; 16:15 Saba: go live after approval; KJ voice notes 16:20, 16:27; 16:40 Saba: 'Yes'; brand approval + go-live due 30 Oct",
+   "item": "Lacto Calamine: Florence's revised video shared with brand 10:21 27 Oct; 10:36 + 15:20 28 Oct Karanjot chased; 15:33 brand shared ahead; KJ asked to close all three by Fri 30 Oct; 16:15 Saba: go live after approval; KJ voice notes 16:20, 16:27; 16:40 Saba: 'Yes'; ~10:55 30 Oct Karanjot asked brand for update ('need to close it this month'); brand approval + go-live due 30 Oct",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "28 Oct"
+   "date": "30 Oct"
   },
   {
    "id": "r333",
    "creator": "Pragati Bharti",
    "poc": "Kishore",
    "cat": "Follow-up",
-   "item": "Wishcare: offer at 25,000 sent 10:12 27 Oct; 09:45 29 Oct Kishore followed up with Pragati on Wishcare video draft (she's busy till ~30 Oct, Karwa Chauth); Pragati: draft by 1 PM 29 Oct; ~09:39 30 Oct Kishore sent voice note + Wishcare draft feedback; Pragati's revision pending",
+   "item": "Wishcare: offer at 25,000 sent 10:12 27 Oct; 09:45 29 Oct Kishore followed up with Pragati on Wishcare video draft (she's busy till ~30 Oct, Karwa Chauth); Pragati: draft by 1 PM 29 Oct; ~09:39 30 Oct Kishore sent voice note + Wishcare draft feedback; ~11:12 30 Oct Pragati: 'Okay'; Pragati's revision pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -3871,11 +3871,11 @@
    "creator": "Ishika",
    "poc": "Natasha",
    "cat": "Other",
-   "item": "Skin Inspired: Ishika 12:05 27 Oct: 'These are not possible'; 14:37 urbanaura feedback (music, text, transitions, SFX, pump shot; last two clips dim); 10:24 28 Oct Karanjot asked Ishika for video update; 14:29-14:32 brand feedback: change purple text colour, remove extra SFX; 18:52 Ishika forwarded feedback ('only this change then gtg'); 21:01 Ishika sent revised video; 11:34-12:31 29 Oct Urban Aura wants a more upbeat song; Ishika refuses (original file gone), threatens to drop collab, wants to post 30 Oct; brand OK on music pending",
+   "item": "Skin Inspired: Ishika 12:05 27 Oct: 'These are not possible'; 14:37 urbanaura feedback (music, text, transitions, SFX, pump shot; last two clips dim); 10:24 28 Oct Karanjot asked Ishika for video update; 14:29-14:32 brand feedback: change purple text colour, remove extra SFX; 18:52 Ishika forwarded feedback ('only this change then gtg'); 21:01 Ishika sent revised video; 11:34-12:31 29 Oct Urban Aura wants a more upbeat song; Ishika refuses (original file gone), threatens to drop collab, wants to post 30 Oct; brand OK on music pending; 10:22 30 Oct Karanjot asked for GST details; 10:59 Urbanaura: 'yess sharing'; 11:12 Ishika asked Urbanaura for final video with caption + tags; 11:13 'We are going live today right'; Urbanaura final video + GST details pending",
    "priority": "High",
    "status": "Open",
    "flag": "At risk",
-   "date": "29 Oct"
+   "date": "30 Oct"
   },
   {
    "id": "r347",
@@ -3915,11 +3915,11 @@
    "creator": "Apoorva",
    "poc": "Kishore",
    "cat": "Deliverable",
-   "item": "Uppeel: brand aligning Apoorva for shoot (11:57 27 Oct); shoot scheduling pending",
+   "item": "Uppeel: brand aligning Apoorva for shoot (11:57 27 Oct); revised video approved 10:27-11:04 30 Oct (resolved)",
    "priority": "Low",
-   "status": "Open",
-   "flag": "Open",
-   "date": "27 Oct"
+   "status": "Closed",
+   "flag": "Closed",
+   "date": "30 Oct"
   },
   {
    "id": "r351",
@@ -4872,11 +4872,11 @@
    "creator": "Yuvasri",
    "poc": "Divya",
    "cat": "Approval",
-   "item": "11:55 28 Oct Flutch asked for Yuvasri's outfit + bg for approval (brand not named); 15:00 Divya sent approved script, asked outfit/bg; Yuvasri to share by 6 PM; 16:00 Divya asked shoot date; outfit/bg approval + shoot date pending",
+   "item": "11:55 28 Oct Flutch asked for Yuvasri's outfit + bg for approval (brand not named); 15:00 Divya sent approved script, asked outfit/bg; Yuvasri to share by 6 PM; 16:00 Divya asked shoot date; 10:53 30 Oct Divya forwarded outfits + background; 10:57 Yuvasri: 'Will share the draft by eod'; draft due EOD 30 Oct",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "28 Oct"
+   "date": "30 Oct"
   },
   {
    "id": "r438",
@@ -5235,11 +5235,11 @@
    "creator": "Khyati Kunwar",
    "poc": "Natasha",
    "cat": "Approval",
-   "item": "Lacto Calamine: 10:36 + 15:20 28 Oct Karanjot chased video updates; 15:33 brand shared ahead; KJ asked to close Khyati/Nausheen/Florence by Fri 30 Oct; 16:15 Saba: go live after approval; KJ voice notes 16:20, 16:27; 16:40 Saba: 'Yes'; brand approval + go-live on Khyati video due 30 Oct; 18:36 Karanjot forwarded a video, Saba reviewing",
+   "item": "Lacto Calamine: 10:36 + 15:20 28 Oct Karanjot chased video updates; 15:33 brand shared ahead; KJ asked to close Khyati/Nausheen/Florence by Fri 30 Oct; 16:15 Saba: go live after approval; KJ voice notes 16:20, 16:27; 16:40 Saba: 'Yes'; 18:36 Karanjot forwarded a video, Saba reviewing; ~10:55 30 Oct Karanjot asked brand for update ('need to close it this month'); brand approval + go-live on Khyati video due 30 Oct",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "28 Oct"
+   "date": "30 Oct"
   },
   {
    "id": "r471",
@@ -5653,7 +5653,7 @@
    "creator": "Neelam",
    "poc": "Riya",
    "cat": "Deliverable",
-   "item": "Sugar Cosmetics: 11:30 29 Oct Riya sent brief (1 non-collab reel + 1 month ad rights, locked Rs 14,000); Neelam sent shade photo by 11:37; 11:52-11:53 Riya forwarded Sugar brief: order + screenshot + script by 3 PM 29 Oct; 14:09-14:12 29 Oct Riya asked Neelam to write the script in her own pattern; 14:46 Neelam sent media (likely script/screenshot); 17:57 29 Oct Neelam posted plumping gloss stick script/caption (preview); ~10:13 30 Oct Riya approved script: 'go ahead with the shoot'; shoot + draft pending",
+   "item": "Sugar Cosmetics: 11:30 29 Oct Riya sent brief (1 non-collab reel + 1 month ad rights, locked Rs 14,000); Neelam sent shade photo by 11:37; 11:52-11:53 Riya forwarded Sugar brief: order + screenshot + script by 3 PM 29 Oct; 14:09-14:12 29 Oct Riya asked Neelam to write the script in her own pattern; 14:46 Neelam sent media (likely script/screenshot); 17:57 29 Oct Neelam posted plumping gloss stick script/caption (preview); ~10:13 30 Oct Riya approved script: 'go ahead with the shoot'; 10:37 30 Oct Neelam asked about outfit; 10:55 Riya asked Sugar (Ajitha) to confirm Neelam's outfit, sent 3 photos 11:05; 11:06 Ajitha: 'i had responded'; 11:10 Riya forwarded an option: 'You can go with this one'; Sugar outfit confirmation + shoot + draft pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -5719,22 +5719,22 @@
    "creator": "Uma",
    "poc": "Natasha",
    "cat": "Deliverable",
-   "item": "Sugar Glide Gloss Stick: 12:05-12:18 29 Oct Karanjot forwarded brief (buy Pink Pop/Mauve Murmur, share screenshot), wants screenshot + script sooner; Uma will buy in evening; 12:24-12:25 Karanjot posted creator cost (413/-); Sugar wants festive looks + gloss application shots; Vrinda asked for script; 12:38 lip gloss received (purchase done); script pending; 15:28-15:33 29 Oct Karanjot shared Uma script to Ajitha for check; 19:32 29 Oct Ajitha: 'will revert'; Sugar approval pending",
+   "item": "Sugar Glide Gloss Stick: 12:05-12:18 29 Oct Karanjot forwarded brief (buy Pink Pop/Mauve Murmur, share screenshot), wants screenshot + script sooner; Uma will buy in evening; 12:24-12:25 Karanjot posted creator cost (413/-); Sugar wants festive looks + gloss application shots; Vrinda asked for script; 12:38 lip gloss received (purchase done); 15:28-15:33 29 Oct Karanjot shared Uma script to Ajitha for check; 19:32 29 Oct Ajitha: 'will revert'; 10:54 30 Oct Karanjot asked Sugar for script approvals (Ishika + Uma); Sugar script approval pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "29 Oct"
+   "date": "30 Oct"
   },
   {
    "id": "r515",
    "creator": "Ishika",
    "poc": "Natasha",
    "cat": "Deliverable",
-   "item": "Sugar: 12:23-12:24 29 Oct Ishika shooting 30 Oct (Zepto purchase), wants everything finalised today; Karanjot asked if 413/- order comes today; Sugar wants festive looks + gloss application shots; Vrinda asked for script; 13:17-13:30 Ishika listed as purchased in Sugar group; Ajitha wants scripting closed today; script + finalisation pending; 15:28-15:33 29 Oct Karanjot shared Ishika script to Ajitha for check; 19:32 29 Oct Ajitha: 'will revert'; Sugar approval pending",
+   "item": "Sugar: 12:23-12:24 29 Oct Ishika shooting 30 Oct (Zepto purchase), wants everything finalised today; Karanjot asked if 413/- order comes today; Sugar wants festive looks + gloss application shots; Vrinda asked for script; 13:17-13:30 Ishika listed as purchased in Sugar group; Ajitha wants scripting closed today; 15:28-15:33 29 Oct Karanjot shared Ishika script to Ajitha for check; 19:32 29 Oct Ajitha: 'will revert'; 10:54 30 Oct Karanjot asked Sugar for script approvals (Ishika + Uma); Sugar script approval pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "29 Oct"
+   "date": "30 Oct"
   },
   {
    "id": "r516",
@@ -6126,11 +6126,11 @@
    "creator": "Nisha",
    "poc": "Sid",
    "cat": "Deliverable",
-   "item": "Malabar: Sid asked for edited video by 14:00-15:00 30 Oct (Malabar branding, subtitles, '30% off*'); 19:27 29 Oct Nihaal needs time, checking with editor; 19:30 Sid: video not going on Flutch page, 14:00 tomorrow is challenging, ETA soon; ~21:43 29 Oct Nihaal: 'Sadly no, will need to take her live by tonight at max!'; Flutch ETA/answer to Nihaal pending; editor ETA pending",
+   "item": "Malabar: Sid asked for edited video by 14:00-15:00 30 Oct (Malabar branding, subtitles, '30% off*'); 19:27 29 Oct Nihaal needs time, checking with editor; 19:30 Sid: video not going on Flutch page, 14:00 tomorrow is challenging, ETA soon; ~21:43 29 Oct Nihaal: 'Sadly no, will need to take her live by tonight at max!'; 10:44-10:45 30 Oct Nihaal asked for logo top right throughout, shared logo; 11:03-11:04 forwarded background music; must go live by tonight 30 Oct; no Flutch reply seen after 10:28; edit with logo + music + go-live pending",
    "priority": "High",
    "status": "Open",
-   "flag": "Open",
-   "date": "29 Oct"
+   "flag": "At risk",
+   "date": "30 Oct"
   },
   {
    "id": "r552",
@@ -6183,6 +6183,17 @@
    "cat": "Deliverable",
    "item": "Samsung GCP: ~10:22 30 Oct Tina sent Diwali film + caption, asked Athira to post story with tags; Athira story pending",
    "priority": "High",
+   "status": "Open",
+   "flag": "Open",
+   "date": "30 Oct"
+  },
+  {
+   "id": "r557",
+   "creator": "Uma",
+   "poc": "Natasha",
+   "cat": "Follow-up",
+   "item": "~10:58 30 Oct Uma tagged Natasha, suggested one WhatsApp group so everyone connects once to complete formalities; Natasha reply pending",
+   "priority": "Med",
    "status": "Open",
    "flag": "Open",
    "date": "30 Oct"
