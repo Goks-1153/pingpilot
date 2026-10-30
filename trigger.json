@@ -2,7 +2,7 @@
  "by": "Auto",
  "at": "2026-10-30T14:03:42+00:00",
  "startedAt": "2026-10-30T14:03:42+00:00",
- "status": "running",
+ "status": "published",
  "history": [
   {
    "by": "Auto",
@@ -675,7 +675,15 @@
    "startedAt": "2026-10-30T12:25:00+00:00",
    "durationSec": 447,
    "status": "published"
+  },
+  {
+   "by": "Auto",
+   "startedAt": "2026-10-30T14:03:42+00:00",
+   "durationSec": 714,
+   "status": "published"
   }
  ],
- "note": "Auto scrape running"
+ "note": "1 new row, 6 updated, 0 closed (partial read)",
+ "finishedAt": "2026-10-30T19:45:36+05:30",
+ "durationSec": 714
 }
