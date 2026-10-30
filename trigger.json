@@ -1,8 +1,8 @@
 {
  "by": "Auto",
- "at": "2026-10-30T07:15:22+00:00",
- "startedAt": "2026-10-30T07:15:22+00:00",
- "status": "published",
+ "at": "2026-10-30T08:05:50+00:00",
+ "startedAt": "2026-10-30T08:05:50+00:00",
+ "status": "running",
  "history": [
   {
    "by": "Auto",
@@ -647,7 +647,5 @@
    "status": "published"
   }
  ],
- "note": "11 new rows, 24 updated, 0 closed",
- "finishedAt": "2026-10-30T13:01:04+05:30",
- "durationSec": 942
+ "note": "Auto scrape running"
 }
