@@ -1458,6 +1458,20 @@
    "output_tokens": 7415,
    "estimate": false,
    "note": "Merge step only; Periskope reading done by the bot's browser agent (not counted)"
+  },
+  {
+   "at": "2026-10-30T14:39:46+05:30",
+   "by": "Auto",
+   "engine": "PingPilot bot's own engine (Claude Code at session limit until 17:00 IST; Gemini Pro API rate-limited (429))",
+   "input_tokens": 0,
+   "input_breakdown": {
+    "uncached": 0,
+    "cache_write": 0,
+    "cache_read": 0
+   },
+   "output_tokens": 0,
+   "estimate": true,
+   "note": "Merge step only; Periskope reading done by the bot's browser agent (not counted)"
   }
  ]
 }
