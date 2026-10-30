@@ -1,5 +1,5 @@
 {
- "lastUpdated": "2026-10-30T09:35:22+05:30",
+ "lastUpdated": "2026-10-30T10:31:14+05:30",
  "kpis": {
   "Sid": {
    "owned": 22,
@@ -26,7 +26,7 @@
    "notFound": 9,
    "deals": 15,
    "dealValue": "₹4.50L",
-   "openAsks": 123,
+   "openAsks": 124,
    "atRisk": 41,
    "note": "+1 identity unresolved; 9 = 5 not found + 4 no recent activity"
   },
@@ -36,8 +36,8 @@
    "notFound": 0,
    "deals": 27,
    "dealValue": "₹5.04L",
-   "openAsks": 91,
-   "atRisk": 30,
+   "openAsks": 94,
+   "atRisk": 31,
    "note": "CRM deals include Shraddha × Pilgrim (₹45k), not his creator"
   },
   "Riya": {
@@ -1616,11 +1616,11 @@
    "creator": "Athira Vinod",
    "poc": "Kishore",
    "cat": "Script",
-   "item": "Plix: feedback forwarded 10:05 25 Oct; Himanshi 11:37 26 Oct: 'Send video today only'; due 26 Oct missed; 27 Oct Himanshi complained about delay, 16:50 'Thankss'; 10:39 28 Oct Plix POC needs Athira's video before 12 PM; 16:04 + 16:16 Himanshi chased again; 16:19 Kishore: creator had a personal emergency; 16:20 Kishore: draft today; draft due EOD 28 Oct; 17:53 Himanshi: draft today without further delay (timeline extended); 17:55 Kishore assured; 10:07-10:22 29 Oct Himanshi: collab cancelled if video not in by 12 PM; Kishore promised draft by 12; draft due 12:00 29 Oct; 13:50-13:52 29 Oct Kruthika shared Athira's revised draft (bouncier hair, no mid parting) with Plix, after the 12:00 deadline; Plix approval pending; 14:11 29 Oct Plix: draft works, add text and send back fast; 14:35 Kruthika asked Plix for exact ingredient names; Plix text pending, then final video; 14:55-15:00 29 Oct Kruthika taking ingredient names from product description, asked Plix to hurry",
+   "item": "Plix: feedback forwarded 10:05 25 Oct; Himanshi 11:37 26 Oct: 'Send video today only'; due 26 Oct missed; 27 Oct Himanshi complained about delay, 16:50 'Thankss'; 10:39 28 Oct Plix POC needs Athira's video before 12 PM; 16:04 + 16:16 Himanshi chased again; 16:19 Kishore: creator had a personal emergency; 16:20 Kishore: draft today; draft due EOD 28 Oct; 17:53 Himanshi: draft today without further delay (timeline extended); 17:55 Kishore assured; 10:07-10:22 29 Oct Himanshi: collab cancelled if video not in by 12 PM; Kishore promised draft by 12; draft due 12:00 29 Oct; 13:50-13:52 29 Oct Kruthika shared Athira's revised draft (bouncier hair, no mid parting) with Plix, after the 12:00 deadline; Plix approval pending; 14:11 29 Oct Plix: draft works, add text and send back fast; 14:35 Kruthika asked Plix for exact ingredient names; Plix text pending, then final video; 14:55-15:00 29 Oct Kruthika taking ingredient names from product description, asked Plix to hurry; 09:48 30 Oct Kishore asked Himanshi for GST details, GST pdf sent 09:55; Himanshi wants to be told when revised video is shared; Athira's revised video pending",
    "priority": "High",
    "status": "Open",
    "flag": "At risk",
-   "date": "29 Oct"
+   "date": "30 Oct"
   },
   {
    "id": "r142",
@@ -2826,11 +2826,11 @@
    "creator": "Ishika",
    "poc": "Natasha",
    "cat": "Approval",
-   "item": "Earth Rhythm: parcel received; Karanjot asked brand for script update 10:21 26 Oct; 10:31 28 Oct Karanjot shared script doc; brand wants ingredient mentions + new shades; 11:58 Ishika: 'give me some time' (preview); 17:18 Abigail (Earth Rhythm): 'Alright works' (shoot timing); 18:02 Karanjot asked for company/GST details; 21:29 Ishika sent video; 09:51-09:53 29 Oct Abigail: video 'seems very flat and forced', wants bubbly intro, shared reference reels; revised video + brand GST details pending; 15:42 29 Oct Abigail: brand wants reshoot (video looks forced); Ishika says reshoot not possible, offers better audio/font; 17:52 29 Oct Ishika: 'Pls add me in the call also' (preview); add Ishika to call; Karanjot awaiting brand decision",
+   "item": "Earth Rhythm: parcel received; Karanjot asked brand for script update 10:21 26 Oct; 10:31 28 Oct Karanjot shared script doc; brand wants ingredient mentions + new shades; 11:58 Ishika: 'give me some time' (preview); 17:18 Abigail (Earth Rhythm): 'Alright works' (shoot timing); 18:02 Karanjot asked for company/GST details; 21:29 Ishika sent video; 09:51-09:53 29 Oct Abigail: video 'seems very flat and forced', wants bubbly intro, shared reference reels; 15:42 29 Oct Abigail: brand wants reshoot (video looks forced); Ishika says reshoot not possible, offers better audio/font; 17:52 29 Oct Ishika: 'Pls add me in the call also' (preview); add Ishika to call; Karanjot awaiting brand decision; ~10:27 30 Oct Karanjot asked Abigail again for GST + company details for invoice; GST details pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "29 Oct"
+   "date": "30 Oct"
   },
   {
    "id": "r252",
@@ -3079,11 +3079,11 @@
    "creator": "Apoorva",
    "poc": "Kishore",
    "cat": "Other",
-   "item": "Uppeel: Apoorva on Script 2; Shiksha 11:43 26 Oct asked brand for tracking details; tracking pending; 15:39-15:43 29 Oct Tanaya feedback on first draft (softer shadows, DM Sans, smaller text, say \"appeal\"); Shiksha: edits in progress; revised draft pending",
+   "item": "Uppeel: Apoorva on Script 2; Shiksha 11:43 26 Oct asked brand for tracking details; tracking pending; 15:39-15:43 29 Oct Tanaya feedback on first draft (softer shadows, DM Sans, smaller text, say \"appeal\"); Shiksha: edits in progress; 09:56 30 Oct revised video shared, Tanaya asked to check; Uppeel feedback pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "29 Oct"
+   "date": "30 Oct"
   },
   {
    "id": "r275",
@@ -3684,11 +3684,11 @@
    "creator": "Chhavi",
    "poc": "Kishore",
    "cat": "Follow-up",
-   "item": "UrbanYog: Chhavi locked for 6 deals, 5 done, 1 remaining (10:29 27 Oct); 11:59 Karanjot asked brand how many reels total / how many extending; 12:00 Karanjot asked Chhavi to repeat Kojic soap (brand wants her video), asked for script, old shots usable; 12:50 Justin (UrbanYog) suggested hook 'I ordered the pack of 12 cause the results were so good'; 15:42 Karanjot asked brand to look into it too; 15:57 Justin: 'Okay no issues'; 12:43-13:08 29 Oct Karanjot forwarded video for client check; UrbanYog client check + answer on reel count pending; Justin approved Chhavi's script with edit (mention pack of 12); 14:38 29 Oct Justin asked to share in normal format; Flutch to re-share",
+   "item": "UrbanYog: Chhavi locked for 6 deals, 5 done, 1 remaining (10:29 27 Oct); 11:59 Karanjot asked brand how many reels total / how many extending; 12:00 Karanjot asked Chhavi to repeat Kojic soap (brand wants her video), asked for script, old shots usable; 12:50 Justin (UrbanYog) suggested hook 'I ordered the pack of 12 cause the results were so good'; 15:42 Karanjot asked brand to look into it too; 15:57 Justin: 'Okay no issues'; 12:43-13:08 29 Oct Karanjot forwarded video for client check; Justin approved Chhavi's script with edit (mention pack of 12); 14:38 29 Oct Justin asked to share in normal format; ~10:19 30 Oct Karanjot: forwarded idea won't fit script flow; UrbanYog client check, reel count answer + re-share pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "29 Oct"
+   "date": "30 Oct"
   },
   {
    "id": "r330",
@@ -3728,11 +3728,11 @@
    "creator": "Pragati Bharti",
    "poc": "Kishore",
    "cat": "Follow-up",
-   "item": "Wishcare: offer at 25,000 sent 10:12 27 Oct; 09:45 29 Oct Kishore followed up with Pragati on Wishcare video draft (she's busy till ~30 Oct, Karwa Chauth); Pragati: draft by 1 PM 29 Oct; draft due 13:00 29 Oct",
+   "item": "Wishcare: offer at 25,000 sent 10:12 27 Oct; 09:45 29 Oct Kishore followed up with Pragati on Wishcare video draft (she's busy till ~30 Oct, Karwa Chauth); Pragati: draft by 1 PM 29 Oct; ~09:39 30 Oct Kishore sent voice note + Wishcare draft feedback; Pragati's revision pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "29 Oct"
+   "date": "30 Oct"
   },
   {
    "id": "r334",
@@ -4014,11 +4014,11 @@
    "creator": "Nausheen",
    "poc": "Natasha",
    "cat": "Follow-up",
-   "item": "Derma Co: Karanjot 13:16 27 Oct asked '30 or 20ml?'; 13:55 lata: 'script' (context unclear); 15:36 lata: 'done' (context unclear); size confirmation not seen; ~17:18 29 Oct Lata asked Karanjot to share draft (no sale callout); draft pending",
+   "item": "Derma Co: Karanjot 13:16 27 Oct asked '30 or 20ml?'; 13:55 lata: 'script' (context unclear); 15:36 lata: 'done' (context unclear); size confirmation not seen; ~17:18 29 Oct Lata asked Karanjot to share draft (no sale callout); 10:18 30 Oct KJ: will share with brand then revert; Nausheen draft to brand pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "29 Oct"
+   "date": "30 Oct"
   },
   {
    "id": "r360",
@@ -4146,11 +4146,11 @@
    "creator": "Harish",
    "poc": "Kishore",
    "cat": "Follow-up",
-   "item": "Pilgrim: Flutch 15:00 27 Oct told Harish deal locked at 13,000; Harish's address shared in Pilgrim group 15:02; pincode 600077 shared 15:52; Harish confirmation pending",
+   "item": "Pilgrim: Flutch 15:00 27 Oct told Harish deal locked at 13,000; Harish's address shared in Pilgrim group 15:02; pincode 600077 shared 15:52; Harish confirmation pending; ~10:09-10:11 30 Oct brand asked Kishore to close script today; Kishore added Pavithra as Execution POC, asked brand for brief; brief pending, then Harish script",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "27 Oct"
+   "date": "30 Oct"
   },
   {
    "id": "r372",
@@ -5653,11 +5653,11 @@
    "creator": "Neelam",
    "poc": "Riya",
    "cat": "Deliverable",
-   "item": "Sugar Cosmetics: 11:30 29 Oct Riya sent brief (1 non-collab reel + 1 month ad rights, locked Rs 14,000); Neelam sent shade photo by 11:37; 11:52-11:53 Riya forwarded Sugar brief: order + screenshot + script by 3 PM 29 Oct; 14:09-14:12 29 Oct Riya asked Neelam to write the script in her own pattern; 14:46 Neelam sent media (likely script/screenshot); 17:57 29 Oct Neelam posted plumping gloss stick script/caption (preview); script review pending",
+   "item": "Sugar Cosmetics: 11:30 29 Oct Riya sent brief (1 non-collab reel + 1 month ad rights, locked Rs 14,000); Neelam sent shade photo by 11:37; 11:52-11:53 Riya forwarded Sugar brief: order + screenshot + script by 3 PM 29 Oct; 14:09-14:12 29 Oct Riya asked Neelam to write the script in her own pattern; 14:46 Neelam sent media (likely script/screenshot); 17:57 29 Oct Neelam posted plumping gloss stick script/caption (preview); ~10:13 30 Oct Riya approved script: 'go ahead with the shoot'; shoot + draft pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "29 Oct"
+   "date": "30 Oct"
   },
   {
    "id": "r509",
@@ -6142,6 +6142,50 @@
    "status": "Open",
    "flag": "Open",
    "date": "29 Oct"
+  },
+  {
+   "id": "r553",
+   "creator": "Monisha",
+   "poc": "Kishore",
+   "cat": "Follow-up",
+   "item": "Pampers: Kishore forwarded brief (non-collab reel, 2 months usage + exclusivity), called 09:50 30 Oct; Monisha can do it (baby 1.4 yrs, Tamil); Monisha's commercials + contact number pending; Kishore to pass to brand",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "30 Oct"
+  },
+  {
+   "id": "r554",
+   "creator": "Athira Vinod",
+   "poc": "Kishore",
+   "cat": "Script",
+   "item": "Organix Mantra: ~09:40 30 Oct Kishore shared script doc 'Script approved - Athira'; brand response pending",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "30 Oct"
+  },
+  {
+   "id": "r555",
+   "creator": "venessa.pinto",
+   "poc": "Divya",
+   "cat": "Approval",
+   "item": "Sugar: ~10:15 30 Oct Divya sent Venessa outfit options to brand; brand outfit approval pending",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "30 Oct"
+  },
+  {
+   "id": "r556",
+   "creator": "Athira Vinod",
+   "poc": "Kishore",
+   "cat": "Deliverable",
+   "item": "Samsung GCP: ~10:22 30 Oct Tina sent Diwali film + caption, asked Athira to post story with tags; Athira story pending",
+   "priority": "High",
+   "status": "Open",
+   "flag": "Open",
+   "date": "30 Oct"
   }
  ]
 }
