@@ -1,5 +1,5 @@
 {
- "lastUpdated": "2026-10-30T15:32:02+05:30",
+ "lastUpdated": "2026-10-30T16:31:05+05:30",
  "kpis": {
   "Sid": {
    "owned": 22,
@@ -7,7 +7,7 @@
    "notFound": 3,
    "deals": 29,
    "dealValue": "₹8.22L",
-   "openAsks": 108,
+   "openAsks": 109,
    "atRisk": 22
   },
   "Natasha": {
@@ -26,7 +26,7 @@
    "notFound": 9,
    "deals": 15,
    "dealValue": "₹4.50L",
-   "openAsks": 133,
+   "openAsks": 135,
    "atRisk": 41,
    "note": "+1 identity unresolved; 9 = 5 not found + 4 no recent activity"
   },
@@ -5928,11 +5928,11 @@
    "poc": "Kishore",
    "status": "Open",
    "flag": "Open",
-   "date": "29 Oct",
+   "date": "30 Oct",
    "priority": "High",
    "id": "r533",
    "cat": "Payment",
-   "item": "Pears (Barcode, Shriya): 15:39 29 Oct Kishore asked to align payment by 30 Oct, can't hold creator longer; payment pending"
+   "item": "Pears (Barcode, Shriya): 15:39 29 Oct Kishore asked to align payment by 30 Oct; 16:23 30 Oct Shriya: cancelled cheque shared 29 Oct, payment will take about a week; 16:24 Kishore acknowledged; payment pending (~6 Nov)"
   },
   {
    "creator": "Athira Vinod",
@@ -6538,6 +6538,39 @@
    "flag": "Open",
    "date": "30 Oct",
    "poc": "Sid"
+  },
+  {
+   "id": "r589",
+   "creator": "venessa.pinto",
+   "poc": "Divya",
+   "cat": "Follow-up",
+   "item": "16:24 30 Oct Divya shared approved script (brand not named); 16:28 Venessa asked if she can post on Sunday; Divya reply pending",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "30 Oct"
+  },
+  {
+   "id": "r590",
+   "creator": "Kalyani",
+   "poc": "Sid",
+   "cat": "Other",
+   "item": "SUGAR: 16:22 30 Oct Flutch shared Kalyani as shortlisted; next steps with brand pending",
+   "priority": "Low",
+   "status": "Open",
+   "flag": "Open",
+   "date": "30 Oct"
+  },
+  {
+   "id": "r591",
+   "creator": "Yuvasri",
+   "poc": "Divya",
+   "cat": "Follow-up",
+   "item": "Patua (Yash, agency): 16:18 30 Oct (preview) cost increase understood, asked to do this one at current rate and increase from Dec; Divya reply pending",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "30 Oct"
   }
  ]
 }
