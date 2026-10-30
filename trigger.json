@@ -1,665 +1,662 @@
 {
- "by": "Auto",
- "at": "2026-10-30T09:48:38+00:00",
- "startedAt": "2026-10-30T09:48:38+00:00",
- "status": "published",
- "history": [
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-24T08:01:16+05:30",
-   "durationSec": 467,
-   "status": "published"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-24T08:48:00+05:30",
-   "durationSec": 151,
-   "status": "published"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-24T09:24:19+05:30",
-   "durationSec": 111,
-   "status": "published"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-24T10:03:59+05:30",
-   "durationSec": 74,
-   "status": "published"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-24T10:46:22+05:30",
-   "durationSec": 80,
-   "status": "published"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-24T11:28:22+05:30",
-   "durationSec": 333,
-   "status": "published"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-24T12:03:00+05:30",
-   "durationSec": 326,
-   "status": "published"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-24T12:47:20+05:30",
-   "durationSec": 79,
-   "status": "published"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-24T13:29:32+05:30",
-   "durationSec": 143,
-   "status": "published"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-24T14:03:30+05:30",
-   "durationSec": 108,
-   "status": "published"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-24T14:44:37+05:30",
-   "durationSec": 123,
-   "status": "published"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-24T15:18:03+05:30",
-   "durationSec": 76,
-   "status": "published"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-24T15:57:00+05:30",
-   "durationSec": 180,
-   "status": "published"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-24T16:34:00+05:30",
-   "durationSec": 180,
-   "status": "published"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-24T17:18:15+05:30",
-   "durationSec": 205,
-   "status": "published"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-24T17:58:23+05:30",
-   "durationSec": 154,
-   "status": "published"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-24T18:33:46+05:30",
-   "durationSec": 154,
-   "status": "published"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-24T19:08:00+05:30",
-   "durationSec": 210,
-   "status": "published"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-24T19:51:14+05:30",
-   "durationSec": 162,
-   "status": "published"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-25T08:08:21+05:30",
-   "durationSec": 409,
-   "status": "published"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-25T08:47:03+05:30",
-   "durationSec": 198,
-   "status": "published"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-25T09:30:01+05:30",
-   "durationSec": 96,
-   "status": "published"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-25T10:09:21+05:30",
-   "durationSec": 403,
-   "status": "published"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-25T10:55:29+05:30",
-   "durationSec": 226,
-   "status": "published"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-25T11:34:28+05:30",
-   "durationSec": 150,
-   "status": "published"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-25T12:12:04+05:30",
-   "durationSec": 192,
-   "status": "published"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-25T12:56:46+05:30",
-   "durationSec": 258,
-   "status": "published"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-25T13:33:12+05:30",
-   "durationSec": 234,
-   "status": "published"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-25T14:19:54+05:30",
-   "durationSec": 428,
-   "status": "published"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-25T15:00:03+05:30",
-   "durationSec": 248,
-   "status": "published"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-25T15:37:28+05:30",
-   "durationSec": 260,
-   "status": "published"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-25T16:17:39+05:30",
-   "durationSec": 147,
-   "status": "published"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-25T16:56:17+05:30",
-   "durationSec": 188,
-   "status": "published"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-25T17:31:44+05:30",
-   "durationSec": 286,
-   "status": "published"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-25T18:10:23+05:30",
-   "durationSec": 342,
-   "status": "published"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-25T18:59:16+05:30",
-   "durationSec": 230,
-   "status": "published"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-25T19:46:50+05:30",
-   "durationSec": 196,
-   "status": "published"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-26T08:05:25+05:30",
-   "durationSec": 338,
-   "status": "published"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-26T08:46:32+05:30",
-   "durationSec": 134,
-   "status": "published"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-26T09:20:26+05:30",
-   "durationSec": 115,
-   "status": "published"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-26T10:02:59+05:30",
-   "durationSec": 642,
-   "status": "published"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-26T10:46:24+05:30",
-   "durationSec": 780,
-   "status": "published"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-26T11:37:51+05:30",
-   "durationSec": 1050,
-   "status": "published"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-26T12:33:17+05:30",
-   "durationSec": 527,
-   "status": "published"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-26T13:17:19+05:30",
-   "durationSec": 471,
-   "status": "published"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-26T14:00:29+05:30",
-   "durationSec": 315,
-   "status": "published"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-26T16:15:59+05:30",
-   "durationSec": 493,
-   "status": "published"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-26T17:02:43+05:30",
-   "durationSec": 464,
-   "status": "published"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-26T17:47:52+05:30",
-   "durationSec": 629,
-   "status": "published"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-26T18:45:12+05:30",
-   "durationSec": 786,
-   "status": "published"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-26T19:39:56+05:30",
-   "durationSec": 466,
-   "status": "published"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-27T08:08:56+05:30",
-   "durationSec": 263,
-   "status": "published"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-27T08:49:25+05:30",
-   "durationSec": 237,
-   "status": "published"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-27T09:24:59+05:30",
-   "durationSec": 153,
-   "status": "published"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-27T10:00:40+05:30",
-   "durationSec": 290,
-   "status": "published"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-27T10:42:31+05:30",
-   "durationSec": 294,
-   "status": "published"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-27T11:19:47+05:30",
-   "durationSec": 302,
-   "status": "published"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-27T12:05:15+05:30",
-   "durationSec": 195,
-   "status": "published"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-27T12:42:50+05:30",
-   "durationSec": 233,
-   "status": "published"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-27T13:17:33+05:30",
-   "durationSec": 316,
-   "status": "published"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-27T13:57:15+05:30",
-   "durationSec": 227,
-   "status": "published"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-27T14:38:55+05:30",
-   "durationSec": 228,
-   "status": "published"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-27T15:15:00+05:30",
-   "durationSec": 331,
-   "status": "published"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-27T15:54:34+05:30",
-   "durationSec": 257,
-   "status": "published"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-27T16:31:09+05:30",
-   "durationSec": 390,
-   "status": "published"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-27T17:12:23+05:30",
-   "durationSec": 310,
-   "status": "published"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-27T17:48:51+05:30",
-   "durationSec": 141,
-   "status": "published"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-27T18:26:39+05:30",
-   "durationSec": 235,
-   "status": "published"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-27T19:04:00+05:30",
-   "durationSec": 260,
-   "status": "published"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-27T19:47:44+05:30",
-   "durationSec": 337,
-   "status": "published"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-28T08:05:32+05:30",
-   "durationSec": 535,
-   "status": "published"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-28T08:50:48+05:30",
-   "durationSec": 70,
-   "status": "skipped-no-source"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-28T09:22:30+05:30",
-   "durationSec": 60,
-   "status": "skipped-no-source"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-28T10:03:56+05:30",
-   "durationSec": 60,
-   "status": "skipped-no-source"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-28T10:36:05+05:30",
-   "durationSec": 60,
-   "status": "skipped-no-source"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-28T11:09:07+05:30",
-   "durationSec": 1226,
-   "status": "published"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-28T12:07:35+05:30",
-   "durationSec": 666,
-   "status": "published"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-28T12:50:07+05:30",
-   "durationSec": 813,
-   "status": "published"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-28T13:37:25+05:30",
-   "durationSec": 828,
-   "status": "published"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-28T14:23:55+05:30",
-   "durationSec": 925,
-   "status": "published"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-28T15:19:29+05:30",
-   "durationSec": 881,
-   "status": "published"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-28T16:07:19+05:30",
-   "durationSec": 987,
-   "status": "published"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-28T17:00:14+05:30",
-   "durationSec": 1258,
-   "status": "published"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-28T17:54:49+05:30",
-   "durationSec": 1415,
-   "status": "published"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-28T18:59:29+05:30",
-   "durationSec": 572,
-   "status": "published"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-28T19:41:35+05:30",
-   "durationSec": 694,
-   "status": "published"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-29T08:06:29+05:30",
-   "durationSec": 977,
-   "status": "published"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-29T09:00:28+05:30",
-   "durationSec": 508,
-   "status": "published"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-29T09:45:24+05:30",
-   "durationSec": 518,
-   "status": "published"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-29T10:34:50+05:30",
-   "durationSec": 1228,
-   "status": "published"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-29T12:19:00+05:30",
-   "durationSec": 1424,
-   "status": "published"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-29T13:16:47+05:30",
-   "durationSec": 1077,
-   "status": "published"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-29T14:07:29+05:30",
-   "durationSec": 414,
-   "status": "published"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-29T14:45:33+05:30",
-   "durationSec": 471,
-   "status": "published"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-29T15:38:39+05:30",
-   "durationSec": 739,
-   "status": "published"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-29T16:27:06+05:30",
-   "durationSec": 810,
-   "status": "published"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-29T17:17:13+05:30",
-   "durationSec": 594,
-   "status": "published"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-29T18:01:55+05:30",
-   "durationSec": 752,
-   "status": "published"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-29T18:49:53+05:30",
-   "durationSec": 657,
-   "status": "published"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-29T19:44:33+05:30",
-   "durationSec": 596,
-   "status": "published"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-30T02:38:20+00:00",
-   "durationSec": 404,
-   "status": "published"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-30T03:19:53+00:00",
-   "durationSec": 703,
-   "status": "published"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-30T04:03:49+00:00",
-   "durationSec": 475,
-   "status": "published"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-30T04:46:52+00:00",
-   "durationSec": 1199,
-   "status": "published"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-30T05:41:35+00:00",
-   "durationSec": 526,
-   "status": "published"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-30T06:27:01+00:00",
-   "durationSec": 670,
-   "status": "published"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-30T07:15:22+00:00",
-   "durationSec": 942,
-   "status": "published"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-30T08:05:50+00:00",
-   "durationSec": 804,
-   "status": "published"
-  },
-  {
-   "by": "Auto",
-   "startedAt": "2026-10-30T09:48:38+00:00",
-   "durationSec": 827,
-   "status": "published"
-  }
- ],
- "note": "3 new rows, 11 updated, 0 closed",
- "finishedAt": "2026-10-30T15:32:25+05:30",
- "durationSec": 827
+  "by": "Auto",
+  "at": "2026-10-30T10:50:33+00:00",
+  "startedAt": "2026-10-30T10:50:33+00:00",
+  "status": "running",
+  "history": [
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-24T08:01:16+05:30",
+      "durationSec": 467,
+      "status": "published"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-24T08:48:00+05:30",
+      "durationSec": 151,
+      "status": "published"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-24T09:24:19+05:30",
+      "durationSec": 111,
+      "status": "published"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-24T10:03:59+05:30",
+      "durationSec": 74,
+      "status": "published"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-24T10:46:22+05:30",
+      "durationSec": 80,
+      "status": "published"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-24T11:28:22+05:30",
+      "durationSec": 333,
+      "status": "published"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-24T12:03:00+05:30",
+      "durationSec": 326,
+      "status": "published"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-24T12:47:20+05:30",
+      "durationSec": 79,
+      "status": "published"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-24T13:29:32+05:30",
+      "durationSec": 143,
+      "status": "published"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-24T14:03:30+05:30",
+      "durationSec": 108,
+      "status": "published"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-24T14:44:37+05:30",
+      "durationSec": 123,
+      "status": "published"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-24T15:18:03+05:30",
+      "durationSec": 76,
+      "status": "published"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-24T15:57:00+05:30",
+      "durationSec": 180,
+      "status": "published"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-24T16:34:00+05:30",
+      "durationSec": 180,
+      "status": "published"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-24T17:18:15+05:30",
+      "durationSec": 205,
+      "status": "published"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-24T17:58:23+05:30",
+      "durationSec": 154,
+      "status": "published"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-24T18:33:46+05:30",
+      "durationSec": 154,
+      "status": "published"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-24T19:08:00+05:30",
+      "durationSec": 210,
+      "status": "published"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-24T19:51:14+05:30",
+      "durationSec": 162,
+      "status": "published"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-25T08:08:21+05:30",
+      "durationSec": 409,
+      "status": "published"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-25T08:47:03+05:30",
+      "durationSec": 198,
+      "status": "published"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-25T09:30:01+05:30",
+      "durationSec": 96,
+      "status": "published"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-25T10:09:21+05:30",
+      "durationSec": 403,
+      "status": "published"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-25T10:55:29+05:30",
+      "durationSec": 226,
+      "status": "published"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-25T11:34:28+05:30",
+      "durationSec": 150,
+      "status": "published"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-25T12:12:04+05:30",
+      "durationSec": 192,
+      "status": "published"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-25T12:56:46+05:30",
+      "durationSec": 258,
+      "status": "published"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-25T13:33:12+05:30",
+      "durationSec": 234,
+      "status": "published"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-25T14:19:54+05:30",
+      "durationSec": 428,
+      "status": "published"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-25T15:00:03+05:30",
+      "durationSec": 248,
+      "status": "published"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-25T15:37:28+05:30",
+      "durationSec": 260,
+      "status": "published"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-25T16:17:39+05:30",
+      "durationSec": 147,
+      "status": "published"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-25T16:56:17+05:30",
+      "durationSec": 188,
+      "status": "published"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-25T17:31:44+05:30",
+      "durationSec": 286,
+      "status": "published"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-25T18:10:23+05:30",
+      "durationSec": 342,
+      "status": "published"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-25T18:59:16+05:30",
+      "durationSec": 230,
+      "status": "published"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-25T19:46:50+05:30",
+      "durationSec": 196,
+      "status": "published"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-26T08:05:25+05:30",
+      "durationSec": 338,
+      "status": "published"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-26T08:46:32+05:30",
+      "durationSec": 134,
+      "status": "published"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-26T09:20:26+05:30",
+      "durationSec": 115,
+      "status": "published"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-26T10:02:59+05:30",
+      "durationSec": 642,
+      "status": "published"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-26T10:46:24+05:30",
+      "durationSec": 780,
+      "status": "published"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-26T11:37:51+05:30",
+      "durationSec": 1050,
+      "status": "published"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-26T12:33:17+05:30",
+      "durationSec": 527,
+      "status": "published"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-26T13:17:19+05:30",
+      "durationSec": 471,
+      "status": "published"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-26T14:00:29+05:30",
+      "durationSec": 315,
+      "status": "published"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-26T16:15:59+05:30",
+      "durationSec": 493,
+      "status": "published"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-26T17:02:43+05:30",
+      "durationSec": 464,
+      "status": "published"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-26T17:47:52+05:30",
+      "durationSec": 629,
+      "status": "published"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-26T18:45:12+05:30",
+      "durationSec": 786,
+      "status": "published"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-26T19:39:56+05:30",
+      "durationSec": 466,
+      "status": "published"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-27T08:08:56+05:30",
+      "durationSec": 263,
+      "status": "published"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-27T08:49:25+05:30",
+      "durationSec": 237,
+      "status": "published"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-27T09:24:59+05:30",
+      "durationSec": 153,
+      "status": "published"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-27T10:00:40+05:30",
+      "durationSec": 290,
+      "status": "published"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-27T10:42:31+05:30",
+      "durationSec": 294,
+      "status": "published"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-27T11:19:47+05:30",
+      "durationSec": 302,
+      "status": "published"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-27T12:05:15+05:30",
+      "durationSec": 195,
+      "status": "published"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-27T12:42:50+05:30",
+      "durationSec": 233,
+      "status": "published"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-27T13:17:33+05:30",
+      "durationSec": 316,
+      "status": "published"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-27T13:57:15+05:30",
+      "durationSec": 227,
+      "status": "published"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-27T14:38:55+05:30",
+      "durationSec": 228,
+      "status": "published"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-27T15:15:00+05:30",
+      "durationSec": 331,
+      "status": "published"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-27T15:54:34+05:30",
+      "durationSec": 257,
+      "status": "published"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-27T16:31:09+05:30",
+      "durationSec": 390,
+      "status": "published"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-27T17:12:23+05:30",
+      "durationSec": 310,
+      "status": "published"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-27T17:48:51+05:30",
+      "durationSec": 141,
+      "status": "published"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-27T18:26:39+05:30",
+      "durationSec": 235,
+      "status": "published"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-27T19:04:00+05:30",
+      "durationSec": 260,
+      "status": "published"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-27T19:47:44+05:30",
+      "durationSec": 337,
+      "status": "published"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-28T08:05:32+05:30",
+      "durationSec": 535,
+      "status": "published"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-28T08:50:48+05:30",
+      "durationSec": 70,
+      "status": "skipped-no-source"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-28T09:22:30+05:30",
+      "durationSec": 60,
+      "status": "skipped-no-source"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-28T10:03:56+05:30",
+      "durationSec": 60,
+      "status": "skipped-no-source"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-28T10:36:05+05:30",
+      "durationSec": 60,
+      "status": "skipped-no-source"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-28T11:09:07+05:30",
+      "durationSec": 1226,
+      "status": "published"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-28T12:07:35+05:30",
+      "durationSec": 666,
+      "status": "published"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-28T12:50:07+05:30",
+      "durationSec": 813,
+      "status": "published"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-28T13:37:25+05:30",
+      "durationSec": 828,
+      "status": "published"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-28T14:23:55+05:30",
+      "durationSec": 925,
+      "status": "published"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-28T15:19:29+05:30",
+      "durationSec": 881,
+      "status": "published"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-28T16:07:19+05:30",
+      "durationSec": 987,
+      "status": "published"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-28T17:00:14+05:30",
+      "durationSec": 1258,
+      "status": "published"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-28T17:54:49+05:30",
+      "durationSec": 1415,
+      "status": "published"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-28T18:59:29+05:30",
+      "durationSec": 572,
+      "status": "published"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-28T19:41:35+05:30",
+      "durationSec": 694,
+      "status": "published"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-29T08:06:29+05:30",
+      "durationSec": 977,
+      "status": "published"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-29T09:00:28+05:30",
+      "durationSec": 508,
+      "status": "published"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-29T09:45:24+05:30",
+      "durationSec": 518,
+      "status": "published"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-29T10:34:50+05:30",
+      "durationSec": 1228,
+      "status": "published"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-29T12:19:00+05:30",
+      "durationSec": 1424,
+      "status": "published"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-29T13:16:47+05:30",
+      "durationSec": 1077,
+      "status": "published"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-29T14:07:29+05:30",
+      "durationSec": 414,
+      "status": "published"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-29T14:45:33+05:30",
+      "durationSec": 471,
+      "status": "published"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-29T15:38:39+05:30",
+      "durationSec": 739,
+      "status": "published"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-29T16:27:06+05:30",
+      "durationSec": 810,
+      "status": "published"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-29T17:17:13+05:30",
+      "durationSec": 594,
+      "status": "published"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-29T18:01:55+05:30",
+      "durationSec": 752,
+      "status": "published"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-29T18:49:53+05:30",
+      "durationSec": 657,
+      "status": "published"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-29T19:44:33+05:30",
+      "durationSec": 596,
+      "status": "published"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-30T02:38:20+00:00",
+      "durationSec": 404,
+      "status": "published"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-30T03:19:53+00:00",
+      "durationSec": 703,
+      "status": "published"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-30T04:03:49+00:00",
+      "durationSec": 475,
+      "status": "published"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-30T04:46:52+00:00",
+      "durationSec": 1199,
+      "status": "published"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-30T05:41:35+00:00",
+      "durationSec": 526,
+      "status": "published"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-30T06:27:01+00:00",
+      "durationSec": 670,
+      "status": "published"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-30T07:15:22+00:00",
+      "durationSec": 942,
+      "status": "published"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-30T08:05:50+00:00",
+      "durationSec": 804,
+      "status": "published"
+    },
+    {
+      "by": "Auto",
+      "startedAt": "2026-10-30T09:48:38+00:00",
+      "durationSec": 827,
+      "status": "published"
+    }
+  ]
 }
