@@ -1,5 +1,5 @@
 {
- "lastUpdated": "2026-10-30T17:14:45+05:30",
+ "lastUpdated": "2026-10-30T17:57:15+05:30",
  "kpis": {
   "Sid": {
    "owned": 22,
@@ -26,7 +26,7 @@
    "notFound": 9,
    "deals": 15,
    "dealValue": "₹4.50L",
-   "openAsks": 135,
+   "openAsks": 134,
    "atRisk": 41,
    "note": "+1 identity unresolved; 9 = 5 not found + 4 no recent activity"
   },
@@ -6566,10 +6566,10 @@
    "creator": "Yuvasri",
    "poc": "Divya",
    "cat": "Follow-up",
-   "item": "Patua (Yash, agency): 16:18 30 Oct (preview) cost increase understood, asked to do this one at current rate and increase from Dec; Divya reply pending",
+   "item": "Patua (Yash, agency): 16:18 30 Oct (preview) cost increase understood, asked to do this one at current rate and increase from Dec; 17:44 Yash chased update; 17:51 Divya: lock for this month (35,000, this campaign only); 17:52 Divya shared email (resolved)",
    "priority": "Med",
-   "status": "Open",
-   "flag": "Open",
+   "status": "Closed",
+   "flag": "Closed",
    "date": "30 Oct"
   },
   {
