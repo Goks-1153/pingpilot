@@ -1,8 +1,8 @@
 {
  "by": "Auto",
- "at": "2026-10-31T09:27:58+05:30",
- "startedAt": "2026-10-31T09:27:58+05:30",
- "status": "published",
+ "at": "2026-10-31T10:08:32+05:30",
+ "startedAt": "2026-10-31T10:08:32+05:30",
+ "status": "running",
  "history": [
   {
    "by": "Auto",
@@ -700,8 +700,5 @@
    "durationSec": 240,
    "status": "published"
   }
- ],
- "note": "0 new rows, 0 updated, 0 closed (no new activity since 08:50)",
- "finishedAt": "2026-10-31T09:31:58+05:30",
- "durationSec": 240
+ ]
 }
