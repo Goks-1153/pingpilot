@@ -1,5 +1,5 @@
 {
- "lastUpdated": "2026-10-30T19:41:28+05:30",
+ "lastUpdated": "2026-10-31T08:10:39+05:30",
  "kpis": {
   "Sid": {
    "owned": 22,
@@ -17,7 +17,7 @@
    "deals": 37,
    "dealValue": "₹18.22L",
    "openAsks": 153,
-   "atRisk": 26,
+   "atRisk": 28,
    "note": "+3 identity unresolved"
   },
   "Divya": {
@@ -27,7 +27,7 @@
    "deals": 15,
    "dealValue": "₹4.50L",
    "openAsks": 134,
-   "atRisk": 41,
+   "atRisk": 42,
    "note": "+1 identity unresolved; 9 = 5 not found + 4 no recent activity"
   },
   "Kishore": {
@@ -47,7 +47,7 @@
    "deals": 0,
    "dealValue": "₹0",
    "openAsks": 21,
-   "atRisk": 6
+   "atRisk": 7
   }
  },
  "themes": [
@@ -4146,7 +4146,7 @@
    "creator": "Harish",
    "poc": "Kishore",
    "cat": "Follow-up",
-   "item": "Pilgrim: Flutch 15:00 27 Oct told Harish deal locked at 13,000; Harish's address shared in Pilgrim group 15:02; pincode 600077 shared 15:52; Harish confirmation pending; ~10:09-10:11 30 Oct brand asked Kishore to close script today; Kishore added Pavithra as Execution POC, asked brand for brief; brief pending, then Harish script",
+   "item": "Pilgrim: Flutch 15:00 27 Oct told Harish deal locked at 13,000; Harish's address shared in Pilgrim group 15:02; pincode 600077 shared 15:52; Harish confirmation pending; ~10:09-10:11 30 Oct brand asked Kishore to close script today; Kishore added Pavithra as Execution POC, asked brand for brief; brief pending, then Harish script; 20:44 30 Oct Harish asked for payment to the same account as last time; no Flutch reply yet",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -5642,10 +5642,10 @@
    "creator": "Gurishq Kaur",
    "poc": "Divya",
    "cat": "Deliverable",
-   "item": "Sugar: 10:49 29 Oct Divya: Sugar locked (outbound), asked Gurishq for ad code; creator awaiting screenshots for both; 12:20 ad code shared; 12:18 30 Oct Divya: deal locked at 42,000, script forwarded; 13:13 Divya: waiting for brand email; 13:14 Gurishq: 'cool'; brand email + screenshots + Sugar shoot pending; 14:11 30 Oct Gurishq asked for update on Sugar shoot + approval; Divya update pending",
-   "priority": "Med",
+   "item": "Sugar: 10:49 29 Oct Divya: Sugar locked (outbound), asked Gurishq for ad code; creator awaiting screenshots for both; 12:20 ad code shared; 12:18 30 Oct Divya: deal locked at 42,000, script forwarded; 13:13 Divya: waiting for brand email; 13:14 Gurishq: 'cool'; brand email + screenshots + Sugar shoot pending; 14:11 30 Oct Gurishq asked for update on Sugar shoot + approval; Divya update pending; 21:56 30 Oct brand Ajitha: video due Sat 31 Oct 1 PM, subtitles mandatory; no Flutch reply yet",
+   "priority": "High",
    "status": "Open",
-   "flag": "Open",
+   "flag": "At risk",
    "date": "30 Oct"
   },
   {
@@ -5653,10 +5653,10 @@
    "creator": "Neelam",
    "poc": "Riya",
    "cat": "Deliverable",
-   "item": "Sugar Cosmetics: 11:30 29 Oct Riya sent brief (1 non-collab reel + 1 month ad rights, locked Rs 14,000); Neelam sent shade photo by 11:37; 11:52-11:53 Riya forwarded Sugar brief: order + screenshot + script by 3 PM 29 Oct; 14:09-14:12 29 Oct Riya asked Neelam to write the script in her own pattern; 14:46 Neelam sent media (likely script/screenshot); 17:57 29 Oct Neelam posted plumping gloss stick script/caption (preview); ~10:13 30 Oct Riya approved script: 'go ahead with the shoot'; 10:37 30 Oct Neelam asked about outfit; 10:55 Riya asked Sugar (Ajitha) to confirm Neelam's outfit, sent 3 photos 11:05; 11:06 Ajitha: 'i had responded'; 11:10 Riya forwarded an option: 'You can go with this one'; Sugar outfit confirmation + shoot + draft pending",
-   "priority": "Med",
+   "item": "Sugar Cosmetics: 11:30 29 Oct Riya sent brief (1 non-collab reel + 1 month ad rights, locked Rs 14,000); Neelam sent shade photo by 11:37; 11:52-11:53 Riya forwarded Sugar brief: order + screenshot + script by 3 PM 29 Oct; 14:09-14:12 29 Oct Riya asked Neelam to write the script in her own pattern; 14:46 Neelam sent media (likely script/screenshot); 17:57 29 Oct Neelam posted plumping gloss stick script/caption (preview); ~10:13 30 Oct Riya approved script: 'go ahead with the shoot'; 10:37 30 Oct Neelam asked about outfit; 10:55 Riya asked Sugar (Ajitha) to confirm Neelam's outfit, sent 3 photos 11:05; 11:06 Ajitha: 'i had responded'; 11:10 Riya forwarded an option: 'You can go with this one'; Sugar outfit confirmation + shoot + draft pending; 21:56 30 Oct brand Ajitha: video due Sat 31 Oct 1 PM, subtitles mandatory; no Flutch reply yet",
+   "priority": "High",
    "status": "Open",
-   "flag": "Open",
+   "flag": "At risk",
    "date": "30 Oct"
   },
   {
@@ -5686,7 +5686,7 @@
    "creator": "Dharshne",
    "poc": "Riya",
    "cat": "Deliverable",
-   "item": "Sugar Cosmetics: 11:34 29 Oct Riya sent brief (1 non-collab reel + 1 month ad rights, locked Rs 20,000); 12:32-12:34 Riya asked Dharshne to order today (any shade) + share script by 3 PM; 13:17-13:30 Ajitha (Sugar) wants it fast-tracked and scripting closed today; Dharshne not on purchased list; Ajitha asked about the remaining creators (late order = late delivery); order screenshot + script due 15:00 29 Oct; 14:06-14:11 29 Oct Sugar group: Neelam (Flutch side) asked Sugar for GST + PAN asap; a Chennai creator (not named) must order on Amazon today for noon delivery tomorrow, at shoots till 6, Riya checking with her; script to follow shortly; 14:09 30 Oct Riya asked Ajitha to confirm Dharshne's outfit + background asap; 14:14 Ajitha: white and yellow look nice (outfit approved); shoot + delivery pending; 14:47 30 Oct Riya: okay to white + yellow outfit; 15:12 Ajitha shared a doc for KJ to check",
+   "item": "Sugar Cosmetics: 11:34 29 Oct Riya sent brief (1 non-collab reel + 1 month ad rights, locked Rs 20,000); 12:32-12:34 Riya asked Dharshne to order today (any shade) + share script by 3 PM; 13:17-13:30 Ajitha (Sugar) wants it fast-tracked and scripting closed today; Dharshne not on purchased list; Ajitha asked about the remaining creators (late order = late delivery); order screenshot + script due 15:00 29 Oct; 14:06-14:11 29 Oct Sugar group: Neelam (Flutch side) asked Sugar for GST + PAN asap; a Chennai creator (not named) must order on Amazon today for noon delivery tomorrow, at shoots till 6, Riya checking with her; script to follow shortly; 14:09 30 Oct Riya asked Ajitha to confirm Dharshne's outfit + background asap; 14:14 Ajitha: white and yellow look nice (outfit approved); shoot + delivery pending; 14:47 30 Oct Riya: okay to white + yellow outfit; 15:12 Ajitha shared a doc for KJ to check; 21:56 30 Oct brand Ajitha: video due Sat 31 Oct 1 PM, subtitles mandatory; no Flutch reply yet",
    "priority": "High",
    "status": "Open",
    "flag": "At risk",
@@ -5719,10 +5719,10 @@
    "creator": "Uma",
    "poc": "Natasha",
    "cat": "Deliverable",
-   "item": "Sugar Glide Gloss Stick: 12:05-12:18 29 Oct Karanjot forwarded brief (buy Pink Pop/Mauve Murmur, share screenshot), wants screenshot + script sooner; Uma will buy in evening; 12:24-12:25 Karanjot posted creator cost (413/-); Sugar wants festive looks + gloss application shots; Vrinda asked for script; 12:38 lip gloss received (purchase done); 15:28-15:33 29 Oct Karanjot shared Uma script to Ajitha for check; 19:32 29 Oct Ajitha: 'will revert'; 10:54 30 Oct Karanjot asked Sugar for script approvals (Ishika + Uma); 11:58-11:59 30 Oct Ajitha asked KJ to call re Uma + Ishika scripts; 12:00 KJ: 'call who?'; KJ call + Sugar script approval pending",
-   "priority": "Med",
+   "item": "Sugar Glide Gloss Stick: 12:05-12:18 29 Oct Karanjot forwarded brief (buy Pink Pop/Mauve Murmur, share screenshot), wants screenshot + script sooner; Uma will buy in evening; 12:24-12:25 Karanjot posted creator cost (413/-); Sugar wants festive looks + gloss application shots; Vrinda asked for script; 12:38 lip gloss received (purchase done); 15:28-15:33 29 Oct Karanjot shared Uma script to Ajitha for check; 19:32 29 Oct Ajitha: 'will revert'; 10:54 30 Oct Karanjot asked Sugar for script approvals (Ishika + Uma); 11:58-11:59 30 Oct Ajitha asked KJ to call re Uma + Ishika scripts; 12:00 KJ: 'call who?'; KJ call + Sugar script approval pending; 21:56 30 Oct brand Ajitha: video due Sat 31 Oct 1 PM, subtitles mandatory; no Flutch reply yet",
+   "priority": "High",
    "status": "Open",
-   "flag": "Open",
+   "flag": "At risk",
    "date": "30 Oct"
   },
   {
@@ -5730,10 +5730,10 @@
    "creator": "Ishika",
    "poc": "Natasha",
    "cat": "Deliverable",
-   "item": "Sugar: 12:23-12:24 29 Oct Ishika shooting 30 Oct (Zepto purchase), wants everything finalised today; Karanjot asked if 413/- order comes today; Sugar wants festive looks + gloss application shots; Vrinda asked for script; 13:17-13:30 Ishika listed as purchased in Sugar group; Ajitha wants scripting closed today; 15:28-15:33 29 Oct Karanjot shared Ishika script to Ajitha for check; 19:32 29 Oct Ajitha: 'will revert'; 10:54 30 Oct Karanjot asked Sugar for script approvals (Ishika + Uma); 11:58-11:59 30 Oct Ajitha asked KJ to call re Uma + Ishika scripts; 12:00 KJ: 'call who?'; 12:40-12:42 30 Oct Sugar approved script with changes (creator not named), creator has only one shade; 12:44 KJ: can't show swatches; swatch frame resolution pending",
-   "priority": "Med",
+   "item": "Sugar: 12:23-12:24 29 Oct Ishika shooting 30 Oct (Zepto purchase), wants everything finalised today; Karanjot asked if 413/- order comes today; Sugar wants festive looks + gloss application shots; Vrinda asked for script; 13:17-13:30 Ishika listed as purchased in Sugar group; Ajitha wants scripting closed today; 15:28-15:33 29 Oct Karanjot shared Ishika script to Ajitha for check; 19:32 29 Oct Ajitha: 'will revert'; 10:54 30 Oct Karanjot asked Sugar for script approvals (Ishika + Uma); 11:58-11:59 30 Oct Ajitha asked KJ to call re Uma + Ishika scripts; 12:00 KJ: 'call who?'; 12:40-12:42 30 Oct Sugar approved script with changes (creator not named), creator has only one shade; 12:44 KJ: can't show swatches; swatch frame resolution pending; 21:56 30 Oct brand Ajitha: video due Sat 31 Oct 1 PM, subtitles mandatory; no Flutch reply yet",
+   "priority": "High",
    "status": "Open",
-   "flag": "Open",
+   "flag": "At risk",
    "date": "30 Oct"
   },
   {
@@ -5917,10 +5917,10 @@
    "creator": "venessa.pinto",
    "poc": "Divya",
    "cat": "Deliverable",
-   "item": "Sugar Glide Gloss Stick: 12:19-13:47 29 Oct Divya asked Venessa to order + send script; go-live 30-31 Oct; 13:17-13:30 Venessa not on Sugar purchased list; Ajitha asked about remaining creators; 23:06 29 Oct Venessa sent gloss stick photo + script ('Three outfits, one lipstick', snap-transition outfits); Divya to review/acknowledge script",
+   "item": "Sugar Glide Gloss Stick: 12:19-13:47 29 Oct Divya asked Venessa to order + send script; go-live 30-31 Oct; 13:17-13:30 Venessa not on Sugar purchased list; Ajitha asked about remaining creators; 23:06 29 Oct Venessa sent gloss stick photo + script ('Three outfits, one lipstick', snap-transition outfits); Divya to review/acknowledge script; 21:56 30 Oct brand Ajitha: video due Sat 31 Oct 1 PM, subtitles mandatory; no Flutch reply yet",
    "priority": "High",
    "status": "Open",
-   "flag": "Open",
+   "flag": "At risk",
    "date": "29 Oct"
   },
   {
@@ -6554,9 +6554,9 @@
    "id": "r590",
    "creator": "Kalyani",
    "poc": "Sid",
-   "cat": "Other",
-   "item": "SUGAR: 16:22 30 Oct Flutch shared Kalyani as shortlisted; next steps with brand pending",
-   "priority": "Low",
+   "cat": "Deliverable",
+   "item": "SUGAR: 16:22 30 Oct Flutch shared Kalyani as shortlisted; next steps with brand pending; 21:18-21:56 30 Oct brand Ajitha: Kalyani's video due Sun 1 Nov 1 PM, subtitles mandatory; product purchase + script approval pending",
+   "priority": "Med",
    "status": "Open",
    "flag": "Open",
    "date": "30 Oct"
