@@ -1,5 +1,5 @@
 {
- "lastUpdated": "2026-10-31T10:15:19+05:30",
+ "lastUpdated": "2026-11-02T16:22:17+05:30",
  "kpis": {
   "Sid": {
    "owned": 22,
@@ -7,7 +7,7 @@
    "notFound": 3,
    "deals": 29,
    "dealValue": "₹8.22L",
-   "openAsks": 110,
+   "openAsks": 112,
    "atRisk": 22
   },
   "Natasha": {
@@ -16,7 +16,7 @@
    "notFound": 5,
    "deals": 37,
    "dealValue": "₹18.22L",
-   "openAsks": 153,
+   "openAsks": 154,
    "atRisk": 28,
    "note": "+3 identity unresolved"
   },
@@ -26,7 +26,7 @@
    "notFound": 9,
    "deals": 15,
    "dealValue": "₹4.50L",
-   "openAsks": 134,
+   "openAsks": 135,
    "atRisk": 42,
    "note": "+1 identity unresolved; 9 = 5 not found + 4 no recent activity"
   },
@@ -36,8 +36,8 @@
    "notFound": 0,
    "deals": 27,
    "dealValue": "₹5.04L",
-   "openAsks": 101,
-   "atRisk": 33,
+   "openAsks": 102,
+   "atRisk": 34,
    "note": "CRM deals include Shraddha × Pilgrim (₹45k), not his creator"
   },
   "Riya": {
@@ -46,7 +46,7 @@
    "notFound": 0,
    "deals": 0,
    "dealValue": "₹0",
-   "openAsks": 21,
+   "openAsks": 22,
    "atRisk": 7
   }
  },
@@ -153,11 +153,11 @@
    "creator": "Kalyani",
    "poc": "Sid",
    "cat": "Other",
-   "item": "Ghar Soaps (Inari Media, Sandeep): team asked brand 11:25 22 Oct, no answer; 11:48 26 Oct Amisha: shoot done, video by EOD; 09:50 28 Oct Amisha asked for updates, tried calling; 12:37 28 Oct Kalyani asked for update; Amisha following up with POC, asked Sandeep for approval to take video live this month; brand approval pending",
+   "item": "Ghar Soaps (Inari Media, Sandeep): team asked brand 11:25 22 Oct, no answer; 11:48 26 Oct Amisha: shoot done, video by EOD; 09:50 28 Oct Amisha asked for updates, tried calling; 12:37 28 Oct Kalyani asked for update; Amisha following up with POC, asked Sandeep for approval to take video live this month; 09:39 31 Oct Kalyani asked for updates on scripts sent long ago (Ghar Soaps + Venusia); brand approval pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "28 Oct"
+   "date": "31 Oct"
   },
   {
    "id": "r9",
@@ -2617,11 +2617,11 @@
    "creator": "Kalyani",
    "poc": "Sid",
    "cat": "Approval",
-   "item": "Venusia (Influencer.in): Amisha asked 10:04 26 Oct if script approved; brand 10:32: 'not yet'; 10:55 27 Oct Amisha chased again (over a week pending); 15:48 asked again; 09:50 28 Oct Amisha asked Stefania for update, tried calling; Venusia approval pending",
+   "item": "Venusia (Influencer.in): Amisha asked 10:04 26 Oct if script approved; brand 10:32: 'not yet'; 10:55 27 Oct Amisha chased again (over a week pending); 15:48 asked again; 09:50 28 Oct Amisha asked Stefania for update, tried calling; 09:39 31 Oct Kalyani asked for update on script sent long ago; Venusia approval pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "28 Oct"
+   "date": "31 Oct"
   },
   {
    "id": "r233",
@@ -3970,11 +3970,11 @@
    "creator": "Pragati Bharti",
    "poc": "Kishore",
    "cat": "Deliverable",
-   "item": "Be Bodywise (Mayank) 12:33 27 Oct: video must have multiple application shots, product pumped on loofah, lather shots; asked for product photo with bottle lock removed; 11:29 28 Oct: Pragati has not received product (preview); ~11:38 29 Oct Krutika asked Pragati for Be Bodywise video draft ETA (preview); 11:48-11:56 30 Oct Mayank asked for product photo; 11:54 Kruthika: Pragati has product, checking draft ETA; 11:56 Kruthika asked Pragati for product photo + draft ETA; 13:11 Kruthika forwarded a message; 13:30 Mayank (HYPD) asked for product photo again; photo + draft ETA pending; 14:15 30 Oct Kruthika: 'Noted' to Mayank; draft ETA pending; 14:46 30 Oct Kruthika asked Pragati to remove the lock while shooting",
-   "priority": "Med",
+   "item": "Be Bodywise (Mayank) 12:33 27 Oct: video must have multiple application shots, product pumped on loofah, lather shots; asked for product photo with bottle lock removed; 11:48-11:56 30 Oct Mayank asked for product photo; 14:46 30 Oct Kruthika asked Pragati to remove the lock while shooting; 16:16 2 Nov Krutika shared revised video (supers for body tanning/strawberry skin, two outfits before/after, application shot only on product); Mayank (HYPD) wants go-live asap, ideally 2 Nov; brand feedback/approval + go-live pending",
+   "priority": "High",
    "status": "Open",
    "flag": "Open",
-   "date": "30 Oct"
+   "date": "2 Nov"
   },
   {
    "id": "r356",
@@ -4993,11 +4993,11 @@
    "creator": "Monisha",
    "poc": "Kishore",
    "cat": "Other",
-   "item": "Chicnutrix (Esha) 12:53 28 Oct: asked which creators won't order product (needs address, mail, phone) to dispatch today + order screenshots for reimbursement; 17:47 Bhavya: Monisha locked for Chicnutrix (18k); 12:10 29 Oct Monisha asked Kishore for update on Chicnutrix confirmation mail; ~17:25 29 Oct Flutch asked if Monisha is ordering; confirmation mail + Monisha order pending",
+   "item": "Chicnutrix (Esha) 12:53 28 Oct: asked which creators won't order product (needs address, mail, phone) to dispatch today + order screenshots for reimbursement; 17:47 Bhavya: Monisha locked for Chicnutrix (18k); 12:10 29 Oct Monisha asked Kishore for update on Chicnutrix confirmation mail; ~17:25 29 Oct Flutch asked if Monisha is ordering; 14:32 2 Nov Monisha still waiting for confirmation mail (deal incl. 1 month ad rights, 27 Oct; brand not named in chat); 16:17 2 Nov Kishore: will loop her in on the confirmation mail by EOD; confirmation mail due EOD 2 Nov + Monisha order pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "29 Oct"
+   "date": "2 Nov"
   },
   {
    "id": "r449",
@@ -6637,6 +6637,72 @@
    "status": "Open",
    "flag": "Open",
    "date": "30 Oct"
+  },
+  {
+   "id": "r598",
+   "creator": "Kalyani",
+   "poc": "Sid",
+   "cat": "Follow-up",
+   "item": "15:24 2 Nov Sid: checking whether brands shared hook references (creator said none shared); 16:16 2 Nov Kalyani asked 'Any updates on this'; brand not named; Flutch reply pending",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "2 Nov"
+  },
+  {
+   "id": "r599",
+   "creator": "Hrithika S",
+   "poc": "Sid",
+   "cat": "Follow-up",
+   "item": "Benefit campaign (Saloni Karnani): 16:14-16:15 2 Nov Sid introduced himself as Hrithika's manager, said one deal closed for the campaign; Saloni's reply pending",
+   "priority": "Low",
+   "status": "Open",
+   "flag": "Open",
+   "date": "2 Nov"
+  },
+  {
+   "id": "r600",
+   "creator": "Daljeet Kaur",
+   "poc": "Kishore",
+   "cat": "Follow-up",
+   "item": "16:14 2 Nov Daljeet asked 'Hello guys any update' (1 unread); 30 Oct Kishore promised revised commercial kit; Flutch reply pending",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "2 Nov"
+  },
+  {
+   "id": "r601",
+   "creator": "Ishika",
+   "poc": "Natasha",
+   "cat": "Approval",
+   "item": "Sociable: 16:09-16:13 2 Nov Khushi approved second video, said start shoot with white tee, both outfits, fairy-light background (tagged Ishika + Karanjot); 15:26-15:27 brand-side message complained about changes again and again; Ishika shoot pending",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "2 Nov"
+  },
+  {
+   "id": "r602",
+   "creator": "Neelam",
+   "poc": "Riya",
+   "cat": "Deliverable",
+   "item": "Revised video (brand not named): Amisha direction ~16:15 2 Nov (product application shot at start with music, full product name at 7 sec, more lip close-ups, 30 sec ok); brand liked video overall; wants revised draft soon, aiming to go live 2 Nov; Neelam revised draft pending",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "2 Nov"
+  },
+  {
+   "id": "r603",
+   "creator": "Fashion Verge",
+   "poc": "Divya",
+   "cat": "Follow-up",
+   "item": "09:15 31 Oct Divya asked when next shoot week and when car can be delivered; creator replied 'Wednesday'; earlier creator cancelled a shoot; shoot/delivery date to confirm",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "31 Oct"
   }
  ]
 }
