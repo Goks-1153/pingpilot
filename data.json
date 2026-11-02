@@ -1,5 +1,5 @@
 {
- "lastUpdated": "2026-11-02T18:04:11+05:30",
+ "lastUpdated": "2026-11-02T18:49:48+05:30",
  "kpis": {
   "Sid": {
    "owned": 22,
@@ -16,8 +16,8 @@
    "notFound": 5,
    "deals": 37,
    "dealValue": "₹18.22L",
-   "openAsks": 156,
-   "atRisk": 29,
+   "openAsks": 155,
+   "atRisk": 28,
    "note": "+3 identity unresolved"
   },
   "Divya": {
@@ -27,7 +27,7 @@
    "deals": 15,
    "dealValue": "₹4.50L",
    "openAsks": 136,
-   "atRisk": 43,
+   "atRisk": 44,
    "note": "+1 identity unresolved; 9 = 5 not found + 4 no recent activity"
   },
   "Kishore": {
@@ -36,7 +36,7 @@
    "notFound": 0,
    "deals": 27,
    "dealValue": "₹5.04L",
-   "openAsks": 102,
+   "openAsks": 105,
    "atRisk": 35,
    "note": "CRM deals include Shraddha × Pilgrim (₹45k), not his creator"
   },
@@ -1880,11 +1880,11 @@
    "creator": "Divya Singh",
    "poc": "Sid",
    "cat": "Approval",
-   "item": "Nykaa video sent to Amisha (17:05), file + doc posted (17:10, 17:16) 24 Oct; Nykaa (Aishwarya) 17:30 26 Oct: will share by EOD 27 Oct, asked to do it urgently; address + script approvals pending; 17:45 28 Oct Khushi chased Nykaa (Aishwarya) for feedback (followed up for 2 days); 10:27 29 Oct Khushi asked Nykaa for update on Divya's video; ~17:16 29 Oct Khushi chased feedback again; 10:34 30 Oct Divya Singh's side asked for Nykaa approval today (2 days left in month); 10:40 Sid: following up, Nykaa delaying; 11:02 'Pls do keep me informed'; 18:43-18:44 30 Oct Nykaa (Aishwarya): best posting time 5:30 pm, go live tomorrow (31 Oct) 5:30 pm (creator not named); 18:42 Khushi: will revert; Nykaa approval to be confirmed",
+   "item": "Nykaa video: 18:43-18:44 30 Oct Nykaa (Aishwarya) gave go-live slot 31 Oct 5:30 pm; 18:44 2 Nov brand said one shot unrealistic, rest okay; Khushi: add subtitles and share revised version; 18:45 brand approved video, asked for caption, cover and best posting time; 18:47 Khushi 'Noted'; pending: Divya revised video with subtitles + caption/cover/posting time",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "30 Oct"
+   "date": "2 Nov"
   },
   {
    "id": "r166",
@@ -3277,11 +3277,11 @@
    "creator": "Somya Bisla",
    "poc": "Natasha",
    "cat": "Other",
-   "item": "Pilgrim anti-dandruff shampoo (55k deal locked 26 Oct): 18:05 execution POC introduced, asked for product details + brief; 11:01 28 Oct Shefali (Broz Media) wants Somya's script before 2 PM; Natasha: Somya will share today; 16:00 Shefali chased script; 16:07 Natasha: Somya busy with Karva Chauth prep, script today; 16:17 Shefali: must come today (festival tomorrow); 18:00 Shefali: 'What's the eta?'; 11:16 29 Oct Shefali: following up for 2 days on Somya's script; 11:44 Natasha asked Somya for Pilgrim script; Natasha promised script by 2 PM; 13:04 Pilgrim anti-dandruff script shared; 14:02-14:05 Somya chose music reel; 14:06 Natasha shared music-reel script with Shefali Media; Pilgrim script approval pending; 14:13 Shefali Media acknowledged the script; approval + shoot pending",
+   "item": "Pilgrim anti-dandruff shampoo (55k deal locked 26 Oct): music-reel script shared 29 Oct, Shefali Media acknowledged 14:13; 18:46 2 Nov Somya: reel subject to Pilgrim confirmation, she has no Pilgrim shampoo, will shoot by this weekend; Pilgrim confirmation + product pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "29 Oct"
+   "date": "2 Nov"
   },
   {
    "id": "r293",
@@ -4509,11 +4509,11 @@
    "creator": "Ragavi",
    "poc": "Divya",
    "cat": "Follow-up",
-   "item": "Shivani shared updated organic content ideas + sheet 17:53 27 Oct; Ragavi's reply pending",
+   "item": "Shivani shared updated organic content ideas + sheet 17:53 27 Oct; 17:53 2 Nov Shivani shared 10 organic ideas + sheet; 18:47 Ragavi: 'Thank you!' (resolved)",
    "priority": "Low",
-   "status": "Open",
-   "flag": "Open",
-   "date": "27 Oct"
+   "status": "Closed",
+   "flag": "Closed",
+   "date": "2 Nov"
   },
   {
    "id": "r405",
@@ -6258,11 +6258,11 @@
    "creator": "Somya Bisla",
    "poc": "Natasha",
    "cat": "Follow-up",
-   "item": "Wishcare (Kashish): ~11:54 30 Oct Kishore pitched Somya Bisla for south-Indian haircare profiles (quoted 30,000 for 1 non-collab reel + auto-DM, creator not specified); Kashish response pending",
-   "priority": "Low",
+   "item": "Wishcare (Kashish): ~11:54 30 Oct Kishore pitched Somya for south-Indian haircare profiles (30,000 quoted for 1 non-collab reel + auto-DM); 18:46 2 Nov Somya said one deal closed with Wishcare at 60k for 1 non-collab reel + 1 story; deal to be logged/confirmed",
+   "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "30 Oct"
+   "date": "2 Nov"
   },
   {
    "id": "r564",
@@ -6588,11 +6588,11 @@
    "creator": "Gurishq Kaur",
    "poc": "Divya",
    "cat": "Deliverable",
-   "item": "Underneat: 16:58 30 Oct 1 non-collab reel + 1 month ad rights locked Rs 14,000 (sender unconfirmed, preview); 18:30 Underneat (Shubhanshi) asked product choice + shipping details; 18:34 Gurishq sent order details; 18:35-18:36 Divya sent them to brand (Bunny ups, Beige, Large, Delhi address); dispatch + execution pending",
+   "item": "Underneat: 1 non-collab reel + 1 month ad rights locked Rs 14,000; order details sent to brand 18:35-18:36 30 Oct; 18:38 2 Nov Divya asked if products received; 18:43 Gurishq got Underneat package today; execution pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "30 Oct"
+   "date": "2 Nov"
   },
   {
    "id": "r594",
@@ -6805,11 +6805,44 @@
   },
   {
    "id": "r613",
-   "creator": "Ishika",
-   "poc": "Natasha",
-   "cat": "Payment",
-   "item": "talk n target: 17:45 2 Nov Karanjot chased payments for two older deals (live 21 and 29 Aug); Vaishali (brand) will check with Abuzar; brand asked invoice for 30 Sep campaign with product cost (invoice no., creator PAN, UPI, email, description); invoice from Flutch pending; payments pending",
+   "creator": "Pragati Bharti",
+   "poc": "Kishore",
+   "cat": "Follow-up",
+   "item": "Rishabh (Brozmedia) 18:22 2 Nov asked Divya for Pragati's commercials for 1 non-collab reel + whether she worked with Joyun Life; 18:42 Divya quoted 26,000; brand reply pending; Joyun Life question unanswered",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "2 Nov"
+  },
+  {
+   "id": "r614",
+   "creator": "Manohar",
+   "poc": "Divya",
+   "cat": "Retention risk",
+   "item": "18:41 2 Nov Manohar said no brand has closed from the agency; Divya said brands didn't pick up, a pipeline deal will lock this month; pending on Divya",
    "priority": "High",
+   "status": "Open",
+   "flag": "At risk",
+   "date": "2 Nov"
+  },
+  {
+   "id": "r615",
+   "creator": "Pragati Bharti",
+   "poc": "Kishore",
+   "cat": "Follow-up",
+   "item": "CoreHouse (Rithin Raja) cold inbound ~18:41 2 Nov asking charges for 1 non-collab reel; no Flutch reply yet",
+   "priority": "Low",
+   "status": "Open",
+   "flag": "Open",
+   "date": "2 Nov"
+  },
+  {
+   "id": "r616",
+   "creator": "Amna",
+   "poc": "Kishore",
+   "cat": "Follow-up",
+   "item": "CoreHouse (Rithin Raja) cold inbound ~18:41 2 Nov asking charges for 1 non-collab reel; no Flutch reply yet",
+   "priority": "Low",
    "status": "Open",
    "flag": "Open",
    "date": "2 Nov"
