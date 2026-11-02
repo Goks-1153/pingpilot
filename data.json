@@ -1,5 +1,5 @@
 {
- "lastUpdated": "2026-11-02T18:49:48+05:30",
+ "lastUpdated": "2026-11-02T19:39:25+05:30",
  "kpis": {
   "Sid": {
    "owned": 22,
@@ -7,7 +7,7 @@
    "notFound": 3,
    "deals": 29,
    "dealValue": "₹8.22L",
-   "openAsks": 114,
+   "openAsks": 116,
    "atRisk": 22
   },
   "Natasha": {
@@ -26,7 +26,7 @@
    "notFound": 9,
    "deals": 15,
    "dealValue": "₹4.50L",
-   "openAsks": 136,
+   "openAsks": 137,
    "atRisk": 44,
    "note": "+1 identity unresolved; 9 = 5 not found + 4 no recent activity"
   },
@@ -46,7 +46,7 @@
    "notFound": 0,
    "deals": 0,
    "dealValue": "₹0",
-   "openAsks": 24,
+   "openAsks": 26,
    "atRisk": 8
   }
  },
@@ -483,11 +483,11 @@
    "creator": "Shitij Verma",
    "poc": "Sid",
    "cat": "Approval",
-   "item": "Prowl script: brand approval pending, no brand reply as of 24 Oct; creator available only till Mon 26 Oct, then travelling (10:10 25 Oct); 10:33 28 Oct Shitij: will add brand feedback to video; revised video pending; 11:30 29 Oct Shitij asked Amisha for update (Amisha on leave); Amisha shared brand feedback; 16:28 29 Oct Sid asked when draft can be shared; Shitij asked if script is approved; 11:47 30 Oct Shitij: 'Sure let me know' (pane partly loaded); script approval confirmation + draft pending",
+   "item": "Prowl script: brand approval pending, no brand reply as of 24 Oct; creator available only till Mon 26 Oct, then travelling (10:10 25 Oct); 10:33 28 Oct Shitij: will add brand feedback to video; revised video pending; 11:30 29 Oct Shitij asked Amisha for update (Amisha on leave); Amisha shared brand feedback; 16:28 29 Oct Sid asked when draft can be shared; Shitij asked if script is approved; 11:47 30 Oct Shitij: 'Sure let me know'; 16:40 2 Nov Amisha shared Shitij draft; per 18:59 execution update, draft awaiting brand; Prowl brand approval pending",
    "priority": "High",
    "status": "Open",
    "flag": "Open",
-   "date": "30 Oct"
+   "date": "2 Nov"
   },
   {
    "id": "r39",
@@ -1869,11 +1869,11 @@
    "creator": "Priyanshu Verma",
    "poc": "Sid",
    "cat": "Approval",
-   "item": "Revised Prowl script shared 23 Oct; revised scripts added to Prowl group 10:21 26 Oct; Khushi asked Naitik 11:38 for update on revised scripts; Prowl approval pending; 10:59 30 Oct execution asked Sid whether Priyanshu shot for Prowl; 11:38 30 Oct Priyanshu group (preview): 'kindly start the shoot and share an ETA'; 11:59 Sid: 'prowl'; shoot status + ETA pending",
+   "item": "Revised Prowl script shared 23 Oct; revised scripts added to Prowl group 10:21 26 Oct; Khushi asked Naitik 11:38 for update on revised scripts; 10:59 30 Oct execution asked Sid whether Priyanshu shot for Prowl; 11:38 30 Oct Priyanshu group: 'kindly start the shoot and share an ETA'; 11:59 Sid: 'prowl'; 18:59 2 Nov Amisha execution update: Priyanshu draft tomorrow (3 Nov); draft + Prowl approval pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "30 Oct"
+   "date": "2 Nov"
   },
   {
    "id": "r165",
@@ -3277,7 +3277,7 @@
    "creator": "Somya Bisla",
    "poc": "Natasha",
    "cat": "Other",
-   "item": "Pilgrim anti-dandruff shampoo (55k deal locked 26 Oct): music-reel script shared 29 Oct, Shefali Media acknowledged 14:13; 18:46 2 Nov Somya: reel subject to Pilgrim confirmation, she has no Pilgrim shampoo, will shoot by this weekend; Pilgrim confirmation + product pending",
+   "item": "Pilgrim anti-dandruff shampoo (55k deal locked 26 Oct): music-reel script shared 29 Oct, Shefali Media acknowledged 14:13; 18:46 2 Nov Somya: reel subject to Pilgrim confirmation, she has no Pilgrim shampoo, will shoot by this weekend; 16:48 Shefali (Broz Media) said parcel arrived; 17:15 Natasha: not arrived yet; 19:08 Natasha shared product image in Somya X Pilgrim; product receipt confirmation + Pilgrim confirmation pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -3607,7 +3607,7 @@
    "creator": "Dharshne",
    "poc": "Riya",
    "cat": "Script",
-   "item": "Dove (ShenaniGenZ): Dharshne revised script due EOD 28 Oct; weekend shoot; 16:23 2 Nov Amisha script feedback (hook first, then bodywash) + background/outfit feedback; 16:34 agency (Diya Arora) asked when creator is shooting; Dharshne shoot date pending",
+   "item": "Dove (ShenaniGenZ): Dharshne revised script due EOD 28 Oct; weekend shoot; 16:23 2 Nov Amisha script feedback (hook first, then bodywash) + background/outfit feedback; 16:34 agency (Diya Arora) asked when creator is shooting; 17:33 Dharshne wants Tamil hook; 18:47 Amisha: 'checkingg'; Tamil hook/revised script + shoot date pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -3970,7 +3970,7 @@
    "creator": "Pragati Bharti",
    "poc": "Kishore",
    "cat": "Deliverable",
-   "item": "Be Bodywise (Mayank) 12:33 27 Oct: video must have multiple application shots, product pumped on loofah, lather shots; 16:16 2 Nov Krutika shared revised video; Mayank (HYPD) wants go-live asap, ideally 2 Nov; 17:07 2 Nov Mayank more feedback: keep consistency text, 12-week after-look too pale, add matching BGM; revision pending",
+   "item": "Be Bodywise (Mayank) 12:33 27 Oct: video must have multiple application shots, product pumped on loofah, lather shots; 16:16 2 Nov Krutika shared revised video; Mayank (HYPD) wants go-live asap, ideally 2 Nov; 17:07 2 Nov Mayank more feedback: keep consistency text, 12-week after-look too pale, add matching BGM; 19:05 Krutika confirmed changes (spelling smooth, BGM, natural after picture, 'consistency is the key' caption); 19:06 asked for any other changes to close final revision and go live today; brand confirmation + go-live pending",
    "priority": "High",
    "status": "Open",
    "flag": "Open",
@@ -4806,11 +4806,11 @@
    "creator": "Ankit Mishra",
    "poc": "Riya",
    "cat": "Deliverable",
-   "item": "09:57 28 Oct Ankit: sending first draft (brand not named); 13:49 Ankit posted a document (likely draft); 14:01 29 Oct Riya passed on brand feedback: add CTA, fix pronunciations; 12:15 30 Oct Riya tried calling Ankit; Ankit reply + revised video pending",
+   "item": "09:57 28 Oct Ankit: sending first draft (brand not named); 13:49 Ankit posted a document (likely draft); 14:01 29 Oct Riya passed on brand feedback: add CTA, fix pronunciations; 12:15 30 Oct Riya tried calling Ankit; 18:59 2 Nov Amisha execution update: Prowl, Ankit revised draft awaiting brand; Prowl brand approval pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "30 Oct"
+   "date": "2 Nov"
   },
   {
    "id": "r432",
@@ -5653,7 +5653,7 @@
    "creator": "Neelam",
    "poc": "Riya",
    "cat": "Deliverable",
-   "item": "Sugar Cosmetics: Riya sent brief 29 Oct (1 non-collab reel + 1 month ad rights, locked Rs 14,000); script approved 30 Oct, outfit confirmed via Riya; 21:56 30 Oct brand Ajitha: video due Sat 31 Oct 1 PM, subtitles mandatory; 18:00 2 Nov Ajitha expects all videos by 3 Nov, Karanjot 'okay'; Neelam video pending, past 31 Oct deadline; due 3 Nov",
+   "item": "Sugar Cosmetics: Riya sent brief 29 Oct (1 non-collab reel + 1 month ad rights, locked Rs 14,000); script approved 30 Oct, outfit confirmed via Riya; 21:56 30 Oct brand Ajitha: video due Sat 31 Oct 1 PM, subtitles mandatory; 18:00 2 Nov Ajitha expects all videos by 3 Nov, Karanjot 'okay'; 17:48 Ajitha: need all 3 live today; 18:53 Ajitha: Neelam video sent to brand; brand approval pending; due 3 Nov",
    "priority": "High",
    "status": "Open",
    "flag": "At risk",
@@ -5719,7 +5719,7 @@
    "creator": "Uma",
    "poc": "Natasha",
    "cat": "Deliverable",
-   "item": "Sugar Glide Gloss Stick: brief forwarded 29 Oct, lip gloss purchased, script shared with Ajitha; 21:56 30 Oct brand: video due Sat 31 Oct 1 PM, subtitles mandatory; 18:00 2 Nov Ajitha expects all videos by 3 Nov, Karanjot 'okay'; Uma video pending, past 31 Oct deadline; due 3 Nov",
+   "item": "Sugar Glide Gloss Stick: brief forwarded 29 Oct, lip gloss purchased, script shared with Ajitha; 21:56 30 Oct brand: video due Sat 31 Oct 1 PM, subtitles mandatory; 18:00 2 Nov Ajitha expects all videos by 3 Nov, Karanjot 'okay'; 17:48 Ajitha: need all 3 live today; 19:05 Ajitha asked Karanjot to help with Uma & Ishika's edited video; 19:16 Ajitha: 'Karanjot pls share an ETA'; Karanjot ETA for edited video pending; due 3 Nov",
    "priority": "High",
    "status": "Open",
    "flag": "At risk",
@@ -5730,7 +5730,7 @@
    "creator": "Ishika",
    "poc": "Natasha",
    "cat": "Deliverable",
-   "item": "Sugar: Ishika script approved with changes 12:40-12:42 30 Oct, creator has only one shade, KJ: can't show swatches; 21:56 30 Oct brand: video due Sat 31 Oct 1 PM, subtitles mandatory; 18:00 2 Nov Ajitha expects all videos by 3 Nov, Karanjot 'okay'; Ishika video pending, past 31 Oct deadline; due 3 Nov",
+   "item": "Sugar: Ishika script approved with changes 12:40-12:42 30 Oct, creator has only one shade, KJ: can't show swatches; 21:56 30 Oct brand: video due Sat 31 Oct 1 PM, subtitles mandatory; 18:00 2 Nov Ajitha expects all videos by 3 Nov, Karanjot 'okay'; 17:48 Ajitha: need all 3 live today; 19:05 Ajitha asked Karanjot to help with Uma & Ishika's edited video; 19:16 Ajitha asked Karanjot for ETA; Karanjot ETA for edited video pending; due 3 Nov",
    "priority": "High",
    "status": "Open",
    "flag": "At risk",
@@ -6159,11 +6159,11 @@
    "creator": "Athira Vinod",
    "poc": "Kishore",
    "cat": "Script",
-   "item": "Organix Mantra: ~09:40 30 Oct Kishore shared script doc 'Script approved - Athira'; brand response pending",
+   "item": "Organix Mantra: ~09:40 30 Oct Kishore shared script doc 'Script approved - Athira'; 11:31 2 Nov Seeya asked Kishore/Krutika for draft; 19:00 Krutika confirmed only one product (salt); 19:01 Kruthika: sharing draft shortly (promised 7 pm); draft delivery to brand pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "30 Oct"
+   "date": "2 Nov"
   },
   {
    "id": "r555",
@@ -6258,7 +6258,7 @@
    "creator": "Somya Bisla",
    "poc": "Natasha",
    "cat": "Follow-up",
-   "item": "Wishcare (Kashish): ~11:54 30 Oct Kishore pitched Somya for south-Indian haircare profiles (30,000 quoted for 1 non-collab reel + auto-DM); 18:46 2 Nov Somya said one deal closed with Wishcare at 60k for 1 non-collab reel + 1 story; deal to be logged/confirmed",
+   "item": "Wishcare (Kashish): ~11:54 30 Oct Kishore pitched Somya for south-Indian haircare profiles (30,000 quoted for 1 non-collab reel + auto-DM); 18:46 2 Nov Somya said one deal closed with Wishcare at 60k for 1 non-collab reel + 1 story; 18:58 Natasha asked for POC contact details; Somya will share an email; Wishcare POC email pending; deal to be logged/confirmed",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -6775,7 +6775,7 @@
    "creator": "Yuvasri",
    "poc": "Divya",
    "cat": "Follow-up",
-   "item": "Swiss Beauty: 17:44 2 Nov brand asked Yuvasri to tag official Swiss Beauty account on her reel; 17:50 Krutika 'Sure'; tag pending",
+   "item": "Swiss Beauty: 17:44 2 Nov brand asked Yuvasri to tag official Swiss Beauty account on her reel; 17:50 Krutika 'Sure'; 19:22 Yuvasri: will tag the account; 19:30 Kruthika: let me know once done; tag confirmation pending",
    "priority": "Low",
    "status": "Open",
    "flag": "Open",
@@ -6808,7 +6808,7 @@
    "creator": "Pragati Bharti",
    "poc": "Kishore",
    "cat": "Follow-up",
-   "item": "Rishabh (Brozmedia) 18:22 2 Nov asked Divya for Pragati's commercials for 1 non-collab reel + whether she worked with Joyun Life; 18:42 Divya quoted 26,000; brand reply pending; Joyun Life question unanswered",
+   "item": "Rishabh (Brozmedia) 18:22 2 Nov asked Divya for Pragati's commercials for 1 non-collab reel + whether she worked with Joyun Life; 18:42 Divya quoted 26,000; 18:56 Divya: Plix yes; Rishabh asked when and at what commercial; Divya reply on last Plix collab date + commercial pending; Joyun Life question unanswered",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -6843,6 +6843,61 @@
    "cat": "Follow-up",
    "item": "CoreHouse (Rithin Raja) cold inbound ~18:41 2 Nov asking charges for 1 non-collab reel; no Flutch reply yet",
    "priority": "Low",
+   "status": "Open",
+   "flag": "Open",
+   "date": "2 Nov"
+  },
+  {
+   "id": "r617",
+   "creator": "Nikita Mishra",
+   "poc": "Riya",
+   "cat": "Deliverable",
+   "item": "Lakme Peptide CP: 18:04 2 Nov Apurva shared feedback (fix product name Lakme Ice Ceramide Lip I.V. Lip Balm, SPF 50 PA4+ at 0:06, zoom out/more close-ups, supers in safe zone, add bg music); 19:22 Apurva asked by what time revised draft can be shared; revised draft ETA from Nikita pending",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "2 Nov"
+  },
+  {
+   "id": "r618",
+   "creator": "Divya Singh",
+   "poc": "Sid",
+   "cat": "Follow-up",
+   "item": "19:15 2 Nov Divya Singh asked Sid to get in touch with Rithin (+91 95788 72619) regarding a Dot & Key collab; Sid to contact Rithin",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "2 Nov"
+  },
+  {
+   "id": "r619",
+   "creator": "Smriti Mohanty",
+   "poc": "Sid",
+   "cat": "Follow-up",
+   "item": "19:02 2 Nov Smriti asked for the brief for the Chicnutrix brand; brief pending",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "2 Nov"
+  },
+  {
+   "id": "r620",
+   "creator": "Fashion Verge",
+   "poc": "Divya",
+   "cat": "Payment",
+   "item": "Ganesh payment clarity: 12:19 2 Nov Divya said finance will confirm amount Monday first half (CRM shift delay); 15:53 Ganesh needs Flutch PAN details; 19:00 Divya: will share by tomorrow evening (3 Nov); PAN + total amount pending",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "2 Nov"
+  },
+  {
+   "id": "r621",
+   "creator": "Sanjogta",
+   "poc": "Riya",
+   "cat": "Follow-up",
+   "item": "14:20 2 Nov Sanjogta: inbound commission shows 15% in new CRM vs 10%, bioessence campaign/payment not updated; 15:34 Amisha: only deals closed from Oct are in new CRM; 18:25 Riya: will check; 18:55 Sanjogta: Ok; Riya to check commission 15% vs 10%",
+   "priority": "Med",
    "status": "Open",
    "flag": "Open",
    "date": "2 Nov"
