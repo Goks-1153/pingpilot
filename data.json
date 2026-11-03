@@ -1,5 +1,5 @@
 {
- "lastUpdated": "2026-11-03T15:55:18+05:30",
+ "lastUpdated": "2026-11-03T16:46:09+05:30",
  "kpis": {
   "Sid": {
    "owned": 22,
@@ -4454,11 +4454,11 @@
    "creator": "Athira Vinod",
    "poc": "Kishore",
    "cat": "Other",
-   "item": "Lakme Cold Press: Nayab 18:15 27 Oct shared Blinkit link for Lakme lip balm; 18:44 'Okie' (sender unconfirmed); 11:51 29 Oct brand asked Kishore for Athira's draft + mandates; 30 Oct Lakme wants shoot + draft today; 11:40 Kruthika: 'Getting back on this'; ~12:17 30 Oct brand: 'please do asap'; 13:06 Kruthika: draft by 15:00 31 Oct; 13:08 brand: unavailable 31 Oct, video must go live today; Athira draft + go-live urgent 30 Oct; 13:08 30 Oct Nayab: brand unavailable tomorrow, must go live today; 15:18 asked for update; 15:22 30 Oct Kruthika: will try to send draft today; draft pending",
+   "item": "Lakme Cold Press: Nayab 18:15 27 Oct shared Blinkit link for Lakme lip balm; 18:44 'Okie' (sender unconfirmed); 11:51 29 Oct brand asked Kishore for Athira's draft + mandates; 30 Oct Lakme wants shoot + draft today; 11:40 Kruthika: 'Getting back on this'; ~12:17 30 Oct brand: 'please do asap'; 13:06 Kruthika: draft by 15:00 31 Oct; 13:08 brand: unavailable 31 Oct, video must go live today; 15:18 asked for update; 15:22 30 Oct Kruthika: will try to send draft today; Nayab asked for draft by 3pm 3 Nov, needs to go live today; 11:36 Kruthika: sure; 16:40 3 Nov Kruthika sent draft video; brand review + go-live today pending",
    "priority": "High",
    "status": "Open",
    "flag": "At risk",
-   "date": "30 Oct"
+   "date": "3 Nov"
   },
   {
    "id": "r400",
@@ -6731,11 +6731,11 @@
    "creator": "Naja Febin",
    "poc": "Sid",
    "cat": "Script",
-   "item": "16:39 2 Nov Amisha shared Ruby's Organics brief, asked for script + revised Wishcare draft, both by EOD 2 Nov; Naja: 'Doing'; script + draft pending",
+   "item": "16:39 2 Nov Amisha shared Ruby's Organics brief, asked for script + revised Wishcare draft, both by EOD 2 Nov; Naja: 'Doing'; 15:36 3 Nov Amisha asked again for Ruby's script + revised Wishcare video today; 15:37 Naja: heading home, will send tonight or by 11am tomorrow; 16:42 Amisha: already delayed, please do so; script + draft overdue",
    "priority": "Med",
    "status": "Open",
-   "flag": "Open",
-   "date": "2 Nov"
+   "flag": "At risk",
+   "date": "3 Nov"
   },
   {
    "id": "r607",
