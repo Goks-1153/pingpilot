@@ -1,5 +1,5 @@
 {
- "lastUpdated": "2026-11-03T12:47:28+05:30",
+ "lastUpdated": "2026-11-03T13:36:06+05:30",
  "kpis": {
   "Sid": {
    "owned": 22,
@@ -16,7 +16,7 @@
    "notFound": 5,
    "deals": 37,
    "dealValue": "₹18.22L",
-   "openAsks": 159,
+   "openAsks": 160,
    "atRisk": 28,
    "note": "+3 identity unresolved"
   },
@@ -26,7 +26,7 @@
    "notFound": 9,
    "deals": 15,
    "dealValue": "₹4.50L",
-   "openAsks": 137,
+   "openAsks": 138,
    "atRisk": 44,
    "note": "+1 identity unresolved; 9 = 5 not found + 4 no recent activity"
   },
@@ -36,7 +36,7 @@
    "notFound": 0,
    "deals": 27,
    "dealValue": "₹5.04L",
-   "openAsks": 105,
+   "openAsks": 106,
    "atRisk": 36,
    "note": "CRM deals include Shraddha × Pilgrim (₹45k), not his creator"
   },
@@ -3838,11 +3838,11 @@
    "creator": "Smriti Mohanty",
    "poc": "Sid",
    "cat": "Approval",
-   "item": "LUX: Amisha asked brand 11:06 27 Oct if approved; 18:20 Amisha chased again ('Please update'); 10:27 28 Oct Amisha called, asked for Smriti video update; 11:32 Amisha: 'Yesyes keep us posted' (preview); LUX feedback by 29 Oct: add SFX, remove purple frame; 12:31 29 Oct LUX asked for revised draft today; 19:27 29 Oct Sanika (Barcode) asked Amisha again for revised draft today (add SFX, remove purple frame); 30 Oct brand chased revised LUX video; 12:22 Riya asked creator; 12:23 creator sent revised video; Riya to send to brand; 15:27 30 Oct Riya forwarded Smriti's revised video to Sanika; 19:06 30 Oct Sanika: checking revised video; brand approval pending",
+   "item": "LUX: Amisha asked brand 11:06 27 Oct if approved; 10:27 28 Oct Amisha called, asked for Smriti video update; LUX feedback by 29 Oct: add SFX, remove purple frame; 12:31 29 Oct LUX asked for revised draft today; 19:27 29 Oct Sanika (Barcode) chased Amisha for revised draft; 15:27 30 Oct Riya forwarded Smriti's revised video to Sanika; 19:06 30 Oct Sanika: checking revised video; 13:04 3 Nov Amisha asked for update; 13:06 Sanika: POC will change for campaign, new POC will connect; brand approval pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "30 Oct"
+   "date": "3 Nov"
   },
   {
    "id": "r344",
@@ -6907,7 +6907,7 @@
    "creator": "Mansi",
    "poc": "Natasha",
    "cat": "Follow-up",
-   "item": "Bluejelly: 12:44 3 Nov Riya (brand POC) asked who Mansi's briefing call is with; 12:45 Sid: Karanjot; 12:54 brand: Mansi wants to work with Swiss Beauty, address shared; Sid sharing; briefing call with Karanjot + Swiss Beauty collab pending",
+   "item": "Bluejelly: 12:44 3 Nov Riya (brand POC) asked who Mansi's briefing call is with; 12:45 Sid: Karanjot; 12:45-13:00 brand shared script deck for Mansi, asked KJ to help with script today; 12:58-13:00 KJ: yes, will share by EOD; 12:54 brand: Mansi wants to work with Swiss Beauty, address shared; Sid sharing; Mansi script due EOD 3 Nov; briefing call with Karanjot + Swiss Beauty collab pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -6945,6 +6945,39 @@
    "status": "Open",
    "flag": "Open",
    "date": "2 Nov"
+  },
+  {
+   "id": "r626",
+   "creator": "Vidhi",
+   "poc": "Kishore",
+   "cat": "Deliverable",
+   "item": "IndusInd Bank: 13:07 3 Nov Ria Sawant (brand) shared Diwali FD copy to post, asked Vidhi to call; 13:32 Vidhi: 'Okay'; Vidhi to call + post as per brief; Bandra branch visit by 3 PM",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "3 Nov"
+  },
+  {
+   "id": "r627",
+   "creator": "Lekshmi Krishnan",
+   "poc": "Divya",
+   "cat": "Follow-up",
+   "item": "12:29-12:33 3 Nov Divya asked Lekshmi to place order and send screenshot (brand not named); Lekshmi order screenshot pending",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "3 Nov"
+  },
+  {
+   "id": "r628",
+   "creator": "Florence Chand",
+   "poc": "Natasha",
+   "cat": "Approval",
+   "item": "FungeX: 13:24 3 Nov Natasha asked Devanshi about Florence's locked campaign; 13:25 Devanshi: locked for 22k, awaiting brand final confirmation today; brand final confirmation pending",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "3 Nov"
   }
  ]
 }
