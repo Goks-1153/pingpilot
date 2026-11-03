@@ -1,5 +1,5 @@
 {
- "lastUpdated": "2026-11-03T13:36:06+05:30",
+ "lastUpdated": "2026-11-03T14:22:01+05:30",
  "kpis": {
   "Sid": {
    "owned": 22,
@@ -7,8 +7,8 @@
    "notFound": 3,
    "deals": 29,
    "dealValue": "₹8.22L",
-   "openAsks": 116,
-   "atRisk": 22
+   "openAsks": 117,
+   "atRisk": 23
   },
   "Natasha": {
    "owned": 25,
@@ -37,7 +37,7 @@
    "deals": 27,
    "dealValue": "₹5.04L",
    "openAsks": 106,
-   "atRisk": 36,
+   "atRisk": 37,
    "note": "CRM deals include Shraddha × Pilgrim (₹45k), not his creator"
   },
   "Riya": {
@@ -3035,11 +3035,11 @@
    "creator": "Hrithika S",
    "poc": "Sid",
    "cat": "Deliverable",
-   "item": "Ruby's Organics: shoot after 2 Nov (Amisha 12:15 26 Oct); brand asked 12:46 for earlier shoot, Hrithika 13:08: not possible; Hrithika 13:27 asked Sid to check with Gursheen; Sid 13:58: will follow up today; Sid to follow up with Gursheen + keep Socioglitch updated",
-   "priority": "Med",
+   "item": "Ruby's Organics: shoot after 2 Nov (Amisha 12:15 26 Oct); brand asked 12:46 for earlier shoot, Hrithika 13:08: not possible; Hrithika 13:27 asked Sid to check with Gursheen; Sid 13:58: will follow up today; Sid to follow up with Gursheen + keep Socioglitch updated; 14:17 3 Nov Himani: can go live 7 Nov, no further delay, wants draft asap for approval; 14:18 Hrithika: still editing, will share draft asap; Hrithika owes draft",
+   "priority": "High",
    "status": "Open",
    "flag": "Open",
-   "date": "26 Oct"
+   "date": "3 Nov"
   },
   {
    "id": "r271",
@@ -3607,11 +3607,11 @@
    "creator": "Dharshne",
    "poc": "Riya",
    "cat": "Script",
-   "item": "Dove (ShenaniGenZ): Dharshne revised script due EOD 28 Oct; weekend shoot; 16:23 2 Nov Amisha script feedback (hook first, then bodywash) + background/outfit feedback; 16:34 agency (Diya Arora) asked when creator is shooting; 17:33 Dharshne wants Tamil hook; 18:47 Amisha: 'checkingg'; Tamil hook/revised script + shoot date pending",
+   "item": "Dove (ShenaniGenZ): Dharshne revised script due EOD 28 Oct; weekend shoot; 16:23 2 Nov Amisha script feedback (hook first, then bodywash) + background/outfit feedback; 16:34 agency (Diya Arora) asked when creator is shooting; 17:33 Dharshne wants Tamil hook; 18:47 Amisha: 'checkingg'; 14:14 3 Nov Anita (agency) suggested extra script line ('adulting is realising that even your everyday bath products need an upgrade') plus reason about hair on soap; Amisha/Dharshne to incorporate; Tamil hook/revised script + shoot date pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "2 Nov"
+   "date": "3 Nov"
   },
   {
    "id": "r323",
@@ -3970,11 +3970,11 @@
    "creator": "Pragati Bharti",
    "poc": "Kishore",
    "cat": "Deliverable",
-   "item": "Be Bodywise (Mayank) 12:33 27 Oct: video must have multiple application shots, product pumped on loofah, lather shots; 16:16 2 Nov Krutika shared revised video; Mayank (HYPD) wants go-live asap, ideally 2 Nov; 17:07 2 Nov Mayank more feedback: keep consistency text, 12-week after-look too pale, add matching BGM; 19:05 Krutika confirmed changes (spelling smooth, BGM, natural after picture, 'consistency is the key' caption); 19:06 asked for any other changes to close final revision and go live today; brand confirmation + go-live pending",
+   "item": "Be Bodywise (Mayank) 12:33 27 Oct: video must have multiple application shots, product pumped on loofah, lather shots; 16:16 2 Nov Krutika shared revised video; Mayank (HYPD) wants go-live asap, ideally 2 Nov; 17:07 2 Nov Mayank more feedback: keep consistency text, 12-week after-look too pale, add matching BGM; 19:05 Krutika confirmed changes; 19:06 asked for any other changes to close final revision and go live today; 14:05-14:08 3 Nov reference reel + BGM notes forwarded ('this music is v off'), tagged Mayank; 14:09 Mayank audio message; revision per Mayank's feedback + go-live today pending",
    "priority": "High",
    "status": "Open",
    "flag": "Open",
-   "date": "2 Nov"
+   "date": "3 Nov"
   },
   {
    "id": "r356",
@@ -4993,11 +4993,11 @@
    "creator": "Monisha",
    "poc": "Kishore",
    "cat": "Other",
-   "item": "Chicnutrix (Esha) 12:53 28 Oct: asked which creators won't order product (needs address, mail, phone) to dispatch today + order screenshots for reimbursement; 17:47 Bhavya: Monisha locked for Chicnutrix (18k); 12:10 29 Oct Monisha asked Kishore for update on Chicnutrix confirmation mail; ~17:25 29 Oct Flutch asked if Monisha is ordering; 14:32 2 Nov Monisha still waiting for confirmation mail (deal incl. 1 month ad rights, 27 Oct; brand not named in chat); 16:17 2 Nov Kishore: will loop her in on the confirmation mail by EOD; confirmation mail due EOD 2 Nov + Monisha order pending",
-   "priority": "Med",
+   "item": "Chicnutrix (Esha) 12:53 28 Oct: asked which creators won't order product (needs address, mail, phone) to dispatch today + order screenshots for reimbursement; 17:47 Bhavya: Monisha locked for Chicnutrix (18k); 12:10 29 Oct Monisha asked Kishore for update on Chicnutrix confirmation mail; ~17:25 29 Oct Flutch asked if Monisha is ordering; 14:32 2 Nov Monisha still waiting for confirmation mail (deal incl. 1 month ad rights, 27 Oct; brand not named in chat); 16:17 2 Nov Kishore: will loop her in on the confirmation mail by EOD; 14:08 3 Nov Monisha: 'Still waiting for this'; confirmation mail overdue (due EOD 2 Nov) + Monisha order pending",
+   "priority": "High",
    "status": "Open",
-   "flag": "Open",
-   "date": "2 Nov"
+   "flag": "At risk",
+   "date": "3 Nov"
   },
   {
    "id": "r449",
@@ -5653,11 +5653,11 @@
    "creator": "Neelam",
    "poc": "Riya",
    "cat": "Deliverable",
-   "item": "Sugar Cosmetics: Riya sent brief 29 Oct (1 non-collab reel + 1 month ad rights, locked Rs 14,000); script approved 30 Oct, outfit confirmed via Riya; 21:56 30 Oct brand Ajitha: video due Sat 31 Oct 1 PM, subtitles mandatory; 18:00 2 Nov Ajitha expects all videos by 3 Nov, Karanjot 'okay'; 17:48 Ajitha: need all 3 live today; 18:53 Ajitha: Neelam video sent to brand; brand approval pending; due 3 Nov",
+   "item": "Sugar Cosmetics: Riya sent brief 29 Oct (1 non-collab reel + 1 month ad rights, locked Rs 14,000); script approved 30 Oct, outfit confirmed via Riya; 21:56 30 Oct brand Ajitha: video due Sat 31 Oct 1 PM, subtitles mandatory; 18:00 2 Nov Ajitha expects all videos by 3 Nov, Karanjot 'okay'; 17:48 Ajitha: need all 3 live today; 18:53 Ajitha: Neelam video sent to brand; 3 Nov brand said video colours overly edited, Amisha to redo; 14:10 3 Nov Ajitha: 'can we pls close on this its URGENT?'; Amisha owes re-edited video; due 3 Nov",
    "priority": "High",
    "status": "Open",
    "flag": "At risk",
-   "date": "2 Nov"
+   "date": "3 Nov"
   },
   {
    "id": "r509",
@@ -5719,22 +5719,22 @@
    "creator": "Uma",
    "poc": "Natasha",
    "cat": "Deliverable",
-   "item": "Sugar Glide Gloss Stick: brief forwarded 29 Oct, lip gloss purchased, script shared with Ajitha; 21:56 30 Oct brand: video due Sat 31 Oct 1 PM, subtitles mandatory; 18:00 2 Nov Ajitha expects all videos by 3 Nov, Karanjot 'okay'; 17:48 Ajitha: need all 3 live today; 19:05 Ajitha asked Karanjot to help with Uma & Ishika's edited video; 19:16 Ajitha: 'Karanjot pls share an ETA'; Karanjot ETA for edited video pending; due 3 Nov",
+   "item": "Sugar Glide Gloss Stick: brief forwarded 29 Oct, lip gloss purchased, script shared with Ajitha; 21:56 30 Oct brand: video due Sat 31 Oct 1 PM, subtitles mandatory; 18:00 2 Nov Ajitha expects all videos by 3 Nov, Karanjot 'okay'; 17:48 Ajitha: need all 3 live today; 19:05 Ajitha asked Karanjot to help with Uma & Ishika's edited video; 19:16 Ajitha: 'Karanjot pls share an ETA'; 14:10 3 Nov Ajitha: 'can we pls close on this its URGENT?'; Karanjot ETA for edited video still pending; due 3 Nov",
    "priority": "High",
    "status": "Open",
    "flag": "At risk",
-   "date": "2 Nov"
+   "date": "3 Nov"
   },
   {
    "id": "r515",
    "creator": "Ishika",
    "poc": "Natasha",
    "cat": "Deliverable",
-   "item": "Sugar: Ishika script approved with changes 12:40-12:42 30 Oct, creator has only one shade, KJ: can't show swatches; 21:56 30 Oct brand: video due Sat 31 Oct 1 PM, subtitles mandatory; 18:00 2 Nov Ajitha expects all videos by 3 Nov, Karanjot 'okay'; 17:48 Ajitha: need all 3 live today; 19:05 Ajitha asked Karanjot to help with Uma & Ishika's edited video; 19:16 Ajitha asked Karanjot for ETA; Karanjot ETA for edited video pending; due 3 Nov",
+   "item": "Sugar: Ishika script approved with changes 12:40-12:42 30 Oct, creator has only one shade, KJ: can't show swatches; 21:56 30 Oct brand: video due Sat 31 Oct 1 PM, subtitles mandatory; 18:00 2 Nov Ajitha expects all videos by 3 Nov, Karanjot 'okay'; 17:48 Ajitha: need all 3 live today; 19:05 Ajitha asked Karanjot to help with Uma & Ishika's edited video; 19:16 Ajitha asked Karanjot for ETA; 14:10 3 Nov Ajitha: 'can we pls close on this its URGENT?'; Karanjot ETA for edited video still pending; due 3 Nov",
    "priority": "High",
    "status": "Open",
    "flag": "At risk",
-   "date": "2 Nov"
+   "date": "3 Nov"
   },
   {
    "id": "r516",
@@ -6181,11 +6181,11 @@
    "creator": "Athira Vinod",
    "poc": "Kishore",
    "cat": "Deliverable",
-   "item": "Samsung GCP: ~10:22 30 Oct Tina sent Diwali film + caption, asked Athira to post story with tags; 11:27 Tina: 'Thanks Athira' (preview); story posting not confirmed",
+   "item": "Samsung GCP: ~10:22 30 Oct Tina sent Diwali film + caption, asked Athira to post story with tags; 11:27 Tina: 'Thanks Athira' (preview); 14:02 3 Nov Athira shared post link, 14:03 asked if it counts as organic and for hashtags; 14:11 Tina posted mandates (tag @samsung @samsungindia, #withGalaxy #TeamGalaxy #samsung #GalaxyUnpacked #GalaxyZFold8); Athira to add tags/hashtags",
    "priority": "High",
    "status": "Open",
    "flag": "Open",
-   "date": "30 Oct"
+   "date": "3 Nov"
   },
   {
    "id": "r557",
@@ -6489,7 +6489,7 @@
    "creator": "Ishika",
    "poc": "Natasha",
    "cat": "Approval",
-   "item": "Dove 10-in-1 festive campaign (sociable, Samiksha): outfit + background feedback 30 Oct; 12:23-12:40 3 Nov KJ: voice note too noisy, 4-8s visual unclear; call being set up; call to finalise shoot visuals pending",
+   "item": "Dove 10-in-1 festive campaign (sociable, Samiksha): outfit + background feedback 30 Oct; 12:23-12:40 3 Nov KJ: voice note too noisy, 4-8s visual unclear; call being set up; 10:51 3 Nov KJ: videos by Friday, will try Thursday; 10:55 Ishika shooting today; 14:07 Samiksha: needs draft by tomorrow or Thursday latest (5 Nov), brand needs to take live urgently; KJ owes Ishika draft by Thursday; call to finalise shoot visuals pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -6974,6 +6974,17 @@
    "poc": "Natasha",
    "cat": "Approval",
    "item": "FungeX: 13:24 3 Nov Natasha asked Devanshi about Florence's locked campaign; 13:25 Devanshi: locked for 22k, awaiting brand final confirmation today; brand final confirmation pending",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "3 Nov"
+  },
+  {
+   "id": "r629",
+   "creator": "Yadhu",
+   "poc": "Sid",
+   "cat": "Follow-up",
+   "item": "What's Up Wellness: 13:35 3 Nov Sid forwarded four product links; 14:09 Yadhu: '?'; Sid to explain/reply",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
