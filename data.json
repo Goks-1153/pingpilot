@@ -1,5 +1,5 @@
 {
- "lastUpdated": "2026-11-03T15:13:06+05:30",
+ "lastUpdated": "2026-11-03T15:55:18+05:30",
  "kpis": {
   "Sid": {
    "owned": 22,
@@ -16,7 +16,7 @@
    "notFound": 5,
    "deals": 37,
    "dealValue": "₹18.22L",
-   "openAsks": 161,
+   "openAsks": 162,
    "atRisk": 28,
    "note": "+3 identity unresolved"
   },
@@ -846,11 +846,11 @@
    "creator": "Nausheen",
    "poc": "Natasha",
    "cat": "Script",
-   "item": "Lacto Calamine revised video: Karanjot sent revised draft 10:03 26 Oct; Bansri feedback: CTA/title case, brand names missing, super 'Lacto Calamine SPF50 Sunscreen with PA++++'; RTB point to confirm; 'Super light' missing, CTA not matching VO; Saba script corrections 18:34; 14:18 27 Oct Saba: Kaolin Clay pronunciation + super still incorrect; 15:17 Karanjot: creator said same as informed earlier; 19:02 Saba: 'Checking'; 10:36 + 15:20 28 Oct Karanjot chased video updates; 15:33 brand shared ahead; KJ asked to close all three (Khyati/Nausheen/Florence) by Fri 30 Oct; 16:15 Saba: go live after approval; KJ voice notes 16:20, 16:27; 16:40 Saba: 'Yes'; ~10:55 30 Oct Karanjot asked brand for update ('need to close it this month'); brand approval + go-live due 30 Oct",
+   "item": "Lacto Calamine revised video: Karanjot sent revised draft 10:03 26 Oct; Bansri feedback + Saba script corrections 26-27 Oct; KJ asked to close all three by Fri 30 Oct; 16:15 28 Oct Saba: go live after approval; ~10:55 30 Oct Karanjot asked brand for update; 15:30 3 Nov Bansri asked Karanjot to bump up Nausheen's video (low-res); 15:51 'Please check'; better-quality video owed",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "30 Oct"
+   "date": "3 Nov"
   },
   {
    "id": "r72",
@@ -2903,11 +2903,11 @@
    "creator": "Nishant",
    "poc": "Natasha",
    "cat": "Follow-up",
-   "item": "Proganiq: creative directions shared Fri 23 Oct; Tushar (Proganiq) 12:34 26 Oct asked for shoot status + expected delivery timeline; 11:49 28 Oct Karanjot: 'will keep you updated' (preview); shoot status + timeline still owed",
+   "item": "Proganiq: creative directions shared Fri 23 Oct; Tushar (Proganiq) 12:34 26 Oct asked for shoot status + expected delivery timeline; 11:49 28 Oct Karanjot: 'will keep you updated'; 15:14 3 Nov Tushar: video approved with two changes (see revised video row) (resolved)",
    "priority": "Med",
-   "status": "Open",
-   "flag": "Open",
-   "date": "28 Oct"
+   "status": "Closed",
+   "flag": "Closed",
+   "date": "3 Nov"
   },
   {
    "id": "r259",
@@ -3717,11 +3717,11 @@
    "creator": "Florence Chand",
    "poc": "Natasha",
    "cat": "Approval",
-   "item": "Lacto Calamine: Florence's revised video shared with brand 10:21 27 Oct; 10:36 + 15:20 28 Oct Karanjot chased; 15:33 brand shared ahead; KJ asked to close all three by Fri 30 Oct; 16:15 Saba: go live after approval; KJ voice notes 16:20, 16:27; 16:40 Saba: 'Yes'; ~10:55 30 Oct Karanjot asked brand for update ('need to close it this month'); brand approval + go-live due 30 Oct",
+   "item": "Lacto Calamine: Florence's revised video shared with brand 10:21 27 Oct; 10:36 + 15:20 28 Oct Karanjot chased; KJ asked to close all three by Fri 30 Oct; 16:15 Saba: go live after approval; ~10:55 30 Oct Karanjot asked brand for update; 15:30 3 Nov Bansri asked Karanjot to bump up Florence's video (low-res); 15:51 'Please check'; better-quality video owed",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "30 Oct"
+   "date": "3 Nov"
   },
   {
    "id": "r333",
@@ -5235,11 +5235,11 @@
    "creator": "Khyati Kunwar",
    "poc": "Natasha",
    "cat": "Approval",
-   "item": "Lacto Calamine: 10:36 + 15:20 28 Oct Karanjot chased video updates; 15:33 brand shared ahead; KJ asked to close Khyati/Nausheen/Florence by Fri 30 Oct; 16:15 Saba: go live after approval; KJ voice notes 16:20, 16:27; 16:40 Saba: 'Yes'; 18:36 Karanjot forwarded a video, Saba reviewing; ~10:55 30 Oct Karanjot asked brand for update ('need to close it this month'); brand approval + go-live on Khyati video due 30 Oct; 14:59 30 Oct Bansri: Khyati's content approved, asked for caption; caption pending",
+   "item": "Lacto Calamine: 14:59 30 Oct Bansri: Khyati's content approved, asked for caption; 15:51 3 Nov Bansri 'Please check' on thread; caption still pending from Karanjot",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "30 Oct"
+   "date": "3 Nov"
   },
   {
    "id": "r471",
@@ -7029,6 +7029,28 @@
    "poc": "Natasha",
    "cat": "Follow-up",
    "item": "14:45 3 Nov Uma reel live (brand not named); 15:07 Uma asked Natasha for closure on Derma / Dr Sheth's or other brand + CRM update; 15:07 Karanjot: reimbursement details by tomorrow morning (4 Nov); 15:10 Karanjot: finance will share UTR today; Natasha owes brand closure + CRM update; UTR + reimbursement details pending",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "3 Nov"
+  },
+  {
+   "id": "r634",
+   "creator": "Mansi",
+   "poc": "Natasha",
+   "cat": "Follow-up",
+   "item": "Denaro Media (Sufia): 15:48 3 Nov asked Karanjot for insights on Mansi's video; 15:50 Karanjot: 'okay'; insights pending",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "3 Nov"
+  },
+  {
+   "id": "r635",
+   "creator": "Nishant",
+   "poc": "Natasha",
+   "cat": "Deliverable",
+   "item": "Proganiq: 15:14 3 Nov Tushar approved video with two changes (remove captions as brand adds its own; swap tilted product shot if a better clip exists); 15:47 Karanjot asked whether to change caption font or just remove; Tushar reply pending; Nishant revised video owed",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
