@@ -1,5 +1,5 @@
 {
- "lastUpdated": "2026-11-03T17:36:08+05:30",
+ "lastUpdated": "2026-11-03T18:16:44+05:30",
  "kpis": {
   "Sid": {
    "owned": 22,
@@ -36,7 +36,7 @@
    "notFound": 0,
    "deals": 27,
    "dealValue": "₹5.04L",
-   "openAsks": 107,
+   "openAsks": 109,
    "atRisk": 37,
    "note": "CRM deals include Shraddha × Pilgrim (₹45k), not his creator"
   },
@@ -1748,11 +1748,11 @@
    "creator": "Amna",
    "poc": "Kishore",
    "cat": "Approval",
-   "item": "Swiss Beauty Awaken: ready to go live, waiting on approval; Kishore owes approval; 18:53 27 Oct yeshaswini shared live link for Amna's 2nd Swiss Beauty video (unclear if this is Awaken); confirm",
+   "item": "Swiss Beauty Awaken: ready to go live, waiting on approval; Kishore owes approval; 18:07-18:08 3 Nov Aamna asked Kishore for Swiss Beauty Awaken video update; no reply seen; 18:53 27 Oct yeshaswini shared live link for Amna's 2nd Swiss Beauty video (unclear if this is Awaken); confirm",
    "priority": "High",
    "status": "Open",
    "flag": "Open",
-   "date": "27 Oct"
+   "date": "3 Nov"
   },
   {
    "id": "r154",
@@ -2639,7 +2639,7 @@
    "creator": "Chhavi",
    "poc": "Kishore",
    "cat": "Script",
-   "item": "Plum Goodness (IPLIX): shoot was due by 30 Oct; 2 Nov brand needed draft by Wednesday, Karanjot said tomorrow (in editing); 12:42 3 Nov Aayushi: 'please share asap'; Chhavi draft overdue (Karanjot)",
+   "item": "Plum Goodness (IPLIX): shoot was due by 30 Oct; 2 Nov brand needed draft by Wednesday, Karanjot said tomorrow (in editing); 12:42 3 Nov Aayushi: 'please share asap'; 18:08 Karanjot: 'sharing it at the earliest'; Chhavi draft overdue (Karanjot)",
    "priority": "High",
    "status": "Open",
    "flag": "Open",
@@ -3882,7 +3882,7 @@
    "creator": "Nausheen",
    "poc": "Natasha",
    "cat": "Script",
-   "item": "IS: revised video due 3 Nov; 17:04 3 Nov KJ forwarded video; 17:15 Gaurav (brand) approved, asked Ankush to send mandates; 17:27-17:28 Ankush Renee: comment link in caption, tag brand, go live, share ad code + live link; go-live + ad code/live link pending",
+   "item": "IS: revised video due 3 Nov; 17:04 3 Nov KJ forwarded video; 17:15 Gaurav (brand) approved, asked Ankush to send mandates; 17:27-17:28 Ankush Renee: comment link in caption, tag brand, go live, share ad code + live link; 17:41 Karanjot asked if creator can go live tomorrow; 18:08 Karanjot: going live today; 18:09 Gaurav: go live today; 18:14 Ankush Renee: changes made on Indian Secrets script, can't share on 5th (editing day needed); Karanjot to check revised script; go-live + ad code/live link pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -6753,11 +6753,11 @@
    "creator": "Kalyani",
    "poc": "Sid",
    "cat": "Deliverable",
-   "item": "16:16 2 Nov Amisha asked Kalyani to fix subtitles (white, upper half, under 30s); creator can do corrections only on 3 Nov, Amisha asked for first half; corrected video due 3 Nov",
+   "item": "16:16 2 Nov Amisha asked Kalyani to fix subtitles (white, upper half, under 30s); 15:14-16:16 3 Nov Amisha shared Uppeel feedback; Kalyani to send corrections tomorrow (first half); corrected video pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "2 Nov"
+   "date": "3 Nov"
   },
   {
    "id": "r609",
@@ -6918,7 +6918,7 @@
    "creator": "Mansi",
    "poc": "Natasha",
    "cat": "Approval",
-   "item": "Nykaa: 10:46 3 Nov revised script for Mansi posted in Nykaa<>Flutch; brand approval pending",
+   "item": "Nykaa: 10:46 3 Nov revised script for Mansi posted in Nykaa<>Flutch; 18:08 Khushi shared Mansi's bg + outfit; 18:13 Nykaa: outfit gtg, bg gtg; script approval still pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -7073,6 +7073,28 @@
    "poc": "Divya",
    "cat": "Follow-up",
    "item": "Pilgrim offer (2 non-collab reels + 2 month ad rights, 35,000 per deal) sent by Divya 16:19 3 Nov; 17:22 Yuvasri thanked Divya; creator confirmation pending",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "3 Nov"
+  },
+  {
+   "id": "r638",
+   "creator": "Vidhi",
+   "poc": "Kishore",
+   "cat": "Script",
+   "item": "Oziva: 17:49-17:51 3 Nov Sid tagged client, Kruthika is execution POC; 17:54-17:55 Kartik (brand): past deadline; 18:04-18:06 Kartik shared brief, script by tomorrow first half; 18:11 Kruthika: script first half tomorrow, asked if product needs ordering; script due 4 Nov; product ordering answer pending",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "3 Nov"
+  },
+  {
+   "id": "r639",
+   "creator": "Amna",
+   "poc": "Kishore",
+   "cat": "Payment",
+   "item": "Dr. Sheth's: 18:07 3 Nov Aamna asked Kishore about Dr. Sheth's payment; no reply seen; Flutch reply pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
