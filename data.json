@@ -1,5 +1,5 @@
 {
- "lastUpdated": "2026-11-03T16:46:09+05:30",
+ "lastUpdated": "2026-11-03T17:36:08+05:30",
  "kpis": {
   "Sid": {
    "owned": 22,
@@ -26,7 +26,7 @@
    "notFound": 9,
    "deals": 15,
    "dealValue": "₹4.50L",
-   "openAsks": 139,
+   "openAsks": 140,
    "atRisk": 44,
    "note": "+1 identity unresolved; 9 = 5 not found + 4 no recent activity"
   },
@@ -36,7 +36,7 @@
    "notFound": 0,
    "deals": 27,
    "dealValue": "₹5.04L",
-   "openAsks": 106,
+   "openAsks": 107,
    "atRisk": 37,
    "note": "CRM deals include Shraddha × Pilgrim (₹45k), not his creator"
   },
@@ -1880,7 +1880,7 @@
    "creator": "Divya Singh",
    "poc": "Sid",
    "cat": "Approval",
-   "item": "Nykaa video: 18:43-18:44 30 Oct Nykaa (Aishwarya) gave go-live slot 31 Oct 5:30 pm; 18:44 2 Nov brand said one shot unrealistic, rest okay; Khushi: add subtitles and share revised version; 18:45 brand approved video, asked for caption, cover and best posting time; 18:47 Khushi 'Noted'; 15:10 3 Nov brand asked if going live today; 15:11 Khushi posted hook + caption, 'Good to go'; go-live confirmation pending",
+   "item": "Nykaa video: brand approved 2 Nov; 15:11 3 Nov Khushi posted hook + caption; 16:37-16:38 Nykaa shared posting guidelines (collab request to @nykaacollection, #AD, paid partnership tag, no copyrighted music, ad code); 17:07 Khushi: creator's best time 9-10pm; Nykaa: post it then; go-live 9-10pm 3 Nov with ad code pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -2947,11 +2947,11 @@
    "creator": "Vrushab",
    "poc": "Sid",
    "cat": "Follow-up",
-   "item": "StayVista (barter): Shruti 11:00 26 Oct asked to pick up for Vrushab + Nikhil; Pooja chased 11:55; 12:04 27 Oct Pooja asked for property details; 12:13 Vrushab: all deliverables on barter, wants good properties like those shared earlier; 15:16 Pooja: 'This one' (selection, context unclear); 10:30-10:43 29 Oct Vrushab wants property finalised today, needs 2-3 options for 10-11 people (4BHK); 12:28 Sid asked for 2-3 more options or finalise Casa Joe; 12:36 Shruti: brand POC reverts 30 Oct; 17:57 Vrushab: 'Did the POC revert?'; brand POC reply + property confirmation pending",
+   "item": "StayVista (barter): Vrushab wants property finalised (2-3 options for 10-11 people, 4BHK); 12:36 29 Oct Shruti: brand POC reverts 30 Oct; 16:45 3 Nov Shruti: checking (Goa villa options); 17:28 Nikhil asked if she responded on Stayvista; 17:29 Vrushab: let's get an update today; brand POC reply + property confirmation pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "29 Oct"
+   "date": "3 Nov"
   },
   {
    "id": "r263",
@@ -3728,11 +3728,11 @@
    "creator": "Pragati Bharti",
    "poc": "Kishore",
    "cat": "Follow-up",
-   "item": "Wishcare: offer at 25,000 sent 10:12 27 Oct; 09:45 29 Oct Kishore followed up with Pragati on Wishcare video draft (she's busy till ~30 Oct, Karwa Chauth); Pragati: draft by 1 PM 29 Oct; ~09:39 30 Oct Kishore sent voice note + Wishcare draft feedback; ~11:12 30 Oct Pragati: 'Okay'; 12:48 30 Oct Pragati posted Wishcare revised video tagging Kishore; 12:50 Kishore: thanks; review of revised video pending",
+   "item": "Wishcare: offer at 25,000 sent 10:12 27 Oct; Kishore sent draft feedback 30 Oct; 12:48 30 Oct Pragati posted revised video; 16:46-16:48 3 Nov Pragati: will share revised video by EOD, only editing left; 16:54 Flutch: Wishcare video approved, can take live; go-live pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "30 Oct"
+   "date": "3 Nov"
   },
   {
    "id": "r334",
@@ -3882,11 +3882,11 @@
    "creator": "Nausheen",
    "poc": "Natasha",
    "cat": "Script",
-   "item": "IS: video due 30 Oct; 16:17 2 Nov brand detailed gua sha video feedback (half-and-half before/after, upward strokes, show brand/product); wants it by 3 Nov latest, no approval without visible difference; 17:46 revised Indian Secret Kojic soap script doc shared; 18:01 Karanjot asked brand (Ankush Renee) to check revised script; brand approval pending; revised video due 3 Nov",
+   "item": "IS: revised video due 3 Nov; 17:04 3 Nov KJ forwarded video; 17:15 Gaurav (brand) approved, asked Ankush to send mandates; 17:27-17:28 Ankush Renee: comment link in caption, tag brand, go live, share ad code + live link; go-live + ad code/live link pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "2 Nov"
+   "date": "3 Nov"
   },
   {
    "id": "r348",
@@ -4014,11 +4014,11 @@
    "creator": "Nausheen",
    "poc": "Natasha",
    "cat": "Follow-up",
-   "item": "Derma Co: Karanjot 13:16 27 Oct asked '30 or 20ml?'; 16:31 2 Nov brand wanted 10% vitamin C serum video by 5:30 PM to go live today; 17:37 Karanjot forwarded video; 17:41 Lata (brand) asked to add before/after at start; 17:46 Karanjot checking; revised cut pending, brand wants to go live today",
+   "item": "Derma Co: 10% vitamin C serum video, brand wanted to go live 2 Nov; 17:00-17:02 3 Nov KJ asked Lata if creator goes live today, else tomorrow; Lata: will confirm in 30 mins; 17:06 Lata: okay; Lata confirmation on go-live pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "2 Nov"
+   "date": "3 Nov"
   },
   {
    "id": "r360",
@@ -6852,11 +6852,11 @@
    "creator": "Nikita Mishra",
    "poc": "Riya",
    "cat": "Deliverable",
-   "item": "Lakme Peptide CP: 18:04 2 Nov Apurva shared feedback (fix product name Lakme Ice Ceramide Lip I.V. Lip Balm, SPF 50 PA4+ at 0:06, zoom out/more close-ups, supers in safe zone, add bg music); 19:22 Apurva asked by what time revised draft can be shared; revised draft ETA from Nikita pending",
+   "item": "Lakme Peptide CP: 18:04 2 Nov Apurva shared feedback (fix product name, SPF 50 PA4+ at 0:06, zoom out/more close-ups, supers in safe zone, add bg music); 19:22 Apurva asked revised draft ETA; 17:22-17:23 3 Nov Apurva: zoom out more, let's go live today; revised draft + go-live today pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "2 Nov"
+   "date": "3 Nov"
   },
   {
    "id": "r618",
@@ -6951,7 +6951,7 @@
    "creator": "Vidhi",
    "poc": "Kishore",
    "cat": "Deliverable",
-   "item": "IndusInd Bank: 13:07 3 Nov Ria Sawant (brand) shared Diwali FD copy to post, asked Vidhi to call; 13:32 Vidhi: 'Okay'; 15:08 Ria sent Diwali/FD caption script, asked Vidhi to call once she reaches and cover pointers; Vidhi 'Haanji'; Vidhi to call + post as per brief; Bandra branch visit by 3 PM",
+   "item": "IndusInd Bank: 13:07 3 Nov Ria Sawant shared Diwali FD copy; 16:53 Ria shared scene-wise script; 17:20 Vidhi: shoot done; 17:25 Ria: script same, tweak visuals, asked ETA for first draft; first draft ETA pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -7051,6 +7051,28 @@
    "poc": "Natasha",
    "cat": "Deliverable",
    "item": "Proganiq: 15:14 3 Nov Tushar approved video with two changes (remove captions as brand adds its own; swap tilted product shot if a better clip exists); 15:47 Karanjot asked whether to change caption font or just remove; Tushar reply pending; Nishant revised video owed",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "3 Nov"
+  },
+  {
+   "id": "r636",
+   "creator": "Pragati Bharti",
+   "poc": "Kishore",
+   "cat": "Deliverable",
+   "item": "VIT C: 17:30 3 Nov Kruthika shared approved script; Pragati draft due 4 Nov 4pm",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "3 Nov"
+  },
+  {
+   "id": "r637",
+   "creator": "Yuvasri",
+   "poc": "Divya",
+   "cat": "Follow-up",
+   "item": "Pilgrim offer (2 non-collab reels + 2 month ad rights, 35,000 per deal) sent by Divya 16:19 3 Nov; 17:22 Yuvasri thanked Divya; creator confirmation pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
