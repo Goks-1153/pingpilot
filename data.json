@@ -1,5 +1,5 @@
 {
- "lastUpdated": "2026-11-03T14:22:01+05:30",
+ "lastUpdated": "2026-11-03T15:13:06+05:30",
  "kpis": {
   "Sid": {
    "owned": 22,
@@ -7,7 +7,7 @@
    "notFound": 3,
    "deals": 29,
    "dealValue": "₹8.22L",
-   "openAsks": 117,
+   "openAsks": 118,
    "atRisk": 23
   },
   "Natasha": {
@@ -16,7 +16,7 @@
    "notFound": 5,
    "deals": 37,
    "dealValue": "₹18.22L",
-   "openAsks": 160,
+   "openAsks": 161,
    "atRisk": 28,
    "note": "+3 identity unresolved"
   },
@@ -26,7 +26,7 @@
    "notFound": 9,
    "deals": 15,
    "dealValue": "₹4.50L",
-   "openAsks": 138,
+   "openAsks": 139,
    "atRisk": 44,
    "note": "+1 identity unresolved; 9 = 5 not found + 4 no recent activity"
   },
@@ -1880,11 +1880,11 @@
    "creator": "Divya Singh",
    "poc": "Sid",
    "cat": "Approval",
-   "item": "Nykaa video: 18:43-18:44 30 Oct Nykaa (Aishwarya) gave go-live slot 31 Oct 5:30 pm; 18:44 2 Nov brand said one shot unrealistic, rest okay; Khushi: add subtitles and share revised version; 18:45 brand approved video, asked for caption, cover and best posting time; 18:47 Khushi 'Noted'; pending: Divya revised video with subtitles + caption/cover/posting time",
+   "item": "Nykaa video: 18:43-18:44 30 Oct Nykaa (Aishwarya) gave go-live slot 31 Oct 5:30 pm; 18:44 2 Nov brand said one shot unrealistic, rest okay; Khushi: add subtitles and share revised version; 18:45 brand approved video, asked for caption, cover and best posting time; 18:47 Khushi 'Noted'; 15:10 3 Nov brand asked if going live today; 15:11 Khushi posted hook + caption, 'Good to go'; go-live confirmation pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "2 Nov"
+   "date": "3 Nov"
   },
   {
    "id": "r166",
@@ -5268,11 +5268,11 @@
    "creator": "Gurishq Kaur",
    "poc": "Divya",
    "cat": "Deliverable",
-   "item": "Chicnutrix: 16:24 28 Oct Divya shared deliverables with Gurishq (1 non-collab reel + 1 month ad rights), commercials locked at 20,000; execution pending",
+   "item": "Chicnutrix: 16:24 28 Oct Divya shared deliverables with Gurishq (1 non-collab reel + 1 month ad rights), commercials locked at 20,000; 14:32 3 Nov Esha (brand): 'Guys need update', asked draft turnaround; Gurishq to share video by 4 Nov; Flutch reply + Gurishq draft pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "28 Oct"
+   "date": "3 Nov"
   },
   {
    "id": "r474",
@@ -6951,7 +6951,7 @@
    "creator": "Vidhi",
    "poc": "Kishore",
    "cat": "Deliverable",
-   "item": "IndusInd Bank: 13:07 3 Nov Ria Sawant (brand) shared Diwali FD copy to post, asked Vidhi to call; 13:32 Vidhi: 'Okay'; Vidhi to call + post as per brief; Bandra branch visit by 3 PM",
+   "item": "IndusInd Bank: 13:07 3 Nov Ria Sawant (brand) shared Diwali FD copy to post, asked Vidhi to call; 13:32 Vidhi: 'Okay'; 15:08 Ria sent Diwali/FD caption script, asked Vidhi to call once she reaches and cover pointers; Vidhi 'Haanji'; Vidhi to call + post as per brief; Bandra branch visit by 3 PM",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -6984,7 +6984,51 @@
    "creator": "Yadhu",
    "poc": "Sid",
    "cat": "Follow-up",
-   "item": "What's Up Wellness: 13:35 3 Nov Sid forwarded four product links; 14:09 Yadhu: '?'; Sid to explain/reply",
+   "item": "What's Up Wellness: 13:35 3 Nov Sid forwarded four product links; 14:09 Yadhu: '?'; 14:53-14:54 Yadhu 'Yes' to product interest; 15:08 Sid 'okayy' (resolved)",
+   "priority": "Med",
+   "status": "Closed",
+   "flag": "Closed",
+   "date": "3 Nov"
+  },
+  {
+   "id": "r630",
+   "creator": "Diksha",
+   "poc": "Divya",
+   "cat": "Follow-up",
+   "item": "14:31 3 Nov Diksha said she can get back to work; Divya: 'You can start looking for opportunities'; Divya to source opportunities",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "3 Nov"
+  },
+  {
+   "id": "r631",
+   "creator": "Yadhu",
+   "poc": "Sid",
+   "cat": "Follow-up",
+   "item": "Mint: 15:11 3 Nov Sid forwarded journalist questionnaire; Yadhu's answers pending",
+   "priority": "Low",
+   "status": "Open",
+   "flag": "Open",
+   "date": "3 Nov"
+  },
+  {
+   "id": "r632",
+   "creator": "Kalyani",
+   "poc": "Sid",
+   "cat": "Follow-up",
+   "item": "Mint: 15:11 3 Nov Sid forwarded journalist questionnaire; Kalyani's answers pending",
+   "priority": "Low",
+   "status": "Open",
+   "flag": "Open",
+   "date": "3 Nov"
+  },
+  {
+   "id": "r633",
+   "creator": "Uma",
+   "poc": "Natasha",
+   "cat": "Follow-up",
+   "item": "14:45 3 Nov Uma reel live (brand not named); 15:07 Uma asked Natasha for closure on Derma / Dr Sheth's or other brand + CRM update; 15:07 Karanjot: reimbursement details by tomorrow morning (4 Nov); 15:10 Karanjot: finance will share UTR today; Natasha owes brand closure + CRM update; UTR + reimbursement details pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
