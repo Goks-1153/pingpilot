@@ -1,5 +1,5 @@
 {
- "lastUpdated": "2026-11-03T18:16:44+05:30",
+ "lastUpdated": "2026-11-03T19:03:53+05:30",
  "kpis": {
   "Sid": {
    "owned": 22,
@@ -7,7 +7,7 @@
    "notFound": 3,
    "deals": 29,
    "dealValue": "₹8.22L",
-   "openAsks": 118,
+   "openAsks": 119,
    "atRisk": 23
   },
   "Natasha": {
@@ -27,7 +27,7 @@
    "deals": 15,
    "dealValue": "₹4.50L",
    "openAsks": 140,
-   "atRisk": 44,
+   "atRisk": 45,
    "note": "+1 identity unresolved; 9 = 5 not found + 4 no recent activity"
   },
   "Kishore": {
@@ -36,7 +36,7 @@
    "notFound": 0,
    "deals": 27,
    "dealValue": "₹5.04L",
-   "openAsks": 109,
+   "openAsks": 110,
    "atRisk": 37,
    "note": "CRM deals include Shraddha × Pilgrim (₹45k), not his creator"
   },
@@ -1880,7 +1880,7 @@
    "creator": "Divya Singh",
    "poc": "Sid",
    "cat": "Approval",
-   "item": "Nykaa video: brand approved 2 Nov; 15:11 3 Nov Khushi posted hook + caption; 16:37-16:38 Nykaa shared posting guidelines (collab request to @nykaacollection, #AD, paid partnership tag, no copyrighted music, ad code); 17:07 Khushi: creator's best time 9-10pm; Nykaa: post it then; go-live 9-10pm 3 Nov with ad code pending",
+   "item": "Nykaa video: brand approved 2 Nov; 15:11 3 Nov Khushi posted hook + caption; 16:37-16:38 Nykaa shared posting guidelines (collab request to @nykaacollection, #AD, paid partnership tag, no copyrighted music, ad code); 17:07 Khushi: creator's best time 9-10pm; Nykaa: post it then; 18:58-18:59 3 Nov Divya Singh shared revised Nykaa reel, asked Sid to push the Nykaa POC for approval; go-live 9-10pm 3 Nov with approval + ad code pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -3013,11 +3013,11 @@
    "creator": "Yogitha",
    "poc": "Divya",
    "cat": "Follow-up",
-   "item": "Lovetc: Anirudh (AER Media) 13:02 26 Oct asked if products received + outfit references; 16:56 Flutch confirmed products received (preview); 10:59 28 Oct Divya: follow-up done, Anirudh to update today; 12:06-12:18 29 Oct script approved; brand asked for weekend shoot; Divya: only after Sunday; 12:27 brand asked for Sunday shoot, Divya checking; shoot date pending",
-   "priority": "Med",
+   "item": "Lovetc: Anirudh (AER Media) 13:02 26 Oct asked if products received + outfit references; 16:56 Flutch confirmed products received (preview); 10:59 28 Oct Divya: follow-up done, Anirudh to update today; 12:06-12:18 29 Oct script approved; brand asked for weekend shoot; Divya: only after Sunday; 12:27 brand asked for Sunday shoot, Divya checking; 18:30-18:33 3 Nov Anirudh: shoot not done, wants file tomorrow, brand can't wait; 18:31-18:41 Divya: post Sunday, creator shooting, Chennai power cuts/weather; shoot date and file delivery pending",
+   "priority": "High",
    "status": "Open",
    "flag": "Open",
-   "date": "29 Oct"
+   "date": "3 Nov"
   },
   {
    "id": "r269",
@@ -6753,7 +6753,7 @@
    "creator": "Kalyani",
    "poc": "Sid",
    "cat": "Deliverable",
-   "item": "16:16 2 Nov Amisha asked Kalyani to fix subtitles (white, upper half, under 30s); 15:14-16:16 3 Nov Amisha shared Uppeel feedback; Kalyani to send corrections tomorrow (first half); corrected video pending",
+   "item": "16:16 2 Nov Amisha asked Kalyani to fix subtitles (white, upper half, under 30s); 15:14-16:16 3 Nov Amisha shared Uppeel feedback; Kalyani to send corrections tomorrow (first half); 18:59 3 Nov Kalyani asked Amisha to send the video to Uppeel, Amisha 19:00: 'Sure, let me check'; Kalyani asked for supertexts placed below so they don't mask her face; corrected video pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -6907,7 +6907,7 @@
    "creator": "Mansi",
    "poc": "Natasha",
    "cat": "Follow-up",
-   "item": "Bluejelly: 12:44 3 Nov Riya (brand POC) asked who Mansi's briefing call is with; 12:45 Sid: Karanjot; 12:45-13:00 brand shared script deck for Mansi, asked KJ to help with script today; 12:58-13:00 KJ: yes, will share by EOD; 12:54 brand: Mansi wants to work with Swiss Beauty, address shared; Sid sharing; Mansi script due EOD 3 Nov; briefing call with Karanjot + Swiss Beauty collab pending",
+   "item": "Bluejelly: 12:44 3 Nov Riya (brand POC) asked who Mansi's briefing call is with; 12:45 Sid: Karanjot; 12:45-13:00 brand shared script deck for Mansi, asked KJ to help with script today; 12:58-13:00 KJ: yes, will share by EOD; 12:54 brand: Mansi wants to work with Swiss Beauty, address shared; Sid sharing; 18:44 Riya (Bluejelly) shared audio + Swiss Beauty script (4-step skin reset); Mansi script due EOD 3 Nov; briefing call with Karanjot + Swiss Beauty collab pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -6951,7 +6951,7 @@
    "creator": "Vidhi",
    "poc": "Kishore",
    "cat": "Deliverable",
-   "item": "IndusInd Bank: 13:07 3 Nov Ria Sawant shared Diwali FD copy; 16:53 Ria shared scene-wise script; 17:20 Vidhi: shoot done; 17:25 Ria: script same, tweak visuals, asked ETA for first draft; first draft ETA pending",
+   "item": "IndusInd Bank: 13:07 3 Nov Ria Sawant shared Diwali FD copy; 16:53 Ria shared scene-wise script; 17:20 Vidhi: shoot done; 17:25 Ria: script same, tweak visuals, asked ETA for first draft; 18:23 Vidhi: some lines shot on-screen voice; 18:39 Ria: 'Okay'; first draft ETA pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -7095,6 +7095,28 @@
    "poc": "Kishore",
    "cat": "Payment",
    "item": "Dr. Sheth's: 18:07 3 Nov Aamna asked Kishore about Dr. Sheth's payment; no reply seen; Flutch reply pending",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "3 Nov"
+  },
+  {
+   "id": "r640",
+   "creator": "Kalyani",
+   "poc": "Sid",
+   "cat": "Follow-up",
+   "item": "Indulekha: 18:34 3 Nov Amisha shared Amazon link (Bringha hair growth serum) for Kalyani to cover; asked her to check delivery date and confirm if she should order; Kalyani's confirmation pending",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "3 Nov"
+  },
+  {
+   "id": "r641",
+   "creator": "Athira Vinod",
+   "poc": "Kishore",
+   "cat": "Follow-up",
+   "item": "18:58 3 Nov Athira asked 'Auto dm for this???' (brand not named); Flutch reply pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
