@@ -1,5 +1,5 @@
 {
- "lastUpdated": "2026-11-02T19:39:25+05:30",
+ "lastUpdated": "2026-11-03T12:47:28+05:30",
  "kpis": {
   "Sid": {
    "owned": 22,
@@ -16,7 +16,7 @@
    "notFound": 5,
    "deals": 37,
    "dealValue": "₹18.22L",
-   "openAsks": 155,
+   "openAsks": 159,
    "atRisk": 28,
    "note": "+3 identity unresolved"
   },
@@ -37,7 +37,7 @@
    "deals": 27,
    "dealValue": "₹5.04L",
    "openAsks": 105,
-   "atRisk": 35,
+   "atRisk": 36,
    "note": "CRM deals include Shraddha × Pilgrim (₹45k), not his creator"
   },
   "Riya": {
@@ -46,7 +46,7 @@
    "notFound": 0,
    "deals": 0,
    "dealValue": "₹0",
-   "openAsks": 26,
+   "openAsks": 25,
    "atRisk": 8
   }
  },
@@ -1869,11 +1869,11 @@
    "creator": "Priyanshu Verma",
    "poc": "Sid",
    "cat": "Approval",
-   "item": "Revised Prowl script shared 23 Oct; revised scripts added to Prowl group 10:21 26 Oct; Khushi asked Naitik 11:38 for update on revised scripts; 10:59 30 Oct execution asked Sid whether Priyanshu shot for Prowl; 11:38 30 Oct Priyanshu group: 'kindly start the shoot and share an ETA'; 11:59 Sid: 'prowl'; 18:59 2 Nov Amisha execution update: Priyanshu draft tomorrow (3 Nov); draft + Prowl approval pending",
+   "item": "Revised Prowl script shared 23 Oct; 18:59 2 Nov Amisha execution update: Priyanshu draft tomorrow (3 Nov); 12:45 3 Nov Khushi shared Prowl mandates for Priyanshu (UTM link, auto-DM 'Comment for Link'); draft + Prowl approval pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "2 Nov"
+   "date": "3 Nov"
   },
   {
    "id": "r165",
@@ -2639,11 +2639,11 @@
    "creator": "Chhavi",
    "poc": "Kishore",
    "cat": "Script",
-   "item": "Plum Goodness (IPLIX): Aayushi asked for revised script 09:47 26 Oct; Karanjot pasted Script 2 (dandruff winter VO) 09:59; Karanjot chased 13:16 27 Oct; 11:07 28 Oct Aayushi: 'When is chhavi shooting?'; product stuck in transit, brand asked Flutch to order via Blinkit for reimbursement; 12:54 Karanjot: Chhavi received product, can shoot by Fri 30 Oct; 15:26 brand: 'This is nice'; 15:27 KJ going ahead; next step + shoot by 30 Oct pending",
-   "priority": "Med",
+   "item": "Plum Goodness (IPLIX): shoot was due by 30 Oct; 2 Nov brand needed draft by Wednesday, Karanjot said tomorrow (in editing); 12:42 3 Nov Aayushi: 'please share asap'; Chhavi draft overdue (Karanjot)",
+   "priority": "High",
    "status": "Open",
    "flag": "Open",
-   "date": "28 Oct"
+   "date": "3 Nov"
   },
   {
    "id": "r235",
@@ -2705,11 +2705,11 @@
    "creator": "Apoorva",
    "poc": "Kishore",
    "cat": "Follow-up",
-   "item": "Lakme Cold Press: Siddhika 10:07 26 Oct asked to connect; 15:35 27 Oct Flutch: script by first half 28 Oct; 11:16-12:08 29 Oct Siddhika chased, Apoorva won't share without confirmation mail; 12:14-13:15 confirmation mail received; 12:55 30 Oct Siddhika got script, asked for outfit + background; 12:58 Kishore asked Apoorva for outfit + background; 13:20 brand shared approved script; outfit + background pending; 14:57 30 Oct Kishore shared approved script with Apoorva; 15:02 Apoorva: okay; shoot/draft pending",
+   "item": "Lakme Cold Press: approved script shared with Apoorva 30 Oct; 10:33 3 Nov Kishore forwarded brief (Plum Therapy, Berry Boost callout; ultra close-up lip shots) + shipping address; 12:45 Flutch Hr: order delivers 5 Nov; shoot/draft pending after delivery",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "30 Oct"
+   "date": "3 Nov"
   },
   {
    "id": "r241",
@@ -2815,11 +2815,11 @@
    "creator": "Aruna",
    "poc": "Divya",
    "cat": "Deliverable",
-   "item": "Lakyoubeauty: brand asked for live link 10:22 26 Oct, Aruna 'Yes'; brand 10:47: start 2nd video; 11:48 28 Oct: 2nd video draft due by 29 Oct (preview); 10:19 29 Oct Aruna: video tomorrow EOD (outfits arrive tomorrow), brand 'Sure thanks'; 2nd video due EOD 30 Oct; live link unconfirmed",
+   "item": "Lakyoubeauty: 2nd video was due EOD 30 Oct; 11:26 3 Nov brand: start 2nd video; 12:40 Jay asked for a mail to send VRF and attachments; 2nd video + VRF mail pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "29 Oct"
+   "date": "3 Nov"
   },
   {
    "id": "r251",
@@ -4806,11 +4806,11 @@
    "creator": "Ankit Mishra",
    "poc": "Riya",
    "cat": "Deliverable",
-   "item": "09:57 28 Oct Ankit: sending first draft (brand not named); 13:49 Ankit posted a document (likely draft); 14:01 29 Oct Riya passed on brand feedback: add CTA, fix pronunciations; 12:15 30 Oct Riya tried calling Ankit; 18:59 2 Nov Amisha execution update: Prowl, Ankit revised draft awaiting brand; Prowl brand approval pending",
+   "item": "09:57 28 Oct Ankit: sending first draft (brand not named); 14:01 29 Oct Riya passed on brand feedback: add CTA, fix pronunciations; 18:59 2 Nov Amisha: Prowl, Ankit revised draft awaiting brand; 12:45 3 Nov Khushi told Amisha Ankit's video approved (resolved)",
    "priority": "Med",
-   "status": "Open",
-   "flag": "Open",
-   "date": "2 Nov"
+   "status": "Closed",
+   "flag": "Closed",
+   "date": "3 Nov"
   },
   {
    "id": "r432",
@@ -6489,11 +6489,11 @@
    "creator": "Ishika",
    "poc": "Natasha",
    "cat": "Approval",
-   "item": "Dove 10-in-1 festive campaign (sociable, Samiksha): 13:51 30 Oct mandate shared, outfit + background asked for approval; 14:11 KJ: festive background not possible, festive outfit OK; brand response pending; 14:45 30 Oct Ishika asked which outfit (ethnic?); 14:49 brand shared reference + background; approval pending",
+   "item": "Dove 10-in-1 festive campaign (sociable, Samiksha): outfit + background feedback 30 Oct; 12:23-12:40 3 Nov KJ: voice note too noisy, 4-8s visual unclear; call being set up; call to finalise shoot visuals pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "30 Oct"
+   "date": "3 Nov"
   },
   {
    "id": "r585",
@@ -6897,6 +6897,50 @@
    "poc": "Riya",
    "cat": "Follow-up",
    "item": "14:20 2 Nov Sanjogta: inbound commission shows 15% in new CRM vs 10%, bioessence campaign/payment not updated; 15:34 Amisha: only deals closed from Oct are in new CRM; 18:25 Riya: will check; 18:55 Sanjogta: Ok; Riya to check commission 15% vs 10%",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "2 Nov"
+  },
+  {
+   "id": "r622",
+   "creator": "Mansi",
+   "poc": "Natasha",
+   "cat": "Follow-up",
+   "item": "Bluejelly: 12:44 3 Nov Riya (brand POC) asked who Mansi's briefing call is with; 12:45 Sid: Karanjot; 12:54 brand: Mansi wants to work with Swiss Beauty, address shared; Sid sharing; briefing call with Karanjot + Swiss Beauty collab pending",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "3 Nov"
+  },
+  {
+   "id": "r623",
+   "creator": "Mansi",
+   "poc": "Natasha",
+   "cat": "Approval",
+   "item": "Nykaa: 10:46 3 Nov revised script for Mansi posted in Nykaa<>Flutch; brand approval pending",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "3 Nov"
+  },
+  {
+   "id": "r624",
+   "creator": "Florence Chand",
+   "poc": "Natasha",
+   "cat": "Script",
+   "item": "Sebamed (influencer.in): 12:41 3 Nov Stefania asked Karanjot by when Florence's script will come; script date owed by Karanjot",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "3 Nov"
+  },
+  {
+   "id": "r625",
+   "creator": "riya.dey_",
+   "poc": "Natasha",
+   "cat": "Script",
+   "item": "Little Joys: 19:01 2 Nov Natasha said she will check the revised brief for Shwetha and Riya Dey; Riya Dey script date pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
