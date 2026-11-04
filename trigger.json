@@ -1,8 +1,8 @@
 {
  "by": "Auto",
- "at": "2026-11-04T10:18:31+05:30",
- "startedAt": "2026-11-04T10:18:31+05:30",
- "status": "published",
+ "at": "2026-11-04T11:09:19+05:30",
+ "startedAt": "2026-11-04T11:09:19+05:30",
+ "status": "running",
  "history": [
   {
    "by": "Auto",
@@ -815,7 +815,5 @@
    "status": "published"
   }
  ],
- "note": "3 new rows, 11 updated, 2 closed (~56 active chats read; merge by own engine, Claude limit hit, Gemini unavailable)",
- "finishedAt": "2026-11-04T10:28:38+05:30",
- "durationSec": 607
+ "note": "Auto scrape running"
 }
