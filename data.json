@@ -1,5 +1,5 @@
 {
- "lastUpdated": "2026-11-04T08:49:42+05:30",
+ "lastUpdated": "2026-11-04T09:43:04+05:30",
  "kpis": {
   "Sid": {
    "owned": 22,
@@ -36,7 +36,7 @@
    "notFound": 0,
    "deals": 27,
    "dealValue": "₹5.04L",
-   "openAsks": 109,
+   "openAsks": 110,
    "atRisk": 36,
    "note": "CRM deals include Shraddha × Pilgrim (₹45k), not his creator"
   },
@@ -47,7 +47,7 @@
    "deals": 0,
    "dealValue": "₹0",
    "openAsks": 27,
-   "atRisk": 8
+   "atRisk": 9
   }
  },
  "themes": [
@@ -1880,11 +1880,11 @@
    "creator": "Divya Singh",
    "poc": "Sid",
    "cat": "Approval",
-   "item": "Nykaa video: brand approved 2 Nov; 15:11 3 Nov Khushi posted hook + caption; 16:37-16:38 Nykaa shared posting guidelines (collab request to @nykaacollection, #AD, paid partnership tag, no copyrighted music, ad code); 17:07 Khushi: creator's best time 9-10pm; Nykaa: post it then; 18:58-18:59 3 Nov Divya Singh shared revised Nykaa reel, asked Sid to push the Nykaa POC for approval; go-live 9-10pm 3 Nov with approval + ad code pending",
+   "item": "Nykaa video: brand approved 2 Nov; 15:11 3 Nov Khushi posted hook + caption; 16:37-16:38 Nykaa shared posting guidelines (collab request to @nykaacollection, #AD, paid partnership tag, no copyrighted music, ad code); 17:07 Khushi: creator's best time 9-10pm; Nykaa: post it then; 18:58-18:59 3 Nov Divya Singh shared revised Nykaa reel, asked Sid to push the Nykaa POC for approval; go-live 9-10pm 3 Nov with approval + ad code pending; 09:34 4 Nov Sid nudged again; Divya Singh will ask Amisha to chase Nykaa POC; approval pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "3 Nov"
+   "date": "4 Nov"
   },
   {
    "id": "r166",
@@ -2188,11 +2188,11 @@
    "creator": "Pavithra Nagarajan",
    "poc": "Sid",
    "cat": "Deliverable",
-   "item": "Aravi: 3 scripts shared, 1 approved; product ETA moved from 25 to 28 Oct (Amisha 10:00 26 Oct), brand told 10:04; 10:20 28 Oct Amisha asked if product arrived; 16:19 Pavithra: draft by Friday; 16:23 Amisha told Rasesh product received, first draft due Fri 30 Oct; 11:14 29 Oct Pavithra: mehndi on hands, older clips lack bottle; asked if brand is OK or to post as third script later; 12:44-12:58 Sid to check draft issue with brand; brand check pending; draft due 30 Oct",
+   "item": "Aravi: 3 scripts shared, 1 approved; product ETA moved from 25 to 28 Oct (Amisha 10:00 26 Oct), brand told 10:04; 10:20 28 Oct Amisha asked if product arrived; 16:19 Pavithra: draft by Friday; 16:23 Amisha told Rasesh product received, first draft due Fri 30 Oct; 11:14 29 Oct Pavithra: mehndi on hands, older clips lack bottle; asked if brand is OK or to post as third script later; 12:44-12:58 Sid to check draft issue with brand; brand check pending; draft due 30 Oct; 09:36 4 Nov Pavithra shared updated Aravi draft; Amisha checking; review feedback pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "29 Oct"
+   "date": "4 Nov"
   },
   {
    "id": "r194",
@@ -3970,11 +3970,11 @@
    "creator": "Pragati Bharti",
    "poc": "Kishore",
    "cat": "Deliverable",
-   "item": "Be Bodywise (Mayank) 12:33 27 Oct: video must have multiple application shots, product pumped on loofah, lather shots; 16:16 2 Nov Krutika shared revised video; Mayank (HYPD) wants go-live asap, ideally 2 Nov; 17:07 2 Nov Mayank more feedback: keep consistency text, 12-week after-look too pale, add matching BGM; 19:05 Krutika confirmed changes; 19:06 asked for any other changes to close final revision and go live today; 14:05-14:08 3 Nov reference reel + BGM notes forwarded ('this music is v off'), tagged Mayank; 14:09 Mayank audio message; revision per Mayank's feedback + go-live today pending",
+   "item": "Be Bodywise (Mayank) 12:33 27 Oct: video must have multiple application shots, product pumped on loofah, lather shots; 16:16 2 Nov Krutika shared revised video; Mayank (HYPD) wants go-live asap, ideally 2 Nov; 17:07 2 Nov Mayank more feedback: keep consistency text, 12-week after-look too pale, add matching BGM; 19:05 Krutika confirmed changes; 19:06 asked for any other changes to close final revision and go live today; 14:05-14:08 3 Nov reference reel + BGM notes forwarded ('this music is v off'), tagged Mayank; 14:09 Mayank audio message; revision per Mayank's feedback + go-live today pending; 09:37 4 Nov Kruthika shared revised video with final changes + music Mayank suggested; Mayank approval + go-live pending",
    "priority": "High",
    "status": "Open",
    "flag": "Open",
-   "date": "3 Nov"
+   "date": "4 Nov"
   },
   {
    "id": "r356",
@@ -6632,11 +6632,11 @@
    "creator": "Dharshne",
    "poc": "Riya",
    "cat": "Deliverable",
-   "item": "First Club: 30 Oct Riya asked Dharshne to share video by 13:00 31 Oct (script: maintain the suspense); video due 13:00 31 Oct",
+   "item": "First Club: 30 Oct Riya asked Dharshne to share video by 13:00 31 Oct (script: maintain the suspense); video due 13:00 31 Oct; 09:14 4 Nov Dharshne: first shoot done, video due by noon 4 Nov",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "30 Oct"
+   "date": "4 Nov"
   },
   {
    "id": "r598",
@@ -6687,10 +6687,10 @@
    "creator": "Neelam",
    "poc": "Riya",
    "cat": "Deliverable",
-   "item": "Revised video (brand not named): Amisha direction ~16:15 2 Nov (product application shot at start with music, full product name at 7 sec, more lip close-ups, 30 sec ok); brand liked video overall; wants revised draft to go live 2 Nov; 16:28 Neelam okay; 17:07 Neelam asked Amisha to send music; 17:59 Amisha: only Neelam can see copyright-free music on Instagram; 18:01 Neelam: music already added, 'Voice it little low'; 00:02 4 Nov Neelam shared Instagram reel link (live); Flutch confirmation pending",
+   "item": "Revised video (brand not named): Amisha direction ~16:15 2 Nov (product application shot at start with music, full product name at 7 sec, more lip close-ups, 30 sec ok); brand liked video overall; wants revised draft to go live 2 Nov; 16:28 Neelam okay; 17:07 Neelam asked Amisha to send music; 17:59 Amisha: only Neelam can see copyright-free music on Instagram; 18:01 Neelam: music already added, 'Voice it little low'; 00:02 4 Nov Neelam shared Instagram reel link (live); Flutch confirmation pending; 09:30 4 Nov Amisha acknowledged live link, sharing with brand (resolved)",
    "priority": "Med",
-   "status": "Open",
-   "flag": "Open",
+   "status": "Closed",
+   "flag": "Closed",
    "date": "4 Nov"
   },
   {
@@ -7105,11 +7105,11 @@
    "creator": "Kalyani",
    "poc": "Sid",
    "cat": "Follow-up",
-   "item": "Indulekha: 18:34 3 Nov Amisha shared Amazon link (Bringha hair growth serum) for Kalyani to cover; asked her to check delivery date and confirm if she should order; Kalyani's confirmation pending",
+   "item": "Indulekha: 18:34 3 Nov Amisha shared Amazon link (Bringha hair growth serum) for Kalyani to cover; asked her to check delivery date and confirm if she should order; Kalyani's confirmation pending; 09:37 4 Nov Amisha: Kalyani already ordered on Amazon; brand (Vandana) asked to check if possible; Amisha checking with Kalyani",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "3 Nov"
+   "date": "4 Nov"
   },
   {
    "id": "r641",
@@ -7138,7 +7138,7 @@
    "creator": "Neha",
    "poc": "Riya",
    "cat": "Deliverable",
-   "item": "04:45 4 Nov Neha Sharma sent video file; Flutch review pending",
+   "item": "04:45 4 Nov Neha Sharma sent video file; Flutch review pending; 09:31 4 Nov Amisha: 'checking'; review feedback pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -7154,6 +7154,28 @@
    "status": "Open",
    "flag": "Open",
    "date": "3 Nov"
+  },
+  {
+   "id": "r645",
+   "creator": "Vidhi",
+   "poc": "Kishore",
+   "cat": "Script",
+   "item": "09:28 4 Nov Kruthika asked Vidhi for script + cart screenshot of products she'll order (brand not named); 09:29 Vidhi: 'Sharing'; script + cart screenshot pending",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "4 Nov"
+  },
+  {
+   "id": "r646",
+   "creator": "Dharshne",
+   "poc": "Riya",
+   "cat": "Follow-up",
+   "item": "09:14 4 Nov Dharshne asked for a call today on the deconstruct script + list of closed deals with commercials; says Samsung revisions tonight, Dove script tonight (shoot Sat); Flutch owes call + closed-deals list",
+   "priority": "High",
+   "status": "Open",
+   "flag": "Open",
+   "date": "4 Nov"
   }
  ]
 }
