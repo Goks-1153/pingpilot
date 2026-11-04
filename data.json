@@ -1,5 +1,5 @@
 {
- "lastUpdated": "2026-11-03T19:47:15+05:30",
+ "lastUpdated": "2026-11-04T08:05:35+05:30",
  "kpis": {
   "Sid": {
    "owned": 22,
@@ -17,7 +17,7 @@
    "deals": 37,
    "dealValue": "₹18.22L",
    "openAsks": 162,
-   "atRisk": 28,
+   "atRisk": 29,
    "note": "+3 identity unresolved"
   },
   "Divya": {
@@ -26,7 +26,7 @@
    "notFound": 9,
    "deals": 15,
    "dealValue": "₹4.50L",
-   "openAsks": 140,
+   "openAsks": 141,
    "atRisk": 45,
    "note": "+1 identity unresolved; 9 = 5 not found + 4 no recent activity"
   },
@@ -36,8 +36,8 @@
    "notFound": 0,
    "deals": 27,
    "dealValue": "₹5.04L",
-   "openAsks": 110,
-   "atRisk": 37,
+   "openAsks": 109,
+   "atRisk": 36,
    "note": "CRM deals include Shraddha × Pilgrim (₹45k), not his creator"
   },
   "Riya": {
@@ -46,7 +46,7 @@
    "notFound": 0,
    "deals": 0,
    "dealValue": "₹0",
-   "openAsks": 26,
+   "openAsks": 27,
    "atRisk": 8
   }
  },
@@ -2639,11 +2639,11 @@
    "creator": "Chhavi",
    "poc": "Kishore",
    "cat": "Script",
-   "item": "Plum Goodness (IPLIX): shoot was due by 30 Oct; 2 Nov brand needed draft by Wednesday, Karanjot said tomorrow (in editing); 12:42 3 Nov Aayushi: 'please share asap'; 18:08 Karanjot: 'sharing it at the earliest'; Chhavi draft overdue (Karanjot)",
+   "item": "Plum Goodness (IPLIX): shoot was due by 30 Oct; 2 Nov brand needed draft by Wednesday, Karanjot said tomorrow (in editing); 12:42 3 Nov Aayushi: 'please share asap'; 18:08 Karanjot: 'sharing it at the earliest'; 20:31-20:32 3 Nov Aayushi: 'Please share? The brand is flagging'; 22:28 3 Nov KJ shared Plum video; 00:04 4 Nov Aayushi: 'Perf, shared with the brand' (resolved)",
    "priority": "High",
-   "status": "Open",
-   "flag": "Open",
-   "date": "3 Nov"
+   "status": "Closed",
+   "flag": "Closed",
+   "date": "4 Nov"
   },
   {
    "id": "r235",
@@ -3904,11 +3904,11 @@
    "creator": "Gurishq Kaur",
    "poc": "Divya",
    "cat": "Follow-up",
-   "item": "Rate negotiation 11:59 27 Oct: 'Please push it to 15k' (brand not named); 12:14 Gurishq: 'Let's close jo bhi best ho then'; Flutch to close at best rate",
+   "item": "Rate negotiation 11:59 27 Oct: 'Please push it to 15k' (brand not named); 12:14 Gurishq: 'Let's close jo bhi best ho then'; Flutch to close at best rate; 19:13 3 Nov Divya: 'Max is 16k'; 20:21 Flutch: 'did we lock that?'; lock confirmation pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "27 Oct"
+   "date": "3 Nov"
   },
   {
    "id": "r350",
@@ -5268,11 +5268,11 @@
    "creator": "Gurishq Kaur",
    "poc": "Divya",
    "cat": "Deliverable",
-   "item": "Chicnutrix: 16:24 28 Oct Divya shared deliverables with Gurishq (1 non-collab reel + 1 month ad rights), commercials locked at 20,000; 14:32 3 Nov Esha (brand): 'Guys need update', asked draft turnaround; Gurishq to share video by 4 Nov; Flutch reply + Gurishq draft pending",
+   "item": "Chicnutrix: 16:24 28 Oct Divya shared deliverables with Gurishq (1 non-collab reel + 1 month ad rights), commercials locked at 20,000; 14:32 3 Nov Esha (brand): 'Guys need update', asked draft turnaround; Gurishq to share video by 4 Nov; 03:07-03:08 4 Nov Gurishq shared Drive link + video; Flutch review pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "3 Nov"
+   "date": "4 Nov"
   },
   {
    "id": "r474",
@@ -6687,11 +6687,11 @@
    "creator": "Neelam",
    "poc": "Riya",
    "cat": "Deliverable",
-   "item": "Revised video (brand not named): Amisha direction ~16:15 2 Nov (product application shot at start with music, full product name at 7 sec, more lip close-ups, 30 sec ok); brand liked video overall; wants revised draft to go live 2 Nov; 16:28 Neelam okay; 17:07 Neelam asked Amisha to send music; 17:59 Amisha: only Neelam can see copyright-free music on Instagram; 18:01 Neelam: music already added, 'Voice it little low'; revised draft from Neelam pending",
+   "item": "Revised video (brand not named): Amisha direction ~16:15 2 Nov (product application shot at start with music, full product name at 7 sec, more lip close-ups, 30 sec ok); brand liked video overall; wants revised draft to go live 2 Nov; 16:28 Neelam okay; 17:07 Neelam asked Amisha to send music; 17:59 Amisha: only Neelam can see copyright-free music on Instagram; 18:01 Neelam: music already added, 'Voice it little low'; 00:02 4 Nov Neelam shared Instagram reel link (live); Flutch confirmation pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "2 Nov"
+   "date": "4 Nov"
   },
   {
    "id": "r603",
@@ -6918,11 +6918,11 @@
    "creator": "Mansi",
    "poc": "Natasha",
    "cat": "Approval",
-   "item": "Nykaa: 10:46 3 Nov revised script for Mansi posted in Nykaa<>Flutch; 18:08 Khushi shared Mansi's bg + outfit; 18:13 Nykaa: outfit gtg, bg gtg; script approval still pending",
-   "priority": "Med",
+   "item": "Nykaa: 10:46 3 Nov revised script for Mansi posted in Nykaa<>Flutch; 18:08 Khushi shared Mansi's bg + outfit; 18:13 Nykaa: outfit gtg, bg gtg; 18:17 Khushi: 'Noted'; 07:38 4 Nov Nykaa asked if she's gone live (best posting time 9-10pm); go-live confirmation pending",
+   "priority": "High",
    "status": "Open",
    "flag": "Open",
-   "date": "3 Nov"
+   "date": "4 Nov"
   },
   {
    "id": "r624",
@@ -7129,6 +7129,28 @@
    "cat": "Script",
    "item": "Dove x ShenaniGenZ: 19:07 3 Nov Anita (Shenanigenz) shared reel reference; 19:08-19:25 Amisha shared two script/reel options with Darshene, asked which one she likes; agency/creator to pick a script option",
    "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "3 Nov"
+  },
+  {
+   "id": "r643",
+   "creator": "Neha",
+   "poc": "Riya",
+   "cat": "Deliverable",
+   "item": "04:45 4 Nov Neha Sharma sent video file; Flutch review pending",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "4 Nov"
+  },
+  {
+   "id": "r644",
+   "creator": "Dishyata",
+   "poc": "Divya",
+   "cat": "Other",
+   "item": "19:50 3 Nov Dishyata sent a photo; Flutch reply pending",
+   "priority": "Low",
    "status": "Open",
    "flag": "Open",
    "date": "3 Nov"
