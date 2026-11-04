@@ -1,5 +1,5 @@
 {
- "lastUpdated": "2026-11-04T11:17:19+05:30",
+ "lastUpdated": "2026-11-04T11:59:31+05:30",
  "kpis": {
   "Sid": {
    "owned": 22,
@@ -16,7 +16,7 @@
    "notFound": 5,
    "deals": 37,
    "dealValue": "₹18.22L",
-   "openAsks": 163,
+   "openAsks": 165,
    "atRisk": 30,
    "note": "+3 identity unresolved"
   },
@@ -26,7 +26,7 @@
    "notFound": 9,
    "deals": 15,
    "dealValue": "₹4.50L",
-   "openAsks": 141,
+   "openAsks": 142,
    "atRisk": 45,
    "note": "+1 identity unresolved; 9 = 5 not found + 4 no recent activity"
   },
@@ -2188,7 +2188,7 @@
    "creator": "Pavithra Nagarajan",
    "poc": "Sid",
    "cat": "Deliverable",
-   "item": "Aravi: 3 scripts shared, 1 approved; product ETA moved from 25 to 28 Oct (Amisha 10:00 26 Oct), brand told 10:04; 10:20 28 Oct Amisha asked if product arrived; 16:19 Pavithra: draft by Friday; 16:23 Amisha told Rasesh product received, first draft due Fri 30 Oct; 11:14 29 Oct Pavithra: mehndi on hands, older clips lack bottle; asked if brand is OK or to post as third script later; 12:44-12:58 Sid to check draft issue with brand; brand check pending; draft due 30 Oct; 09:36 4 Nov Pavithra shared updated Aravi draft; Amisha checking; review feedback pending",
+   "item": "Aravi: 3 scripts shared, 1 approved; product ETA moved from 25 to 28 Oct (Amisha 10:00 26 Oct), brand told 10:04; 10:20 28 Oct Amisha asked if product arrived; 16:19 Pavithra: draft by Friday; 16:23 Amisha told Rasesh product received, first draft due Fri 30 Oct; 11:14 29 Oct Pavithra: mehndi on hands, older clips lack bottle; asked if brand is OK or to post as third script later; 12:44-12:58 Sid to check draft issue with brand; brand check pending; draft due 30 Oct; 09:36 4 Nov Pavithra shared updated Aravi draft; Amisha checking; review feedback pending; 11:41 4 Nov Amisha: caption organic, add link for auto DM; 11:44 Amisha: post around 17:30",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -3057,11 +3057,11 @@
    "creator": "Pragati Bharti",
    "poc": "Kishore",
    "cat": "Approval",
-   "item": "Pilgrim: script shared 12:51 26 Oct (transformation bucket); document shared in Pilgrim DRS group 18:56 27 Oct; Broz Media/Pilgrim feedback + acknowledgement pending",
+   "item": "Pilgrim: script shared 12:51 26 Oct (transformation bucket); document shared in Pilgrim DRS group 18:56 27 Oct; Broz Media/Pilgrim feedback + acknowledgement pending; 11:13 4 Nov Shefali Media asked Kruthika when draft comes; 11:39 Kruthika: Pragati on shoot, draft by 6 PM today; 11:52-11:53 4 Nov Yash (Broz Media) approved Pragati's anti-hairfall shampoo script, asked to align shoot; 11:54 Shefali: works; draft due 18:00 4 Nov, anti-hairfall shoot draft due EOD 5 Nov",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "27 Oct"
+   "date": "4 Nov"
   },
   {
    "id": "r273",
@@ -3882,11 +3882,11 @@
    "creator": "Nausheen",
    "poc": "Natasha",
    "cat": "Script",
-   "item": "IS: revised video due 3 Nov; 17:04 3 Nov KJ forwarded video; 17:15 Gaurav (brand) approved, asked Ankush to send mandates; 17:27-17:28 Ankush Renee: comment link in caption, tag brand, go live, share ad code + live link; 17:41 Karanjot asked if creator can go live tomorrow; 18:08 Karanjot: going live today; 18:09 Gaurav: go live today; 18:14 Ankush Renee: changes made on Indian Secrets script, can't share on 5th (editing day needed); Karanjot to check revised script; 18:23 KJ: 'live in some time'; 18:55 Gaurav: 'Kab tak live kar rahe hai hum?'; 19:44 Gaurav asked KJ for go-live time; KJ to give go-live time, share live link + ad code",
+   "item": "IS: revised video due 3 Nov; 17:04 3 Nov KJ forwarded video; 17:15 Gaurav (brand) approved, asked Ankush to send mandates; 17:27-17:28 Ankush Renee: comment link in caption, tag brand, go live, share ad code + live link; 17:41 Karanjot asked if creator can go live tomorrow; 18:08 Karanjot: going live today; 18:09 Gaurav: go live today; 18:14 Ankush Renee: changes made on Indian Secrets script, can't share on 5th (editing day needed); Karanjot to check revised script; 18:23 KJ: 'live in some time'; 18:55 Gaurav: 'Kab tak live kar rahe hai hum?'; 19:44 Gaurav asked KJ for go-live time; KJ to give go-live time, share live link + ad code; 11:50 4 Nov Ankush added comments on Indian Secrets revised script; 11:51 Karanjot: changes made, creator can't post on 5 Nov (shooting tomorrow, 1 day editing needed); Ankush review + posting date after 5 Nov pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "3 Nov"
+   "date": "4 Nov"
   },
   {
    "id": "r348",
@@ -4025,11 +4025,11 @@
    "creator": "Dharshne",
    "poc": "Riya",
    "cat": "Follow-up",
-   "item": "Lux (IPLIX): Amisha 13:01 27 Oct asked for campaign timeline; timeline pending",
+   "item": "Lux (IPLIX): Amisha 13:01 27 Oct asked for campaign timeline; timeline pending; 11:46 4 Nov Amisha sharing LUX script",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "27 Oct"
+   "date": "4 Nov"
   },
   {
    "id": "r361",
@@ -5785,11 +5785,11 @@
    "creator": "Ragavi",
    "poc": "Divya",
    "cat": "Payment",
-   "item": "Bombee: 12:08 29 Oct Kishore chased payment (126 days overdue); payment pending",
+   "item": "Bombee: 12:08 29 Oct Kishore chased payment (126 days overdue); payment pending; 11:50 4 Nov payment reminder sent to brand asking to process today; payment pending",
    "priority": "High",
    "status": "Open",
    "flag": "Open",
-   "date": "29 Oct"
+   "date": "4 Nov"
   },
   {
    "id": "r521",
@@ -6577,22 +6577,22 @@
    "creator": "Uma",
    "poc": "Natasha",
    "cat": "Deliverable",
-   "item": "Underneat: 17:10 30 Oct Sid onboarded Uma Bharti, locked Rs 11,000 (1 non-collab reel + 1 month ad rights); Karanjot execution POC; 18:30 brand asked product choice + shipping details; 17:54 2 Nov brand (Shubhanshi) asked GST status and both parties' PAN photos for onboarding paperwork; Sid sending details; finance timing tomorrow; PAN photos from Sid pending",
+   "item": "Underneat: 17:10 30 Oct Sid onboarded Uma Bharti, locked Rs 11,000 (1 non-collab reel + 1 month ad rights); Karanjot execution POC; 18:30 brand asked product choice + shipping details; 17:54 2 Nov brand (Shubhanshi) asked GST status and both parties' PAN photos for onboarding paperwork; Sid sending details; finance timing tomorrow; PAN photos from Sid pending; 11:51-11:52 4 Nov Underneat: order dispatched, asked to share script draft; Karanjot asked for brief; brief then Uma script draft pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "2 Nov"
+   "date": "4 Nov"
   },
   {
    "id": "r593",
    "creator": "Gurishq Kaur",
    "poc": "Divya",
    "cat": "Deliverable",
-   "item": "Underneat: 1 non-collab reel + 1 month ad rights locked Rs 14,000; order details sent to brand 18:35-18:36 30 Oct; 18:38 2 Nov Divya asked if products received; 18:43 Gurishq got Underneat package today; execution pending",
+   "item": "Underneat: 1 non-collab reel + 1 month ad rights locked Rs 14,000; order details sent to brand 18:35-18:36 30 Oct; 18:38 2 Nov Divya asked if products received; 18:43 Gurishq got Underneat package today; execution pending; 11:53 4 Nov Shubhanshi (Underneat) asked Divya when video comes; Divya asked for brief; brief, then Gurishq video, pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
-   "date": "2 Nov"
+   "date": "4 Nov"
   },
   {
    "id": "r594",
@@ -6962,7 +6962,7 @@
    "creator": "Lekshmi Krishnan",
    "poc": "Divya",
    "cat": "Follow-up",
-   "item": "12:29-12:33 3 Nov Divya asked Lekshmi to place order and send screenshot (brand not named); Lekshmi order screenshot pending; 10:37 4 Nov Lekshmi asked for the script and screenshot (preview); Divya to share script",
+   "item": "12:29-12:33 3 Nov Divya asked Lekshmi to place order and send screenshot (brand not named); Lekshmi order screenshot pending; 10:37 4 Nov Lekshmi asked for the script and screenshot (preview); Divya to share script; 11:37 4 Nov Lekshmi: will do today",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -7160,7 +7160,7 @@
    "creator": "Vidhi",
    "poc": "Kishore",
    "cat": "Script",
-   "item": "09:28 4 Nov Kruthika asked Vidhi for script + cart screenshot of products she'll order (brand not named); 09:29 Vidhi: 'Sharing'; script + cart screenshot pending",
+   "item": "09:28 4 Nov Kruthika asked Vidhi for script + cart screenshot of products she'll order (brand not named); 09:29 Vidhi: 'Sharing'; 11:44 Vidhi shared Blinkit link for OZiva Glutathione, wants only OZiva product plus hair roller; 11:48 Kruthika checking; 11:49-11:51 Kruthika asked if creator can use products (on Blinkit); 11:53 Kartik (brand): all fine except serum, Emolene instead of Aqualogica; Flutch reply on Emolene swap pending",
    "priority": "Med",
    "status": "Open",
    "flag": "Open",
@@ -7238,6 +7238,39 @@
    "poc": "Riya",
    "cat": "Follow-up",
    "item": "Plush: 10:51 4 Nov Riya sent brief (1 collab reel + auto DM + 1 month ad rights, locked 12,000, Face Razor); Neelam reply pending",
+   "priority": "Low",
+   "status": "Open",
+   "flag": "Open",
+   "date": "4 Nov"
+  },
+  {
+   "id": "r653",
+   "creator": "Shweta",
+   "poc": "Natasha",
+   "cat": "Follow-up",
+   "item": "Dot & Key: 11:51 4 Nov Karanjot said Shweta can shoot only tomorrow (5 Nov), asked brand for product link; product link pending",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "4 Nov"
+  },
+  {
+   "id": "r654",
+   "creator": "Yuvasri",
+   "poc": "Divya",
+   "cat": "Script",
+   "item": "Advanced Hair Growth Serum 2: 11:42 4 Nov brand shared brief, script due EOD; creator forwarded brief to Divya; 11:49 Divya thanked; script due EOD 4 Nov",
+   "priority": "Med",
+   "status": "Open",
+   "flag": "Open",
+   "date": "4 Nov"
+  },
+  {
+   "id": "r655",
+   "creator": "Mansi",
+   "poc": "Natasha",
+   "cat": "Follow-up",
+   "item": "LPR/ADF: brand asked Mansi for YouTube link for complimentary repost (preview, 11:49 4 Nov); YT link pending",
    "priority": "Low",
    "status": "Open",
    "flag": "Open",
